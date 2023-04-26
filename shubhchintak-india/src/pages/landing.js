@@ -1,6 +1,7 @@
 import bg from "../../public/images/bg.png";
 import Image from "next/image";
 import Partner from "./partners"
+import Impact from "./impact"
 function landing(){
     return(
         <div>
@@ -19,7 +20,8 @@ function landing(){
         {/* Next Section */}
         <Partner/>
         {/* Next Section */}
-        <div></div>
+        <Impact/>
+        {/* Next Section */}
         </div>
     )
 }
