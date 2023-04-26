@@ -1,7 +1,8 @@
 import bg from "../../public/images/bg.png";
 function landing(){
     return(
-        <div className="absolute h-[700px]" style={{ backgroundImage: `url(${bg.src})` }}>
+        <div>
+        <div className="relative pb-[10%] pt-1" style={{ backgroundImage: `url(${bg.src})` }}>
             <h1 className="relative mt-[8%] text-center text-white font-xyz text-[60px]">We are bringing</h1>
             <h1 className="relative text-center text-[#0F89FF] font-xyz text-[60px]">DIGITAL TRANSFORMATION</h1>
             <p className="relative text-center text-white text-[16px] ml-[20%] mr-[20%]">Future is for those who work for their dreams. Our deep knowledge and expertise in providing digital solutions 
@@ -12,6 +13,12 @@ business ideas and deploy it as earliest as possible with the help of our expert
             <button class="ml-[33%] mt-[3%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-[100px] rounded-full">
              Start your digital transformation journey
           </button>
+        </div>
+        {/* Next Section */}
+        <div className="mt-[2%]">
+            <h2 className="text-center text-[20px]">Our Partners</h2>
+           
+        </div>
         </div>
     )
 }
