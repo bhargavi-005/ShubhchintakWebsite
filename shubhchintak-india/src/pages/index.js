@@ -1,6 +1,8 @@
+ import Landing from "./landing"
  function index() {
   return (
     <div>
+      <Landing/>
     </div>
   )
 }
