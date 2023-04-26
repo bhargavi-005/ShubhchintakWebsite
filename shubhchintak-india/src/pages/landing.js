@@ -22,7 +22,7 @@ function landing(){
         {/* Next Section */}
         <Impact/>
         {/* Next Section */}
-        <div className="pt-[3%]" style={{ backgroundImage: `url(${bg.src})` }}>
+        <div className="pt-[3%] pb-[2%]" style={{ backgroundImage: `url(${bg.src})` }}>
             <h1 className="text-white text-center text-[40px]">Our successful work deliveries make us worthy!</h1>
             <p className="text-white text-center font-[16px] ml-[23%] mr-[23%]">We can proudly say that we have delivered our projects with almost 99% of customer satisfaction.We strongly believe that for bringing digital transformation it is very important to create a global impact. We are open for serving entire business community globally with our expertise.</p>
             <div className="space-x-10 flex flex-row mt-[2%] ml-[10%] mr-[10%] border-2 rounded-md border-solid pb-[6%] bg-black-rgba">
@@ -45,6 +45,68 @@ function landing(){
                 <div className="mt-[5%]">
                     <h2 className="text-[40px] text-center text-xyz text-white">30+</h2>
                     <p className="text-[18px] text-xyz text-white">Industries served</p>
+                </div>
+            </div>
+        </div>
+        {/* Next Section */}
+        <div className="bg-gradient-to-r from-blue-400 to-purple-400 pt-[2%]">
+            <h2 className="ml-[10%] text-[30px] text-white">Solutions We Provide</h2>
+            <div className="flex flex-row mt-[1%] ml-[10%] space-x-5">
+                <div>
+                    <a href="">
+                    <button class="bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
+                        Website
+                    </button>
+                    </a>
+                </div>
+                <div>
+                    <a href="">
+                    <button class="bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
+                        Mobile App
+                    </button>
+                    </a>
+                </div>
+                <div>
+                    <a href="">
+                    <button class="bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
+                        Cloud Consulation
+                    </button>
+                    </a>
+                </div>
+                <div>
+                    <a href="">
+                    <button class="bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
+                        Graphic Design
+                    </button>
+                    </a>
+                </div>
+                <div>
+                    <a href="">
+                    <button class="bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
+                        UI/UX Design
+                    </button>
+                    </a>
+                </div>
+                <div>
+                    <a href="">
+                    <button class="bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
+                        Cloud Consulation
+                    </button>
+                    </a>
+                </div>
+                <div>
+                    <a href="">
+                    <button class="bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
+                        Manual Testing
+                    </button>
+                    </a>
+                </div>
+                <div>
+                    <a href="">
+                    <button class="bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
+                        VR/AR
+                    </button>
+                    </a>
                 </div>
             </div>
         </div>
