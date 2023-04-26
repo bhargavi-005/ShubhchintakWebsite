@@ -1,4 +1,5 @@
  import Landing from "./landing"
+ import Partner from "./partners"
  function index() {
   return (
     <div>

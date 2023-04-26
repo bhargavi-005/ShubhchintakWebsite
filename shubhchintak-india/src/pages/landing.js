@@ -1,5 +1,6 @@
 import bg from "../../public/images/bg.png";
 import Image from "next/image";
+import Partner from "./partners"
 function landing(){
     return(
         <div>
@@ -16,16 +17,9 @@ function landing(){
           </button>
         </div>
         {/* Next Section */}
-        <div className="mt-[2%]">
-            <h2 className="text-center text-[20px] font-abc">Our Partners</h2>
-            <div className="ml-[5%]">
-                    <Image
-                    src="/images/partners.png"
-                    height={700}
-                    width={1700}/>
-            </div>
-           
-        </div>
+        <Partner/>
+        {/* Next Section */}
+        <div></div>
         </div>
     )
 }
