@@ -1,7 +1,12 @@
 import bg from "../../public/images/bg.png";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
 import Image from "next/image";
 import Partner from "./partners"
 import Impact from "./impact"
+function ok(){
+    
+}
 function landing(){
     return(
         <div>
@@ -103,12 +108,15 @@ function landing(){
                 </div>
                 <div>
                     <a href="">
-                    <button class="bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
+                    <button onClick={ok} class="bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
                         VR/AR
                     </button>
                     </a>
                 </div>
             </div>
+            <Carousel>
+                
+            </Carousel>
         </div>
         {/* Next Section */}
         </div>
