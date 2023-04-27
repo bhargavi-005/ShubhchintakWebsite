@@ -4,6 +4,7 @@ import { Carousel } from 'react-responsive-carousel';
 import Image from "next/image";
 import Partner from "./partners"
 import Impact from "./impact"
+import Web from "./websitedev"
 function ok(){
     
 }
@@ -114,8 +115,9 @@ function landing(){
                     </a>
                 </div>
             </div>
-            <Carousel>
-                
+            <Carousel className="">
+                <Web/>
+                <Web/>
             </Carousel>
         </div>
         {/* Next Section */}
