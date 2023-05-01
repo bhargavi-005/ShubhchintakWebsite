@@ -5,6 +5,7 @@ import Image from "next/image";
 import Partner from "./partners"
 import Impact from "./impact"
 import Web from "./websitedev"
+import Clients from "./clients"
 function ok(){
     
 }
@@ -194,6 +195,7 @@ function landing(){
                     </div>
                 </div>
             </div>
+            <Clients/>
         </div>
         </div>
     )
