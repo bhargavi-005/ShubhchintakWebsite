@@ -7,20 +7,21 @@ function impact(){
             <h1 className="text-center text-white font-xyz text-[60px] mt-[3%] pt-[6%]">Our Impact</h1>
             <p className="text-center text-white font-xyz text-[16px] ml-[20%] mr-[20%]">We work with our clients to plan, develop, transfer and scale solutions that create huge amount of impact for business and 
                society.We help entrepreneur to solve their complex business problems with ease and create world 
-               class unbeatable custom solutions . We are known as "Well wishers for corporates".<br></br>
+               class unbeatable custom solutions . We are known as {"Well wishers for corporates"}.<br></br>
                We believe in,</p>
                <div className="flex flex-row">
                  <div className="ml-[10%] mt-[3%] w-[610px] h-[259px] flex flex-row bg-black-rgba">
                     <div className="ml-[5%] w-[50%] mt-[17%]">
                         <Image
                         src="/images/impact1.png"
+                        alt=""
                         width={100}
                         height={100}/>
                     </div>
                     <div className="ml-[10%] mt-[6%]">
                         <h2 className="text-white text-[25px] font-xyz">Powerful Synergy</h2>
                         <p className="text-white text-[16px] mr-[10%]">Customer satisfaction is our prime consideration.
-                           We don't compromise with our client's 
+                           We {"don't"} compromise with our {"client's"} 
                            requirements.Due to our expertise , we are able 
                            to understand needs of our clients very easily 
                            and able to build their dream business solutions 
@@ -33,6 +34,7 @@ function impact(){
                     <div className="ml-[5%] w-[50%] mt-[16%]">
                         <Image
                         src="/images/impact2.png"
+                        alt=""
                         width={120}
                         height={120}/>
                     </div>
@@ -53,6 +55,7 @@ function impact(){
                     <div className="ml-[5%] w-[80%] mt-[17%]">
                         <Image
                         src="/images/impact3.png"
+                        alt=""
                         width={100}
                         height={100}/>
                     </div>
@@ -71,6 +74,7 @@ function impact(){
                     <div className="ml-[5%] w-[50%] mt-[17%]">
                         <Image
                         src="/images/impact4.png"
+                        alt=""
                         width={100}
                         height={100}/>
                     </div>
@@ -82,7 +86,7 @@ function impact(){
                            our clients in creating growth driven strategies and help 
                            them in showing the real potential of the market. We 
                            create a sure success plan for our valuable clients. We 
-                           grow with our client's success.</p>
+                           grow with our {"client's"} success.</p>
                     </div>
                  </div>
                </div>
