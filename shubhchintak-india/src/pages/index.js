@@ -8,7 +8,7 @@ import Landing from "./landing"
 function index(){
   return(
     <div>
-    <Webdev/>
+    <Landing/>
     </div>
   )}
 

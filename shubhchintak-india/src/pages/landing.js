@@ -6,6 +6,7 @@ import Partner from "./partners"
 import Impact from "./impact"
 import Web from "./websitedev"
 import Clients from "./clients"
+import Review from "./clientreview"
 function ok(){
     
 }
@@ -152,7 +153,6 @@ function landing(){
                             <div>
                                 <Image
                                 src="/images/ticks.png"
-                                alt="ticks"
                                 width={20}
                                 height={20}/>
                             </div>
@@ -164,7 +164,6 @@ function landing(){
                             <div>
                                 <Image
                                 src="/images/ticks.png"
-                                alt="ticks"
                                 width={20}
                                 height={20}/>
                             </div>
@@ -176,7 +175,6 @@ function landing(){
                             <div>
                                 <Image
                                 src="/images/ticks.png"
-                                alt="ticks"
                                 width={20}
                                 height={20}/>
                             </div>
@@ -193,13 +191,24 @@ function landing(){
                     <div className="w-[140%]">
                         <Image
                         src="/images/bestwork.png"
-                        alt="ticks"
                         width={500}
                         height={500}/>
                     </div>
                 </div>
             </div>
+            {/* Next Section */}
             <Clients/>
+        </div>
+        {/* Next Section */}
+        <div style={{ backgroundImage: `url(${bg.src})` }}>
+            <div className="mt-[3%]">
+                <h1 className="text-center text-white font-xyz text-[40px]">A Word from our Proud Clients!</h1>
+            </div>
+            <Carousel>
+            <Review/>
+            <Review/>
+            </Carousel>
+            
         </div>
         </div>
     )
