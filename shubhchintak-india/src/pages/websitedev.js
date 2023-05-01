@@ -1,7 +1,7 @@
 import Image from "next/image";
 function web(){
     return(
-        <div className="bg-gradient-to-r from-blue-400 to-purple-400 pt-[2%] pb-[2%]">
+        <div className="bg-gradient-to-r from-blue-400 to-purple-400 pt-[2%] pb-[3%]">
             <div className="flex flex-row">
                 <div className="mr-[8%]">
                 <h1 className="text-left ml-[18%] text-white text-[50px] font-xyz">Website Development</h1>

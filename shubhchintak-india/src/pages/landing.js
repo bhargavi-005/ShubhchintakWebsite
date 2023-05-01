@@ -121,6 +121,10 @@ function landing(){
             </Carousel>
         </div>
         {/* Next Section */}
+        <div className="relative mt-[-1.5%]" style={{ backgroundImage: `url(${bg.src})` }}>
+            okk
+
+        </div>
         </div>
     )
 }
