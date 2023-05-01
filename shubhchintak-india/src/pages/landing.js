@@ -122,8 +122,78 @@ function landing(){
         </div>
         {/* Next Section */}
         <div className="relative mt-[-1.5%]" style={{ backgroundImage: `url(${bg.src})` }}>
-            okk
+            <div className=" ml-[10%] mr-[10%] pt-[5%]">
+                <div className="bg-black-rgba pt-[2%] pb-[2%]">
+                <h1 className="text-[30px] text-white font-xyz text-center">Share your business requirements with us!</h1>
+                <button class="ml-[45%] mt-[2%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                    Call Now
+                </button>
 
+                </div>
+                
+            </div>
+
+        </div>
+        {/* Next Section */}
+        <div style={{ backgroundImage: `url(${bg.src})` }}>
+            <div className="pt-[5%] ml-[10%] mr-[10%]">
+                <div className="mt-[5%]">
+                <h1 className="text-white text-center font-abc text-[40px]">Some of our best works!</h1>
+                </div>
+                <div className="flex flex-row mt-[3%]">
+                    <div className="mr-[20%]">
+                        <h1 className="text-white text-[30px]">Project Name</h1>
+                        <p className="text-white text-left text-[16px]">Lorem ipsum dolor sit amet consectetur. Amet in bibendum mattis amet aliquam 
+                        risus elementum sapien gravida. Accumsan sit ultrices in sapien enim. Magna 
+                        venenatis non egestas pulvinar vel pellentesque sagittis. Eget eleifend nunc nec
+                        id leo id blandit sem.</p>
+                        <div className="flex flex-row mt-[5%]">
+                            <div>
+                                <Image
+                                src="/images/ticks.png"
+                                width={20}
+                                height={20}/>
+                            </div>
+                            <div className="ml-[3%] mt-[-0.5%]">
+                                <p className="text-white font-xyz text-[16px]">Lorem ipsum dolor sit amet consectetur. Amet in bibendum</p>
+                            </div>
+                        </div>
+                        <div className="flex flex-row mt-[5%]">
+                            <div>
+                                <Image
+                                src="/images/ticks.png"
+                                width={20}
+                                height={20}/>
+                            </div>
+                            <div className="ml-[3%] mt-[-0.5%]">
+                                <p className="text-white font-xyz text-[16px]">Lorem ipsum dolor sit amet consectetur. Amet in bibendum</p>
+                            </div>
+                        </div>
+                        <div className="flex flex-row mt-[5%]">
+                            <div>
+                                <Image
+                                src="/images/ticks.png"
+                                width={20}
+                                height={20}/>
+                            </div>
+                            <div className="ml-[3%] mt-[-0.5%]">
+                                <p className="text-white font-xyz text-[16px]">Lorem ipsum dolor sit amet consectetur. Amet in bibendum</p>
+                            </div>
+                        </div>
+                        <div className="mt-[3%]">
+                        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                    View Case Study
+                </button>
+                        </div>
+                    </div>
+                    <div className="w-[140%]">
+                        <Image
+                        src="/images/bestwork.png"
+                        width={500}
+                        height={500}/>
+                    </div>
+                </div>
+            </div>
         </div>
         </div>
     )
