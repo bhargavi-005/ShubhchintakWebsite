@@ -15,6 +15,7 @@ function web(){
                 <div className="w-[150%] mr-[5%] ">
                     <Image
                     src="/images/websitedev.png"
+                    alt=""
                     width={1000}
                     height={1000}/>
                 </div>

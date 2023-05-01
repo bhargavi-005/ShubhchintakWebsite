@@ -6,6 +6,7 @@ function partner(){
             <div className="ml-[5%]">
                     <Image
                     src="/images/partners.png"
+                    alt=""
                     height={700}
                     width={1700}/>
             </div>
