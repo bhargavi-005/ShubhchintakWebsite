@@ -151,6 +151,7 @@ function landing(){
                             <div>
                                 <Image
                                 src="/images/ticks.png"
+                                alt="ticks"
                                 width={20}
                                 height={20}/>
                             </div>
@@ -162,6 +163,7 @@ function landing(){
                             <div>
                                 <Image
                                 src="/images/ticks.png"
+                                alt="ticks"
                                 width={20}
                                 height={20}/>
                             </div>
@@ -173,6 +175,7 @@ function landing(){
                             <div>
                                 <Image
                                 src="/images/ticks.png"
+                                alt="ticks"
                                 width={20}
                                 height={20}/>
                             </div>
@@ -189,6 +192,7 @@ function landing(){
                     <div className="w-[140%]">
                         <Image
                         src="/images/bestwork.png"
+                        alt="ticks"
                         width={500}
                         height={500}/>
                     </div>
