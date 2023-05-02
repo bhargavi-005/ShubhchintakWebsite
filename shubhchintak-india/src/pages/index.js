@@ -15,7 +15,7 @@ import About from "./aboutus"
 function index(){
   return(
     <div>
-    <About/>
+    <Landing/>
     </div>
   )}
 
