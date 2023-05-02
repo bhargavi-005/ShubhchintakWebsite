@@ -1,3 +1,4 @@
+import React from "react";
 import Header from "./Header";
 import Image from "next/image";
 import OurInsight from "./ourInsite";
@@ -5,8 +6,34 @@ import Carousel from "./carousel";
 import carouselUI from "./carousel";
 import carouselsec from "./carousel2";
 import Carousel2 from "./carousel2";
+import Document from "next/document";
+
+
 
  function Webdev() {
+  let slides = undefined;
+
+if (typeof window !== 'undefined') {
+  slides = document.querySelector(".slide");
+  // rest of the code
+}
+
+const btnpressprev = () => {
+  if (slides) {
+    let width = slides.clientWidth;
+    slides.scrollLeft = slides.scrollLeft - width;
+    console.log(width)
+  }
+};
+
+const btnpressnext = () => {
+  if (slides) {
+    let width = slides.clientWidth;
+    slides.scrollLeft = slides.scrollLeft + width;
+    console.log(width)
+  }
+};
+
   return (
     <div className="box-border text-white mx-5 md:mx-12 lg:mx-28  "  >
 
@@ -94,7 +121,7 @@ import Carousel2 from "./carousel2";
       </div>
       <Carousel2/>
 
-      <div className="flex justify-center items-center text-center mt-[80px]">
+      <div className="flex justify-center items-center text-center mt-[80px] ">
             <div className=" font-bold text-[25px] md:text-[40px] lg:text-[60px] lg:w-[1250px] ">Broad spectrum of Web 
             development Services
              we provide!</div>
@@ -120,7 +147,14 @@ import Carousel2 from "./carousel2";
 
       <OurInsight/>
      
+      
 
+      
+      
+          
+          
+          
+      
       
 
       

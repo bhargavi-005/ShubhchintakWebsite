@@ -47,7 +47,7 @@ function carouselsec() {
                 height="240"
               />
         </div>
-        <h5 className="text-white font-medium text-[26px] text-center my-2">E-Commerce website</h5>
+        <h5 className="text-white font-medium text-[26px] text-center my-2">Gaming website</h5>
         </div>
         <div className="p-5">
         <div className="">
@@ -59,7 +59,7 @@ function carouselsec() {
                 height="240"
               />
         </div>
-        <h5 className="text-white font-medium text-[26px] text-center my-2">E-Commerce website</h5>
+        <h5 className="text-white font-medium text-[26px] text-center my-2">Education</h5>
         </div>
         <div className="p-5  ">
           <div className=" ">
@@ -71,7 +71,7 @@ function carouselsec() {
                   height="240"
                 />
           </div>
-          <h5 className="text-white font-medium text-[26px] text-center my-2">E-Commerce website</h5>
+          <h5 className="text-white font-medium text-[26px] text-center my-2">Taxi Booking App</h5>
         </div>
         <div className="p-5">
         <div className="">
@@ -83,7 +83,7 @@ function carouselsec() {
                 height="240"
               />
         </div>
-        <h5 className="text-white font-medium text-[26px] text-center my-2">E-Commerce website</h5>
+        <h5 className="text-white font-medium text-[26px] text-center my-2">Ecommerce App</h5>
         </div>
         <div className="p-5">
         <div className="">
@@ -95,7 +95,7 @@ function carouselsec() {
                 height="240"
               />
         </div>
-        <h5 className="text-white font-medium text-[26px] text-center my-2">E-Commerce website</h5>
+        <h5 className="text-white font-medium text-[26px] text-center my-2">Game App</h5>
         </div>
         <div className="p-5">
         <div className="">
@@ -107,7 +107,7 @@ function carouselsec() {
                 height="240"
               />
         </div>
-        <h5 className="text-white font-medium text-[26px] text-center my-2">E-Commerce website</h5>
+        <h5 className="text-white font-medium text-[26px] text-center my-2">Ecommerce</h5>
         </div>
         <div className="p-5">
         <div className="">
@@ -119,7 +119,7 @@ function carouselsec() {
                 height="240"
               />
         </div>
-        <h5 className="text-white font-medium text-[26px]  text-center my-2">E-Commerce website</h5>
+        <h5 className="text-white font-medium text-[26px]  text-center my-2">Travel & Hospitality</h5>
         </div>
         <div className="p-5">
         <div className="">
@@ -131,7 +131,7 @@ function carouselsec() {
                 height="240"
               />
         </div>
-        <h5 className="text-white font-medium text-[26px] text-center my-2">E-Commerce website</h5>
+        <h5 className="text-white font-medium text-[26px] text-center my-2">FMGC</h5>
         </div>
         
        

@@ -2,7 +2,7 @@ import Image from "next/image";
 function OurInsight(){
     return(
         <div>
-            <div className="flex justify-center items-center text-center mt-[80px]">
+            <div className="flex justify-center items-center text-center mt-[80px] mx-6">
                 <div className=" font-bold text-[25px] md:text-[40px] lg:text-[60px] lg:w-[1250px] ">Our Web Development work insights!</div>
             </div>
 
