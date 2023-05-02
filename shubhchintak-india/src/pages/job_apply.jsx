@@ -1,9 +1,13 @@
 import React from "react";
 import bg from "../../public/images/bg.png";
 import Image from "next/image";
+import Footer from "./footer";
+import Header from "./Header";
+
 function job_apply() {
   return (
-    <div className="pb-[3%]" style={{ backgroundImage: `url(${bg.src})` }}>
+    <div className="" style={{ backgroundImage: `url(${bg.src})` }}>
+      <Header/>
       <section className="text-white">
         <div className="container md:px-20 px-5 py-24 mx-auto">
           <h5 className=" text-center text-6xl font-bold mb-5 ">
@@ -133,6 +137,7 @@ function job_apply() {
           </div>
         </div>
       </section>
+      <Footer/>
     </div>
   );
 }

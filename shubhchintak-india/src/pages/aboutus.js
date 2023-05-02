@@ -2,9 +2,13 @@ import Image from "next/image";
 import Partners from "./partners"
 import Impact from "./impact"
 import Clients from "./clients"
+import Header from "./Header";
+import Footer from "./footer";
 function about(){
     return(
+
         <div className="mt-[5%] max-[768px]:overflow-x-hidden ">
+            <Header/>
             <h1 className="max-[768px]:text-[30px] text-white text-[60px] font-extrabold text-center">All About Us</h1>
             <div>
                 <Image className="max-[768px]:w-[80%] max-[768px]:h-[300px] w-[1240px] h-[500px] ml-[10%] mr-[10%]"
@@ -75,6 +79,7 @@ function about(){
                      Get in touch
                 </button>
             </div>
+            <Footer/>
         </div>
     )
 }

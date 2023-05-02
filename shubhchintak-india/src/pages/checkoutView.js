@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 function CheckOut(){
     return(
         <div>
@@ -18,7 +19,7 @@ function CheckOut(){
                         />
                     
                         <div className="text-white text-xl text-center font-medium  mt-6">
-                        Website Development
+                       <Link href="/websitedev"> Website Development</Link>
                         </div>
                     </div>
                 </div>
@@ -33,7 +34,7 @@ function CheckOut(){
                         />
                     
                         <div className="text-white text-xl text-center font-medium  mt-6">
-                        Website Development
+                        <Link href="/mobileappdev"> App Development</Link>
                         </div>
                     </div>
                 </div>
@@ -48,7 +49,7 @@ function CheckOut(){
                         />
                     
                         <div className="text-white text-xl text-center font-medium  mt-6">
-                        Website Development
+                       <Link href="/digitalMarketing"> Digital Marketing </Link>
                         </div>
                     </div>
                 </div>
@@ -63,7 +64,7 @@ function CheckOut(){
                         />
                     
                         <div className="text-white text-xl text-center font-medium  mt-6">
-                        Website Development
+                       <Link href="/UIUXdev"> UI/UX Designing</Link>
                         </div>
                     </div>
                 </div>
@@ -78,7 +79,7 @@ function CheckOut(){
                         />
                     
                         <div className="text-white text-xl text-center font-medium  mt-6">
-                        Website Development
+                        <Link href="/cloudcunsuldev">Cloud Development</Link>
                         </div>
                     </div>
                 </div>
@@ -93,7 +94,7 @@ function CheckOut(){
                         />
                     
                         <div className="text-white text-xl text-center font-medium  mt-6">
-                        Website Development
+                        <Link href="/VrArdev">VR/AR Development </Link>
                         </div>
                     </div>
                 </div>

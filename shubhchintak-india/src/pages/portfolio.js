@@ -2,10 +2,13 @@ import Image from "next/image";
 import Success from "./success"
 import Impact from "./impact"
 import Clients from "./clients"
+import Header from "./Header";
+import Footer from "./footer";
 
 function port(){
     return(
         <div className="max-[768px]:overflow-x-hidden">
+            <Header/>
             <div className="w-[100%] h-[30%]  relative">
                 <Image className="brightness-[30%] max-[768px]:h-[700px]"
                 src="/images/portfolio.png"
@@ -109,6 +112,7 @@ function port(){
                   Get free consulation
                 </button>
             </div>
+            <Footer/>
         </div>
     )
 }

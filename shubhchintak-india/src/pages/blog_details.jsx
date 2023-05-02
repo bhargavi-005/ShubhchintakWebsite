@@ -1,24 +1,25 @@
-
 import React from "react";
 import bg from "../../public/images/bg.png";
 import Image from "next/image";
+import Header from "./Header";
+import Footer from "./footer";
 
 function blog_details() {
   return (
-    <div className="pb-[3%]" style={{ backgroundImage: `url(${bg.src})` }}>
-      <section className="text-white font-abc">
-        
-        <div className="container mx-auto flex px-5 py-24  flex-col">
-        <div className="mb-5">
-        <Image
-            className="mb-5 object-cover object-center rounded"
-            width={1240}
-            height={568}
-            alt="hero"
-            src="/images/blog/ml.png"
-          ></Image>
-        </div>
-          <div className="text- lg:w-2/3 w-full">
+    <div className="" style={{ backgroundImage: `url(${bg.src})` }}>
+      <Header/>
+      <section className="text-white font-abc flex flex-col justify-center items-center">
+        <div className="container px-5 py-16 mx-auto ">
+          <div className="mb-5 flex justify-center items-center">
+            <Image
+              className="mb-5 object-cover object-center h-[568px]"
+              width="1540"
+              height="268"
+              alt="hero"
+              src="/images/blog/ml.png"
+            ></Image>
+          </div>
+          <div className="flex flex-col w-full">
             <h1 className="title-font sm:text-4xl text-3xl mb-5 font-bold text-white">
               APPLICATIONS OF MACHINE LEARNING
             </h1>
@@ -36,7 +37,7 @@ function blog_details() {
               Learning :
             </p>
             <div className=" ">
-              <ul className="list-disc ml-7">
+              <ul className="list-disc ml-10">
                 <li className="mb-4 text-1xl">
                   Image Recognition: This is perhaps the most common use of
                   Machine Learning. Using ML, image recognition is possible,
@@ -176,6 +177,7 @@ function blog_details() {
           </div>
         </div>
       </section>
+      <Footer/>
     </div>
   );
 }

@@ -1,10 +1,14 @@
 import React from "react";
 import bg from "../../public/images/bg.png";
 import Image from "next/image";
+import Link from "next/link";
+import Header from "./Header";
+import Footer from "./footer";
 
 function contact_us() {
   return (
-    <div className="pb-[3%]" style={{ backgroundImage: `url(${bg.src})` }}>
+    <div className="" style={{ backgroundImage: `url(${bg.src})` }}>
+      <Header />
       <section className="text-white">
         <div className="container md:px-20 px-5 py-24 mx-auto">
           <h5 className=" text-center text-6xl font-bold mb-20 ">
@@ -65,52 +69,36 @@ function contact_us() {
       <section className="text-white font-abc relative">
         <div className="container px-5 py-24 mx-auto">
           <div className="lg:w-1/2 md:w-2/3 mx-auto">
-            <div className="flex flex-col mb-3">
-              <div className="p-2 w-full">
-                <div className="relative">
-                  <label htmlFor="name" className="leading-7 text-lg text-white">
-                    Name
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    className="w-full border-b-2 border-solid bg-black border-white text-base text-white py-1 px-3 leading-8 mb-5"
-                  />
+            <ul className=" flex flex-col gap-6 text-xl font-normal opacity-[0.90] ">
+              <li>
+                <h5>Name</h5>
+                <input className=" mt-2 border-none bg-transparent focus:outline-0 " />
+                <div className="mt-4 w-[710px] h-[0.5px] bg-white"></div>
+              </li>
+
+              <li>
+                <h6>Email</h6>
+                <input className=" mt-2 border-none bg-transparent focus:outline-0 " />
+                <div className="mt-4 w-[710px] h-[0.5px] bg-white"></div>
+              </li>
+
+              <li>
+                <h6>Message</h6>
+                <input
+                  className=" mt-2 border-none bg-transparent focus:outline-0 w-[400px] h-[100px] "
+                  placeholder="Type your Message"
+                />
+                <div className="mt-4 w-[710px] h-[0.5px] bg-white"></div>
+              </li>
+
+              <li>
+                <div className="p-2 w-full">
+                  <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded-full text-lg">
+                    <Link href=""> Send Request</Link>
+                  </button>
                 </div>
-              </div>
-              <div className="p-2 w-full">
-                <div className="relative">
-                  <label htmlFor="email" className="leading-7 text-lg text-white">
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    className="w-full border-b-2 border-solid bg-black border-white text-base text-white py-1 px-3 leading-8 mb-5"
-                  />
-                </div>
-              </div>
-              <div className="p-2 w-full">
-                <div className="relative">
-                  <label htmlFor="message" className="leading-7 text-lg text-white">
-                    Message
-                  </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    placeholder="Type your Message"
-                    className="w-full border-b-2 border-solid bg-black border-white text-base text-white py-1 px-3 leading-10 mb-5"
-                  ></textarea>
-                </div>
-              </div>
-              <div className="p-2 w-full">
-                <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded-full text-lg">
-                  Send Request
-                </button>
-              </div>
-            </div>
+              </li>
+            </ul>
           </div>
         </div>
       </section>
@@ -120,15 +108,26 @@ function contact_us() {
           <div className="flex flex-wrap md:text-left text-center -mb-10 -mx-4">
             <div className="lg:w-1/3 md:w-1/2 w-full px-4">
               <nav className="list-none mb-10">
-                <li className="mb-3 flex flex-wrap gap-2">
-                  <Image src="/images/contact_us/india.png" width={30} height={15} alt="India Flage" ></Image>
-                  <a className="text-white font-medium text-16xl hover:text-gray-800">
-                    Office No.1, Sunshine Heights, Near Railway Station,
-                    Vasai-Virar 401209 India
+                <li className="mb-10 flex flex-wrap gap-2 ">
+                  <Image
+                    src="/images/contact_us/india.png"
+                    width={30}
+                    height={15}
+                    alt="India Flage"
+                    className="mr-4 "
+                  ></Image>
+                  <a className="text-white font-medium text-16xl hover:text-gray-800 ">
+                    Office No.1, Sunshine Heights Nalasopara {"–"} 401209
                   </a>
                 </li>
                 <li className="mb-3 flex flex-wrap gap-2">
-                  <Image src="/images/contact_us/call_icon.png" width={18} height={18} alt="Call" ></Image>
+                  <Image
+                    src="/images/contact_us/call_icon.png"
+                    width={18}
+                    height={18}
+                    alt="Call"
+                    className="mr-4"
+                  ></Image>
                   <a className="text-white font-medium text-16xl hover:text-gray-800">
                     +91 9833737743
                   </a>
@@ -137,14 +136,26 @@ function contact_us() {
             </div>
             <div className="lg:w-1/3 md:w-1/2 w-full px-4">
               <nav className="list-none mb-10">
-                <li className="mb-3 flex flex-wrap gap-2">
-                  <Image src="/images/contact_us/usa.png" width={30} height={15} alt="USA Flage" ></Image>
+                <li className="mb-10 flex flex-wrap gap-2 ">
+                  <Image
+                    src="/images/contact_us/usa.png"
+                    width={30}
+                    height={15}
+                    alt="USA Flage"
+                    className="mr-4"
+                  ></Image>
                   <a className="text-white font-medium text-16xl hover:text-gray-800">
                     7187, Trotwood Lane. Jupiter, FL - 33458
                   </a>
                 </li>
                 <li className="mb-3 flex flex-wrap gap-2">
-                  <Image src="/images/contact_us/call_icon.png" width={18} height={18} alt="Call" ></Image>
+                  <Image
+                    src="/images/contact_us/call_icon.png"
+                    width={18}
+                    height={18}
+                    alt="Call"
+                    className="mr-4"
+                  ></Image>
                   <a className="text-white font-medium text-16xl hover:text-gray-800">
                     +1 561 589 8771
                   </a>
@@ -155,77 +166,62 @@ function contact_us() {
             <div className="lg:w-1/3 md:w-1/2 w-full px-4">
               <nav className="list-none mb-10">
                 <li className="mb-3 flex flex-wrap gap-2">
-                  <Image src="/images/contact_us/email.png" width={20} height={7} alt="Emailas"></Image>
+                  <Image
+                    src="/images/contact_us/email.png"
+                    width={20}
+                    height={7}
+                    alt="Emailas"
+                    className="mr-4"
+                  ></Image>
                   <a className="text-white font-medium text-16xl hover:text-gray-800">
                     hello@helloshubhchintak.com
                   </a>
                 </li>
                 <li>
-                  <div className="container px-5 py-8 flex flex-wrap mx-auto items-center">
-                    <span className="inline-flex  lg:mt-0 mt-6 w-full justify-center md:justify-start md:w-auto">
-                      <a className="text-white">
-                        <svg
-                          fill="currentColor"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          className="w-5 h-5"
-                          viewBox="0 0 24 24"
-                        >
-                          <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-                        </svg>
-                      </a>
-                      <a className="ml-3 text-white">
-                        <svg
-                          fill="currentColor"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          className="w-5 h-5"
-                          viewBox="0 0 24 24"
-                        >
-                          <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
-                        </svg>
-                      </a>
-                      <a className="ml-3 text-white">
-                        <svg
-                          fill="none"
-                          stroke="currentColor"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          className="w-5 h-5"
-                          viewBox="0 0 24 24"
-                        >
-                          <rect
-                            width="20"
-                            height="20"
-                            x="2"
-                            y="2"
-                            rx="5"
-                            ry="5"
-                          ></rect>
-                          <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-                        </svg>
-                      </a>
-                      <a className="ml-3 text-white">
-                        <svg
-                          fill="currentColor"
-                          stroke="currentColor"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth="0"
-                          className="w-5 h-5"
-                          viewBox="0 0 24 24"
-                        >
-                          <path
-                            stroke="none"
-                            d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
-                          ></path>
-                          <circle cx="4" cy="4" r="2" stroke="none"></circle>
-                        </svg>
-                      </a>
-                    </span>
+                  <div className="container px-1 py-8 flex flex-wrap mx-auto items-center">
+                    <div className="flex flex-row gap-5">
+                      <div className="border-2 border-gray-500 rounded-full p-2">
+                        <Image
+                          src="/svg/in.svg"
+                          width="11"
+                          height="11"
+                          alt=""
+                        />
+                      </div>
+                      <div className="border-2 border-gray-500 rounded-full p-2">
+                        <Image
+                          className="h-[12px]"
+                          src="/svg/fb.svg"
+                          width="11"
+                          height="1"
+                          alt=""
+                        />
+                      </div>
+                      <div className="border-2 border-gray-500 rounded-full p-2">
+                        <Image
+                          src="/svg/pint.svg"
+                          width="11"
+                          height="11"
+                          alt=""
+                        />
+                      </div>
+                      <div className="border-2 border-gray-500 rounded-full p-2">
+                        <Image
+                          src="/svg/insta.svg"
+                          width="11"
+                          height="11"
+                          alt=""
+                        />
+                      </div>
+                      <div className="border-2 border-gray-500 rounded-full p-2">
+                        <Image
+                          src="/svg/twit.svg"
+                          width="11"
+                          height="11"
+                          alt=""
+                        />
+                      </div>
+                    </div>
                   </div>
                 </li>
               </nav>
@@ -234,36 +230,37 @@ function contact_us() {
         </div>
       </footer>
 
-      <section className="text-gray-600 body-font relative">
-        <div className="container flex flex-wrap px-5 py-24 mx-auto items-center">
-          <div className="md:w-1/2 md:pr-12 md:py-8 md:border-r md:border-b-0 mb-10 md:mb-0 pb-10 border-b border-white">
-            <iframe
-              className="absolute inset-0 filter grayscale-100 contrast-120 opacity-40"
-              width="100%"
-              height="100%"
-              frameBorder="0"
-              title="map"
-              marginHeight="0"
-              marginWidth="0"
-              scrolling="no"
-              src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
-            ></iframe>
+      <section className="px-10">
+        <div className="flex flow-col justify-between">
+          <div className="w-1/2 pr-4">
+            <div className="relative overflow-hidden h-80">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3033.725208448446!2d-74.00594198459118!3d40.71278453523927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a2bc52c1d75%3A0x84df593c2e82510d!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1630500402001!5m2!1sen!2sin"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                title="Location 1 Map"
+              />
+            </div>
           </div>
-          <div className="flex flex-col md:w-1/2 md:pl-12">
-            <iframe
-              className="absolute inset-0 filter grayscale-100 contrast-120 opacity-40"
-              width="100%"
-              height="100%"
-              frameBorder="0"
-              title="map"
-              marginHeight="0"
-              marginWidth="0"
-              scrolling="no"
-              src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
-            ></iframe>
+          <div className="w-1/2 pl-4">
+            <div className="relative  overflow-hidden h-80">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.4122230081914!2d-73.986613684582!3d40.7587318793304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2590278b987c7%3A0x469bbaaa9b9aeeb!2sCentral%20Park!5e0!3m2!1sen!2sin!4v1630500723859!5m2!1sen!2sin"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                title="Location 2 Map"
+              />
+            </div>
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 }

@@ -4,6 +4,7 @@ import Carousel2 from "./carousel2";
 import OurInsight from "./ourInsite";
 import Review from "./Review";
 import CheckOut from "./checkoutView";
+import Footer from "./footer";
 
 function MobileApp(){
     return(
@@ -126,7 +127,7 @@ function MobileApp(){
       <CheckOut/>
 
 
-
+<Footer/>
         </div>
     )
 }
