@@ -7,12 +7,12 @@ export default function carouselUI() {
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
-      breakpoint: { max: 5000, min: 3000 },
+      breakpoint: { max: 4000, min: 3000 },
       items: 5,
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3,
+      items: 4,
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -25,71 +25,105 @@ export default function carouselUI() {
   };
 
   return (
-    <>
-      <div className="m-44">
+    <div className="m-20">
       <Carousel responsive={responsive}>
-        <div className="p-5">
-        <div className="lg:max-w-lg lg:w-full md:w-1/3 w-5/6 pb-10 -mr-2 md:-mr-16 border-2">
-              <Image
-                className="w-full object-cover object-center rounded z-10"
-                alt="earth"
-                src="images/Cloud.svg"
-                width={500}
-                height={500} 
-              />
+        <div className="m-2">
+        <div className="p-4 flex justify-center flex-col border-2 rounded-xl bg-neutral-900">
+              <div className=" text-white text-xl mb-6">
+                    <Image
+                      className="object-cover object-center rounded z-10"
+                      alt="earth"
+                      src="images/img1.svg"
+                      width={300}
+                      height={300}
+                    />
+                  </div>
+                  <div className="text-white text-2xl text-center font-semibold m-3 mt-6">
+                  Website Development
+                  </div>
+              </div>
         </div>
-        <h1 className="text-center text-3xl font-bold m-8">E-Commerce website</h1>
+        <div className="m-2">
+        <div className="p-4 flex justify-center flex-col border-2 rounded-xl bg-neutral-900">
+              <div className=" text-white text-xl -mt-4">
+                    <Image
+                      className="object-cover object-center rounded z-10 h"
+                      alt="earth"
+                      src="images/img2.svg"
+                      width={300}
+                      height={300}
+                    />
+                  </div>
+                  <div className="text-white text-2xl text-center font-semibold m-3 mt-1">
+                     App Development
+                  </div>
+              </div>
         </div>
-        <div className="p-5">
-        <div className="lg:max-w-lg lg:w-full md:w-1/3 w-5/6 pb-10 -mr-2 md:-mr-16 border-2">
-              <Image
-                className="w-full object-cover object-center rounded z-10"
-                alt="earth"
-                src="images/Cloud.svg"
-                width={500}
-                height={500} 
-              />
+        <div className="m-2">
+        <div className="p-4 flex justify-center flex-col border-2 rounded-xl bg-neutral-900">
+              <div className=" text-white text-xl mb-6">
+                    <Image
+                      className="object-cover object-center rounded z-10"
+                      alt="earth"
+                      src="images/img3.svg"
+                      width={300}
+                      height={300}
+                    />
+                  </div>
+                  <div className="text-white text-2xl text-center font-semibold m-5 mt-6">
+                    Digital Marketing
+                  </div>
+              </div>
         </div>
-        <h1 className="text-center text-3xl font-bold m-8">Gaming Website</h1>
+        <div className="m-2">
+        <div className="p-4 flex justify-center flex-col border-2 rounded-xl bg-neutral-900">
+              <div className=" text-white text-xl mb-6">
+                    <Image
+                      className="object-cover object-center rounded z-10"
+                      alt="earth"
+                      src="images/img4.svg"
+                      width={300}
+                      height={300}
+                    />
+                  </div>
+                  <div className="text-white text-2xl text-center font-semibold m-3 mt-3">
+                    Graphic Designing
+                  </div>
+              </div>
         </div>
-        <div className="p-5">
-        <div className="lg:max-w-lg lg:w-full md:w-1/3 w-5/6 pb-10 -mr-2 md:-mr-16 border-2">
-              <Image
-                className="w-full object-cover object-center rounded z-10"
-                alt="earth"
-                src="images/Cloud.svg"
-                width={500}
-                height={500} 
-              />
+        <div className="m-2">
+        <div className="p-4 flex justify-center flex-col border-2 rounded-xl bg-neutral-900">
+              <div className=" text-white text-xl mb-6">
+                    <Image
+                      className="object-cover object-center rounded z-10"
+                      alt="earth"
+                      src="images/img5.svg"
+                      width={300}
+                      height={300}
+                    />
+                  </div>
+                  <div className="text-white text-2xl text-center font-semibold m-5 mt-6">
+                   Cloud Development
+                  </div>
+              </div>
         </div>
-        <h1 className="text-center text-3xl font-bold m-8">Education Website</h1>
-        </div>
-        <div className="p-5">
-        <div className="lg:max-w-lg lg:w-full md:w-1/3 w-5/6 pb-10 -mr-2 md:-mr-16 border-2">
-              <Image
-                className="w-full object-cover object-center rounded z-10"
-                alt="earth"
-                src="images/Cloud.svg"
-                width={500}
-                height={500} 
-              />
-        </div>
-        <h1 className="text-3xl text-center font-bold m-8">Entertainment Website</h1>
-        </div> 
-        <div className="p-5">
-        <div className="lg:max-w-lg lg:w-full md:w-1/3 w-5/6 pb-10 -mr-2 md:-mr-16 border-2">
-              <Image
-                className="w-full object-cover object-center rounded z-10"
-                alt="earth"
-                src="images/Cloud.svg"
-                width={500}
-                height={500} 
-              />
-        </div>
-        <h1 className="text-3xl text-center font-bold m-8">Social Media Website</h1>
+        <div className="m-2">
+        <div className="p-4 flex justify-center flex-col border-2 rounded-xl bg-neutral-900">
+              <div className=" text-white text-xl -mt-4">
+                    <Image
+                      className="object-cover object-center rounded z-10"
+                      alt="earth"
+                      src="images/img6.svg"
+                      width={300}
+                      height={300}
+                    />
+                  </div>
+                  <div className="text-white text-2xl text-center font-semibold m-3 mt-0">
+                    VR/AR Development
+                  </div>
+              </div>
         </div>
       </Carousel>
     </div>
-    </>
   );
 }

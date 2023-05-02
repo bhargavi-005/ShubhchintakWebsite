@@ -1,5 +1,9 @@
 import Image from "next/image";
-import Carousel from "./carouselUI";
+import Carous from "./carouselUI";
+import { Carousel } from 'react-responsive-carousel'
+import Review from './Review'
+import CarouselHome from './CarouselHome'
+
 
 function UIDesigning() {
   return (
@@ -64,32 +68,32 @@ function UIDesigning() {
             </span>
           </div>
           <div className="m-8 mb-0 text-white justify-center flex flex-col md:flex-row">
-            <div className="w-3/2 md:w-1/4 rounded-xl pt-4 pb-8 border m-6 flex flex-col text-center font-bold">
+            <div className="w-3/2 md:w-1/4 rounded-xl pt-4 pb-8 border m-6 flex flex-col text-center font-bold bg-zinc-800">
               <div className="text-xl text-white m-4">Step 1</div>
               <div className="text-3xl text-white">UX/UI Audit</div>
             </div>
-            <div className="w-3/2 md:w-1/4 rounded-xl pt-4 pb-8 border m-6 flex flex-col text-center font-bold">
+            <div className="w-3/2 md:w-1/4 rounded-xl pt-4 pb-8 border m-6 flex flex-col text-center font-bold bg-zinc-800">
               <div className="text-xl text-white m-4">Step 2</div>
               <div className="text-3xl text-white">User Research</div>
             </div>
-            <div className="w-3/2 md:w-1/4 rounded-xl pt-4 pb-8 border m-6 flex flex-col text-center font-bold">
+            <div className="w-3/2 md:w-1/4 rounded-xl pt-4 pb-8 border m-6 flex flex-col text-center font-bold bg-zinc-800">
               <div className="text-xl text-white m-4">Step 3</div>
               <div className="text-3xl text-white">Strategy formation</div>
             </div>
           </div>
 
           <div className="m-8  mt-0 text-white justify-center flex flex-col md:flex-row">
-            <div className="w-3/2 md:w-1/4 rounded-xl pt-4 pb-8 border m-6 flex flex-col text-center font-bold">
+            <div className="w-3/2 md:w-1/4 rounded-xl pt-4 pb-8 border m-6 flex flex-col text-center font-bold bg-zinc-800">
               <div className="text-xl text-white m-4">Step 4</div>
               <div className="text-2xl text-white">UX Design creation</div>
             </div>
-            <div className="w-3/2 md:w-1/4 rounded-xl pt-4 pb-8 border m-6 flex flex-col text-center font-bold">
+            <div className="w-3/2 md:w-1/4 rounded-xl pt-4 pb-8 border m-6 flex flex-col text-center font-bold bg-zinc-800">
               <div className="text-xl text-white m-4">Step 5</div>
               <div className="text-2xl text-white">
                 User Interface development
               </div>
             </div>
-            <div className="w-3/2 md:w-1/4 rounded-xl pt-4 pb-8 border m-6 flex flex-col text-center font-bold">
+            <div className="w-3/2 md:w-1/4 rounded-xl pt-4 pb-8 border m-6 flex flex-col text-center font-bold bg-zinc-800">
               <div className="text-xl text-white m-4">Step 6</div>
               <div className="text-2xl text-white">Deployment & Support</div>
             </div>
@@ -105,7 +109,7 @@ function UIDesigning() {
             </span>
           </div>
           <div className="text-white text-4xl md:text-6xl text-center">
-          <Carousel/>
+          <Carous/>
           </div>
         </section>
 
@@ -151,16 +155,16 @@ function UIDesigning() {
 
         <section>
           <div className="m-12 md:m-24">
-            <div className="font-bold tect-4xl md:text-6xl text-white text-center">
+            <div className="font-bold text-4xl md:text-6xl text-white text-center">
               Our UI/UX Designs Insights!
             </div>
             <div className="flex flex-col md:flex-row">
-              <div className="flex flex-col w-full md:w-3/5 mt-12 md:mt-20">
+              <div className="flex flex-col w-full md:w-3/7 mt-12 md:mt-20">
                 <div className="text-4xl md:text-5xl font-bold text-white">
                   The Tusk
                 </div>
-                <div className="text-base md:text-2xl">
-                  <div className="text-white text-2xl m-4">
+                <div className="text-base md:text-xl">
+                  <div className="text-white text-xl m-4">
                     <span className="text-blue-500">Problem addressed:</span>
                     The Tusk addresses the need for more sustainable and eco
                     friendly products in the market.
@@ -170,7 +174,7 @@ function UIDesigning() {
                     The store sells accessories and daily necessary goods made
                     of bamboo, promoting a sustainable and organic lifestyle.
                   </div>
-                  <div className="text-white text-2xl m-4">
+                  <div className="text-white text-xl m-4">
                     <span className="text-blue-500">
                       User friendly interface:{" "}
                     </span>
@@ -178,7 +182,7 @@ function UIDesigning() {
                     interface, making it is easy for customers to purchase eco
                     friendly products
                   </div>
-                  <div className="text-white text-2xl m-4">
+                  <div className="text-white text-xl m-4">
                     <span className="text-blue-500">Impact on business: </span>
                     The Tusk has seen an increase in traffic and sales on its
                     website, as well as increased customer satisfaction, as a
@@ -199,137 +203,16 @@ function UIDesigning() {
           </div>
         </section>
 
+        
+
         <section>
+        
           <div className="text-center">
             <div className="text-4xl md:text-6xl text-white font-bold">
               What Our {"Client's"} Say About Us
             </div>
-            <div className="flex flex-col md:flex-row m-12 md:m-20">
-              <div className="bg-blue-500 m-4 rounded-xl  flex justify-center flex-col border-2">
-              <div className="m-5 ml-8">
-                        <Image
-                          className="object-cover object-center rounded z-10"
-                          alt="earth"
-                          src="images/commas.svg"
-                          width={100}
-                          height={10}
-                        />
-                      </div>
-                <div className="text-start text-white text-base ml-10">
-                  Our Experience with Dinesh was Very Good. His knowledge and
-                  troubleshooting skills, makes the company a reliable one.
-                </div>
-                <div className="flex flex-row w-full h-full mb-5">
-                  <div className="ml-10 mr-3 mt-12 text-white text-xl">
-                    <Image
-                      className="object-cover object-center rounded z-10"
-                      alt="earth"
-                      src="images/Ellipse98.svg"
-                      width={110}
-                      height={110}
-                    />
-                  </div>
-                  <div className="mt-16 text-start text-white text-xl">
-                    <div className="flex flex-col">
-                      <div className="text-white text-2xl">Lavanya Tagra</div>
-                      <div className="text-white">CEO Wellnessly club</div>
-                      <div>
-                        <Image
-                          className="object-cover object-center rounded z-10"
-                          alt="earth"
-                          src="images/rating.svg"
-                          width={100}
-                          height={10}
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-             <div className="bg-blue-500 m-4 rounded-xl h-full flex justify-center flex-col border-2">
-              <div className="m-5 ml-8">
-                        <Image
-                          className="object-cover object-center rounded z-10"
-                          alt="earth"
-                          src="images/commas.svg"
-                          width={100}
-                          height={10}
-                        />
-                      </div>
-                <div className="text-start text-white text-base ml-10">
-                  Our Experience with Dinesh was Very Good. His knowledge and
-                  troubleshooting skills, makes the company a reliable one.
-                </div>
-                <div className="flex flex-row w-full h-full mb-5">
-                  <div className="ml-10 mr-3 mt-12 text-white text-xl">
-                    <Image
-                      className="object-cover object-center rounded z-10"
-                      alt="earth"
-                      src="images/Ellipse97.svg"
-                      width={110}
-                      height={110}
-                    />
-                  </div>
-                  <div className="mt-16 text-start text-white text-xl">
-                    <div className="flex flex-col">
-                      <div className="text-white text-2xl">Lavanya Tagra</div>
-                      <div className="text-white">CEO Wellnessly club</div>
-                      <div>
-                        <Image
-                          className="object-cover object-center rounded z-10"
-                          alt="earth"
-                          src="images/rating.svg"
-                          width={100}
-                          height={10}
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-             <div className="bg-blue-500 m-4 rounded-xl h-full mr-6 flex justify-center flex-col border-2">
-              <div className="m-5 ml-8">
-                        <Image
-                          className="object-cover object-center rounded z-10"
-                          alt="earth"
-                          src="images/commas.svg"
-                          width={100}
-                          height={10}
-                        />
-                      </div>
-                <div className="text-start text-white text-base ml-10">
-                  Our Experience with Dinesh was Very Good. His knowledge and
-                  troubleshooting skills, makes the company a reliable one.
-                </div>
-                <div className="flex flex-row w-full h-full mb-5">
-                  <div className="ml-10 mr-3 mt-12 text-white text-xl">
-                    <Image
-                      className="object-cover object-center rounded z-10"
-                      alt="earth"
-                      src="images/Ellipse99.svg"
-                      width={110}
-                      height={110}
-                    />
-                  </div>
-                  <div className="mt-16 text-start text-white text-xl">
-                    <div className="flex flex-col">
-                      <div className="text-white text-2xl">Lavanya Tagra</div>
-                      <div className="text-white">CEO Wellnessly club</div>
-                      <div>
-                        <Image
-                          className="object-cover object-center rounded z-10"
-                          alt="earth"
-                          src="images/rating.svg"
-                          width={100}
-                          height={10}
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-             
-            
+            <div className=" m-12 md:m-20">
+            <Review/>
             </div>
           </div>
         </section>
@@ -338,107 +221,7 @@ function UIDesigning() {
             <div className="text-white text-4xl md:text-6xl font-bold text-center mt-12 md:mt-32">
                 Check out Our Other Services !
             </div>
-            <div className="flex flex-wrap ml-12 md:ml-20 text-white mt-12 item-center justify-center">
-            <div className="xl:w-1/5 md:w-1/2 m-6">
-              <div className="p-4 flex justify-center flex-col border-2 rounded-xl bg-neutral-900">
-              <div className=" text-white text-xl mb-6">
-                    <Image
-                      className="object-cover object-center rounded z-10"
-                      alt="earth"
-                      src="images/img1.svg"
-                      width={300}
-                      height={300}
-                    />
-                  </div>
-                  <div className="text-white text-2xl text-center font-semibold m-3 mt-6">
-                  Website Development
-                  </div>
-              </div>
-            </div>
-            <div className="xl:w-1/5 md:w-1/2 m-6">
-              <div className="p-4 flex justify-center flex-col border-2 rounded-xl bg-neutral-900">
-              <div className=" text-white text-xl mb-6 content-center">
-                    <Image
-                      className="object-cover object-center rounded z-10"
-                      alt="earth"
-                      src="images/img2.svg"
-                      width={250}
-                      height={250}
-                    />
-                  </div>
-                  <div className="text-white text-2xl text-center font-semibold m-3 mt-0">
-                     App Development
-                  </div>
-              </div>
-            </div>
-            <div className="xl:w-1/5 md:w-1/2 m-6">
-              <div className="p-4 flex justify-center flex-col border-2 rounded-xl bg-neutral-900">
-              <div className=" text-white text-xl mb-6">
-                    <Image
-                      className="object-cover object-center rounded z-10"
-                      alt="earth"
-                      src="images/img3.svg"
-                      width={300}
-                      height={300}
-                    />
-                  </div>
-                  <div className="text-white text-2xl text-center font-semibold m-3 mt-6">
-                    Digital Marketing
-                  </div>
-              </div>
-            </div>
-            <div className="xl:w-1/5 md:w-1/2 m-6">
-              <div className="p-4 flex justify-center flex-col border-2 rounded-xl bg-neutral-900">
-              <div className=" text-white text-xl mb-6">
-                    <Image
-                      className="object-cover object-center rounded z-10"
-                      alt="earth"
-                      src="images/img4.svg"
-                      width={300}
-                      height={300}
-                    />
-                  </div>
-                  <div className="text-white text-2xl text-center font-semibold m-3 mt-0">
-                    Graphic Designing
-                  </div>
-              </div>
-            </div>
-            </div>
-
-            <div className="flex flex-wrap ml-12 md:ml-20 text-white mt-4 item-center justify-center">
-            <div className="xl:w-1/5 md:w-1/2 m-6">
-              <div className="p-4 flex justify-center flex-col border-2 rounded-xl bg-neutral-900">
-              <div className=" text-white text-xl mb-6">
-                    <Image
-                      className="object-cover object-center rounded z-10"
-                      alt="earth"
-                      src="images/img5.svg"
-                      width={300}
-                      height={300}
-                    />
-                  </div>
-                  <div className="text-white text-2xl text-center font-semibold m-3 mt-6">
-                   Cloud Development
-                  </div>
-              </div>
-            </div>
-            <div className="xl:w-1/5 md:w-1/2 m-6 h-60">
-              <div className="p-4 flex justify-center flex-col border-2 rounded-xl bg-neutral-900">
-              <div className=" text-white text-xl mb-6">
-                    <Image
-                      className="object-cover object-center rounded z-10"
-                      alt="earth"
-                      src="images/img6.svg"
-                      width={250}
-                      height={250}
-                    />
-                  </div>
-                  <div className="text-white text-2xl text-center font-semibold m-3 -mt-0">
-                    VR/AR Development
-                  </div>
-              </div>
-            </div>
-            </div>
+            <CarouselHome/>
         </section>
       </div>
     

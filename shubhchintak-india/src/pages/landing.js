@@ -1,5 +1,6 @@
 import bg from "../../public/images/bg.png";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"></link>
 import { Carousel } from 'react-responsive-carousel';
 import Image from "next/image";
 import Partner from "./partners"
@@ -7,6 +8,7 @@ import Impact from "./impact"
 import Web from "./websitedev"
 import Clients from "./clients"
 import Review from "./clientreview"
+// import Success from "./success"
 function ok(){
     
 }
@@ -30,32 +32,7 @@ function landing(){
         {/* Next Section */}
         <Impact/>
         {/* Next Section */}
-        <div className="pt-[3%] pb-[2%]" style={{ backgroundImage: `url(${bg.src})` }}>
-            <h1 className="text-white text-center text-[40px]">Our successful work deliveries make us worthy!</h1>
-            <p className="text-white text-center font-[16px] ml-[23%] mr-[23%]">We can proudly say that we have delivered our projects with almost 99% of customer satisfaction.We strongly believe that for bringing digital transformation it is very important to create a global impact. We are open for serving entire business community globally with our expertise.</p>
-            <div className="space-x-10 flex flex-row mt-[2%] ml-[10%] mr-[10%] border-2 rounded-md border-solid pb-[6%] bg-black-rgba">
-                <div className="ml-[12%] mt-[5%]">
-                    <h2 className="text-[40px] text-center text-xyz text-white">80+</h2>
-                    <p className="text-[18px] text-xyz text-white">Projects Delivered</p>
-                </div>
-                <div className="mt-[5%]">
-                    <h2 className="text-[40px] text-center text-xyz text-white">35+</h2>
-                    <p className="text-[18px] text-xyz text-white">Happy Clients</p>
-                </div>
-                <div className="mt-[5%]">
-                    <h2 className="text-[40px] text-center text-xyz text-white">10+</h2>
-                    <p className="text-[18px] text-xyz text-white">Countries served</p>
-                </div>
-                <div className="mt-[5%]">
-                    <h2 className="text-[40px] text-center text-xyz text-white">20+</h2>
-                    <p className="text-[18px] text-xyz text-white">Dedicated experts</p>
-                </div>
-                <div className="mt-[5%]">
-                    <h2 className="text-[40px] text-center text-xyz text-white">30+</h2>
-                    <p className="text-[18px] text-xyz text-white">Industries served</p>
-                </div>
-            </div>
-        </div>
+        <Success/>
         {/* Next Section */}
         <div className="bg-gradient-to-r from-blue-400 to-purple-400 pt-[2%]">
             <h2 className="ml-[10%] text-[30px] text-white">Solutions We Provide</h2>
@@ -210,6 +187,47 @@ function landing(){
             </Carousel>
             
         </div>
+        {/* Next Section */}
+        <div>
+            <h1 className="text-white text-center text-[40px]">Insights by ShubhChintak!</h1>
+            <div className="flex flex-row space-x-3">
+                    <div className="w-[400px] h-[494px] justify-center items-center ml-[10%]">
+                        <Image
+                        src="/images/edge.png"
+                        width={400}
+                        height={494}/>
+                        <div className="bg-black-rgba h-[173px] w-[100%]">
+                            <p className="ml-[1%] text-[20px] text-white font-xyz">EDGE COMPUTING: THE NEW ERA</p>
+                            <p className="ml-[1%] text-white text-[16px] font-xyz">It all started with one big computer coming into existence.</p>
+                            <a href="#" className="text-white text-[16px] ml-[1%]">Read More</a>
+                        </div>
+                    </div>
+                    <div className="w-[400px] h-[494px]">
+                        <Image
+                        src="/images/tips.png"
+                        width={400}
+                        height={494}/>
+                        <div className="bg-black-rgba h-[173px] w-[100%]">
+                            <p className="ml-[1%] text-[20px] text-white font-xyz">5 TIPS FOR DESIGNING GOOD POST...</p>
+                            <p className="ml-[1%] text-white text-[16px] font-xyz">Designing good looking posters and social media posts is not as hard as it sounds.</p>
+                            <a href="#" className="text-white text-[16px] ml-[1%]">Read More</a>
+                        </div>
+                    </div>
+                    <div className="w-[400px] h-[494px]">
+                        <Image
+                        src="/images/blog.png"
+                        width={400}
+                        height={494}/>
+                        <div className="bg-black-rgba h-[173px] w-[100%]">
+                            <p className="ml-[1%] text-[20px] text-white font-xyz">HOW TO WRITE A GREAT BLOG</p>
+                            <p className="ml-[1%] text-white text-[16px] font-xyz">Is writing your passion but you fail to express it professionally?</p>
+                            <a href="#" className="text-white text-[16px] ml-[1%]">Read More</a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        {/* Next Section */}
+       
         </div>
     )
 }
