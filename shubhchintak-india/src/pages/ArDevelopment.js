@@ -2,6 +2,7 @@ import Image from "next/image";
 import CheckOut from './checkoutView'
 import Header from './Header'
 import CasouselUi from './carouselUI'
+import Footer from './footer'
 
 
 export default function ArDevelopment() {
@@ -206,6 +207,9 @@ export default function ArDevelopment() {
            <CheckOut/>
        </section>
       </div>
+      <div className="mt-5">
+        <Footer/>
+        </div>
     </>
   );
 }
