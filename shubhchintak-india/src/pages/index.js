@@ -11,7 +11,7 @@ import MobileApp from "./mobileApp";
 function index(){
   return(
     <div>
-    <DMarket/>
+    <Webdev/>
     </div>
   )}
 
