@@ -16,6 +16,7 @@ function landing(){
     return(
         <div className=" max-[768px]:overflow-x-hidden ">
         <div className="relative pb-[10%] pt-1" style={{ backgroundImage: `url(${bg.src})` }}>
+        <div className="flex flex-col justify-center items-center">
             <h1 className="max-[768px]:text-[35px] relative mt-[8%] text-center text-white font-xyz text-[60px]">We are bringing</h1>
             <h1 className="max-[768px]:text-[35px] relative text-center text-[#0F89FF] font-xyz text-[60px]">DIGITAL TRANSFORMATION</h1>
             <p className="max-[768px]:text-[14px] max-[768px]:ml-[3%] max-[768px]:mr-[3%] relative text-center text-white text-[16px] ml-[20%] mr-[20%]">Future is for those who work for their dreams. Our deep knowledge and expertise in providing digital solutions 
@@ -23,8 +24,8 @@ function landing(){
                step to leverage innovation and advancement as per the latest market trends.</p>
             <p className="relative text-center text-white text-[16px] ml-[20%] mr-[20%]">We identify their challenge ,guide them, create effective work strategy, develop their complex 
                business ideas and deploy it as earliest as possible with the help of our expert team.</p>
-               <div className="flex">
-               <button class="max-[768px]:w-[400px] max-[768px]:ml-[10%] max-[768px]:h-[50px] justify-center mt-[3%] bg-blue-500 hover:bg-blue-700 text-white font-bold h-[50px] w-[400px]  rounded-full">
+               
+               <button class="max-[768px]:w-[400px] max-[768px]:ml-[10%] max-[768px]:h-[50px] mt-[3%] bg-blue-500 hover:bg-blue-700 text-white font-bold h-[50px] w-[400px]  rounded-full">
              <p className="max-[768px]:text-[15px] max-[768px]:w-[400px]">Start your digital transformation journey</p>
           </button>
                </div>
@@ -103,11 +104,11 @@ function landing(){
             </Carousel>
         </div>
         {/* Next Section */}
-        <div className="relative mt-[-1.5%]" style={{ backgroundImage: `url(${bg.src})` }}>
-            <div className=" ml-[10%] mr-[10%] pt-[5%]">
-                <div className="bg-black-rgba pt-[2%] pb-[2%]">
+        <div className=" relative mt-[-1.5%]" style={{ backgroundImage: `url(${bg.src})` }}>
+            <div className="pt-[5%]">
+                <div className="flex flex-col justify-center items-center bg-black-rgba pt-[2%] pb-[2%]">
                 <h1 className="text-[30px] text-white font-xyz text-center">Share your business requirements with us!</h1>
-                <button class="max-[768px]:ml-[37%] ml-[45%] mt-[2%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                <button class="max-[768px]:ml-[37%]  mt-[2%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
                     Call Now
                 </button>
 

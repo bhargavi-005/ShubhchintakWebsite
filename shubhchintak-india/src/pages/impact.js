@@ -9,8 +9,8 @@ function impact(){
                society.We help entrepreneur to solve their complex business problems with ease and create world 
                class unbeatable custom solutions . We are known as {"Well wishers for corporates"}.<br></br>
                We believe in,</p>
-               <div className=" max-[768px]:flex max-[768px]:flex-col flex flex-row">
-                 <div className="max-[768px]:ml-[1%] ml-[10%] mt-[3%] w-[610px] h-[259px] flex flex-row bg-black-rgba">
+               <div className=" max-[768px]:flex max-[768px]:flex-col flex flex-row justify-center items-center">
+                 <div className="max-[768px]:ml-[1%]  mt-[3%] w-[610px] h-[259px] flex flex-row bg-black-rgba">
                     <div className="ml-[5%] w-[50%] mt-[17%]">
                         <Image
                         src="/images/impact1.png"
@@ -50,8 +50,8 @@ function impact(){
                  </div>
                  
                </div>
-               <div className="max-[768px]:flex max-[768px]:flex-col flex flex-row">
-               <div className="max-[768px]:mt-[2%] max-[768px]:ml-[1%] ml-[10%] mt-[1%] w-[610px] h-[259px] flex flex-row bg-black-rgba">
+               <div className="max-[768px]:flex max-[768px]:flex-col flex flex-row justify-center items-center">
+               <div className="max-[768px]:mt-[2%] max-[768px]:ml-[1%] mt-[1%] w-[610px] h-[259px] flex flex-row bg-black-rgba">
                     <div className="ml-[5%] w-[80%] mt-[17%]">
                         <Image
                         src="/images/impact3.png"
