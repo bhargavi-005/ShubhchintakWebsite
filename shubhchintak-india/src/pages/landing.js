@@ -6,8 +6,6 @@ import Image from "next/image";
 import Partner from "./partners"
 import Impact from "./impact"
 import Web from "./websitedev"
-import Mobile from "./mobileappdev"
-import Graph from "./graphdev"
 import Clients from "./clients"
 import Review from "./clientreview"
 import Success from "./success"
@@ -25,9 +23,12 @@ function landing(){
                step to leverage innovation and advancement as per the latest market trends.</p>
             <p className="relative text-center text-white text-[16px] ml-[20%] mr-[20%]">We identify their challenge ,guide them, create effective work strategy, develop their complex 
                business ideas and deploy it as earliest as possible with the help of our expert team.</p>
-            <button class="max-[768px]:w-[400px] max-[768px]:ml-[10%] max-[768px]:h-[50px]  ml-[37%] mt-[3%] bg-blue-500 hover:bg-blue-700 text-white font-bold h-[50px] w-[400px]  rounded-full">
+               <div className="flex">
+               <button class="max-[768px]:w-[400px] max-[768px]:ml-[10%] max-[768px]:h-[50px] items-center mt-[3%] bg-blue-500 hover:bg-blue-700 text-white font-bold h-[50px] w-[400px]  rounded-full">
              <p className="max-[768px]:text-[15px] max-[768px]:w-[400px]">Start your digital transformation journey</p>
           </button>
+               </div>
+            
         </div>
         {/* Next Section */}
         <Partner/>
@@ -98,8 +99,7 @@ function landing(){
             </div>
             <Carousel className="">
                 <Web/>
-                <Mobile/>
-                <Graph/>
+                <Web/>
             </Carousel>
         </div>
         {/* Next Section */}
@@ -133,7 +133,6 @@ function landing(){
                             <div>
                                 <Image
                                 src="/images/ticks.png"
-                                alt=""
                                 width={20}
                                 height={20}/>
                             </div>
@@ -145,7 +144,6 @@ function landing(){
                             <div>
                                 <Image
                                 src="/images/ticks.png"
-                                alt=""
                                 width={20}
                                 height={20}/>
                             </div>
@@ -157,7 +155,6 @@ function landing(){
                             <div>
                                 <Image
                                 src="/images/ticks.png"
-                                alt=""
                                 width={20}
                                 height={20}/>
                             </div>
@@ -174,7 +171,6 @@ function landing(){
                     <div className="w-[140%] max-[768px]:order-first max-[768px]:w-[100%]">
                         <Image
                         src="/images/bestwork.png"
-                        alt=""
                         width={500}
                         height={500}/>
                     </div>
@@ -198,7 +194,6 @@ function landing(){
                     <div className="max-[768px]:ml-[7%] max-[768px]:mr-[5%] w-[400px] h-[494px] justify-center items-center ml-[10%]">
                         <Image className=""
                         src="/images/edge.png"
-                        alt=""
                         width={400}
                         height={494}/>
                         <div className="bg-black-rgba h-[173px] w-[100%]">
@@ -210,7 +205,6 @@ function landing(){
                     <div className="w-[400px] h-[494px]">
                         <Image className="max-[768px]:ml-[5%] max-[768px]:mr-[5%]"
                         src="/images/tips.png"
-                        alt=""
                         width={400}
                         height={494}/>
                         <div className="max-[768px]:ml-[5%] max-[768px]:mr-[5%] bg-black-rgba h-[173px] w-[100%]">
@@ -222,7 +216,6 @@ function landing(){
                     <div className="w-[400px] h-[494px]">
                         <Image className="max-[768px]:ml-[5%] max-[768px]:mr-[5%]"
                         src="/images/blog.png"
-                        alt=""
                         width={400}
                         height={494}/>
                         <div className="max-[768px]:ml-[5%] max-[768px]:mr-[5%] bg-black-rgba h-[173px] w-[100%]">
