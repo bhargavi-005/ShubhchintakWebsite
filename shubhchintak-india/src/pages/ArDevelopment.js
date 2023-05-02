@@ -1,4 +1,7 @@
 import Image from "next/image";
+import CarouselHome from './CarouselHome'
+import CasouselUi from './carouselUI'
+
 
 export default function ArDevelopment() {
   return (
@@ -62,32 +65,32 @@ export default function ArDevelopment() {
             </span>
           </div>
           <div className="m-8 mb-0 text-white justify-center flex flex-col md:flex-row">
-            <div className="w-3/2 md:w-1/4 rounded-xl pt-4 pb-8 border m-6 flex flex-col text-center font-bold">
+            <div className="w-3/2 md:w-1/4 rounded-xl pt-4 pb-8 border m-6 flex flex-col text-center font-bold bg-zinc-800">
               <div className="text-xl text-white m-4">Step 1</div>
               <div className="text-3xl text-white">Consultation</div>
             </div>
-            <div className="w-3/2 md:w-1/4 rounded-xl pt-4 pb-8 border m-6 flex flex-col text-center font-bold">
+            <div className="w-3/2 md:w-1/4 rounded-xl pt-4 pb-8 border m-6 flex flex-col text-center font-bold bg-zinc-800">
               <div className="text-xl text-white m-4">Step 2</div>
               <div className="text-3xl text-white">Concept development</div>
             </div>
-            <div className="w-3/2 md:w-1/4 rounded-xl pt-4 pb-8 border m-6 flex flex-col text-center font-bold">
+            <div className="w-3/2 md:w-1/4 rounded-xl pt-4 pb-8 border m-6 flex flex-col text-center font-bold bg-zinc-800">
               <div className="text-xl text-white m-4">Step 3</div>
               <div className="text-3xl text-white">Design & Development</div>
             </div>
           </div>
 
           <div className="m-8  mt-0 text-white justify-center flex flex-col md:flex-row">
-            <div className="w-3/2 md:w-1/4 rounded-xl pt-4 pb-8 border m-6 flex flex-col text-center font-bold">
+            <div className="w-3/2 md:w-1/4 rounded-xl pt-4 pb-8 border m-6 flex flex-col text-center font-bold bg-zinc-800">
               <div className="text-xl text-white m-4">Step 4</div>
               <div className="text-2xl text-white">Testing & Quality Assurance</div>
             </div>
-            <div className="w-3/2 md:w-1/4 rounded-xl pt-4 pb-8 border m-6 flex flex-col text-center font-bold">
+            <div className="w-3/2 md:w-1/4 rounded-xl pt-4 pb-8 border m-6 flex flex-col text-center font-bold bg-zinc-800">
               <div className="text-xl text-white m-4">Step 5</div>
               <div className="text-2xl text-white">
               Deployment & Support
               </div>
             </div>
-            <div className="w-3/2 md:w-1/4 rounded-xl pt-4 pb-8 border m-6 flex flex-col text-center font-bold">
+            <div className="w-3/2 md:w-1/4 rounded-xl pt-4 pb-8 border m-6 flex flex-col text-center font-bold bg-zinc-800">
               <div className="text-xl text-white m-4">Step 6</div>
               <div className="text-2xl text-white">Deployment & Support</div>
             </div>
@@ -102,10 +105,7 @@ export default function ArDevelopment() {
             </span>
           </div>
           <div className="text-white text-4xl md:text-6xl text-center">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque cum
-            voluptatum exercitationem earum incidunt magnam omnis dolore modi
-            vitae veritatis? Sint quasi dolor distinctio ut odio libero nihil,
-            possimus pariatur?
+           <CasouselUi/>
           </div>
         </section>
 
@@ -203,107 +203,7 @@ export default function ArDevelopment() {
           <div className="text-white text-4xl md:text-6xl font-bold text-center mt-12 md:mt-32">
             Check out Our Other Services !
           </div>
-          <div className="flex flex-wrap ml-12 md:ml-20 text-white mt-12 item-center justify-center">
-            <div className="xl:w-1/5 md:w-1/2 m-6">
-              <div className="p-4 flex justify-center flex-col border-2 rounded-xl bg-neutral-900">
-                <div className=" text-white text-xl mb-6">
-                  <Image
-                    className="object-cover object-center rounded z-10"
-                    alt="earth"
-                    src="images/img1.svg"
-                    width={300}
-                    height={300}
-                  />
-                </div>
-                <div className="text-white text-2xl text-center font-semibold m-3 mt-6">
-                  Website Development
-                </div>
-              </div>
-            </div>
-            <div className="xl:w-1/5 md:w-1/2 m-6">
-              <div className="p-4 flex justify-center flex-col border-2 rounded-xl bg-neutral-900">
-                <div className=" text-white text-xl mb-6 content-center">
-                  <Image
-                    className="object-cover object-center rounded z-10"
-                    alt="earth"
-                    src="images/img2.svg"
-                    width={250}
-                    height={250}
-                  />
-                </div>
-                <div className="text-white text-2xl text-center font-semibold m-3 mt-0">
-                  App Development
-                </div>
-              </div>
-            </div>
-            <div className="xl:w-1/5 md:w-1/2 m-6">
-              <div className="p-4 flex justify-center flex-col border-2 rounded-xl bg-neutral-900">
-                <div className=" text-white text-xl mb-6">
-                  <Image
-                    className="object-cover object-center rounded z-10"
-                    alt="earth"
-                    src="images/img3.svg"
-                    width={300}
-                    height={300}
-                  />
-                </div>
-                <div className="text-white text-2xl text-center font-semibold m-3 mt-6">
-                  Digital Marketing
-                </div>
-              </div>
-            </div>
-            <div className="xl:w-1/5 md:w-1/2 m-6">
-              <div className="p-4 flex justify-center flex-col border-2 rounded-xl bg-neutral-900">
-                <div className=" text-white text-xl mb-6">
-                  <Image
-                    className="object-cover object-center rounded z-10"
-                    alt="earth"
-                    src="images/img4.svg"
-                    width={300}
-                    height={300}
-                  />
-                </div>
-                <div className="text-white text-2xl text-center font-semibold m-3 mt-0">
-                  Graphic Designing
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="flex flex-wrap ml-12 md:ml-20 text-white mt-4 item-center justify-center">
-            <div className="xl:w-1/5 md:w-1/2 m-6">
-              <div className="p-4 flex justify-center flex-col border-2 rounded-xl bg-neutral-900">
-                <div className=" text-white text-xl mb-6">
-                  <Image
-                    className="object-cover object-center rounded z-10"
-                    alt="earth"
-                    src="images/img5.svg"
-                    width={300}
-                    height={300}
-                  />
-                </div>
-                <div className="text-white text-2xl text-center font-semibold m-3 mt-6">
-                  Cloud Development
-                </div>
-              </div>
-            </div>
-            <div className="xl:w-1/5 md:w-1/2 m-6 h-60">
-              <div className="p-4 flex justify-center flex-col border-2 rounded-xl bg-neutral-900">
-                <div className=" text-white text-xl mb-6">
-                  <Image
-                    className="object-cover object-center rounded z-10"
-                    alt="earth"
-                    src="images/img6.svg"
-                    width={250}
-                    height={250}
-                  />
-                </div>
-                <div className="text-white text-2xl text-center font-semibold m-3 -mt-0">
-                  VR/AR Development
-                </div>
-              </div>
-            </div>
-          </div>
+          <CarouselHome/>
         </section>
       </div>
     </>

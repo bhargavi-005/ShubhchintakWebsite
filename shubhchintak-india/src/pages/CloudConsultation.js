@@ -1,4 +1,5 @@
 import Image from "next/image";
+import CarouselHome from './CarouselHome'
 
 export default function CloudConsultation() {
   return (
@@ -149,110 +150,10 @@ export default function CloudConsultation() {
         </section>
 
         <section>
-          <div className="text-white text-4xl md:text-6xl font-bold text-center mt-12 md:mt-32">
-            Check out Our Other Services !
-          </div>
-          <div className="flex flex-wrap ml-12 md:ml-20 text-white mt-12 item-center justify-center">
-            <div className="xl:w-1/5 md:w-1/2 m-6">
-              <div className="p-4 flex justify-center flex-col border-2 rounded-xl bg-neutral-900">
-                <div className=" text-white text-xl mb-6">
-                  <Image
-                    className="object-cover object-center rounded z-10"
-                    alt="earth"
-                    src="images/img1.svg"
-                    width={300}
-                    height={300}
-                  />
-                </div>
-                <div className="text-white text-2xl text-center font-semibold m-3 mt-6">
-                  Website Development
-                </div>
-              </div>
+            <div className="text-white text-4xl md:text-6xl font-bold text-center mt-12 md:mt-32">
+                Check out Our Other Services !
             </div>
-            <div className="xl:w-1/5 md:w-1/2 m-6">
-              <div className="p-4 flex justify-center flex-col border-2 rounded-xl bg-neutral-900">
-                <div className=" text-white text-xl mb-6 content-center">
-                  <Image
-                    className="object-cover object-center rounded z-10"
-                    alt="earth"
-                    src="images/img2.svg"
-                    width={250}
-                    height={250}
-                  />
-                </div>
-                <div className="text-white text-2xl text-center font-semibold m-3 mt-0">
-                  App Development
-                </div>
-              </div>
-            </div>
-            <div className="xl:w-1/5 md:w-1/2 m-6">
-              <div className="p-4 flex justify-center flex-col border-2 rounded-xl bg-neutral-900">
-                <div className=" text-white text-xl mb-6">
-                  <Image
-                    className="object-cover object-center rounded z-10"
-                    alt="earth"
-                    src="images/img3.svg"
-                    width={300}
-                    height={300}
-                  />
-                </div>
-                <div className="text-white text-2xl text-center font-semibold m-3 mt-6">
-                  Digital Marketing
-                </div>
-              </div>
-            </div>
-            <div className="xl:w-1/5 md:w-1/2 m-6">
-              <div className="p-4 flex justify-center flex-col border-2 rounded-xl bg-neutral-900">
-                <div className=" text-white text-xl mb-6">
-                  <Image
-                    className="object-cover object-center rounded z-10"
-                    alt="earth"
-                    src="images/img4.svg"
-                    width={300}
-                    height={300}
-                  />
-                </div>
-                <div className="text-white text-2xl text-center font-semibold m-3 mt-0">
-                  Graphic Designing
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="flex flex-wrap ml-12 md:ml-20 text-white mt-4 item-center justify-center">
-            <div className="xl:w-1/5 md:w-1/2 m-6">
-              <div className="p-4 flex justify-center flex-col border-2 rounded-xl bg-neutral-900">
-                <div className=" text-white text-xl mb-6">
-                  <Image
-                    className="object-cover object-center rounded z-10"
-                    alt="earth"
-                    src="images/img5.svg"
-                    width={300}
-                    height={300}
-                  />
-                </div>
-                <div className="text-white text-2xl text-center font-semibold m-3 mt-6">
-                  Cloud Development
-                </div>
-              </div>
-            </div>
-            <div className="xl:w-1/5 md:w-1/2 m-6 h-60">
-              <div className="p-4 flex justify-center flex-col border-2 rounded-xl bg-neutral-900">
-                <div className=" text-white text-xl mb-6">
-                  <Image
-                    className="object-cover object-center rounded z-10"
-                    alt="earth"
-                    src="images/img6.svg"
-                    width={250}
-                    height={250}
-                  />
-                </div>
-                <div className="text-white text-2xl text-center font-semibold m-3 -mt-0">
-                  VR/AR Development
-                </div>
-              </div>
-            </div>
-          </div>
+            <CarouselHome/>
         </section>
       </div>
     </>
