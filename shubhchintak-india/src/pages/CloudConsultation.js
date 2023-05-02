@@ -1,9 +1,14 @@
 import Image from "next/image";
-import CarouselHome from './CarouselHome'
+import CheckOut from './checkoutView'
+import Header from './Header'
 
 export default function CloudConsultation() {
   return (
     <>
+     <div>
+        <Header/>
+      </div>
+
       <div className="p-16">
         <section classname="flex flex-row text-white">
           <div className="container  flex md:flex-row flex-col-reverse items-center">
@@ -150,10 +155,10 @@ export default function CloudConsultation() {
         </section>
 
         <section>
-            <div className="text-white text-4xl md:text-6xl font-bold text-center mt-12 md:mt-32">
-                Check out Our Other Services !
-            </div>
-            <CarouselHome/>
+        <section>
+           
+           <CheckOut/>
+       </section>
         </section>
       </div>
     </>

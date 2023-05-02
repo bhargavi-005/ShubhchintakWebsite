@@ -2,13 +2,19 @@ import Image from "next/image";
 import Carous from "./carouselUI";
 import { Carousel } from 'react-responsive-carousel'
 import Review from './Review'
-import CarouselHome from './CarouselHome'
+import Header from './Header'
+import CheckOut from './checkoutView'
 
 
 function UIDesigning() {
   return (
     
-      <div className=" p-16">
+      <>
+      <div>
+        <Header/>
+      </div>
+      
+        <div className=" p-16">
         <section className="flex flex-row text-white">
           <div className="container  flex md:flex-row flex-col-reverse items-center">
             <div className="w-4/5 m-12">
@@ -225,12 +231,11 @@ function UIDesigning() {
         </section>
 
         <section>
-            <div className="text-white text-4xl md:text-6xl font-bold text-center mt-12 md:mt-32">
-                Check out Our Other Services !
-            </div>
-            <CarouselHome/>
+           
+            <CheckOut/>
         </section>
       </div>
+      </>
     
   );
 }

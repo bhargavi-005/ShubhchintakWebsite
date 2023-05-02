@@ -1,11 +1,13 @@
 import Image from "next/image";
-import CarouselHome from './CarouselHome'
+import CheckOut from './checkoutView'
+import Header from './Header'
 import CasouselUi from './carouselUI'
 
 
 export default function ArDevelopment() {
   return (
     <>
+    <Header/>
       <div className="p-16">
         <section classname="flex flex-row text-white">
           <div className="container  flex md:flex-row flex-col-reverse items-center">
@@ -200,11 +202,9 @@ export default function ArDevelopment() {
         </section>
         
         <section>
-          <div className="text-white text-4xl md:text-6xl font-bold text-center mt-12 md:mt-32">
-            Check out Our Other Services !
-          </div>
-          <CarouselHome/>
-        </section>
+           
+           <CheckOut/>
+       </section>
       </div>
     </>
   );
