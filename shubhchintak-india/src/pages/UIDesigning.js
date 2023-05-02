@@ -5,10 +5,10 @@ import Review from './ClientReview'
 import CarouselHome from './CarouselHome'
 
 
-export default function UIDesigning() {
+function UIDesigning() {
   return (
-    <>
-      <div className="bg-black p-16">
+    
+      <div className=" p-16">
         <section className="flex flex-row text-white">
           <div className="container  flex md:flex-row flex-col-reverse items-center">
             <div className="w-4/5 m-12">
@@ -224,6 +224,7 @@ export default function UIDesigning() {
             <CarouselHome/>
         </section>
       </div>
-    </>
+    
   );
 }
+export default UIDesigning;

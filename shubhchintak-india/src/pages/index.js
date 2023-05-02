@@ -1,10 +1,18 @@
- import Landing from "./landing"
+const { default: Webdev } = require("./webdeveloppment");
+
+import Carousel from "./carousel";
+import carouselUI from "./carousel";
+import DMarket from "./digitalMarketing";
+import Landing from "./landing"
+import MobileApp from "./mobileApp";
  import Partner from "./partners"
- function index() {
-  return (
+ import UIDesigning from "./UIDesigning"
+
+function index(){
+  return(
     <div>
-      <Landing/>
+    <Webdev/>
     </div>
-  )
-}
-export default index
+  )}
+
+export default index;

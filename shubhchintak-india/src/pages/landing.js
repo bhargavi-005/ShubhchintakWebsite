@@ -2,6 +2,7 @@ import bg from "../../public/images/bg.png";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import Image from "next/image";
+<<<<<<< HEAD
 import Partner from "./partners";
 import Impact from "./impact";
 import Web from "./websitedev";
@@ -80,6 +81,30 @@ function landing() {
             <h2 className="text-[40px] text-center text-xyz text-white">30+</h2>
             <p className="text-[18px] text-xyz text-white">Industries served</p>
           </div>
+=======
+import Partner from "./partners"
+import Impact from "./impact"
+import Web from "./websitedev"
+import Clients from "./clients"
+import Review from "./clientreview"
+function ok(){
+    
+}
+function landing(){
+    return(
+        <div>
+        <div className="relative pb-[10%] pt-1" style={{ backgroundImage: `url(${bg.src})` }}>
+            <h1 className="relative mt-[8%] text-center text-white font-xyz text-[60px]">We are bringing</h1>
+            <h1 className="relative text-center text-[#0F89FF] font-xyz text-[60px]">DIGITAL TRANSFORMATION</h1>
+            <p className="relative text-center text-white text-[16px] ml-[20%] mr-[20%]">Future is for those who work for their dreams. Our deep knowledge and expertise in providing digital solutions 
+               help the dreamers to take step forward to start with their dream business ideas.We accompany them at every 
+               step to leverage innovation and advancement as per the latest market trends.</p>
+            <p className="relative text-center text-white text-[16px] ml-[20%] mr-[20%]">We identify their challenge ,guide them, create effective work strategy, develop their complex 
+               business ideas and deploy it as earliest as possible with the help of our expert team.</p>
+            <button class="ml-[33%] mt-[3%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-4 px-[100px] rounded-full">
+             Start your digital transformation journey
+          </button>
+>>>>>>> 975119c86e1c0e176028be925f96c26e3ade4b8b
         </div>
       </div>
       {/* Next Section */}
@@ -241,6 +266,7 @@ function landing() {
                 </button>
               </div>
             </div>
+<<<<<<< HEAD
             <div className="w-[140%]">
               <Image
                 src="/images/bestwork.png"
@@ -250,6 +276,83 @@ function landing() {
               />
             </div>
           </div>
+=======
+
+        </div>
+        {/* Next Section */}
+        <div style={{ backgroundImage: `url(${bg.src})` }}>
+            <div className="pt-[5%] ml-[10%] mr-[10%]">
+                <div className="mt-[5%]">
+                <h1 className="text-white text-center font-abc text-[40px]">Some of our best works!</h1>
+                </div>
+                <div className="flex flex-row mt-[3%]">
+                    <div className="mr-[20%]">
+                        <h1 className="text-white text-[30px]">Project Name</h1>
+                        <p className="text-white text-left text-[16px]">Lorem ipsum dolor sit amet consectetur. Amet in bibendum mattis amet aliquam 
+                        risus elementum sapien gravida. Accumsan sit ultrices in sapien enim. Magna 
+                        venenatis non egestas pulvinar vel pellentesque sagittis. Eget eleifend nunc nec
+                        id leo id blandit sem.</p>
+                        <div className="flex flex-row mt-[5%]">
+                            <div>
+                                <Image
+                                src="/images/ticks.png"
+                                width={20}
+                                height={20}/>
+                            </div>
+                            <div className="ml-[3%] mt-[-0.5%]">
+                                <p className="text-white font-xyz text-[16px]">Lorem ipsum dolor sit amet consectetur. Amet in bibendum</p>
+                            </div>
+                        </div>
+                        <div className="flex flex-row mt-[5%]">
+                            <div>
+                                <Image
+                                src="/images/ticks.png"
+                                width={20}
+                                height={20}/>
+                            </div>
+                            <div className="ml-[3%] mt-[-0.5%]">
+                                <p className="text-white font-xyz text-[16px]">Lorem ipsum dolor sit amet consectetur. Amet in bibendum</p>
+                            </div>
+                        </div>
+                        <div className="flex flex-row mt-[5%]">
+                            <div>
+                                <Image
+                                src="/images/ticks.png"
+                                width={20}
+                                height={20}/>
+                            </div>
+                            <div className="ml-[3%] mt-[-0.5%]">
+                                <p className="text-white font-xyz text-[16px]">Lorem ipsum dolor sit amet consectetur. Amet in bibendum</p>
+                            </div>
+                        </div>
+                        <div className="mt-[3%]">
+                        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                    View Case Study
+                </button>
+                        </div>
+                    </div>
+                    <div className="w-[140%]">
+                        <Image
+                        src="/images/bestwork.png"
+                        width={500}
+                        height={500}/>
+                    </div>
+                </div>
+            </div>
+            {/* Next Section */}
+            <Clients/>
+        </div>
+        {/* Next Section */}
+        <div style={{ backgroundImage: `url(${bg.src})` }}>
+            <div className="mt-[3%]">
+                <h1 className="text-center text-white font-xyz text-[40px]">A Word from our Proud Clients!</h1>
+            </div>
+            <Carousel>
+            <Review/>
+            <Review/>
+            </Carousel>
+            
+>>>>>>> 975119c86e1c0e176028be925f96c26e3ade4b8b
         </div>
       </div>
     </div>
