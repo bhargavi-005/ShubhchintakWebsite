@@ -6,15 +6,9 @@ import Image from "next/image";
 import Partner from "./partners"
 import Impact from "./impact"
 import Web from "./websitedev"
-import Graph from './graphdev'
-import Mobile from './mobileappdev'
-import UiUx from './UIUXdev'
-import Manual from './manualdev'
-import VRAR from './VrArdev'
-import Cloud from './cloudcunsuldev'
 import Clients from "./clients"
 import Review from "./clientreview"
-// import Success from "./success"
+import Success from "./success"
 function ok(){
     
 }
@@ -38,7 +32,7 @@ function landing(){
         {/* Next Section */}
         <Impact/>
         {/* Next Section */}
-        {/* <Success/> */}
+        <Success/>
         {/* Next Section */}
         <div className="bg-gradient-to-r from-blue-400 to-purple-400 pt-[2%]">
             <h2 className="ml-[10%] text-[30px] text-white">Solutions We Provide</h2>
@@ -102,12 +96,7 @@ function landing(){
             </div>
             <Carousel className="">
                 <Web/>
-                <Mobile/>
-                <Cloud/>
-                <Graph/>
-                <UiUx/>
-                <Manual/>
-                <VRAR/>
+                <Web/>
             </Carousel>
         </div>
         {/* Next Section */}
@@ -141,7 +130,6 @@ function landing(){
                             <div>
                                 <Image
                                 src="/images/ticks.png"
-                                alt=""
                                 width={20}
                                 height={20}/>
                             </div>
@@ -153,7 +141,6 @@ function landing(){
                             <div>
                                 <Image
                                 src="/images/ticks.png"
-                                alt=""
                                 width={20}
                                 height={20}/>
                             </div>
@@ -165,7 +152,6 @@ function landing(){
                             <div>
                                 <Image
                                 src="/images/ticks.png"
-                                alt=""
                                 width={20}
                                 height={20}/>
                             </div>
@@ -182,7 +168,6 @@ function landing(){
                     <div className="w-[140%]">
                         <Image
                         src="/images/bestwork.png"
-                        alt=""
                         width={500}
                         height={500}/>
                     </div>
@@ -196,10 +181,7 @@ function landing(){
             <div className="mt-[3%]">
                 <h1 className="text-center text-white font-xyz text-[40px]">A Word from our Proud Clients!</h1>
             </div>
-            <Carousel>
-            <Web/>
-            {/* <Graphic/> */}
-            </Carousel>
+            <Review/>
             
         </div>
         {/* Next Section */}
@@ -209,7 +191,6 @@ function landing(){
                     <div className="w-[400px] h-[494px] justify-center items-center ml-[10%]">
                         <Image
                         src="/images/edge.png"
-                        alt=""
                         width={400}
                         height={494}/>
                         <div className="bg-black-rgba h-[173px] w-[100%]">
@@ -221,7 +202,6 @@ function landing(){
                     <div className="w-[400px] h-[494px]">
                         <Image
                         src="/images/tips.png"
-                        alt=""
                         width={400}
                         height={494}/>
                         <div className="bg-black-rgba h-[173px] w-[100%]">
@@ -233,7 +213,6 @@ function landing(){
                     <div className="w-[400px] h-[494px]">
                         <Image
                         src="/images/blog.png"
-                        alt=""
                         width={400}
                         height={494}/>
                         <div className="bg-black-rgba h-[173px] w-[100%]">

@@ -9,11 +9,13 @@ import UIDesigning from "./UIDesigning"
 import BlueCarousel from "./carousel3";
 import CheckOut from "./checkoutView";
 import GraphicD from "./graphicDesign";
+import Port from "./portfolio"
+import About from "./aboutus"
  
 function index(){
   return(
     <div>
-    <GraphicD/>
+    <About/>
     </div>
   )}
 
