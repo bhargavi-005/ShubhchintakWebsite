@@ -1,11 +1,11 @@
 import Image from "next/image";
-function cloudcunsuldev() {
+function arvr() {
   return (
     <div className="bg-gradient-to-r from-blue-400 to-purple-400 pt-[2%] pb-[3%]">
       <div className="flex flex-row">
         <div className="mr-[8%]">
           <h1 className="text-left ml-[18%] text-white text-[50px] font-xyz">
-            Cloud Consultation 
+            VR/AR Development
           </h1>
           <p className="ml-[18%] mr-[%] text-white text-left text-[20px]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
@@ -34,4 +34,4 @@ function cloudcunsuldev() {
     </div>
   );
 }
-export default cloudcunsuldev;
+export default arvr;
