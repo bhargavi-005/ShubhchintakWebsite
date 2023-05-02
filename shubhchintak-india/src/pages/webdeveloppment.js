@@ -7,6 +7,7 @@ import carouselUI from "./carousel";
 import carouselsec from "./carousel2";
 import Carousel2 from "./carousel2";
 import Document from "next/document";
+import CheckOut from "./checkoutView";
 
 
 
@@ -146,6 +147,9 @@ const btnpressnext = () => {
       </div>
 
       <OurInsight/>
+
+      <CheckOut/>
+
      
       
 

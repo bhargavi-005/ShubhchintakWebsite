@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Carousel2 from "./carousel2";
 import Header from "./Header";
+import CheckOut from "./checkoutView";
 function GraphicD(){
     return(
         <div className="box-border text-white mx-5 md:mx-12 lg:mx-28  " >
@@ -117,6 +118,7 @@ function GraphicD(){
                         </div>
                     </div>
                 </div>
+                <CheckOut/>
         </div>
     )
 }
