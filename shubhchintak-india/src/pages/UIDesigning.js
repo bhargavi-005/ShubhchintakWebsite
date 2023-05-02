@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Carous from "./carouselUI";
 import { Carousel } from 'react-responsive-carousel'
-import Review from './ClientReview'
+import Review from './Review'
 import CarouselHome from './CarouselHome'
 
 

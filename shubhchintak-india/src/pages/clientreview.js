@@ -8,6 +8,7 @@ function review(){
             <div className="ml-[7%] mt-[8%]">
                 <Image
                 src="/svg/pp.png"
+                alt=""
                 width={50}
                 height={50}/>
             </div>
