@@ -2,6 +2,8 @@ import Header from "./Header";
 import Image from "next/image";
 import Carousel2 from "./carousel2";
 import OurInsight from "./ourInsite";
+import Review from "./Review";
+import CheckOut from "./checkoutView";
 
 function MobileApp(){
     return(
@@ -116,6 +118,12 @@ function MobileApp(){
         </div>
       </div>
       <OurInsight/>
+      <div className="flex justify-center items-center text-center mt-[80px] mx-6 text-white my-10">
+      <div className=" font-bold text-[25px] md:text-[40px] lg:text-[60px] lg:w-[1250px] ">{"What Our Client’s Say About Us"}</div>
+      </div>
+      <Review/>
+
+      <CheckOut/>
 
 
 

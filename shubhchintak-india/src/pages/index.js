@@ -8,11 +8,12 @@ import MobileApp from "./mobileApp";
 import UIDesigning from "./UIDesigning"
 import BlueCarousel from "./carousel3";
 import CheckOut from "./checkoutView";
+import GraphicD from "./graphicDesign";
  
 function index(){
   return(
     <div>
-    <Webdev/>
+    <GraphicD/>
     </div>
   )}
 

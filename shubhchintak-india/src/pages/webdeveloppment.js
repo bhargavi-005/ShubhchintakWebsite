@@ -8,6 +8,7 @@ import carouselsec from "./carousel2";
 import Carousel2 from "./carousel2";
 import Document from "next/document";
 import CheckOut from "./checkoutView";
+import Review from "./Review";
 
 
 
@@ -147,6 +148,10 @@ const btnpressnext = () => {
       </div>
 
       <OurInsight/>
+      <div className="flex justify-center items-center text-center mt-[80px] mx-6 text-white my-10">
+      <div className=" font-bold text-[25px] md:text-[40px] lg:text-[60px] lg:w-[1250px] ">{"What Our Client’s Say About Us"}</div>
+      </div>
+      <Review/>
 
       <CheckOut/>
 
