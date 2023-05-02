@@ -1,6 +1,7 @@
 import Image from "next/image";
 import CheckOut from './checkoutView'
 import Header from './Header'
+import Footer from './footer'
 
 export default function CloudConsultation() {
   return (
@@ -154,13 +155,17 @@ export default function CloudConsultation() {
           </div>
         </section>
 
-        <section>
+       
         <section>
            
            <CheckOut/>
-       </section>
+     
         </section>
+       
       </div>
+      <div className="mt-5">
+        <Footer/>
+        </div>
     </>
   );
 }

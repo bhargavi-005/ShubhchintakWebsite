@@ -4,6 +4,7 @@ import { Carousel } from 'react-responsive-carousel'
 import Review from './Review'
 import Header from './Header'
 import CheckOut from './checkoutView'
+import Footer from './footer'
 
 
 function UIDesigning() {
@@ -196,7 +197,7 @@ function UIDesigning() {
                             <div className="mr-2 mb-9 w-[16%] md:w-[7%]" >
                                 <Image  src="/svg/tick.svg" width="40" height="17" alt="tick"/>
                             </div>
-                            <div className="font-xyz text-sm font-medium "><span className="text-[#0F89FF] font-xyz text-sm font-medium">User-friendly interface: </span>The store's website and mobile app have a 
+                            <div className="font-xyz text-sm font-medium "><span className="text-[#0F89FF] font-xyz text-sm font-medium">User-friendly interface: </span>The {"store's"} website and mobile app have a 
                                     user-friendly interface, making it is easy for customers to purchase 
                                     eco-friendly products.
                             </div>
@@ -235,6 +236,9 @@ function UIDesigning() {
             <CheckOut/>
         </section>
       </div>
+      <div className="mt-5">
+        <Footer/>
+        </div>
       </>
     
   );
