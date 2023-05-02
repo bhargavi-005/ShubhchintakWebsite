@@ -28,7 +28,7 @@ function carouselsec() {
       <div className="p-5">
       <div className="">
             <Image
-              className="w-full object-cover object-center rounded z-10 h-[420px]"
+              className="w-full object-cover object-center rounded z-10 lg:h-[420px]  md:h-[350px]"
               alt="earth"
               src="/svg/Rectangl1.svg"
               width="391"

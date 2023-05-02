@@ -7,7 +7,7 @@ function OurInsight(){
             </div>
 
            <div className="flex flex-col   lg:flex-row-reverse my-14">
-                <div className=" lg:w-[50%]">
+                <div className=" lg:w-[50%] md:ml-14">
                     <Image
                             src="/svg/workInsight.svg"
                             width="610"

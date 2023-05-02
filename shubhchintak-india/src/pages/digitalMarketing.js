@@ -2,6 +2,7 @@ import Header from "./Header";
 import Image from "next/image";
 import Carousel2 from "./carousel2";
 import OurInsight from "./ourInsite";
+import CheckOut from "./checkoutView";
 function DMarket(){
     return(
         <div className="box-border text-white mx-5 md:mx-12 lg:mx-28  " >
@@ -112,6 +113,7 @@ function DMarket(){
                 </div>
             </div>
         </div>
+        <CheckOut/>
        
         </div>
     )
