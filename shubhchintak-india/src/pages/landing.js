@@ -8,7 +8,7 @@ import Impact from "./impact"
 import Web from "./websitedev"
 import Clients from "./clients"
 import Review from "./clientreview"
-import Success from "./success"
+// import Success from "./success"
 function ok(){
     
 }
