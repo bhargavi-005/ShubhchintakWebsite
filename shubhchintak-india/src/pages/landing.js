@@ -7,7 +7,7 @@ import Partner from "./partners"
 import Impact from "./impact"
 import Web from "./websitedev"
 import Clients from "./clients"
-import Review from "./clientreview"
+
 import Success from "./success"
 function ok(){
     
@@ -24,7 +24,7 @@ function landing(){
             <p className="relative text-center text-white text-[16px] ml-[20%] mr-[20%]">We identify their challenge ,guide them, create effective work strategy, develop their complex 
                business ideas and deploy it as earliest as possible with the help of our expert team.</p>
                <div className="flex">
-               <button class="max-[768px]:w-[400px] max-[768px]:ml-[10%] max-[768px]:h-[50px] items-center mt-[3%] bg-blue-500 hover:bg-blue-700 text-white font-bold h-[50px] w-[400px]  rounded-full">
+               <button class="max-[768px]:w-[400px] max-[768px]:ml-[10%] max-[768px]:h-[50px] justify-center mt-[3%] bg-blue-500 hover:bg-blue-700 text-white font-bold h-[50px] w-[400px]  rounded-full">
              <p className="max-[768px]:text-[15px] max-[768px]:w-[400px]">Start your digital transformation journey</p>
           </button>
                </div>
@@ -184,7 +184,7 @@ function landing(){
             <div className="mt-[3%]">
                 <h1 className="max-[768px]:text-[30px] max-[768px]:ml-[10%] max-[768px]:mr-[10%] text-center text-white font-xyz text-[40px]">A Word from our Proud Clients!</h1>
             </div>
-            <Review/>
+            
             
         </div>
         {/* Next Section */}

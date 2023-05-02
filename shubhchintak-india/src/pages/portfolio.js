@@ -2,7 +2,7 @@ import Image from "next/image";
 import Success from "./success"
 import Impact from "./impact"
 import Clients from "./clients"
-import Reviews from "./clientreview"
+
 function port(){
     return(
         <div className="max-[768px]:overflow-x-hidden">
@@ -102,7 +102,7 @@ function port(){
             {/* Next Section */}
             <Clients/>
             {/* Next Section */}
-            <Reviews/>
+            
             <div className="mt-[3%]">
                 <h1 className="text-[30px] font-xyz text-white text-center font-semibold">Want to start your digital transformation journey?</h1>
                 <button class="max-[768px]:ml-[30%] ml-[44%] mt-[1%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">

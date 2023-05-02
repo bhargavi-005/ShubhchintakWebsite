@@ -2,7 +2,6 @@ import Image from "next/image";
 import Partners from "./partners"
 import Impact from "./impact"
 import Clients from "./clients"
-import Review from "./clientreview"
 function about(){
     return(
         <div className="mt-[5%] max-[768px]:overflow-x-hidden ">
