@@ -27,9 +27,9 @@ function landing(){
             <Header/>
         <div className="relative pb-[10%] pt-1" style={{ backgroundImage: `url(${bg.src})` }}>
         <div className="flex flex-col justify-center items-center">
-            <h1 className="max-[768px]:text-[35px] relative mt-[8%] text-center text-white font-xyz text-[60px]">We are bringing</h1>
-            <h1 className="max-[768px]:text-[35px] relative text-center text-[#0F89FF] font-xyz text-[60px]">DIGITAL TRANSFORMATION</h1>
-            <p className="max-[768px]:text-[14px] max-[768px]:ml-[3%] max-[768px]:mr-[3%] relative text-center text-white text-[16px] ml-[20%] mr-[20%]">Future is for those who work for their dreams. Our deep knowledge and expertise in providing digital solutions 
+            <h1 className="max-[768px]:text-[35px] relative mt-[8%] text-center font-extrabold text-white font-xyz text-[60px]">We are bringing</h1>
+            <h1 className="max-[768px]:text-[35px] relative text-center font-extrabold text-[#0F89FF] font-xyz text-[60px]">DIGITAL TRANSFORMATION</h1>
+            <p className="max-[768px]:text-[14px] max-[768px]:ml-[3%] max-[768px]:mr-[3%] font-medium relative text-center text-white text-[16px] ml-[20%] mr-[20%]">Future is for those who work for their dreams. Our deep knowledge and expertise in providing digital solutions 
                help the dreamers to take step forward to start with their dream business ideas.We accompany them at every 
                step to leverage innovation and advancement as per the latest market trends.</p>
             <p className="relative text-center text-white text-[16px] ml-[20%] mr-[20%]">We identify their challenge ,guide them, create effective work strategy, develop their complex 
@@ -125,10 +125,10 @@ function landing(){
         </div>
         {/* Next Section */}
         <div className=" relative mt-[-1.5%]" style={{ backgroundImage: `url(${bg.src})` }}>
-            <div className="pt-[5%]">
+            <div className="mt-[3%] border-2 border-solid ml-[10%] mr-[10%] bg-[#FFFFFF1A] pt-[5%]">
                 <div className="flex flex-col justify-center items-center bg-black-rgba pt-[2%] pb-[2%]">
-                <h1 className="text-[30px] text-white font-xyz text-center">Share your business requirements with us!</h1>
-                <button class=" mt-[2%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                <h1 className="mb-[5%] text-[30px] text-white font-xyz text-center">Share your business requirements with us!</h1>
+                <button class=" mb-[3%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
                     Call Now
                 </button>
 
@@ -139,13 +139,77 @@ function landing(){
         </div>
         {/* Next Section */}
         <div style={{ backgroundImage: `url(${bg.src})` }}>
+            <Carousel>
             <div className="pt-[5%] ml-[10%] mr-[10%]">
                 <div className="mt-[5%]">
-                <h1 className="text-white text-center font-abc text-[40px]">Some of our best works!</h1>
+                <h1 className="font-semibold text-white text-center font-abc text-[40px]">Some of our best works!</h1>
                 </div>
                 <div className="max-[768px]:flex max-[768px]:flex-col flex flex-row mt-[3%]">
                     <div className="mr-[20%] max-[768px]:order-last max-[768px]:mr-[5%]">
-                        <h1 className="text-white text-[30px]">Project Name</h1>
+                        <h1 className="text-white text-[30px] text-left font-semibold">Project Name</h1>
+                        <p className="text-white text-left text-[16px]">Lorem ipsum dolor sit amet consectetur. Amet in bibendum mattis amet aliquam 
+                        risus elementum sapien gravida. Accumsan sit ultrices in sapien enim. Magna 
+                        venenatis non egestas pulvinar vel pellentesque sagittis. Eget eleifend nunc nec
+                        id leo id blandit sem.</p>
+                        <div className="flex flex-row mt-[5%]">
+                            <div>
+                                <Image
+                                alt=""
+                                src="/images/ticks.png"
+                                width={20}
+                                height={20}/>
+                            </div>
+                            <div className="ml-[3%] mt-[-0.5%]">
+                                <p className="text-white font-xyz text-[16px]">Lorem ipsum dolor sit amet consectetur. Amet in bibendum</p>
+                            </div>
+                        </div>
+                        <div className="flex flex-row mt-[5%]">
+                            <div>
+                                <Image
+                                alt=""
+                                src="/images/ticks.png"
+                                width={20}
+                                height={20}/>
+                            </div>
+                            <div className="ml-[3%] mt-[-0.5%]">
+                                <p className="text-white font-xyz text-[16px]">Lorem ipsum dolor sit amet consectetur. Amet in bibendum</p>
+                            </div>
+                        </div>
+                        <div className="flex flex-row mt-[5%]">
+                            <div>
+                                <Image
+                                alt=""
+                                src="/images/ticks.png"
+                                width={20}
+                                height={20}/>
+                            </div>
+                            <div className="ml-[3%] mt-[-0.5%]">
+                                <p className="text-white font-xyz text-[16px]">Lorem ipsum dolor sit amet consectetur. Amet in bibendum</p>
+                            </div>
+                        </div>
+                        <div className="mt-[3%]">
+                        <button class="max-[768px]:ml-[5%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                    View Case Study
+                </button>
+                        </div>
+                    </div>
+                    <div className="w-[140%] max-[768px]:order-first max-[768px]:w-[100%]">
+                        <Image
+                        alt=""
+                        src="/images/bestwork.png"
+                        width={500}
+                        height={500}/>
+                    </div>
+                </div>
+            </div>
+            {/* repeated */}
+            <div className="pt-[5%] ml-[10%] mr-[10%]">
+                <div className="mt-[5%]">
+                <h1 className="font-semibold text-white text-center font-abc text-[40px] font-semibold">Some of our best works!</h1>
+                </div>
+                <div className="max-[768px]:flex max-[768px]:flex-col flex flex-row mt-[3%]">
+                    <div className="mr-[20%] max-[768px]:order-last max-[768px]:mr-[5%]">
+                        <h1 className="text-white text-[30px] text-left font-semibold">Project Name</h1>
                         <p className="text-white text-left text-[16px]">Lorem ipsum dolor sit amet consectetur. Amet in bibendum mattis amet aliquam 
                         risus elementum sapien gravida. Accumsan sit ultrices in sapien enim. Magna 
                         venenatis non egestas pulvinar vel pellentesque sagittis. Eget eleifend nunc nec
@@ -201,6 +265,8 @@ function landing(){
                     </div>
                 </div>
             </div>
+            </Carousel>
+            
             {/* Next Section */}
             <Clients/>
             
@@ -209,49 +275,49 @@ function landing(){
         {/* Next Section */}
         <div style={{ backgroundImage: `url(${bg.src})` }}>
             <div className="mt-[3%]">
-                <h1 className="max-[768px]:text-[30px] max-[768px]:ml-[10%] max-[768px]:mr-[10%] text-center text-white font-xyz text-[40px]">A Word from our Proud Clients!</h1>
+                <h1 className="max-[768px]:text-[30px] max-[768px]:ml-[10%] max-[768px]:mr-[10%] text-center text-white font-xyz text-[40px] font-semibold">A Word from our Proud Clients!</h1>
             </div>
             <Review/>
             
         </div>
         {/* Next Section */}
         <div style={{ backgroundImage: `url(${bg.src})` }}>
-            <h1 className="text-white text-center text-[40px]">Insights by ShubhChintak!</h1>
-            <div className="max-[768px]:flex max-[768px]:flex-col flex flex-row justify-evenly space-x-3">
-                    <div className="max-[768px]:ml-[3%] max-[768px]:mr-[5%] w-[400px] h-[494px] justify-center items-center">
+            <h1 className="mt-[3%] text-white text-center text-[40px] font-semibold">Insights by ShubhChintak!</h1>
+            <div className="mt-[5%] max-[768px]:flex max-[768px]:flex-col flex flex-row justify-evenly ml-[8%] mr-[8%]">
+                    <div className="bg-[#FFFFFF1A] max-[768px]:ml-[3%] max-[768px]:mr-[5%] w-[400px] h-[450px] justify-center items-center">
                         <Image className=""
                         alt=""
                         src="/images/edge.png"
                         width={400}
                         height={494}/>
                         <div className="bg-black-rgba h-[173px] w-[100%]">
-                            <p className="ml-[1%] text-[20px] text-white font-xyz">EDGE COMPUTING: THE NEW ERA</p>
-                            <p className="ml-[1%] text-white text-[16px] font-xyz">It all started with one big computer coming into existence.</p>
+                            <p className="font-medium ml-[1%] text-[20px] text-white font-xyz">EDGE COMPUTING: THE NEW ERA</p>
+                            <p className="mt-[2%] ml-[1%] text-white text-[16px] font-xyz">It all started with one big computer coming into existence.</p>
                             <a href="#" className="text-white text-[16px] ml-[1%]">Read More</a>
                         </div>
                     </div>
-                    <div className="w-[400px] h-[494px]">
+                    <div className="bg-[#FFFFFF1A] w-[400px] h-[450px]">
                         <Image className=" max-[768px]:mr-[5%]"
                         alt=""
                         src="/images/tips.png"
                         width={400}
                         height={494}/>
                         <div className=" max-[768px]:mr-[5%] bg-black-rgba h-[173px] w-[100%]">
-                            <p className="ml-[1%] text-[20px] text-white font-xyz">5 TIPS FOR DESIGNING GOOD POST...</p>
-                            <p className="ml-[1%] text-white text-[16px] font-xyz">Designing good looking posters and social media posts is not as hard as it sounds.</p>
+                            <p className="font-medium ml-[1%] text-[20px] text-white font-xyz">5 TIPS FOR DESIGNING GOOD POST...</p>
+                            <p className="mt-[2%] ml-[1%] text-white text-[16px] font-xyz">Designing good looking posters and social media posts is not as hard as it sounds.</p>
                             <a href="#" className="text-white text-[16px] ml-[1%]">Read More</a>
                         </div>
                     </div>
-                    <div className="w-[400px] h-[494px]">
+                    <div className="bg-[#FFFFFF1A] w-[400px] h-[450px]">
                         <Image className="max-[768px]:mr-[5%]"
                         alt=""
                         src="/images/blog.png"
                         width={400}
                         height={494}/>
                         <div className=" max-[768px]:mr-[5%] bg-black-rgba h-[173px] w-[100%]">
-                            <p className="ml-[1%] text-[20px] text-white font-xyz">HOW TO WRITE A GREAT BLOG</p>
-                            <p className="ml-[1%] text-white text-[16px] font-xyz">Is writing your passion but you fail to express it professionally?</p>
-                            <a href="#" className="text-white text-[16px] ml-[1%]">Read More</a>
+                            <p className="font-medium ml-[1%] text-[20px] text-white font-xyz">HOW TO WRITE A GREAT BLOG</p>
+                            <p className="mt-[2%] ml-[1%] text-white text-[16px] font-xyz">Is writing your passion but you fail to express it professionally?</p>
+                            <a href="#" className=" text-white text-[16px] ml-[1%]">Read More</a>
                         </div>
                     </div>
             </div>
