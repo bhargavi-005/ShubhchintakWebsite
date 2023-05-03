@@ -36,12 +36,12 @@ function Webdev() {
   };
 
   return (
-    <div className="box-border text-white mx-5 md:mx-12 lg:mx-28  ">
+    <div className="box-border text-white    ">
       <Header />
 
       <Carousel />
 
-      <div className=" flex justify-center items-center text-center  flex-col gap-9">
+      <div className=" flex justify-center items-center text-center  flex-col gap-9 mx-5">
         <div className="font-[Roboto] font-extrabold text-[40px] md:text-[60px]">
           Website Development
         </div>
@@ -55,7 +55,7 @@ function Webdev() {
         </button>
       </div>
 
-      <div className=" flex justify-center items-center text-center mt-[80px] flex-col gap-9">
+      <div className=" flex justify-center items-center text-center mt-[80px] flex-col gap-9 mx-5">
         <div className=" font-bold text-[25px] md:text-[40px] lg:text-[60px] lg:w-[1550px] ">
           <span className="text-[#0F89FF] font-bold text-[25px] md:text-[40px] lg:text-[60px] lg:w-[1550px]">
             Hire India's top Web development Company
@@ -149,7 +149,7 @@ function Webdev() {
         </div>
       </div>
 
-      <div className="grid content-center place-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3  lg:gap-x-0 items-center gap-4 my-12  ">
+      <div className="grid content-center place-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3  lg:gap-x-0 items-center gap-4 my-12 mx-5 ">
         <div className="bg-white w-fit h-fit text-black rounded-full p-5 text-base md:text-[20px] lg:text-[26px] font-semibold text-center">
           Front-end web development
         </div>

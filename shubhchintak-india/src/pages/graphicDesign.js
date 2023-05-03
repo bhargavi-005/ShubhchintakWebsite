@@ -5,7 +5,7 @@ import CheckOut from "./checkoutView";
 import Footer from "./footer";
 function GraphicD(){
     return(
-        <div className="box-border text-white mx-5 md:mx-12 lg:mx-28  " >
+        <div className="box-border text-white " >
             <Header/>
             <div className="flex flex-col  justify-center items-center lg:justify-between lg:flex-row-reverse my-14 lg:ml-36">
                     <div className=" lg:w-[50%] my-10 md:ml-16">
@@ -17,14 +17,14 @@ function GraphicD(){
                                 alt="workInsight"
                         />
                     </div>
-                    <div className=" lg:w-[40%] h-auto lg:mt-42 text-center lg:text-left ">
+                    <div className=" lg:w-[40%] h-auto lg:mt-42 text-center lg:text-left mx-5">
                         <div className=" font-bold text-[40px] md:text-[40px] lg:text-[60px] lg:w-[1250px] ">Graphic Designing</div>
                         <p className="text-center font-xyz text-[14px] font-medium md:text-xl lg:text-left lg:w-[80%] my-10">Transform Your Vision into Stunning Visuals with Our Graphic Design Services!</p>
                         <button className="bg-[#0F89FF] w-[160px] h-[40px] text-center text-lg rounded-full ">Get Started</button>
                     </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center text-center mt-[80px]">
+            <div className="flex flex-col justify-center items-center text-center mt-[80px]  mx-5">
                 <div className="font-xyz font-bold text-[25px] md:text-[40px] lg:text-[40px] lg:w-[1550px] text-[#0F89FF]">Hire India's top Graphic Designing 
                 Company</div>
                 <p className="font-xyz font-medium text-sm mt-8 md:text-xl lg:w-[1350px]">At Shubhchintak Technology, a design is more than just an art. It is treated as an integral part of visual communication that helps cement brands, whether a startup or an established enterprise, in the minds of the target audience. We are known for our best graphics designs in the market.</p>
