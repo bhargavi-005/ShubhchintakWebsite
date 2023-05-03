@@ -17,7 +17,7 @@ function career() {
                 </div>
                 <div className=" max-[768px]:w-[130%] w-[100%] ml-[-18%] mt-[5%]">
                     <Image className=" w-[600px] h-[500px]"
-                    src="/images/career1.png"
+                    src="/images/career2.png"
                     alt="career"
                     width={600}
                     height={430}/>
