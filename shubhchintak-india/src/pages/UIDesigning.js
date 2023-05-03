@@ -5,10 +5,13 @@ import Review from "./Review";
 import Header from "./Header";
 import CheckOut from "./checkoutView";
 import Footer from "./footer";
+import bg from "../../public/images/bg.png";
+
 
 function UIDesigning() {
   return (
     <>
+    <div className="" style={{ backgroundImage: `url(${bg.src})` }}>
       <div>
         <Header />
       </div>
@@ -270,6 +273,8 @@ function UIDesigning() {
       </div>
       <div className="mt-5">
         <Footer />
+      </div>
+
       </div>
     </>
   );
