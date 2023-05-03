@@ -208,10 +208,10 @@ export default function ArDevelopment() {
             </button>
           </div> */}
           <div className="flex justify-center items-center text-white">
-              <div className="w-auto h-[250px] lg:w-[1240px] bg-gradient-to-r from-white to-black flex justify-center items-center  rounded-3xl my-20">
-                <div className="w-[348px] h-[247px] md:w-[721px] lg:w-[1237px] px-3 bg-zinc-900 font-semibold text-xl md:text-3xl lg:text-3xl text-center flex flex-col justify-center items-center rounded-3xl gap-10">
+              <div className="w-3/4 p-1 bg-gradient-to-r from-white to-black flex justify-center items-center  rounded-3xl my-20">
+                <div className="w-full h-[247px]  px-3 bg-zinc-900 font-semibold text-xl md:text-3xl lg:text-3xl text-center flex flex-col justify-center items-center rounded-3xl gap-10">
                   Need complete VR/AR consultation?
-                  <button className="w-fit h-[37px] px-5 bg-[#0F89FF] rounded-full text-center text-lg ">
+                  <button className="w-fit h-auto p-2 px-5 bg-[#0F89FF] rounded-full text-center text-lg ">
                     Contact Our Experts
                   </button>
                 </div>

@@ -129,37 +129,38 @@ export default function CloudConsultation() {
              Broad spectrum of Cloud Services we provide!
             </div>
             <div className="item-center justify-center flex flex-col md:flex-row">
-              <div className="flex flex-col md:flex-row">
-                <div className="p-4 h-auto bg-white rounded-full m-4 text-2xl font-semibold text-center">
-                  Compute
-                </div>
-                <div className="p-4 h-auto bg-white rounded-full m-4 text-2xl font-semibold text-center">
-                  Kubernetes
-                </div>
-                <div className="p-4 h-auto bg-white rounded-full m-4 text-2xl font-semibold text-center">
-                  Storage
-                </div>
+            <div className="flex flex-col md:flex-row">
+              <div className="p-4 h-auto bg-white rounded-full m-4 text-2xl font-semibold text-center">
+                Compute
               </div>
               <div className="p-4 h-auto bg-white rounded-full m-4 text-2xl font-semibold text-center">
-                Database
-              </div>
-              <div className="p-4 h-auto bg-white rounded-full m-4 text-2xl font-semibold text-center">
-                Security
-              </div>
-              <div className="p-4 h-auto bg-white rounded-full m-4 text-2xl font-semibold text-center">
-                Networking
+              Kubernetes
               </div>
             </div>
-            <div className="item-center justify-center flex flex-col md:flex-row">
-              <div className="flex flex-row">
-                <div className="p-4 h-auto bg-white rounded-full m-4 text-2xl font-semibold text-center">
-                Cloud Firewall
-                </div>
-                <div className="p-4 h-auto bg-white rounded-full m-4 text-2xl font-semibold text-center">
-                 VLAN
-                </div>
-              </div>
+            <div className="p-4 h-auto bg-white rounded-full m-4 text-2xl font-semibold text-center">
+            Storage
             </div>
+             <div className="p-4 h-auto bg-white rounded-full m-4 text-2xl font-semibold text-center">
+             Database
+            </div>
+          </div>
+          <div className="item-center justify-center flex flex-col md:flex-row">
+            <div className="flex flex-col md:flex md:flex-row">
+            <div className="p-4 h-auto bg-white rounded-full m-4 text-2xl font-semibold text-center">
+              Security
+            </div>
+            <div className="p-4 h-auto bg-white rounded-full m-4 text-2xl font-semibold text-center">
+            Networking
+            </div>
+             <div className="p-4 h-auto bg-white rounded-full m-4 text-2xl font-semibold text-center">
+             Cloud Firewall
+            </div>
+             <div className="p-4 h-auto bg-white rounded-full m-4 text-2xl font-semibold text-center">
+             VLAN
+            </div>
+            
+            </div>
+          </div>
           </div>
 
           {/* <div className="w-3/2 border text-center p-8 md:p-20 items-center bg-zinc-800 ml-6 md:ml-20 mt-12 md:mt-20 content-center mr-6 md:mr-20 rounded-3xl">
@@ -171,10 +172,10 @@ export default function CloudConsultation() {
             </button>
           </div> */}
           <div className="flex justify-center items-center text-white">
-              <div className="w-auto h-[250px] lg:w-[1240px] bg-gradient-to-r from-white to-black flex justify-center items-center  rounded-3xl my-20">
-                <div className="w-[348px] h-[247px] md:w-[721px] lg:w-[1237px] px-3 bg-zinc-900 font-semibold text-xl md:text-2xl lg:text-3xl text-center flex flex-col justify-center items-center rounded-3xl gap-10">
-                  Need complete Cloud consultation?
-                  <button className="w-fit h-[37px] px-5 bg-[#0F89FF] rounded-full text-center text-lg ">
+              <div className="w-3/4 p-1 bg-gradient-to-r from-white to-black flex justify-center items-center  rounded-3xl my-20">
+                <div className="w-full h-[247px]  px-3 bg-zinc-900 font-semibold text-xl md:text-3xl lg:text-3xl text-center flex flex-col justify-center items-center rounded-3xl gap-10">
+                Need complete Cloud consultation?
+                  <button className="w-fit h-auto p-2 px-5 bg-[#0F89FF] rounded-full text-center text-lg ">
                     Contact Our Experts
                   </button>
                 </div>
