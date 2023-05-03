@@ -7,15 +7,15 @@ function career() {
     return(
         <div>
             <Header/>
-            <div className="flex flex-row">
-                <div className="ml-[8%] mr-[30%] mt-[15%]">
-                    <h1 className="text-[60px] font-xyz font-extrabold text-white">Build your career with Us!</h1>
-                    <p className="text-[18px] font-xyz font-semibold text-white">Our employees are the assets of our organization. We do 
+            <div className="flex flex-row max-[768px]:flex max-[768px]:flex-col ">
+                <div className=" ml-[8%] mr-[30%] mt-[15%]">
+                    <h1 className="max-[768px]:w-[150%] max-[768px]:text-center text-[60px] font-xyz font-extrabold text-white">Build your career with Us!</h1>
+                    <p className="max-[768px]:text-center max-[768px]:ml-[10%] max-[768px]:mr-[-50%] text-[18px] font-xyz font-semibold text-white">Our employees are the assets of our organization. We do 
                     not only provide jobs, we tend to built strong careers for 
                     our employees.</p>
                 </div>
-                <div className="w-[100%] ml-[-18%] mt-[5%]">
-                    <Image className="w-[600px] h-[500px]"
+                <div className=" max-[768px]:w-[130%] w-[100%] ml-[-18%] mt-[5%]">
+                    <Image className=" w-[600px] h-[500px]"
                     src="/images/career1.png"
                     alt="career"
                     width={600}
@@ -78,7 +78,7 @@ function career() {
                 </div>
                
             </div>
-            <div className="mt-[10%]">
+            <div className="max-[768px]:mt-[10%] relative mt-[10%]">
                 <h1 className="text-center text-white text-[40px] font-semibold">Current openings!</h1>
                 <div className="flex flex-row justify-evenly mt-[5%]">
                     <div className="bg-zinc-950 w-[295px] h-[316px] flex flex-col justify-center">

@@ -51,9 +51,10 @@ function landing(){
         <div className="bg-gradient-to-r from-blue-400 to-purple-400 pt-[2%]">
             <h2 className="max-[768px]:text-center ml-[10%] text-[30px] text-white">Solutions We Provide</h2>
             <div className="max-[768px]:hidden max-[768px]:flex max-[768px]:flex-col flex flex-row mt-[1%] ml-[10%] space-x-5">
+               
                 <div className="">
                     <a href="">
-                    <button class="bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
+                    <button tabIndex="0" value="2" role="button" class="dot bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
                         Website
                     </button>
                     </a>
@@ -107,8 +108,11 @@ function landing(){
                     </button>
                     </a>
                 </div>
+            
             </div>
-            <Carousel className="">
+            
+            
+            <Carousel>
                 <Web/>
                 <Mobile/>
                 <Cloud/>

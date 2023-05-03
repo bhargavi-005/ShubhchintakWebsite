@@ -9,6 +9,7 @@ import Carousel2 from "./carousel2";
 import CheckOut from "./checkoutView";
 import Review from "./Review";
 import Footer from "./footer";
+import bg from "../../public/images/bg.png";
 
 function Webdev() {
   // let slides = undefined;
@@ -35,7 +36,7 @@ function Webdev() {
   // };
 
   return (
-    <div className="box-border text-white    ">
+    <div className="box-border text-white" style={{ backgroundImage: `url(${bg.src})`}} >
       <Header />
 
       <Carousel />
