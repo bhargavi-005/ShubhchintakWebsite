@@ -1,7 +1,8 @@
 import Image from "next/image";
+import bg from "../../public/images/bg.png";
 function web(){
     return(
-        <div className="max-[768px]:order-last bg-gradient-to-r from-blue-400 to-purple-400 pt-[2%] pb-[3%]">
+        <div style={{ backgroundImage: `url(${bg.src})` }}  className="max-[768px]:order-last bg-gradient-to-r from-blue-400 to-purple-400 pt-[2%] pb-[3%]">
             <div className="max-[768px]:flex max-[768px]:flex-col flex flex-row">
                 <div className="mr-[8%]">
                 <h1 className="max-[768px]:text-center text-left ml-[18%] text-white text-[50px] font-xyz">Website Development</h1>
