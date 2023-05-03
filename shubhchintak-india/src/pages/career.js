@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Footer from "./footer";
 import Header from "./Header";
+import Link from "next/link";
 
 function career() {
     return(
@@ -79,28 +80,28 @@ function career() {
                         <p className="mt-[4%] text-center text-[20px] text-white ">BDM/BDE</p>
                         <p className="ml-[8%] mr-[8%] mt-[4%] text-center text-[16px] text-white ">Lorem ipsum dolor sit amet consectetur. Luctus volutpat urna eu donec purus tellus adipiscing at. Pellentesque commodo eget vitae sed velit non id. Tempor mauris vel </p>
                         <button class="mt-[7%] ml-[20%] mr-[20%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-                        Contact Us
+                       <Link href="/job_apply"> Contact Us</Link>
                         </button>
                     </div>
                     <div className="bg-zinc-950 w-[295px] h-[316px] flex flex-col justify-center">
                         <p className="mt-[4%] text-center text-[20px] text-white ">Wordpress developer</p>
                         <p className="ml-[8%] mr-[8%] mt-[4%] text-center text-[16px] text-white ">Lorem ipsum dolor sit amet consectetur. Luctus volutpat urna eu donec purus tellus adipiscing at. Pellentesque commodo eget vitae sed velit non id. Tempor mauris vel </p>
                         <button class="mt-[7%] ml-[20%] mr-[20%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-                        Contact Us
+                       <Link href="/job_apply"> Contact Us</Link>
                         </button>
                     </div>
                     <div className="bg-zinc-950 w-[295px] h-[316px] flex flex-col justify-center">
                         <p className="mt-[4%] text-center text-[20px] text-white "> UI/UX Designer</p>
                         <p className="ml-[8%] mr-[8%] mt-[4%] text-center text-[16px] text-white ">Lorem ipsum dolor sit amet consectetur. Luctus volutpat urna eu donec purus tellus adipiscing at. Pellentesque commodo eget vitae sed velit non id. Tempor mauris vel </p>
                         <button class="mt-[7%] ml-[20%] mr-[20%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-                        Contact Us
+                        <Link href="/job_apply"> Contact Us</Link>
                         </button>
                     </div>
                     <div className="bg-zinc-950 w-[295px] h-[316px] flex flex-col justify-center">
                         <p className="mt-[4%] text-center text-[20px] text-white ">React Native Intern</p>
                         <p className="ml-[8%] mr-[8%] mt-[4%] text-center text-[16px] text-white ">Lorem ipsum dolor sit amet consectetur. Luctus volutpat urna eu donec purus tellus adipiscing at. Pellentesque commodo eget vitae sed velit non id. Tempor mauris vel </p>
                         <button class="mt-[7%] ml-[20%] mr-[20%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-                        Contact Us
+                       <Link href="/job_apply"> Contact Us </Link>
                         </button>
                     </div>
                 </div>
@@ -109,28 +110,28 @@ function career() {
                         <p className="mt-[4%] text-center text-[20px] text-white ">React.JS Intern</p>
                         <p className="ml-[8%] mr-[8%] mt-[4%] text-center text-[16px] text-white ">Lorem ipsum dolor sit amet consectetur. Luctus volutpat urna eu donec purus tellus adipiscing at. Pellentesque commodo eget vitae sed velit non id. Tempor mauris vel </p>
                         <button class="mt-[7%] ml-[20%] mr-[20%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-                        Contact Us
+                        <Link href="/job_apply"> Contact Us</Link>
                         </button>
                     </div>
                     <div className="bg-zinc-950 w-[295px] h-[316px] flex flex-col justify-center">
                         <p className="mt-[4%] text-center text-[20px] text-white ">Node.JS intern</p>
                         <p className="ml-[8%] mr-[8%] mt-[4%] text-center text-[16px] text-white ">Lorem ipsum dolor sit amet consectetur. Luctus volutpat urna eu donec purus tellus adipiscing at. Pellentesque commodo eget vitae sed velit non id. Tempor mauris vel </p>
                         <button class="mt-[7%] ml-[20%] mr-[20%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-                        Contact Us
+                        <Link href="/job_apply"> Contact Us</Link>
                         </button>
                     </div>
                     <div className="bg-zinc-950 w-[295px] h-[316px] flex flex-col justify-center">
                         <p className="mt-[4%] text-center text-[20px] text-white ">Python intern</p>
                         <p className="ml-[8%] mr-[8%] mt-[4%] text-center text-[16px] text-white ">Lorem ipsum dolor sit amet consectetur. Luctus volutpat urna eu donec purus tellus adipiscing at. Pellentesque commodo eget vitae sed velit non id. Tempor mauris vel </p>
                         <button class="mt-[7%] ml-[20%] mr-[20%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-                        Contact Us
+                        <Link href="/job_apply"> Contact Us</Link>
                         </button>
                     </div>
                     <div className="bg-zinc-950 w-[295px] h-[316px] flex flex-col justify-center">
                         <p className="mt-[4%] text-center text-[20px] text-white ">Django Intern</p>
                         <p className="ml-[8%] mr-[8%] mt-[4%] text-center text-[16px] text-white ">Lorem ipsum dolor sit amet consectetur. Luctus volutpat urna eu donec purus tellus adipiscing at. Pellentesque commodo eget vitae sed velit non id. Tempor mauris vel </p>
                         <button class="mt-[7%] ml-[20%] mr-[20%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
-                        Contact Us
+                        <Link href="/job_apply">  Contact Us</Link>
                         </button>
                     </div>
                 </div>

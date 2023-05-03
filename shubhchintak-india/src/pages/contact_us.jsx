@@ -185,7 +185,7 @@ function contact_us() {
                           src="/svg/in.svg"
                           width="11"
                           height="11"
-                          alt=""
+                          alt="linkedin"
                         />
                       </div>
                       <div className="border-2 border-gray-500 rounded-full p-2">
@@ -194,7 +194,7 @@ function contact_us() {
                           src="/svg/fb.svg"
                           width="11"
                           height="1"
-                          alt=""
+                          alt="facebook"
                         />
                       </div>
                       <div className="border-2 border-gray-500 rounded-full p-2">
@@ -202,7 +202,7 @@ function contact_us() {
                           src="/svg/pint.svg"
                           width="11"
                           height="11"
-                          alt=""
+                          alt="pininterest"
                         />
                       </div>
                       <div className="border-2 border-gray-500 rounded-full p-2">
@@ -210,7 +210,7 @@ function contact_us() {
                           src="/svg/insta.svg"
                           width="11"
                           height="11"
-                          alt=""
+                          alt="instagram"
                         />
                       </div>
                       <div className="border-2 border-gray-500 rounded-full p-2">
@@ -218,7 +218,7 @@ function contact_us() {
                           src="/svg/twit.svg"
                           width="11"
                           height="11"
-                          alt=""
+                          alt="twitter"
                         />
                       </div>
                     </div>
