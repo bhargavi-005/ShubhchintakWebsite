@@ -150,6 +150,7 @@ function landing(){
                             <div>
                                 <Image
                                 src="/images/ticks.png"
+                                alt="ticks"
                                 width={20}
                                 height={20}/>
                             </div>
@@ -161,6 +162,7 @@ function landing(){
                             <div>
                                 <Image
                                 src="/images/ticks.png"
+                                alt="ticks"
                                 width={20}
                                 height={20}/>
                             </div>
@@ -172,6 +174,7 @@ function landing(){
                             <div>
                                 <Image
                                 src="/images/ticks.png"
+                                alt="ticks"
                                 width={20}
                                 height={20}/>
                             </div>
@@ -188,6 +191,7 @@ function landing(){
                     <div className="w-[140%] max-[768px]:order-first max-[768px]:w-[100%]">
                         <Image
                         src="/images/bestwork.png"
+                        alt="ticks"
                         width={500}
                         height={500}/>
                     </div>
@@ -213,6 +217,7 @@ function landing(){
                     <div className="max-[768px]:ml-[7%] max-[768px]:mr-[5%] w-[400px] h-[494px] justify-center items-center">
                         <Image className=""
                         src="/images/edge.png"
+                        alt="ticks"
                         width={400}
                         height={494}/>
                         <div className="bg-black-rgba h-[173px] w-[100%]">
@@ -224,6 +229,7 @@ function landing(){
                     <div className="w-[400px] h-[494px]">
                         <Image className="max-[768px]:ml-[5%] max-[768px]:mr-[5%]"
                         src="/images/tips.png"
+                        alt="ticks"
                         width={400}
                         height={494}/>
                         <div className="max-[768px]:ml-[5%] max-[768px]:mr-[5%] bg-black-rgba h-[173px] w-[100%]">
@@ -235,6 +241,7 @@ function landing(){
                     <div className="w-[400px] h-[494px]">
                         <Image className="max-[768px]:ml-[5%] max-[768px]:mr-[5%]"
                         src="/images/blog.png"
+                        alt="ticks"
                         width={400}
                         height={494}/>
                         <div className="max-[768px]:ml-[5%] max-[768px]:mr-[5%] bg-black-rgba h-[173px] w-[100%]">

@@ -2,6 +2,7 @@ import Image from "next/image";
 import Partners from "./partners"
 import Impact from "./impact"
 import Clients from "./clients"
+import Review from './customerviews'
 import Header from "./Header";
 import Footer from "./footer";
 function about(){
@@ -13,6 +14,7 @@ function about(){
             <div>
                 <Image className="max-[768px]:w-[80%] max-[768px]:h-[300px] w-[1240px] h-[500px] ml-[10%] mr-[10%]"
                 src="/images/aboutbg.png"
+                alt=""
                 width={1500}
                 height={1500}/>
             </div>
@@ -32,6 +34,7 @@ function about(){
                 <div className="mt-[13%]">
                     <Image className="max-[768px]:ml-[30%]"
                     src="/images/mission.png"
+                    alt="ticks"
                     width={150}
                     height={150}/>
                     <p className="max-[768px]:mt-[5%] mt-[30%] text-white font-xyz text-[30px] font-semibold text-center">Mission</p>
@@ -48,6 +51,7 @@ function about(){
                 <div className="mt-[13%] max-[768px]:order-first max-[768px]:ml-[30%]">
                     <Image
                     src="/images/vision.png"
+                    alt="ticks"
                     width={150}
                     height={150}/>
                     <p className="max-[768px]:mr-[30%] max-[768px]:mt-[5%] mt-[30%] text-white font-xyz text-[30px] font-semibold text-center">Vision</p>
@@ -61,6 +65,7 @@ function about(){
                 aliquam at scelerisque ornare.</p>
                 <Image className="ml-[16%] max-[768px]:ml-[1%]"
                 src="/images/methodology.png"
+                alt="ticks"
                 width={1000}
                 height={1000}/>
             </div>
