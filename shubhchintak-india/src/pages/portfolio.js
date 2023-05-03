@@ -4,10 +4,11 @@ import Impact from "./impact"
 import Clients from "./clients"
 import Header from "./Header";
 import Footer from "./footer";
+import bg from "../../public/images/bg.png";
 
 function port(){
     return(
-        <div className="max-[768px]:overflow-x-hidden">
+        <div style={{ backgroundImage: `url(${bg.src})` }} className="max-[768px]:overflow-x-hidden">
             <Header/>
             <div className="w-[100%] h-[30%]  relative">
                 <Image className="brightness-[30%] max-[768px]:h-[700px]"
