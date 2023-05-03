@@ -6,34 +6,33 @@ import Carousel from "./carousel";
 import carouselUI from "./carousel";
 import carouselsec from "./carousel2";
 import Carousel2 from "./carousel2";
-import Document from "next/document";
 import CheckOut from "./checkoutView";
 import Review from "./Review";
 import Footer from "./footer";
 
 function Webdev() {
-  let slides = undefined;
+  // let slides = undefined;
 
-  if (typeof window !== "undefined") {
-    slides = document.querySelector(".slide");
-    // rest of the code
-  }
+  // if (typeof window !== "undefined") {
+  //   slides = document.querySelector(".slide");
+  //   // rest of the code
+  // }
 
-  const btnpressprev = () => {
-    if (slides) {
-      let width = slides.clientWidth;
-      slides.scrollLeft = slides.scrollLeft - width;
-      console.log(width);
-    }
-  };
+  // const btnpressprev = () => {
+  //   if (slides) {
+  //     let width = slides.clientWidth;
+  //     slides.scrollLeft = slides.scrollLeft - width;
+  //     console.log(width);
+  //   }
+  // };
 
-  const btnpressnext = () => {
-    if (slides) {
-      let width = slides.clientWidth;
-      slides.scrollLeft = slides.scrollLeft + width;
-      console.log(width);
-    }
-  };
+  // const btnpressnext = () => {
+  //   if (slides) {
+  //     let width = slides.clientWidth;
+  //     slides.scrollLeft = slides.scrollLeft + width;
+  //     console.log(width);
+  //   }
+  // };
 
   return (
     <div className="box-border text-white    ">
@@ -58,7 +57,7 @@ function Webdev() {
       <div className=" flex justify-center items-center text-center mt-[80px] flex-col gap-9 mx-5">
         <div className=" font-bold text-[25px] md:text-[40px] lg:text-[60px] lg:w-[1550px] ">
           <span className="text-[#0F89FF] font-bold text-[25px] md:text-[40px] lg:text-[60px] lg:w-[1550px]">
-            Hire India's top Web development Company
+            Hire {"India's"} top Web development Company
           </span>{" "}
           to create your Next Gen Web development Solutions!
         </div>
@@ -79,6 +78,7 @@ function Webdev() {
           src="/svg/overlapimg.svg"
           width="320"
           height="210"
+          alt="overlap"
         />
       </div>
 
@@ -86,7 +86,7 @@ function Webdev() {
         <div className=" font-bold text-[25px] md:text-[40px] lg:text-[60px] lg:w-[1550px] ">
           Get digital transformation with
           <span className="text-[#0F89FF] font-bold text-[25px] md:text-[40px] lg:text-[60px] lg:w-[1550px]">
-            360' Web Development Process!
+            {"360'"} Web Development Process!
           </span>
         </div>
       </div>
