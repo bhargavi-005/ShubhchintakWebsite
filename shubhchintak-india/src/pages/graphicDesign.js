@@ -3,9 +3,10 @@ import Carousel2 from "./carousel2";
 import Header from "./Header";
 import CheckOut from "./checkoutView";
 import Footer from "./footer";
+import bg from "../../public/images/bg.png";
 function GraphicD() {
   return (
-    <div className="box-border text-white ">
+    <div className="box-border text-white " style={{ backgroundImage: `url(${bg.src})`}} >
       <Header />
       <div className="flex flex-col  justify-center items-center lg:justify-between lg:flex-row-reverse my-14 lg:ml-36">
         <div className=" lg:w-[50%] my-10 md:ml-16">

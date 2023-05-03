@@ -5,10 +5,11 @@ import OurInsight from "./ourInsite";
 import Review from "./Review";
 import CheckOut from "./checkoutView";
 import Footer from "./footer";
+import bg from "../../public/images/bg.png";
 
 function MobileApp() {
   return (
-    <div className="box-border text-white  ">
+    <div className="box-border text-white  " style={{ backgroundImage: `url(${bg.src})`}} >
       <Header />
       <div className="flex flex-col    lg:flex-row-reverse my-14">
         <div className=" lg:w-[50%] md:ml-16">
