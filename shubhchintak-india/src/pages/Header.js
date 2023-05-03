@@ -11,12 +11,15 @@ function Header() {
   return (
     <div style={{ backgroundImage: `url(${bg.src})` }} className=" header text-white flex flex-row font-xyz pt-6 mx-5 justify-between  xl:items-center  ">
       <div className="top-0 left-0 w-[139px] h-[29px] md:w-[187px] md:h-[46px]">
+      <Link href="/landing">
         <Image
           src="/svg/stpl_logo_white-01-01 1.svg"
           height="45"
           width="190"
           alt=""
+          
         />
+        </Link>
       </div>
 
       <div className="  xl:static absolute xl:min-h-fit min-h-[60vh] left-0 top-[-100%] xl:w-auto  w-full flex items-center px-5 ">

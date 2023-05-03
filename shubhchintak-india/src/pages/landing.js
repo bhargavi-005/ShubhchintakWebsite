@@ -17,6 +17,7 @@ import Success from "./success"
 import Header from "./Header";
 import Footer from "./footer";
 import Review from "./customerviews"
+import Acco from "./Accordation"
 function ok(){
     
 }
@@ -322,6 +323,7 @@ function landing(){
                     </div>
             </div>
         </div>
+        <Acco/>
         {/* Next Section */}
        <Footer/>
         </div>

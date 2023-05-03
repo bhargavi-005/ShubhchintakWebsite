@@ -14,6 +14,7 @@ module.exports = {
       },
       fontFamily:{
         xyz:["Poppins", "serif"],
+        abc:["'Roboto', sans-serif"]
       },
     },
   },

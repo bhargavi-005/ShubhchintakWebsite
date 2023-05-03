@@ -28,7 +28,7 @@ function carouselsec() {
       <div className="p-5">
       <div className="">
             <Image
-              className="w-full object-cover object-center rounded z-10 lg:h-[420px]  md:h-[350px]"
+              className="w-full object-cover object-center rounded z-10 lg:h-[460px]  md:h-[350px]"
               alt="earth"
               src="/svg/Rectangl1.svg"
               width="391"
@@ -136,6 +136,15 @@ function carouselsec() {
         
        
       </Carousel2>
+
+      <div className="flex flex-row justify-center items-center gap-4 mt-10">
+          <div className="w-2 h-2 bg-white rounded-full"></div>
+          <div className="w-2 h-2 bg-white rounded-full"></div>
+          <div className="w-2 h-2 bg-white rounded-full"></div>
+          <div className="w-2 h-2 bg-white rounded-full"></div>
+          <div className="w-2 h-2 bg-white rounded-full"></div>
+          <div className="w-2 h-2 bg-white rounded-full"></div>
+      </div>
 
      
     </div>
