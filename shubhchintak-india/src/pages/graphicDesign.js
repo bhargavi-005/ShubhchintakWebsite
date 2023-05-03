@@ -6,12 +6,12 @@ import Footer from "./footer";
 import bg from "../../public/images/bg.png";
 function GraphicD() {
   return (
-    <div className="box-border text-white " style={{ backgroundImage: `url(${bg.src})`}} >
+    <div className="box-border text-white font-xyz" style={{ backgroundImage: `url(${bg.src})`}} >
       <Header />
-      <div className="flex flex-col  justify-center items-center lg:justify-between lg:flex-row-reverse my-14 lg:ml-36">
-        <div className=" lg:w-[50%] my-10 md:ml-16">
+      <div className="flex flex-col lg:flex-row-reverse justify-center items-center gap-24 ">
+        <div className="  my-10 md:ml-16">
           <Image
-            className="lg:w-[393px] lg:h-[486px]"
+            className="lg:w-[493px] lg:h-[586px]"
             src="/svg/GD1.svg"
             width="247"
             height="156"
@@ -19,7 +19,7 @@ function GraphicD() {
           />
         </div>
         <div className=" lg:w-[40%] h-auto lg:mt-42 text-center lg:text-left mx-5">
-          <div className=" font-bold text-[40px] md:text-[40px] lg:text-[60px] lg:w-[1250px] ">
+          <div className="font-abc font-bold text-[40px] md:text-[40px] lg:text-[60px] lg:w-[1250px] ">
             Graphic Designing
           </div>
           <p className="text-center font-xyz text-[14px] font-medium md:text-xl lg:text-left lg:w-[80%] my-10">
@@ -33,7 +33,7 @@ function GraphicD() {
       </div>
 
       <div className="flex flex-col justify-center items-center text-center mt-[80px]  mx-5">
-        <div className="font-xyz font-bold text-[25px] md:text-[40px] lg:text-[40px] lg:w-[1550px] text-[#0F89FF]">
+        <div className="font-xyz font-bold text-[25px] md:text-[40px] lg:text-[40px] lg:w-[900px] text-[#0F89FF]">
           Hire {"India's"} top Graphic Designing Company
         </div>
         <p className="font-xyz font-medium text-sm mt-8 md:text-xl lg:w-[1350px]">
@@ -53,10 +53,10 @@ function GraphicD() {
         />
       </div>
 
-      <div className="flex justify-center items-center text-center mt-[80px]">
-        <div className=" font-bold text-[25px] md:text-[40px] lg:text-[60px] lg:w-[1550px] ">
+      <div className="flex justify-center items-center text-center mt-[100px]">
+        <div className=" font-semibold text-[25px] md:text-[40px]  lg:w-[1088px] ">
           Get digital transformation with
-          <span className="text-[#0F89FF] font-bold text-[25px] md:text-[40px] lg:text-[60px] lg:w-[1550px]">
+          <span className="text-[#0F89FF] font-semibold text-[25px] md:text-[40px]  lg:w-[1088px]">{" "}
             {"360'"} Graphic Designing Process!
           </span>
         </div>
@@ -64,48 +64,48 @@ function GraphicD() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  place-items-center  my-20 lg:mx-28 gap-y-6 font-xyz">
         <div className="w-[320px] h-[135px] md:w-[334px] md:h-[135px] lg:w-[400px] lg:h-[135px]  bg-gradient-to-b from-white to-black flex justify-center items-center rounded-[4px] ">
-          <div className="w-[315px] h-[130px] md:w-[329px] md:h-[130px] lg:w-[395px] lg:h-[130px] bg-gray-950  rounded-[4px] flex flex-col justify-center text-center ">
-            <h5 className="text-base ">Step 1</h5>
-            <h6 className="text-xl">
+          <div className="w-[315px] h-[130px] md:w-[329px] md:h-[130px] lg:w-[395px] lg:h-[130px] bg-gray-950  rounded-[4px] flex flex-col justify-center text-center font-semibold ">
+            <h5 className="text-xl ">Step 1</h5>
+            <h6 className="text-[26px]">
               Share brief details of your requirements
             </h6>
           </div>
         </div>
         <div className="w-[320px] h-[135px] md:w-[334px] md:h-[135px] lg:w-[400px] lg:h-[135px]   bg-gradient-to-b from-white to-black flex justify-center items-center  rounded-[4px]">
-          <div className="w-[315px] h-[133px] md:w-[329px] md:h-[130px] lg:w-[395px] lg:h-[130px]  bg-gray-950 rounded-[4px] flex flex-col justify-center text-center">
-            <h5 className="text-base ">Step 2</h5>
-            <h6 className="text-xl">Assigned to Designer</h6>
+          <div className="w-[315px] h-[133px] md:w-[329px] md:h-[130px] lg:w-[395px] lg:h-[130px]  bg-gray-950 rounded-[4px] flex flex-col justify-center text-center  font-semibold">
+            <h5 className="text-xl ">Step 2</h5>
+            <h6 className="text-[26px]">Assigned to Designer</h6>
           </div>
         </div>
         <div className="w-[320px] h-[135px] md:w-[334px] md:h-[135px] lg:w-[400px] lg:h-[135px]   bg-gradient-to-b from-white to-black flex justify-center items-center  rounded-[4px]">
-          <div className="w-[315px] h-[133px] md:w-[329px] md:h-[130px] lg:w-[395px] lg:h-[130px] bg-gray-950 rounded-[4px] flex flex-col justify-center text-center">
-            <h5 className="text-base ">Step 3</h5>
-            <h6 className="text-xl">Sharing of graphics created with you</h6>
+          <div className="w-[315px] h-[133px] md:w-[329px] md:h-[130px] lg:w-[395px] lg:h-[130px] bg-gray-950 rounded-[4px] flex flex-col justify-center text-center  font-semibold">
+            <h5 className="text-xl ">Step 3</h5>
+            <h6 className="text-[26px]">Sharing of graphics created with you</h6>
           </div>
         </div>
         <div className="w-[320px] h-[135px] md:w-[334px] md:h-[135px] lg:w-[400px] lg:h-[135px]   bg-gradient-to-b from-white to-black flex justify-center items-center  rounded-[4px]">
-          <div className="w-[315px] h-[133px] md:w-[329px] md:h-[130px] lg:w-[395px] lg:h-[130px] bg-gray-950 rounded-[4px] flex flex-col justify-center text-center">
-            <h5 className="text-base ">Step 4</h5>
-            <h6 className="text-xl mx-2">Edits can be made</h6>
+          <div className="w-[315px] h-[133px] md:w-[329px] md:h-[130px] lg:w-[395px] lg:h-[130px] bg-gray-950 rounded-[4px] flex flex-col justify-center text-center  font-semibold">
+            <h5 className="text-xl ">Step 4</h5>
+            <h6 className="text-[26px] mx-2">Edits can be made</h6>
           </div>
         </div>
         <div className="w-[320px] h-[135px] md:w-[334px] md:h-[135px] lg:w-[400px] lg:h-[135px]   bg-gradient-to-b from-white to-black flex justify-center items-center  rounded-[4px]">
-          <div className="w-[315px] h-[133px] md:w-[329px] md:h-[130px] lg:w-[395px] lg:h-[130px] bg-gray-950 rounded-[4px] flex flex-col justify-center text-center">
-            <h5 className="text-base ">Step 5</h5>
-            <h6 className="text-xl">Final your graphics</h6>
+          <div className="w-[315px] h-[133px] md:w-[329px] md:h-[130px] lg:w-[395px] lg:h-[130px] bg-gray-950 rounded-[4px] flex flex-col justify-center text-center  font-semibold">
+            <h5 className="text-xl ">Step 5</h5>
+            <h6 className="text-[26px]">Final your graphics</h6>
           </div>
         </div>
         <div className="w-[320px] h-[135px] md:w-[334px] md:h-[135px] lg:w-[400px] lg:h-[135px]   bg-gradient-to-b from-white to-black flex justify-center items-center  rounded-[4px]">
-          <div className="w-[315px] h-[133px] md:w-[329px] md:h-[130px] lg:w-[395px] lg:h-[130px] bg-gray-950 rounded-[4px] flex flex-col justify-center text-center">
-            <h5 className="text-base ">Step 6</h5>
-            <h6 className="text-xl">Download your file</h6>
+          <div className="w-[315px] h-[133px] md:w-[329px] md:h-[130px] lg:w-[395px] lg:h-[130px] bg-gray-950 rounded-[4px] flex flex-col justify-center text-center  font-semibold">
+            <h5 className="text-xl ">Step 6</h5>
+            <h6 className="text-[26px]">Download your file</h6>
           </div>
         </div>
       </div>
       <div className="flex justify-center items-center text-center mt-[80px]">
-        <div className=" font-bold text-[25px] md:text-[40px] lg:text-[60px] lg:w-[1250px] ">
+        <div className=" font-semibold text-[25px] md:text-[40px] lg:w-[926px] ">
           We provide
-          <span className="text-[#0F89FF] font-bold text-[25px] md:text-[40px] lg:text-[60px] lg:w-[1550px]">
+          <span className="text-[#0F89FF] font-semibold text-[25px] md:text-[40px] lg:w-[926px]">
             {" "}
             Right Graphic Designing services as per the industry!
           </span>
@@ -113,13 +113,13 @@ function GraphicD() {
       </div>
       <Carousel2 />
 
-      <div className="flex justify-center items-center text-center mt-[80px] ">
-        <div className=" font-bold text-[25px] md:text-[40px] lg:text-[60px] lg:w-[1250px] ">
+      <div className="flex justify-center items-center text-center md:mt-[110px] ">
+        <div className=" font-semibold text-[25px] md:text-[40px]  lg:w-[778px] ">
           Broad spectrum of Graphic Designing Services we provide!
         </div>
       </div>
 
-      <div className="grid grid-col-2 place-items-center  md:grid-cols-2 lg:grid-cols-3  lg:gap-x-0 items-center gap-4 my-8  ">
+      <div className="item-center justify-center flex flex-col md:flex-row md:mb-10 mt-[80px] gap-5">
         <div className="bg-white w-fit h-fit text-black rounded-full p-5 text-base md:text-[20px] lg:text-[26px] font-semibold text-center">
           Logo and Identity designing
         </div>
@@ -129,6 +129,8 @@ function GraphicD() {
         <div className="bg-white w-fit h-fit text-black rounded-full p-5 text-base md:text-[20px] lg:text-[26px] font-semibold text-center">
           Advertisement Creatives
         </div>
+      </div>
+      <div className="item-center justify-center flex flex-col md:flex-row md:mb-10 mt-[80px] gap-5">
         <div className="bg-white w-fit h-fit text-black rounded-full p-5 text-base md:text-[20px] lg:text-[26px] font-semibold text-center">
           Web graphics
         </div>
@@ -140,9 +142,9 @@ function GraphicD() {
         </div>
       </div>
 
-      <div className="flex justify-center items-center">
-        <div className="w-auto h-[250px] lg:w-[1240px] bg-gradient-to-r from-white to-black flex justify-center items-center  rounded-[4px] my-10">
-          <div className="w-[348px] h-[247px] md:w-[721px] lg:w-[1237px] px-3 bg-gray-950 font-semibold text-xl md:text-2xl lg:text-3xl text-center flex flex-col justify-center items-center rounded-[4px] gap-10">
+      <div className="flex justify-center items-center md:mt-[118px]">
+        <div className="w-auto h-[250px] lg:w-[1240px] bg-gradient-to-r from-white to-black flex justify-center items-center  rounded-[20px] my-10">
+          <div className="w-[348px] h-[247px] md:w-[721px] lg:w-[1237px] px-3 bg-gray-950 font-semibold text-xl md:text-2xl lg:text-3xl text-center flex flex-col justify-center items-center rounded-[20px] gap-10">
             Need complete Graphic Designing consultation?
             <button className="w-fit h-[37px] px-5 bg-[#0F89FF] rounded-full text-center text-lg ">
               Contact Our Experts
