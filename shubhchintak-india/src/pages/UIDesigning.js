@@ -75,37 +75,50 @@ function UIDesigning() {
               {" 360'"} UI/UX Designing Process!
             </span>
           </div>
-          <div className="m-8 mb-0 text-white justify-center flex flex-col md:flex-row">
-            <div className="w-3/2 md:w-1/4 rounded-xl pt-4 pb-8 border m-6 flex flex-col text-center font-bold bg-zinc-800">
-              <div className="text-xl text-white m-4">Step 1</div>
-              <div className="text-3xl text-white">UX/UI Audit</div>
-            </div>
-            <div className="w-3/2 md:w-1/4 rounded-xl pt-4 pb-8 border m-6 flex flex-col text-center font-bold bg-zinc-800">
-              <div className="text-xl text-white m-4">Step 2</div>
-              <div className="text-3xl text-white">User Research</div>
-            </div>
-            <div className="w-3/2 md:w-1/4 rounded-xl pt-4 pb-8 border m-6 flex flex-col text-center font-bold bg-zinc-800">
-              <div className="text-xl text-white m-4">Step 3</div>
-              <div className="text-3xl text-white">Strategy formation</div>
-            </div>
-          </div>
-
-          <div className="m-8  mt-0 text-white justify-center flex flex-col md:flex-row">
-            <div className="w-3/2 md:w-1/4 rounded-xl pt-4 pb-8 border m-6 flex flex-col text-center font-bold bg-zinc-800">
-              <div className="text-xl text-white m-4">Step 4</div>
-              <div className="text-2xl text-white">UX Design creation</div>
-            </div>
-            <div className="w-3/2 md:w-1/4 rounded-xl pt-4 pb-8 border m-6 flex flex-col text-center font-bold bg-zinc-800">
-              <div className="text-xl text-white m-4">Step 5</div>
-              <div className="text-2xl text-white">
-                User Interface development
-              </div>
-            </div>
-            <div className="w-3/2 md:w-1/4 rounded-xl pt-4 pb-8 border m-6 flex flex-col text-center font-bold bg-zinc-800">
-              <div className="text-xl text-white m-4">Step 6</div>
-              <div className="text-2xl text-white">Deployment & Support</div>
-            </div>
-          </div>
+           
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  place-items-center  my-20 lg:mx-28 gap-y-6 font-xyz">
+                <div className="w-[320px] h-[135px] md:w-[334px] md:h-[135px] lg:w-[400px] lg:h-[135px]  bg-gradient-to-b from-white to-black flex justify-center items-center rounded-[4px] ">
+                  <div className="w-[315px] h-[130px] md:w-[329px] md:h-[130px] lg:w-[395px] lg:h-[130px] bg-zinc-900  rounded-[4px] flex flex-col justify-center text-center ">
+                    <div className="text-xl text-white m-2 mt-0">Step 1</div>
+                    <div className="text-2xl text-white">UX/UI Audit</div>
+                  </div>
+                </div>
+                <div className="w-[320px] h-[135px] md:w-[334px] md:h-[135px] lg:w-[400px] lg:h-[135px]   bg-gradient-to-b from-white to-black flex justify-center items-center  rounded-[4px]">
+                  <div className="w-[315px] h-[133px] md:w-[329px] md:h-[130px] lg:w-[395px] lg:h-[130px]  bg-zinc-900 rounded-[4px] flex flex-col justify-center text-center">
+                    <div className="text-xl text-white m-2 mt-0">Step 2</div>
+                    <div className="text-2xl text-white">User Research</div>
+                  </div>
+                </div>
+                <div className="w-[320px] h-[135px] md:w-[334px] md:h-[135px] lg:w-[400px] lg:h-[135px]   bg-gradient-to-b from-white to-black flex justify-center items-center  rounded-[4px]">
+                  <div className="w-[315px] h-[133px] md:w-[329px] md:h-[130px] lg:w-[395px] lg:h-[130px] bg-zinc-900 rounded-[4px] flex flex-col justify-center text-center">
+                    <div className="text-xl text-white m-2 mt-0">Step 3</div>
+                    <div className="text-2xl text-white">
+                      Strategy formation
+                    </div>
+                  </div>
+                </div>
+                <div className="w-[320px] h-[135px] md:w-[334px] md:h-[135px] lg:w-[400px] lg:h-[135px]   bg-gradient-to-b from-white to-black flex justify-center items-center  rounded-[4px]">
+                  <div className="w-[315px] h-[133px] md:w-[329px] md:h-[130px] lg:w-[395px] lg:h-[130px] bg-zinc-900 rounded-[4px] flex flex-col justify-center text-center">
+                    <div className="text-xl text-white m-2 mt-0">Step 4</div>
+                    <div className="text-2xl text-white">
+                      UX Design creation
+                    </div>
+                  </div>
+                </div>
+                <div className="w-[320px] h-[135px] md:w-[334px] md:h-[135px] lg:w-[400px] lg:h-[135px]   bg-gradient-to-b from-white to-black flex justify-center items-center  rounded-[4px]">
+                  <div className="w-[315px] h-[133px] md:w-[329px] md:h-[130px] lg:w-[395px] lg:h-[130px] bg-zinc-900 rounded-[4px] flex flex-col justify-center text-center">
+                    <div className="text-xl text-white m-4 2 mt-0">Step 5</div>
+                    <div className="text-2xl text-white">User Interface development</div>
+                  </div>
+                  </div>
+                  <div className="w-[320px] h-[135px] md:w-[334px] md:h-[135px] lg:w-[400px] lg:h-[135px]   bg-gradient-to-b from-white to-black flex justify-center items-center rounded-[4px]">
+                    <div className="w-[315px] h-[133px] md:w-[329px] md:h-[130px] lg:w-[395px] lg:h-[130px] bg-zinc-900 rounded-[4px] flex flex-col justify-center text-center">
+                      <div className="text-xl text-white m-2 mt-0">Step 6</div>
+                      <div className="text-2xl text-white">Deployment & Support</div>
+                    </div>
+                  </div>
+                 
+                  </div>
         </section>
 
         <section>
@@ -127,38 +140,48 @@ function UIDesigning() {
           </div>
           <div className="item-center justify-center flex flex-col md:flex-row">
             <div className="flex flex-row">
-              <div className="p-4 h-16 bg-white rounded-full m-4 text-3xl font-semibold">
+              <div className="p-4 h-auto bg-white rounded-full m-4 text-2xl font-semibold">
                 Branding
               </div>
-              <div className="p-4 h-auto bg-white rounded-full m-4 text-3xl font-semibold text-center">
+              <div className="p-4 h-auto bg-white rounded-full m-4 text-2xl font-semibold text-center">
                 UI designs
               </div>
             </div>
-            <div className="p-4 h-auto bg-white rounded-full m-4 text-3xl font-semibold text-center">
+            <div className="p-4 h-auto bg-white rounded-full m-4 text-2xl font-semibold text-center">
               Marketing collateral
             </div>
-            <div className="p-4 h-auto bg-white rounded-full m-4 text-3xl font-semibold text-center">
+            <div className="p-4 h-auto bg-white rounded-full m-4 text-2xl font-semibold text-center">
               Social Media design
             </div>
           </div>
           <div className="item-center justify-center flex flex-col md:flex-row">
             <div className="flex flex-row">
-              <div className="p-4 h-auto bg-white rounded-full m-4 text-3xl font-semibold text-center">
+              <div className="p-4 h-auto bg-white rounded-full m-4 text-2xl font-semibold text-center">
                 Newsletter & emailers
               </div>
-              <div className="p-4 h-auto bg-white rounded-full m-4 text-3xl font-semibold text-center">
+              <div className="p-4 h-auto bg-white rounded-full m-4 text-2xl font-semibold text-center">
                 Videos
               </div>
             </div>
           </div>
-          <div className="w-3/2 border text-center p-8 md:p-20 items-center bg-zinc-800 ml-6 md:ml-20 mt-12 md:mt-20 content-center mr-6 md:mr-20 rounded-3xl">
+          {/* <div className="w-3/2 border text-center p-8 md:p-20 items-center bg-zinc-800 ml-6 md:ml-20 mt-12 md:mt-20 content-center mr-6 md:mr-20 rounded-3xl">
             <div className="text-2xl md:text-4xl text-white font-bold m-3 md:m-5">
               Need complete UI/UX Designing consultation?
             </div>
             <button className="text-white font-semibold bg-blue-500 p-4 mt-8 text-2xl rounded-full">
               Contact our experts
             </button>
+          </div> */}
+          <div className="flex justify-center items-center text-white">
+        <div className="w-auto h-[250px] lg:w-[1240px] bg-gradient-to-r from-white to-black flex justify-center items-center  rounded-3xl my-20">
+          <div className="w-[348px] h-[247px] md:w-[721px] lg:w-[1237px] px-3 bg-zinc-900 font-semibold text-xl md:text-2xl lg:text-3xl text-center flex flex-col justify-center items-center rounded-3xl gap-10">
+            Need complete Web development consultation?
+            <button className="w-fit h-[37px] px-5 bg-[#0F89FF] rounded-full text-center text-lg ">
+              Contact Our Experts
+            </button>
           </div>
+        </div>
+      </div>
         </section>
 
         <section>
