@@ -165,7 +165,7 @@ export default function ArDevelopment() {
             </div>
           </div>
           <div className="item-center justify-center flex flex-col md:flex-row">
-            <div className="flex flex-row">
+            <div className="flex flex-col md:flex md:flex-row">
             <div className="p-4 h-auto bg-white rounded-full m-4 text-2xl font-semibold text-center">
               Prototype Simulation
             </div>
@@ -178,7 +178,7 @@ export default function ArDevelopment() {
             </div>
           </div>
           <div className="item-center justify-center flex flex-col md:flex-row">
-            <div className="flex flex-row">
+            <div className="flex flex-col md:flex md:flex-row">
             <div className="p-4 h-auto bg-white rounded-full m-4 text-2xl font-semibold text-center">
               Human Anatomy Simulation(for medical purpose)
             </div>
@@ -188,7 +188,7 @@ export default function ArDevelopment() {
             </div>
           </div>
           <div className="item-center justify-center flex flex-col md:flex-row">
-            <div className="flex flex-row">
+            <div className="flex flex-col md:flex md:flex-row">
             <div className="p-4 h-auto bg-white rounded-full m-4 text-2xl font-semibold text-center">
               Skill Training Simulation/ Practice Simulation
             </div>
