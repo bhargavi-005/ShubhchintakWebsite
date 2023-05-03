@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import Marquee from "react-fast-marquee";
 
 function carouselUI() {
   const responsive = {
@@ -24,8 +25,8 @@ function carouselUI() {
   return (
     
       <div className="my-20">
-      <Carousel responsive={responsive}>
-        <div className="p-5">
+      <Marquee className="flex flex-row" responsive={responsive}>
+        <div className="p-10">
         <div className="  ">
               <Image
                 className="w-full object-cover object-center rounded z-10"
@@ -36,7 +37,7 @@ function carouselUI() {
               />
         </div>
         </div>
-        <div className="p-5">
+        <div className="p-10">
         <div className="">
               <Image
                 className="w-full object-cover object-center rounded z-10"
@@ -47,18 +48,18 @@ function carouselUI() {
               />
         </div>
         </div>
-        <div className="p-5">
+        <div className="p-10">
         <div className="">
               <Image
-                className="w-full object-cover object-center rounded z-10"
+                className="w-full h-[240px] object-cover object-center rounded z-10"
                 alt="earth"
                 src="/svg/one3.svg"
                 width="391"
-                height="240"
+                height="280"
               />
         </div>
         </div>
-        <div className="p-5">
+        <div className="p-10">
         <div className="">
               <Image
                 className="w-full object-cover object-center rounded z-10"
@@ -70,7 +71,7 @@ function carouselUI() {
         </div>
         </div>
        
-      </Carousel>
+      </Marquee>
     </div>
    
   );
