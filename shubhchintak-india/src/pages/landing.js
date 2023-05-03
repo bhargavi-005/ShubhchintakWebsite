@@ -17,11 +17,7 @@ import Success from "./success"
 import Header from "./Header";
 import Footer from "./footer";
 import Review from "./customerviews"
-<<<<<<< Updated upstream
 import Acco from "./Accordation"
-=======
-import Acco from './Accordation'
->>>>>>> Stashed changes
 function ok(){
     
 }
@@ -327,13 +323,7 @@ function landing(){
                     </div>
             </div>
         </div>
-<<<<<<< Updated upstream
         <Acco/>
-=======
-        <div>
-            <Acco/>
-        </div>
->>>>>>> Stashed changes
         {/* Next Section */}
        <Footer/>
         </div>
