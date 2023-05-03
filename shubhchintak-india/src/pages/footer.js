@@ -110,7 +110,7 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <div className=" md:flex md:flex-row flex flex-col md:justify-center md:items-center justify-evenly md:-mt-44 lg:-mt-20">
+        <div className=" md:flex md:flex-row flex flex-col md:justify-center md:items-center justify-evenly md:-mt-44 lg:-mt-44 mt-0">
           <div className="md:flex md:flex-row md:gap-28 w-full">
             <div className=" flex flex-col gap-5">
               <div className="font-extrabold text-xl">Resources</div>
