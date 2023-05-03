@@ -6,8 +6,13 @@ import Image from "next/image";
 import Partner from "./partners"
 import Impact from "./impact"
 import Web from "./websitedev"
+import Mobile from "./mobileappdev"
+import Cloud from "./cloudcunsuldev"
+import Graph from "./graphdev"
+import Manual from "./manualdev"
+import UIUX from "./UIUXdev"
+import VRAR from "./VrArdev"
 import Clients from "./clients"
-
 import Success from "./success"
 import Header from "./Header";
 import Footer from "./footer";
@@ -104,7 +109,13 @@ function landing(){
             </div>
             <Carousel className="">
                 <Web/>
-                <Web/>
+                <Mobile/>
+                <Cloud/>
+                <Graph/>
+                <UIUX/>
+                <Cloud/>
+                <Manual/>
+                <VRAR/>
             </Carousel>
         </div>
         {/* Next Section */}
