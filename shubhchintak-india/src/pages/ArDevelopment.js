@@ -3,11 +3,13 @@ import CheckOut from './checkoutView'
 import Header from './Header'
 import CasouselUi from './carouselUI'
 import Footer from './footer'
+import bg from "../../public/images/bg.png";
 
 
 export default function ArDevelopment() {
   return (
     <>
+    <div className="" style={{ backgroundImage: `url(${bg.src})` }}>
     <Header/>
       <div className="p-16">
         <section classname="flex flex-row text-white">
@@ -209,6 +211,8 @@ export default function ArDevelopment() {
       </div>
       <div className="mt-5">
         <Footer/>
+        </div>
+
         </div>
     </>
   );
