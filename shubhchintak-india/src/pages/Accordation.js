@@ -33,9 +33,10 @@ export default function Example() {
   return (
     <Fragment>
       <div
-        className="text-white p-12 text-xl font-medium"
+        className="text-white md:p-28 p-10 text-xl font-medium"
         style={{ backgroundImage: `url(${bg.src})` }}
       >
+      <div className="text-5xl font-bold text-center mt-16 mb-16">Frequently Asked Questions</div>
         <Accordion open={open === 1} icon={<Icon id={1} open={open} />}>
           <AccordionHeader onClick={() => handleOpen(1)}>
             How can I do online business?

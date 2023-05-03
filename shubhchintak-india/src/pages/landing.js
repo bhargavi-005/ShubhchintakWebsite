@@ -2,6 +2,7 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"></link>
 import { Carousel } from 'react-responsive-carousel';
+import bg from "../../public/images/bg.png";
 import Image from "next/image";
 import Partner from "./partners"
 import Impact from "./impact"
@@ -17,6 +18,7 @@ import Success from "./success"
 import Header from "./Header";
 import Footer from "./footer";
 import Review from "./customerviews"
+import Acco from './Accordation'
 function ok(){
     
 }
@@ -321,6 +323,9 @@ function landing(){
                         </div>
                     </div>
             </div>
+        </div>
+        <div>
+            <Acco/>
         </div>
         {/* Next Section */}
        <Footer/>
