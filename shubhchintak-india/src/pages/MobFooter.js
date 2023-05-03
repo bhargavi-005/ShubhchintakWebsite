@@ -25,17 +25,17 @@ function MobFooter() {
                 {isOpen && <div className=" ">
                     <ul className="flex flex-col gap-3 text-gray-400 ">
                         <li className="hover:text-slate-400">
-                            <Link href="/Frame23"  >
+                            <Link href="/portfolio"  >
                                 Portfolio
                             </Link>
                         </li>
                         <li className="hover:text-slate-400">
                             <Link href="/Frame24"  >
-                                Why Us
+                                About Us
                             </Link>
                         </li>
                         <li className="hover:text-slate-400">
-                            <Link href="/frame27"  >
+                            <Link href="/career"  >
                                 Carrer
                             </Link>
                         </li>
@@ -49,37 +49,37 @@ function MobFooter() {
                 {isOpen1 && <div className=" ">
                     <ul className="flex flex-col gap-3 text-gray-400 ">
                         <li className="hover:text-slate-400">
-                            <Link href="/Frame23"  >
+                            <Link href="/webdeveloppment"  >
                                 Web Development
                             </Link>
                         </li>
                         <li className="hover:text-slate-400">
-                            <Link href="/Frame24"  >
+                            <Link href="/mobileApp"  >
                                 Mobile App
                             </Link>
                         </li>
                         <li className="hover:text-slate-400">
-                            <Link href="/frame27"  >
+                            <Link href="/CloudConsultation"  >
                                 Cloud Consultation
                             </Link>
                         </li>
                         <li className="hover:text-slate-400">
-                            <Link href="/frame27"  >
+                            <Link href="/graphicDesign"  >
                                 Graphic Designing
                             </Link>
                         </li>
                         <li className="hover:text-slate-400">
-                            <Link href="/frame27"  >
+                            <Link href="/UIDesigning"  >
                                 CUI/UX Designing
                             </Link>
                         </li>
                         <li className="hover:text-slate-400">
-                            <Link href="/frame27"  >
+                            <Link href="/digitalMarketing"  >
                                 Digital Marketing
                             </Link>
                         </li>
                         <li className="hover:text-slate-400">
-                            <Link href="/frame27"  >
+                            <Link href="/ArDevelopment"  >
                                 VR/AR Development
                             </Link>
                         </li>
@@ -93,12 +93,12 @@ function MobFooter() {
                 {isOpen2 && <div className=" ">
                     <ul className="flex flex-col gap-3 text-gray-400 ">
                         <li className="hover:text-slate-400">
-                            <Link href="/Frame23"  >
+                            <Link href="/blog"  >
                                 Blogs
                             </Link>
                         </li>
                         <li className="hover:text-slate-400">
-                            <Link href="/Frame24"  >
+                            <Link href="/clients"  >
                                 Clients
                             </Link>
                         </li>

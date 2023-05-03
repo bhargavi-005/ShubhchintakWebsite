@@ -51,7 +51,7 @@ function Webdev() {
           expertise in Web Development Solutions for your Unique Online Business
           Ideas.
         </p>
-        <button className="w-[111px] h-[37px] bg-[#0F89FF] rounded-full text-sm">
+        <button className="w-[111px] h-[37px] bg-[#0F89FF] rounded-full text-sm lg:text-base lg:w-[160px] lg:h-[45px]">
           Get Started
         </button>
       </div>
