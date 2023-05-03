@@ -3,7 +3,7 @@ import bg from "../../public/images/bg.png";
 import Image from "next/image";
 import Header from "./Header";
 import Footer from "./footer";
-import Related_blog_comp from "./related_blog_comp";
+import Related_blog_comp1 from "./related_blog_comp1";
 
 function blog_details() {
   return (
@@ -94,7 +94,7 @@ function blog_details() {
           </div>
         </div>
       </section>
-      <Related_blog_comp/>
+      <Related_blog_comp1/>
       <Footer/>
     </div>
   );
