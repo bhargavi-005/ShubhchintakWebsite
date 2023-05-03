@@ -24,8 +24,9 @@ function landing(){
     return(
         
         <div className=" max-[768px]:overflow-x-hidden ">
-            <Header/>
+            
         <div className="relative pb-[10%] pt-1" style={{ backgroundImage: `url(${bg.src})` }}>
+        <Header/>
         <div className="flex flex-col justify-center items-center">
             <h1 className="max-[768px]:text-[35px] relative mt-[8%] text-center text-white font-xyz text-[60px]">We are bringing</h1>
             <h1 className="max-[768px]:text-[35px] relative text-center text-[#0F89FF] font-xyz text-[60px]">DIGITAL TRANSFORMATION</h1>
