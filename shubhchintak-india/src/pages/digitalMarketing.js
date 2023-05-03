@@ -6,7 +6,7 @@ import CheckOut from "./checkoutView";
 import Footer from "./footer";
 function DMarket(){
     return(
-        <div className="box-border text-white mx-5 md:mx-12 lg:mx-28  " >
+        <div className="box-border text-white  " >
             <Header/>
             <div className="flex flex-col  justify-center items-center lg:justify-between lg:flex-row-reverse my-14 lg:ml-36">
                     <div className=" lg:w-[50%] my-10 md:ml-16">
@@ -18,14 +18,14 @@ function DMarket(){
                                 alt="workInsight"
                         />
                     </div>
-                    <div className=" lg:w-[40%] h-auto lg:mt-42 text-center lg:text-left ">
+                    <div className=" lg:w-[40%] h-auto lg:mt-42 text-center lg:text-left mx-5">
                         <div className=" font-bold text-[40px] md:text-[40px] lg:text-[60px] lg:w-[1250px] ">Digital
                         Marketing</div>
                         <p className="text-center font-xyz text-[14px] font-medium md:text-xl lg:text-left lg:w-[80%] my-10">We are a team of skilled professionals who specialize in helping businesses achieve their online marketing goals.</p>
                         <button className="bg-[#0F89FF] w-[160px] h-[40px] text-center text-lg rounded-full">Get Started</button>
                     </div>
             </div>
-            <div className="flex flex-col justify-center items-center text-center mt-[80px]">
+            <div className="flex flex-col justify-center items-center text-center mt-[80px] mx-5">
                 <div className="font-xyz font-bold text-[25px] md:text-[40px] lg:text-[40px] lg:w-[1550px] lg:text-[#0F89FF] ">Hire India's top Digital 
                 Marketing Company</div>
                 <p className="font-xyz font-medium text-sm mt-8 md:text-xl lg:w-[1350px]">Our company understands the importance of effective digital marketing strategies, and we work tirelessly to help our clients reach their target audience and achieve their business objectives. Our team uses the latest tools and techniques to develop customized marketing plans that are tailored to meet the unique needs of each client.<br></br>Our focus is on delivering measurable results that drive business growth. We take a data-driven approach to digital marketing, analysing key performance indicators (KPIs) to track progress and 
@@ -41,7 +41,7 @@ function DMarket(){
                 />
             </div>
 
-            <div className="flex justify-center items-center text-center mt-[80px]">
+            <div className="flex justify-center items-center text-center mt-[80px] mx-5">
                 <div className=" font-bold text-[25px] md:text-[40px] lg:text-[60px] lg:w-[1550px] ">Get digital 
                 transformation with 
                 <span className="text-[#0F89FF] font-bold text-[25px] md:text-[40px] lg:text-[60px] lg:w-[1550px]">360' Web Development

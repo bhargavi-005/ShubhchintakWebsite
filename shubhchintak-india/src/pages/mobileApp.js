@@ -8,7 +8,7 @@ import Footer from "./footer";
 
 function MobileApp(){
     return(
-        <div className="box-border text-white mx-5 md:mx-12 lg:mx-28  "  >
+        <div className="box-border text-white  "  >
             <Header/>
             <div className="flex flex-col    lg:flex-row-reverse my-14">
                 <div className=" lg:w-[50%] md:ml-16">
@@ -19,7 +19,7 @@ function MobileApp(){
                             alt="workInsight"
                     />
                 </div>
-                <div className=" lg:w-[40%] h-auto lg:mt-56 text-center lg:text-left">
+                <div className=" lg:w-[40%] h-auto lg:mt-56 text-center lg:text-left mx-5">
                     <div className=" font-bold text-[40px] md:text-[40px] lg:text-[60px] lg:w-[1250px] ">Mobile App
                     Development</div>
                     <p className="text-center font-xyz text-[14px] font-medium md:text-xl lg:text-left lg:w-[80%] ">We are a team of skilled professionals dedicated to providing high-quality mobile app development services to businesses and individuals worldwide.</p>
@@ -27,7 +27,7 @@ function MobileApp(){
                 </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center text-center mt-[80px]">
+            <div className="flex flex-col justify-center items-center text-center mt-[80px] mx-5">
                 <div className="font-xyz font-bold text-[25px] md:text-[40px] lg:text-[40px] lg:w-[1550px] "><span className="text-[#0F89FF] font-bold text-[25px] md:text-[40px] lg:text-[40px] lg:w-[1550px]">Hire India's top Mobile App development Company</span> to 
                 create your Ultimate Mobile 
                 App development Solutions!</div>
@@ -43,7 +43,7 @@ function MobileApp(){
                 />
             </div>
 
-            <div className="flex justify-center items-center text-center mt-[80px]">
+            <div className="flex justify-center items-center text-center mt-[80px] mx-5">
                 <div className=" font-bold text-[25px] md:text-[40px] lg:text-[60px] lg:w-[1550px] ">Get digital 
                 transformation with 
                 <span className="text-[#0F89FF] font-bold text-[25px] md:text-[40px] lg:text-[60px] lg:w-[1550px]">360' Web Development
@@ -102,7 +102,7 @@ function MobileApp(){
                 we provide!</div>
             </div>
 
-            <div className="grid grid-col-2 place-items-center  md:grid-cols-2 lg:grid-cols-3  lg:gap-x-0 items-center gap-4 my-10  "> 
+            <div className="grid grid-col-2 place-items-center  md:grid-cols-2 lg:grid-cols-3  lg:gap-x-0 items-center gap-4 my-10  mx-5"> 
                     <div className="bg-white w-fit h-fit text-black rounded-full p-5 text-base md:text-[20px] lg:text-[26px] font-semibold text-center">Hybired App</div>
                     <div className="bg-white w-fit h-fit text-black rounded-full p-5 text-base md:text-[20px] lg:text-[26px] font-semibold text-center">IOS App</div>
                     <div className="bg-white w-fit h-fit text-black rounded-full p-5 text-base md:text-[20px] lg:text-[26px] font-semibold text-center">Web User Interface</div>
