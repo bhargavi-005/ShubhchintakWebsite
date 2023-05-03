@@ -69,8 +69,8 @@ function Footer() {
         </div>
       </div>
 
-      <div className="flex justify-evenly mt-16 ">
-        <div className=" flex flex-col gap-5 ml-4 lg:-ml-20 md:-ml-12">
+      <div className="flex justify-evenly mt-16 md:ml-0 ml-10">
+        <div className=" flex flex-col gap-5 ml-4 lg:ml-5 md:ml-20">
           <div className="font-extrabold text-xl ">Quick Link</div>
           <ul className="font-medium text-base  flex flex-col gap-2 text-gray-400">
             <li className="">
@@ -110,7 +110,7 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <div className=" md:flex md:flex-col md:justify-center md:items-center md:gap-10">
+        <div className=" md:flex md:flex-row flex flex-col md:justify-center md:items-center justify-evenly md:-mt-44 lg:-mt-44 mt-0">
           <div className="md:flex md:flex-row md:gap-28 w-full">
             <div className=" flex flex-col gap-5">
               <div className="font-extrabold text-xl">Resources</div>
@@ -124,7 +124,7 @@ function Footer() {
               </ul>
             </div>
 
-            <div className=" flex flex-col gap-5 ml-5">
+            <div className=" flex flex-col gap-5 ml-0 md:ml-5">
               <div className="font-extrabold text-xl">Legal</div>
               <ul className="font-medium text-base  flex flex-col gap-2 text-gray-400">
                 <li className="">
@@ -137,9 +137,9 @@ function Footer() {
             </div>
           </div>
 
-          <div className=" flex flex-col  items-center gap-5 ">
+          <div className=" flex flex-col  items-center gap-5 md:ml-10 ml-0">
             <div className="text-lg font-medium">{"Let’s Connect Now"}</div>
-            <div className="w-[319px] h-[37px] bg-white rounded-full text-black text-center p-2">
+            <div className="md:w-[319px] w-[100px] h-auto bg-white rounded-full text-black text-center p-2">
              <Link href="/contact_us"> Contact Us</Link>
             </div>
             <div className="flex flex-row gap-5">
