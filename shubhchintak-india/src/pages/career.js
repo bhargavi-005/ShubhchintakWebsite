@@ -78,7 +78,7 @@ function career() {
                 </div>
                
             </div>
-            <div className="max-[768px]:mt-[10%] relative mt-[70%]">
+            <div className="max-[768px]:mt-[10%] relative mt-[10%]">
                 <h1 className="text-center text-white text-[40px] font-semibold">Current openings!</h1>
                 <div className="flex flex-row justify-evenly mt-[5%]">
                     <div className="bg-zinc-950 w-[295px] h-[316px] flex flex-col justify-center">
