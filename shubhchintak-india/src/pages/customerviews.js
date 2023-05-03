@@ -1,9 +1,10 @@
 import Image from "next/image";
+import bg from "../../public/images/bg.png";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 function review(){
     return(
-        <div>
+        <div style={{ backgroundImage: `url(${bg.src})` }} >
             <Carousel>
                 <div>
                 <div className=" max-[768px]:flex max-[768px]:flex-col flex flex-row justify-evenly pb-[3%] mt-[3%]">

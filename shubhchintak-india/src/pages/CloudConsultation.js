@@ -2,10 +2,14 @@ import Image from "next/image";
 import CheckOut from './checkoutView'
 import Header from './Header'
 import Footer from './footer'
+import bg from "../../public/images/bg.png";
 
 export default function CloudConsultation() {
   return (
     <>
+    <div className="" style={{ backgroundImage: `url(${bg.src})` }}>
+
+    
      <div>
         <Header/>
       </div>
@@ -165,6 +169,8 @@ export default function CloudConsultation() {
       </div>
       <div className="mt-5">
         <Footer/>
+        </div>
+
         </div>
     </>
   );

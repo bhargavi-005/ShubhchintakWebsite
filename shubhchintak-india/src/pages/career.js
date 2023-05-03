@@ -2,10 +2,11 @@ import Image from "next/image";
 import Footer from "./footer";
 import Header from "./Header";
 import Link from "next/link";
+import bg from "../../public/images/bg.png";
 
 function career() {
     return(
-        <div>
+        <div style={{ backgroundImage: `url(${bg.src})` }} >
             <Header/>
             <div className="flex flex-row max-[768px]:flex max-[768px]:flex-col ">
                 <div className=" ml-[8%] mr-[30%] mt-[15%]">
@@ -16,7 +17,7 @@ function career() {
                 </div>
                 <div className=" max-[768px]:w-[130%] w-[100%] ml-[-18%] mt-[5%]">
                     <Image className=" w-[600px] h-[500px]"
-                    src="/images/career1.png"
+                    src="/images/career2.png"
                     alt="career"
                     width={600}
                     height={430}/>

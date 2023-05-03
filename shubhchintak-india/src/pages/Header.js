@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
+import bg from "../../public/images/bg.png";
 
 function Header() {
   const [open, setOpen] = useState(false);
@@ -8,7 +9,7 @@ function Header() {
     const [isOpen1 ,setIsOpen1]=useState(false);
 
   return (
-    <div className=" header text-white flex flex-row font-xyz pt-6 mx-5 justify-between  xl:items-center  ">
+    <div style={{ backgroundImage: `url(${bg.src})` }} className=" header text-white flex flex-row font-xyz pt-6 mx-5 justify-between  xl:items-center  ">
       <div className="top-0 left-0 w-[139px] h-[29px] md:w-[187px] md:h-[46px]">
         <Image
           src="/svg/stpl_logo_white-01-01 1.svg"
