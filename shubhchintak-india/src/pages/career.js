@@ -17,6 +17,7 @@ function career() {
                 <div className=" max-[768px]:w-[130%] w-[100%] ml-[-18%] mt-[5%]">
                     <Image className=" w-[600px] h-[500px]"
                     src="/images/career1.png"
+                    alt="career"
                     width={600}
                     height={430}/>
                 </div>
@@ -25,6 +26,7 @@ function career() {
             <div className="w-[100%] ml-[8%] mt-[5%]">
                     <Image className="w-[600px] h-[500px]"
                     src="/images/career1.png"
+                    alt="career"
                     width={600}
                     height={430}/>
                 </div>
@@ -37,6 +39,7 @@ function career() {
                             <div>
                                 <Image
                                 src="/images/ticks.png"
+                                alt="career"
                                 width={20}
                                 height={20}/>
                             </div>
@@ -48,6 +51,7 @@ function career() {
                             <div>
                                 <Image
                                 src="/images/ticks.png"
+                                alt="career"
                                 width={20}
                                 height={20}/>
                             </div>
@@ -59,6 +63,7 @@ function career() {
                             <div>
                                 <Image
                                 src="/images/ticks.png"
+                                alt="career"
                                 width={20}
                                 height={20}/>
                             </div>

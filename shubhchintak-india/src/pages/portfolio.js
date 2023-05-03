@@ -12,6 +12,7 @@ function port(){
             <div className="w-[100%] h-[30%]  relative">
                 <Image className="brightness-[30%] max-[768px]:h-[700px]"
                 src="/images/portfolio.png"
+                alt="career"
                 width={1660}
                 height={600}/>
                 <h1 className="max-[768px]:text-[30px] mt-[10%] text-center absolute top-0 ml-[15%] mr-[15%] text-white font-xyz text-[60px] font-extrabold">From startups to enterprises, we 
@@ -32,18 +33,21 @@ function port(){
                     <div className="main">
                     <Image  className="h-[400px] w-[400px]"
                     src="/images/work1.png"
+                    alt="career"
                     width={400}
                     height={400}/>
                     <div>
                     <div>
                     <Image className="h-[584px] mt-[2%] w-[400px]"
                     src="/images/work2.png"
+                    alt="career"
                     width={400}
                     height={700}/>
                     <div>
                     <div>
                     <Image className="h-[337px] mt-[2%] w-[400px]"
                     src="/images/work3.png"
+                    alt="career"
                     width={400}
                     height={700}/>
                     </div>
@@ -54,18 +58,21 @@ function port(){
                     <div className="main">
                     <Image className="max-[768px]:ml-[-1%] max-[768px]:mt-[2%] h-[500px] w-[400px]"
                     src="/images/work4.png"
+                    alt="career"
                     width={400}
                     height={700}/>
                     <div>
                     <div>
                     <Image className="max-[768px]:ml-[-1%] h-[584px] mt-[2%] w-[400px]"
                     src="/images/work5.png"
+                    alt="career"
                     width={400}
                     height={700}/>
                     <div>
                     <div>
                     <Image className="max-[768px]:ml-[-1%] h-[235px] mt-[2%] w-[400px]"
                     src="/images/work6.png"
+                    alt="career"
                     width={400}
                     height={700}/>
                     </div>
@@ -76,18 +83,21 @@ function port(){
                     <div className="main">
                     <Image className="max-[768px]:ml-[-1%] h-[584px] w-[400px]"
                     src="/images/work7.png"
+                    alt="career"
                     width={400}
                     height={700}/>
                     <div>
                     <div>
                     <Image className="max-[768px]:ml-[-1%] h-[415px] mt-[2%] w-[400px]"
                     src="/images/work8.png"
+                    alt="career"
                     width={400}
                     height={700}/>
                     <div>
                     <div>
                     <Image className="max-[768px]:ml-[-1%] h-[320px] mt-[2%] w-[400px]"
                     src="/images/work9.png"
+                    alt="career"
                     width={400}
                     height={700}/>
                     </div>

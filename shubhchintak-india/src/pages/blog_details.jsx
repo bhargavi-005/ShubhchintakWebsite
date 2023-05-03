@@ -55,7 +55,7 @@ function blog_details() {
                   computer is able to distinguish between different words and is
                   also able to recognize different words and sentences, that too
                   in all languages. Speech Recognition is the reason why
-                  features like “Voice typing” and “speech-to-text” have been
+                  features like {"“Voice typing”"} and {"“speech-to-text”"} have been
                   possible. Moreover, personal assistants like Google Assistant,
                   Siri, and Alexa also use speech recognition for many purposes.
                 </li>
@@ -64,7 +64,7 @@ function blog_details() {
                   Learning which you must be encountering on a daily basis.
                   Based on your searching and browsing history, the website is
                   able to display related posts or items on the main window or
-                  under the “Recommended” section. Some common examples are
+                  under the {"“Recommended”"} section. Some common examples are
                   Youtube, Netflix and Amazon. You see recommended videos,
                   series or items as soon as you open the app or the website.
                 </li>

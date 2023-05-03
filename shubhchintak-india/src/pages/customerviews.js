@@ -11,6 +11,7 @@ function review(){
             <div className="ml-[7%] mt-[8%]">
                 <Image
                 src="/svg/pp.png"
+                alt="pp"
                 width={50}
                 height={50}/>
             </div>
@@ -21,6 +22,7 @@ function review(){
             <div className="ml-[40%] mt-[8%]">
                 <Image
                 src="/svg/comment.png"
+                alt="career"
                 height={60}
                 width={60}  />
             </div>
@@ -31,6 +33,7 @@ function review(){
             <div className="ml-[7%] mt-[8%]">
                 <Image
                 src="/svg/pp.png"
+                alt="career"
                 width={50}
                 height={50}/>
             </div>
@@ -41,6 +44,7 @@ function review(){
             <div className="ml-[40%] mt-[8%]">
                 <Image
                 src="/svg/comment.png"
+                alt="career"
                 height={60}
                 width={60}  />
             </div>
@@ -56,6 +60,7 @@ function review(){
             <div className="ml-[7%] mt-[8%]">
                 <Image
                 src="/svg/pp.png"
+                alt="career"
                 width={50}
                 height={50}/>
             </div>
@@ -66,6 +71,7 @@ function review(){
             <div className="ml-[40%] mt-[8%]">
                 <Image
                 src="/svg/comment.png"
+                alt="career"
                 height={60}
                 width={60}  />
             </div>
@@ -76,6 +82,7 @@ function review(){
             <div className="ml-[7%] mt-[8%]">
                 <Image
                 src="/svg/pp.png"
+                alt="career"
                 width={50}
                 height={50}/>
             </div>
@@ -86,6 +93,7 @@ function review(){
             <div className="ml-[40%] mt-[8%]">
                 <Image
                 src="/svg/comment.png"
+                alt="career"
                 height={60}
                 width={60}  />
             </div>

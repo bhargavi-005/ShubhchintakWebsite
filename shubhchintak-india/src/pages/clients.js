@@ -7,6 +7,7 @@ function clients(){
             <div className="">
                     <Image
                     src="/images/clients.png"
+                    alt="career"
                     height={700}
                     width={1700}/>
             </div>
