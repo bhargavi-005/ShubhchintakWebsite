@@ -16,6 +16,7 @@ import Clients from "./clients"
 import Success from "./success"
 import Header from "./Header";
 import Footer from "./footer";
+import Review from "./customerviews"
 function ok(){
     
 }
@@ -194,20 +195,22 @@ function landing(){
             </div>
             {/* Next Section */}
             <Clients/>
+            
+            
         </div>
         {/* Next Section */}
         <div style={{ backgroundImage: `url(${bg.src})` }}>
             <div className="mt-[3%]">
                 <h1 className="max-[768px]:text-[30px] max-[768px]:ml-[10%] max-[768px]:mr-[10%] text-center text-white font-xyz text-[40px]">A Word from our Proud Clients!</h1>
             </div>
-            
+            <Review/>
             
         </div>
         {/* Next Section */}
         <div>
             <h1 className="text-white text-center text-[40px]">Insights by ShubhChintak!</h1>
-            <div className="max-[768px]:flex max-[768px]:flex-col flex flex-row space-x-3">
-                    <div className="max-[768px]:ml-[7%] max-[768px]:mr-[5%] w-[400px] h-[494px] justify-center items-center ml-[10%]">
+            <div className="max-[768px]:flex max-[768px]:flex-col flex flex-row justify-evenly space-x-3">
+                    <div className="max-[768px]:ml-[7%] max-[768px]:mr-[5%] w-[400px] h-[494px] justify-center items-center">
                         <Image className=""
                         src="/images/edge.png"
                         width={400}
