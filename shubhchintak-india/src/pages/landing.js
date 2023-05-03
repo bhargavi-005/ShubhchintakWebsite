@@ -1,4 +1,3 @@
-// import bg from "../../public/images/bg.png";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"></link>
 import { Carousel } from 'react-responsive-carousel';
@@ -207,7 +206,7 @@ function landing(){
             {/* repeated */}
             <div className="pt-[5%] ml-[10%] mr-[10%]">
                 <div className="mt-[5%]">
-                <h1 className="font-semibold text-white text-center font-abc text-[40px] font-semibold">Some of our best works!</h1>
+                <h1 className=" text-white text-center font-abc text-[40px] font-semibold">Some of our best works!</h1>
                 </div>
                 <div className="max-[768px]:flex max-[768px]:flex-col flex flex-row mt-[3%]">
                     <div className="mr-[20%] max-[768px]:order-last max-[768px]:mr-[5%]">

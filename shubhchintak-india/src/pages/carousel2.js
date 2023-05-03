@@ -24,7 +24,7 @@ function carouselsec() {
   return (
     
       <div className="my-20">
-      <Carousel2 responsive={responsive}>
+      <Carousel2 showDots={true} responsive={responsive}>
       <div className="p-5">
       <div className="">
             <Image
