@@ -35,8 +35,8 @@ function landing(){
             <p className="relative text-center text-white text-[16px] ml-[20%] mr-[20%]">We identify their challenge ,guide them, create effective work strategy, develop their complex 
                business ideas and deploy it as earliest as possible with the help of our expert team.</p>
                
-               <button class="max-[768px]:w-[400px] max-[768px]:ml-[10%] max-[768px]:h-[50px] mt-[3%] bg-blue-500 hover:bg-blue-700 text-white font-bold h-[50px] w-[400px]  rounded-full">
-             <p className="max-[768px]:text-[15px] max-[768px]:w-[400px]">Start your digital transformation journey</p>
+               <button class="max-[768px]:w-[300px]  max-[768px]:h-[50px] mt-[3%] bg-blue-500 hover:bg-blue-700 text-white font-bold h-[50px] w-[400px]  rounded-full">
+             <p className="max-[768px]:text-[15px] max-[768px]:w-[300px]">Start your digital transformation journey</p>
           </button>
                </div>
             
@@ -124,7 +124,7 @@ function landing(){
             <div className="pt-[5%]">
                 <div className="flex flex-col justify-center items-center bg-black-rgba pt-[2%] pb-[2%]">
                 <h1 className="text-[30px] text-white font-xyz text-center">Share your business requirements with us!</h1>
-                <button class="max-[768px]:ml-[37%]  mt-[2%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                <button class=" mt-[2%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
                     Call Now
                 </button>
 
@@ -149,7 +149,9 @@ function landing(){
                         <div className="flex flex-row mt-[5%]">
                             <div>
                                 <Image
+                                alt=""
                                 src="/images/ticks.png"
+                                alt="ticks"
                                 width={20}
                                 height={20}/>
                             </div>
@@ -160,7 +162,9 @@ function landing(){
                         <div className="flex flex-row mt-[5%]">
                             <div>
                                 <Image
+                                alt=""
                                 src="/images/ticks.png"
+                                alt="ticks"
                                 width={20}
                                 height={20}/>
                             </div>
@@ -171,7 +175,9 @@ function landing(){
                         <div className="flex flex-row mt-[5%]">
                             <div>
                                 <Image
+                                alt=""
                                 src="/images/ticks.png"
+                                alt="ticks"
                                 width={20}
                                 height={20}/>
                             </div>
@@ -187,7 +193,9 @@ function landing(){
                     </div>
                     <div className="w-[140%] max-[768px]:order-first max-[768px]:w-[100%]">
                         <Image
+                        alt=""
                         src="/images/bestwork.png"
+                        alt="ticks"
                         width={500}
                         height={500}/>
                     </div>
@@ -210,9 +218,11 @@ function landing(){
         <div>
             <h1 className="text-white text-center text-[40px]">Insights by ShubhChintak!</h1>
             <div className="max-[768px]:flex max-[768px]:flex-col flex flex-row justify-evenly space-x-3">
-                    <div className="max-[768px]:ml-[7%] max-[768px]:mr-[5%] w-[400px] h-[494px] justify-center items-center">
+                    <div className="max-[768px]:ml-[3%] max-[768px]:mr-[5%] w-[400px] h-[494px] justify-center items-center">
                         <Image className=""
+                        alt=""
                         src="/images/edge.png"
+                        alt="ticks"
                         width={400}
                         height={494}/>
                         <div className="bg-black-rgba h-[173px] w-[100%]">
@@ -222,22 +232,26 @@ function landing(){
                         </div>
                     </div>
                     <div className="w-[400px] h-[494px]">
-                        <Image className="max-[768px]:ml-[5%] max-[768px]:mr-[5%]"
+                        <Image className=" max-[768px]:mr-[5%]"
+                        alt=""
                         src="/images/tips.png"
+                        alt="ticks"
                         width={400}
                         height={494}/>
-                        <div className="max-[768px]:ml-[5%] max-[768px]:mr-[5%] bg-black-rgba h-[173px] w-[100%]">
+                        <div className=" max-[768px]:mr-[5%] bg-black-rgba h-[173px] w-[100%]">
                             <p className="ml-[1%] text-[20px] text-white font-xyz">5 TIPS FOR DESIGNING GOOD POST...</p>
                             <p className="ml-[1%] text-white text-[16px] font-xyz">Designing good looking posters and social media posts is not as hard as it sounds.</p>
                             <a href="#" className="text-white text-[16px] ml-[1%]">Read More</a>
                         </div>
                     </div>
                     <div className="w-[400px] h-[494px]">
-                        <Image className="max-[768px]:ml-[5%] max-[768px]:mr-[5%]"
+                        <Image className="max-[768px]:mr-[5%]"
+                        alt=""
                         src="/images/blog.png"
+                        alt="ticks"
                         width={400}
                         height={494}/>
-                        <div className="max-[768px]:ml-[5%] max-[768px]:mr-[5%] bg-black-rgba h-[173px] w-[100%]">
+                        <div className=" max-[768px]:mr-[5%] bg-black-rgba h-[173px] w-[100%]">
                             <p className="ml-[1%] text-[20px] text-white font-xyz">HOW TO WRITE A GREAT BLOG</p>
                             <p className="ml-[1%] text-white text-[16px] font-xyz">Is writing your passion but you fail to express it professionally?</p>
                             <a href="#" className="text-white text-[16px] ml-[1%]">Read More</a>
