@@ -6,10 +6,11 @@ import Review from './customerviews'
 import Header from "./Header";
 import Footer from "./footer";
 import Link from "next/link";
+import bg from "../../public/images/bg.png";
 function about(){
     return(
 
-        <div className="mt-[5%] max-[768px]:overflow-x-hidden ">
+        <div style={{ backgroundImage: `url(${bg.src})` }} className="mt-[5%] max-[768px]:overflow-x-hidden ">
             <Header/>
             <h1 className="max-[768px]:text-[30px] text-white text-[60px] font-extrabold text-center">All About Us</h1>
             <div>

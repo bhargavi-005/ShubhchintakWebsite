@@ -4,10 +4,11 @@ import Impact from "./impact"
 import Clients from "./clients"
 import Header from "./Header";
 import Footer from "./footer";
+import bg from "../../public/images/bg.png";
 
 function port(){
     return(
-        <div className="max-[768px]:overflow-x-hidden">
+        <div style={{ backgroundImage: `url(${bg.src})` }} className="max-[768px]:overflow-x-hidden">
             <Header/>
             <div className="w-[100%] h-[30%]  relative">
                 <Image className="brightness-[30%] max-[768px]:h-[700px]"
@@ -17,10 +18,10 @@ function port(){
                 height={600}/>
                 <h1 className="max-[768px]:text-[30px] mt-[10%] text-center absolute top-0 ml-[15%] mr-[15%] text-white font-xyz text-[60px] font-extrabold">From startups to enterprises, we 
                     have no limits, we serve all!</h1>
-                    <p className="max-[768px]:mt-[55%] text-[16px] text-center absolute top-0 ml-[25%] mr-[25%] text-white font-xyz mt-[23%]">We have helped our clients in building digital solutions as per their business needs. We understood their 
+                    <p className="max-[768px]:mt-[55%] max-[1500px]:mt-[33%] text-[16px] text-center absolute top-0 ml-[25%] mr-[25%] text-white font-xyz mt-[23%]">We have helped our clients in building digital solutions as per their business needs. We understood their 
                         business challenges and did our best to solve it in a creative manner. 
                         We helped our clients to grow, We can do it for you too!</p>
-                        <button class="max-[768px]:mt-[130%] max-[768px]:ml-[23%] absolute top-0 mt-[30%] ml-[43%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                        <button class="max-[1500px]:mt-[40%] max-[768px]:mt-[130%] max-[768px]:ml-[23%] absolute top-0 mt-[30%] ml-[43%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
                           Share your business idea
                         </button>
             </div>

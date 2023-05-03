@@ -23,8 +23,13 @@ function ok(){
 function landing(){
     return(
         
+<<<<<<< HEAD
         <div className=" max-[768px]:overflow-x-hidden ">
             
+=======
+        <div style={{ backgroundImage: `url(${bg.src})` }} className=" max-[768px]:overflow-x-hidden  ">
+            <Header/>
+>>>>>>> 608a34924c27503fab714663ae239df017bc3599
         <div className="relative pb-[10%] pt-1" style={{ backgroundImage: `url(${bg.src})` }}>
         <Header/>
         <div className="flex flex-col justify-center items-center">
@@ -216,7 +221,7 @@ function landing(){
             
         </div>
         {/* Next Section */}
-        <div>
+        <div style={{ backgroundImage: `url(${bg.src})` }}>
             <h1 className="text-white text-center text-[40px]">Insights by ShubhChintak!</h1>
             <div className="max-[768px]:flex max-[768px]:flex-col flex flex-row justify-evenly space-x-3">
                     <div className="max-[768px]:ml-[3%] max-[768px]:mr-[5%] w-[400px] h-[494px] justify-center items-center">

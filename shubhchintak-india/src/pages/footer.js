@@ -110,7 +110,7 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <div className=" md:flex md:flex-row flex flex-col md:justify-center md:items-center md:gap-10">
+        <div className=" md:flex md:flex-row flex flex-col md:justify-center md:items-center justify-evenly md:-mt-44 lg:-mt-20">
           <div className="md:flex md:flex-row md:gap-28 w-full">
             <div className=" flex flex-col gap-5">
               <div className="font-extrabold text-xl">Resources</div>
@@ -137,7 +137,7 @@ function Footer() {
             </div>
           </div>
 
-          <div className=" flex flex-col  items-center gap-5 ">
+          <div className=" flex flex-col  items-center gap-5 md:ml-10 ml-0">
             <div className="text-lg font-medium">{"Let’s Connect Now"}</div>
             <div className="w-[319px] h-[37px] bg-white rounded-full text-black text-center p-2">
              <Link href="/contact_us"> Contact Us</Link>

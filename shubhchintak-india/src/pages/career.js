@@ -2,10 +2,11 @@ import Image from "next/image";
 import Footer from "./footer";
 import Header from "./Header";
 import Link from "next/link";
+import bg from "../../public/images/bg.png";
 
 function career() {
     return(
-        <div>
+        <div style={{ backgroundImage: `url(${bg.src})` }} >
             <Header/>
             <div className="flex flex-row max-[768px]:flex max-[768px]:flex-col ">
                 <div className=" ml-[8%] mr-[30%] mt-[15%]">
@@ -14,9 +15,9 @@ function career() {
                     not only provide jobs, we tend to built strong careers for 
                     our employees.</p>
                 </div>
-                <div className=" max-[768px]:w-[130%] w-[100%] ml-[-18%] mt-[5%]">
+                <div className="max-[1500px]:mr-[10%] max-[768px]:w-[130%] w-[100%] ml-[-18%] mt-[5%]">
                     <Image className=" w-[600px] h-[500px]"
-                    src="/images/career1.png"
+                    src="/images/career2.png"
                     alt="career"
                     width={600}
                     height={430}/>
@@ -32,10 +33,10 @@ function career() {
                 </div>
                 <div className="mr-[10%] mt-[15%]">
                 <div className="max-[768px]:flex max-[768px]:flex-col flex flex-row  mt-[3%]">
-                    <div className="mr-[10%] max-[768px]:order-last max-[768px]:mr-[5%]">
-                        <h1 className="text-white text-[40px] font-semibold">Benefits of working with Us!</h1>
-                        <p className="text-white text-left text-[16px]">We believe when employees feel fulfilled and see their growth potential in their job, they start loving their job. Here are some reasons for working with us;</p>
-                        <div className="flex flex-row mt-[5%]">
+                    <div className="max-[768px]:mr-[15%] mr-[10%] max-[768px]:order-last max-[768px]:mr-[5%]">
+                        <h1 className="max-[1500px]:ml-[15%] text-white text-[40px] font-semibold">Benefits of working with Us!</h1>
+                        <p className="max-[1500px]:ml-[15%]  text-white text-left text-[16px]">We believe when employees feel fulfilled and see their growth potential in their job, they start loving their job. Here are some reasons for working with us;</p>
+                        <div className="max-[1500px]:ml-[15%]  flex flex-row mt-[5%]">
                             <div>
                                 <Image
                                 src="/images/ticks.png"
@@ -47,7 +48,7 @@ function career() {
                                 <p className="font-semibold text-white font-xyz text-[16px]">Build your skills under guidance of highly skilled experts.</p>
                             </div>
                         </div>
-                        <div className="flex flex-row mt-[5%]">
+                        <div className="max-[1500px]:ml-[15%]  flex flex-row mt-[5%]">
                             <div>
                                 <Image
                                 src="/images/ticks.png"
@@ -59,7 +60,7 @@ function career() {
                                 <p className="font-semibold text-white font-xyz text-[16px]">Enjoy favourable and uplifting work environment.</p>
                             </div>
                         </div>
-                        <div className="flex flex-row mt-[5%]">
+                        <div className="max-[1500px]:ml-[15%]  flex flex-row mt-[5%]">
                             <div>
                                 <Image
                                 src="/images/ticks.png"
