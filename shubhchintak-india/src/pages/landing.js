@@ -352,7 +352,7 @@ function Landing() {
         <Clients />
       </div>
       {/* Next Section */}
-      <div style={{ backgroundImage: `url(${bg.src})` }}>
+      <div className="max-[768px]:mt-[20%]" style={{ backgroundImage: `url(${bg.src})` }}>
         <div className="mt-[3%]">
           <h1 className="max-[768px]:text-[30px] max-[768px]:ml-[10%] max-[768px]:mr-[10%] text-center text-white font-xyz text-[40px] font-semibold">
             A Word from our Proud Clients!
