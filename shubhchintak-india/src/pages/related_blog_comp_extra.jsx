@@ -91,7 +91,7 @@ function Related_blog_comp_extra() {
         <div className="p-3">
           <div className="h-full bg-[#FFFFFF1A]  overflow-hidden">
           <Image
-                className="lg:h-48 md:h-36 w-full object-cover object-center"
+                className="lg:h-48  w-full object-cover object-center"
                 alt="earth"
                 src="/images/blog/designing_post.png"
                 width="391"
@@ -117,7 +117,7 @@ function Related_blog_comp_extra() {
         <div className="p-3">
           <div className="h-full bg-[#FFFFFF1A]  overflow-hidden">
           <Image
-                className="lg:h-48 md:h-36 w-full object-cover object-center"
+                className="lg:h-48 w-full object-cover object-center"
                 alt="earth"
                 src="/images/blog/blog.png"
                 width="391"
@@ -143,7 +143,7 @@ function Related_blog_comp_extra() {
         <div className="p-3">
           <div className="h-full bg-[#FFFFFF1A]  overflow-hidden">
           <Image
-                className="lg:h-48 md:h-36 w-full object-cover object-center"
+                className="lg:h-48  w-full object-cover object-center"
                 alt="earth"
                 src="/images/blog/iot.png"
                 width="391"
