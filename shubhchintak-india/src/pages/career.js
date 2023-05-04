@@ -80,7 +80,7 @@ function career() {
                 </div>
                
             </div>
-            <div className="max-[768px]:mt-[10%] relative mt-[10%]">
+            <div className="max-[768px]:mt-[10%]  ml-[4%] mr-[4%] relative mt-[10%]">
                 <h1 className="text-center text-white text-[40px] font-semibold">Current openings!</h1>
                 <div className="flex flex-row justify-evenly mt-[5%]">
                     <div className="bg-[#FFFFFF1A] w-[295px] h-[316px] flex flex-col justify-center">
@@ -112,7 +112,7 @@ function career() {
                         </button>
                     </div>
                 </div>
-                <div className="flex flex-row justify-evenly mt-[5%]">
+                <div className="flex flex-row justify-evenly mt-[2%]">
                 <div className="bg-[#FFFFFF1A] w-[295px] h-[316px] flex flex-col justify-center">
                         <p className="mt-[4%] text-center text-[20px] text-white ">React.JS Intern</p>
                         <p className="ml-[8%] mr-[8%] mt-[4%] text-center text-[16px] text-white ">Lorem ipsum dolor sit amet consectetur. Luctus volutpat urna eu donec purus tellus adipiscing at. Pellentesque commodo eget vitae sed velit non id. Tempor mauris vel </p>
@@ -142,7 +142,11 @@ function career() {
                         </button>
                     </div>
                 </div>
+                <div className="bg-[#FFFFFF1A] pt-[2%] pb-[2%] border-solid rounded-md border-2 ml-[10%] mr-[10%] mt-[3%] bg-black-rgba">
+                <h2 className="text-white text-[30px] font-xyz text-center font-semibold ">If you are interested or know someone who is looking for the opportunity,
+ apply at:<span className="text-blue-600 font-xyz text-[30px]" ><a href=""> hr@shubhchintak.co</a> </span></h2>
                 
+            </div>
             </div>
             <Footer/>
         </div>
