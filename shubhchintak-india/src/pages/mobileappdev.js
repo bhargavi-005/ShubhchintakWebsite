@@ -15,7 +15,7 @@ export default function mobileappdev() {
         </div>
         <div className="max-[768px]:order-first max-[768px]:w-[80%] max-[768px]:ml-[15%] w-[150%] mr-[5%] mb-[5%]">
             <Image
-            src="/images/websitedev.png"
+            src="/images/mobile.png"
             alt=""
             width={1000}
             height={1000}/>
