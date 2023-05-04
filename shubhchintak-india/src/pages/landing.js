@@ -1,4 +1,3 @@
-// import bg from "../../public/images/bg.png";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"></link>
 import { Carousel } from 'react-responsive-carousel';
@@ -18,12 +17,12 @@ import Success from "./success"
 import Header from "./Header";
 import Footer from "./footer";
 import Review from "./customerviews"
-import Acco from './Accordation'
-function ok(){
-    
-}
+import Acco from "./Accordation"
+import { useState } from "react";
 function landing(){
+    const [index, setIndex]=useState(0);
     return(
+        
         
         <div style={{ backgroundImage: `url(${bg.src})` }} className=" max-[768px]:overflow-x-hidden  ">
             <Header/>
@@ -55,66 +54,67 @@ function landing(){
             <div className="max-[768px]:hidden max-[768px]:flex max-[768px]:flex-col flex flex-row mt-[1%] ml-[10%] space-x-5">
                
                 <div className="">
-                    <a href="">
-                    <button tabIndex="0" value="2" role="button" class="dot bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
+                    
+                    <button onClick={() => {setIndex(0)}} class="dot bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
                         Website
                     </button>
-                    </a>
+                   
                 </div>
                 <div className="">
-                    <a href="">
-                    <button class="max-[768px]:mt-[2%] max-[768px]:ml-[34%] bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
+                    
+                    <button onClick={() => {setIndex(1)}} class="max-[768px]:mt-[2%] max-[768px]:ml-[34%] bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
                         Mobile App
                     </button>
-                    </a>
+                    
                 </div>
                 <div>
-                    <a href="">
-                    <button class="max-[768px]:mt-[2%] max-[768px]:ml-[27%] bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
+                    
+                    <button onClick={() => {setIndex(2)}} class="max-[768px]:mt-[2%] max-[768px]:ml-[27%] bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
                         Cloud Consulation
                     </button>
-                    </a>
+                    
                 </div>
                 <div>
-                    <a href="">
-                    <button class="max-[768px]:mt-[2%] max-[768px]:ml-[30%] bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
+                    
+                    <button onClick={() => {setIndex(3)}} class="max-[768px]:mt-[2%] max-[768px]:ml-[30%] bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
                         Graphic Design
                     </button>
-                    </a>
+                    
                 </div>
                 <div>
-                    <a href="">
-                    <button class="max-[768px]:mt-[2%] max-[768px]:ml-[32%] bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
+                    
+                    <button onClick={() => {setIndex(4)}} class="max-[768px]:mt-[2%] max-[768px]:ml-[32%] bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
                         UI/UX Design
                     </button>
-                    </a>
+                    
                 </div>
                 <div>
-                    <a href="">
-                    <button class="max-[768px]:mt-[2%] max-[768px]:ml-[27%] bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
+                    
+                    <button onClick={() => {setIndex(5)}} class="max-[768px]:mt-[2%] max-[768px]:ml-[27%] bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
                         Cloud Consulation
                     </button>
-                    </a>
+                    
                 </div>
                 <div>
-                    <a href="">
-                    <button class="max-[768px]:mt-[2%] max-[768px]:ml-[29%] bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
+                    
+                    <button onClick={() => {setIndex(6)}} class="max-[768px]:mt-[2%] max-[768px]:ml-[29%] bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
                         Manual Testing
                     </button>
-                    </a>
+                    
                 </div>
                 <div>
-                    <a href="">
-                    <button  class="max-[768px]:mt-[2%] max-[768px]:ml-[39%] bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
+                    
+                    <button onClick={() => {setIndex(7)}} class="max-[768px]:mt-[2%] max-[768px]:ml-[39%] bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
                         VR/AR
                     </button>
-                    </a>
+                    
                 </div>
             
             </div>
             
             
-            <Carousel>
+            <Carousel
+            selectedItem={index}>
                 <Web/>
                 <Mobile/>
                 <Cloud/>
@@ -190,7 +190,7 @@ function landing(){
                             </div>
                         </div>
                         <div className="mt-[3%]">
-                        <button class="max-[768px]:ml-[32%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                        <button class="max-[768px]:ml-[5%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
                     View Case Study
                 </button>
                         </div>
@@ -207,7 +207,7 @@ function landing(){
             {/* repeated */}
             <div className="pt-[5%] ml-[10%] mr-[10%]">
                 <div className="mt-[5%]">
-                <h1 className="font-semibold text-white text-center font-abc text-[40px] font-semibold">Some of our best works!</h1>
+                <h1 className=" text-white text-center font-abc text-[40px] font-semibold">Some of our best works!</h1>
                 </div>
                 <div className="max-[768px]:flex max-[768px]:flex-col flex flex-row mt-[3%]">
                     <div className="mr-[20%] max-[768px]:order-last max-[768px]:mr-[5%]">
@@ -277,7 +277,7 @@ function landing(){
         {/* Next Section */}
         <div style={{ backgroundImage: `url(${bg.src})` }}>
             <div className="mt-[3%]">
-                <h1 className="max-[768px]:text-[30px] max-[768px]:ml-[10%] max-[768px]:mr-[10%] text-center text-white font-xyz text-[40px]">A Word from our Proud Clients!</h1>
+                <h1 className="max-[768px]:text-[30px] max-[768px]:ml-[10%] max-[768px]:mr-[10%] text-center text-white font-xyz text-[40px] font-semibold">A Word from our Proud Clients!</h1>
             </div>
             <Review/>
             
@@ -293,20 +293,20 @@ function landing(){
                         width={400}
                         height={494}/>
                         <div className="bg-black-rgba h-[173px] w-[100%]">
-                            <p className="ml-[1%] text-[20px] text-white font-xyz">EDGE COMPUTING: THE NEW ERA</p>
-                            <p className="ml-[1%] text-white text-[16px] font-xyz">It all started with one big computer coming into existence.</p>
+                            <p className="font-medium ml-[1%] text-[20px] text-white font-xyz">EDGE COMPUTING: THE NEW ERA</p>
+                            <p className="mt-[2%] ml-[1%] text-white text-[16px] font-xyz">It all started with one big computer coming into existence.</p>
                             <a href="#" className="text-white text-[16px] ml-[1%]">Read More</a>
                         </div>
                     </div>
-                    <div className="bg-[#FFFFFF1A] w-[400px] h-[454px]">
+                    <div className="bg-[#FFFFFF1A] w-[400px] h-[450px]">
                         <Image className=" max-[768px]:mr-[5%]"
                         alt=""
                         src="/images/tips.png"
                         width={400}
                         height={494}/>
                         <div className=" max-[768px]:mr-[5%] bg-black-rgba h-[173px] w-[100%]">
-                            <p className="ml-[1%] text-[20px] text-white font-xyz">5 TIPS FOR DESIGNING GOOD POST...</p>
-                            <p className="ml-[1%] text-white text-[16px] font-xyz">Designing good looking posters and social media posts is not as hard as it sounds.</p>
+                            <p className="font-medium ml-[1%] text-[20px] text-white font-xyz">5 TIPS FOR DESIGNING GOOD POST...</p>
+                            <p className="mt-[2%] ml-[1%] text-white text-[16px] font-xyz">Designing good looking posters and social media posts is not as hard as it sounds.</p>
                             <a href="#" className="text-white text-[16px] ml-[1%]">Read More</a>
                         </div>
                     </div>
@@ -317,16 +317,14 @@ function landing(){
                         width={400}
                         height={494}/>
                         <div className=" max-[768px]:mr-[5%] bg-black-rgba h-[173px] w-[100%]">
-                            <p className="ml-[1%] text-[20px] text-white font-xyz">HOW TO WRITE A GREAT BLOG</p>
-                            <p className="ml-[1%] text-white text-[16px] font-xyz">Is writing your passion but you fail to express it professionally?</p>
-                            <a href="#" className="text-white text-[16px] ml-[1%]">Read More</a>
+                            <p className="font-medium ml-[1%] text-[20px] text-white font-xyz">HOW TO WRITE A GREAT BLOG</p>
+                            <p className="mt-[2%] ml-[1%] text-white text-[16px] font-xyz">Is writing your passion but you fail to express it professionally?</p>
+                            <a href="#" className=" text-white text-[16px] ml-[1%]">Read More</a>
                         </div>
                     </div>
             </div>
         </div>
-        <div>
-            <Acco/>
-        </div>
+        <Acco/>
         {/* Next Section */}
        <Footer/>
         </div>

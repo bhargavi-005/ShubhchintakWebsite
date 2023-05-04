@@ -168,6 +168,10 @@ function Footer() {
           </div>
         </div>
       </div>
+      <div className="text-white pl-20 pr-20 mt-10">
+        <hr/>
+        <div className="text-zinc-400 text-center mt-3">© 2023 Welcome to Shubhchintak Technology. All Right Reserved</div>
+      </div>
     </div>
   );
 }

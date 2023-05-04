@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Poppins&family=Roboto&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 *{
    
- font-family: 'Poppins','mulish', sans-serif;
+ font-family: 'Poppins', sans-serif;
+ font-family: 'Roboto', sans-serif;
 
 }
 
