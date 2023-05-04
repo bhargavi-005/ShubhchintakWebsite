@@ -1,4 +1,5 @@
 import Image from "next/image";
+import React from "react";
 import Success from "./success"
 import Impact from "./impact"
 import Clients from "./clients"
