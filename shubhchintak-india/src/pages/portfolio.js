@@ -34,7 +34,7 @@ function port(){
             <div className="mt-[5%] mr-[10%] ml-[10%] ">
               
                 <h1 className="max-[768px]:text-center text-white font-semibold text-[40px] font-xyz">Our Works</h1>
-                <div className="px-6 py-4 mb-4 rounded-md bg-[#FFFFFF1A] ml-[60%] mt-[-6%] ">
+                <div className="px-6 py-4 mb-4 rounded-md bg-[#FFFFFF1A] ml-[60%] mt-[-5%] ">
               <div
                 onClick={() => setIsOpen1((prev) => !prev)}
                 className="flex flex-row justify-between gap-40 items-center text-lg font-semibold"
