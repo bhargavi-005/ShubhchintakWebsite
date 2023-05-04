@@ -27,7 +27,7 @@ export default function carouselUI() {
 
   return (
     <div className="m-0">
-      <Carousel showDots={true} responsive={responsive}
+      <Carousel showDots={true} dotListClass='white' responsive={responsive} 
       >
         <div className="p-2">
         <div className="lg:max-w-lg lg:w-full md:w-1/3 w-5/6 pb-10 -mr-2 md:-mr-16 border-2">
