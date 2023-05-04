@@ -10,8 +10,8 @@ function Header() {
     const [navbar, setNavbar] = useState(false);
 
   return (
-    <div style={{ backgroundImage: `url(${bg.src})` }} className="z-10 sticky top-0 text-white flex flex-row font-xyz py-6 mx-5 justify-between  xl:items-center bg-none ">
-      <div className="top-0 left-0 w-[139px] h-[29px] md:w-[187px] md:h-[46px]">
+    <div style={{ backgroundImage: `url(${bg.src})` }} className="z-10 sticky top-0 text-white flex flex-row font-xyz py-5 px-5 justify-between  xl:items-center bg-none ">
+      <div className="top-0 left-0 w-[139px] h-[29px] md:w-[187px] md:h-[46px] ">
         <Link href="/landing">
         <Image
           src="/svg/stpl_logo_white-01-01 1.svg"
@@ -21,15 +21,9 @@ function Header() {
         />
         </Link>
       </div>
-      <div className="md:hidden flex  gap-6">
-        <button className="bg-[#0F89FF]  xl:w-[145px] xl:h-[46px] w-[105px] h-[35px] rounded-full">
-          {" "}
-          <Link href="/contact_us"> Contact Us</Link>
-        </button>
       
-      </div>
-
-      <div className="lg:hidden">
+<div className="flex flex-row gap-8">
+      <div className="lg:hidden ">
                             <button
                                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
                                 onClick={() => setNavbar(!navbar)}
@@ -64,13 +58,13 @@ function Header() {
                                     </svg>
                                 )}
                             </button>
-                        </div>
+        </div>
 
-       <div className={`flex-1 justify-self-center flex lg:justify-center pb-3 mt-8 lg:flex lg:pb-0 lg:mt-0 ${navbar ? "block" : "hidden"
+       <div className={`flex-1 justify-self-center flex lg:justify-center pb-3 mt-8 mr-80 lg:flex lg:pb-0 lg:mt-0 ${navbar ? "block" : "hidden"
       }`}>
         <ul
           onClick={() => setOpen(false)}
-          className="flex flex-col  lg:flex-row  lg:gap-[4vw] lg:items-center  gap-8"
+          className="flex flex-col  lg:flex-row lg:gap-[4vw] lg:items-center  gap-8"
         >
           <li>
              <div
@@ -172,6 +166,7 @@ function Header() {
   
   </div>
   
+      </div>
       </div>
       
     </div>

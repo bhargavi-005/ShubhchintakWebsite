@@ -9,8 +9,8 @@ function success(){
                     <h2 className="font-extrabold max-[768px]:ml-[25%] text-[40px] text-center text-xyz text-white">80+</h2>
                     <p className="max-[768px]:text-center text-[18px] text-xyz text-white">Projects Delivered</p>
                 </div>
-                <div className="mt-[5%] flex flex-col">
-                    <h2 className="font-extrabold text-[40px] text-center text-xyz text-white">35+</h2>
+                <div className="mt-[5%]  flex flex-col">
+                    <h2 className="font-extrabold text-[40px]  text-center text-xyz text-white">35+</h2>
                     <p className="max-[768px]:text-center text-[18px] text-xyz text-white">Happy Clients</p>
                 </div>
                 <div className="mt-[5%]">

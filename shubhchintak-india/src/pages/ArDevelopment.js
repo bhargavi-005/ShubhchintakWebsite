@@ -22,7 +22,7 @@ export default function ArDevelopment() {
                 <div className="w-3/4 text-base md:text-2xl text-blue-200 mt-8">
                   Step into the Future with Cutting-Edge VR/AR Services!
                 </div>
-                <button className="bg-blue-500 w-1/3 mt-8 p-3 rounded-full text-white font-semibold text-base md:text-2xl">
+                <button className="bg-blue-500 hover:bg-blue-700 w-1/3 mt-8 p-3 rounded-full text-white font-semibold text-base md:text-2xl">
                   Get Started
                 </button>
               </div>
@@ -39,11 +39,11 @@ export default function ArDevelopment() {
           </section>
 
           <section>
-            <div className="flex flex-col w-full p-16 content-center justify-items-center mt-24">
+            <div className="flex flex-col w-full p-4 md:p-16 content-center justify-items-center mt-24">
               <div className="text-center text-4xl md:text-6xl font-bold text-blue-500">
                 Hire {"India's"} top VR/AR Service Provider
               </div>
-              <div className="text-white mt-8 m-16 text-base md:text-2xl text-center">
+              <div className="text-white mt-8 p-5 md:m-16 text-base md:text-2xl text-center">
                 Shubhchintak Technology is a leading AR VR development company
                 that uses the immersive power of augmented and virtual reality
                 to enthrall a {"company’s"} users and multiply their ROI. AR VR
@@ -65,7 +65,7 @@ export default function ArDevelopment() {
           </section>
 
           <section>
-            <div className="text-4xl md:text-6xl  text-white p-12 font-bold text-center ml-44 mr-44">
+            <div className="text-4xl md:text-6xl  text-white p-12 font-bold text-center ml-4 mr-4 md:ml-32 md:mr-32">
               Transform your digital journey with
               <span className="text-blue-500">
                 <div className="mt-5">{" 360'"} VR/AR Process!</div>
@@ -75,20 +75,20 @@ export default function ArDevelopment() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  place-items-center  my-20 lg:mx-28 gap-y-6 font-xyz">
               <div className="w-[320px] h-[135px] md:w-[334px] md:h-[135px] lg:w-[400px] lg:h-[135px]  bg-gradient-to-b from-white to-black flex justify-center items-center rounded-[4px] ">
                 <div className="w-[315px] h-[130px] md:w-[329px] md:h-[130px] lg:w-[395px] lg:h-[130px] bg-zinc-900  rounded-[4px] flex flex-col justify-center text-center ">
-                  <div className="text-xl text-white m-2 mt-0">Step 1</div>
-                  <div className="text-2xl text-white">Consultation</div>
+                  <div className="text-xl text-white m-2 mt-0 font-bold">Step 1</div>
+                  <div className="text-2xl text-white font-bold">Consultation</div>
                 </div>
               </div>
               <div className="w-[320px] h-[135px] md:w-[334px] md:h-[135px] lg:w-[400px] lg:h-[135px]   bg-gradient-to-b from-white to-black flex justify-center items-center  rounded-[4px]">
                 <div className="w-[315px] h-[133px] md:w-[329px] md:h-[130px] lg:w-[395px] lg:h-[130px]  bg-zinc-900 rounded-[4px] flex flex-col justify-center text-center">
-                  <div className="text-xl text-white m-2 mt-0">Step 2</div>
-                  <div className="text-2xl text-white">Concept development</div>
+                  <div className="text-xl text-white m-2 mt-0 font-bold">Step 2</div>
+                  <div className="text-2xl text-white font-bold">Concept development</div>
                 </div>
               </div>
               <div className="w-[320px] h-[135px] md:w-[334px] md:h-[135px] lg:w-[400px] lg:h-[135px]   bg-gradient-to-b from-white to-black flex justify-center items-center  rounded-[4px]">
                 <div className="w-[315px] h-[133px] md:w-[329px] md:h-[130px] lg:w-[395px] lg:h-[130px] bg-zinc-900 rounded-[4px] flex flex-col justify-center text-center">
-                  <div className="text-xl text-white m-2 mt-0">Step 3</div>
-                  <div className="text-2xl text-white">
+                  <div className="text-xl text-white m-2 mt-0 font-bold">Step 3</div>
+                  <div className="text-2xl text-white font-bold">
                     Design & Development
                   </div>
                 </div>
@@ -96,16 +96,16 @@ export default function ArDevelopment() {
 
               <div className="w-[320px] h-[135px] md:w-[334px] md:h-[135px] lg:w-[400px] lg:h-[135px]  bg-gradient-to-b from-white to-black flex justify-center items-center rounded-[4px]">
                 <div className="w-[315px] h-[133px] md:w-[329px] md:h-[130px] lg:w-[395px] lg:h-[130px] bg-zinc-900 rounded-[4px] flex flex-col justify-center text-center">
-                  <div className="text-xl text-white m-2 mt-0">Step 4</div>
-                  <div className="text-2xl text-white">
+                  <div className="text-xl text-white m-2 mt-0 font-bold">Step 4</div>
+                  <div className="text-2xl text-white font-bold">
                     Testing & Quality Assurance
                   </div>
                 </div>
               </div>
               <div className="w-[320px] h-[135px] md:w-[334px] md:h-[135px] lg:w-[400px] lg:h-[135px]   bg-gradient-to-b from-white to-black flex justify-center items-center  rounded-[4px]">
                 <div className="w-[315px] h-[133px] md:w-[329px] md:h-[130px] lg:w-[395px] lg:h-[130px] bg-zinc-900 rounded-[4px] flex flex-col justify-center text-center">
-                  <div className="text-xl text-white m-4 2 mt-0">Step 5</div>
-                  <div className="text-2xl text-white">
+                  <div className="text-xl text-white m-4 2 mt-0 font-bold">Step 5</div>
+                  <div className="text-2xl text-white font-bold">
                     Deployment & Support
                   </div>
                 </div>
@@ -216,7 +216,7 @@ export default function ArDevelopment() {
               <div className="w-3/4 p-1 bg-gradient-to-r from-white to-black flex justify-center items-center  rounded-3xl my-20">
                 <div className="w-full h-[247px]  px-3 bg-zinc-900 font-semibold text-xl md:text-3xl lg:text-3xl text-center flex flex-col justify-center items-center rounded-3xl gap-10">
                   Need complete VR/AR consultation?
-                  <button className="w-fit h-auto p-2 px-5 bg-[#0F89FF] rounded-full text-center text-lg ">
+                  <button className="w-fit h-auto p-2 px-5 bg-blue-500 hover:bg-blue-700 rounded-full text-center text-lg ">
                     Contact Our Experts
                   </button>
                 </div>

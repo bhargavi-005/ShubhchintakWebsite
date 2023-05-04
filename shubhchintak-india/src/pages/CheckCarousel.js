@@ -5,6 +5,18 @@ import "react-multi-carousel/lib/styles.css";
 import Link from "next/link";
 
 function carouselClient() {
+
+    const CustomDot = ({ onClick, ...rest }) => {
+        const {
+          active,
+        } = rest;
+        return (
+          <button
+            className={active ? "w-[14px] h-[14px] rounded-[7px] bg-gray-600 mx-1" : "w-[14px] h-[14px] rounded-[7px] bg-white mx-1"}
+            onClick={() => onClick()}
+          />
+        );
+      };
   
   const responsive = {
     desktop: {
@@ -26,7 +38,7 @@ function carouselClient() {
   return (
     
       <div className="my-20">
-      <Carousel4 showDots={true}  responsive={responsive} dotColorInactive={"#795548"}>
+      <Carousel4 showDots={true}  responsive={responsive} customDot={<CustomDot/>}>
       
       <div className="w-[295px] h-[316px] bg-gradient-to-b from-white to-black  flex items-center justify-center">
         <div className="w-[292px] h-[314px] bg-gray-800 p-7">
