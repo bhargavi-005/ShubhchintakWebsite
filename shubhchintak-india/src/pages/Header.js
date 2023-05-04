@@ -75,7 +75,7 @@ function Header() {
           <li>
              <div
               onClick={() => setIsOpen((prev) => !prev)}
-              className="flex flex-row items-center"
+              className="flex flex-row items-center cursor-pointer"
             >
               Services
               <Image
@@ -124,7 +124,7 @@ function Header() {
           <li>
             <div
               onClick={() => setIsOpen1((prev) => !prev)}
-              className="flex flex-row items-center"
+              className="flex flex-row items-center cursor-pointer"
             >
               Resources
               <Image
@@ -141,9 +141,6 @@ function Header() {
                   <li className="hover:text-slate-400">
                     <Link href="/blog">Blogs</Link>
                   </li>
-                  <li className="hover:text-slate-400">
-                    <Link href="">Clients</Link>
-                  </li>
                 </ul>
               </div>
             )}
@@ -152,7 +149,7 @@ function Header() {
             <Link href="/career">Career</Link>
           </li>
           <li>
-            <div className="flex flex-row items-center">
+            <div className="flex flex-row items-center cursor-pointer">
               En
               <Image
                 className=""

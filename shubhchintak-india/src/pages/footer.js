@@ -84,8 +84,8 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <div className=" flex flex-col gap-5">
-          <div className="font-extrabold text-xl">Services</div>
+        <div className=" flex flex-col gap-5 cursor-pointer">
+          <div className="font-extrabold text-xl cursor-pointer">Services</div>
           <ul className="font-medium text-base  flex flex-col gap-2 text-gray-400">
             <li className="">
               <Link href="/webdeveloppment" className=" ">Web Development</Link>
@@ -118,9 +118,7 @@ function Footer() {
                 <li className="">
                   <Link href="/blog" className=" ">Blogs</Link>
                 </li>
-                <li className="">
-                  <Link href="/clients" className="">Clients</Link>
-                </li>
+                
               </ul>
             </div>
 
