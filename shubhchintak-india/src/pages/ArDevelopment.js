@@ -39,11 +39,11 @@ export default function ArDevelopment() {
           </section>
 
           <section>
-            <div className="flex flex-col w-full p-16 content-center justify-items-center mt-24">
+            <div className="flex flex-col w-full p-4 md:p-16 content-center justify-items-center mt-24">
               <div className="text-center text-4xl md:text-6xl font-bold text-blue-500">
                 Hire {"India's"} top VR/AR Service Provider
               </div>
-              <div className="text-white mt-8 m-16 text-base md:text-2xl text-center">
+              <div className="text-white mt-8 p-5 md:m-16 text-base md:text-2xl text-center">
                 Shubhchintak Technology is a leading AR VR development company
                 that uses the immersive power of augmented and virtual reality
                 to enthrall a {"company’s"} users and multiply their ROI. AR VR
@@ -65,7 +65,7 @@ export default function ArDevelopment() {
           </section>
 
           <section>
-            <div className="text-4xl md:text-6xl  text-white p-12 font-bold text-center ml-44 mr-44">
+            <div className="text-4xl md:text-6xl  text-white p-12 font-bold text-center ml-4 mr-4 md:ml-40 md:mr-40">
               Transform your digital journey with
               <span className="text-blue-500">
                 <div className="mt-5">{" 360'"} VR/AR Process!</div>

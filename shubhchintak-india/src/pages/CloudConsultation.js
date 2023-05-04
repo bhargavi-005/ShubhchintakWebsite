@@ -71,7 +71,7 @@ export default function CloudConsultation() {
           </section>
 
           <section>
-            <div className="text-4xl md:text-6xl  text-white p-12 font-bold text-center ml-0 md:ml-44 mr-44">
+            <div className="text-4xl md:text-6xl  text-white p-12 font-bold text-center ml-0 md:ml-32 mr-32">
               Transform your digital journey with
               <span className="text-blue-500">
                 {" 360'"} <div className="mt-4">Cloud Consultancy Process!</div>
