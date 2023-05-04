@@ -65,7 +65,7 @@ export default function ArDevelopment() {
           </section>
 
           <section>
-            <div className="text-4xl md:text-6xl  text-white p-12 font-bold text-center ml-4 mr-4 md:ml-40 md:mr-40">
+            <div className="text-4xl md:text-6xl  text-white p-12 font-bold text-center ml-4 mr-4 md:ml-32 md:mr-32">
               Transform your digital journey with
               <span className="text-blue-500">
                 <div className="mt-5">{" 360'"} VR/AR Process!</div>
