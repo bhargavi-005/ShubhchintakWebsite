@@ -15,7 +15,7 @@ function contact_us() {
             Hey! Tell us what you needs👋
           </h5>
           <div className="flex flex-wrap w-full mb-10 flex-col text-6xl">
-            <p className="  lg:w-1/2 w-full leading-relaxed text-white text-3xl font-medium">
+            <p className="  lg:w-1/2 w-full leading-relaxed text-white text-3xl font-bold">
               {"I’m"} Interested in...
             </p>
           </div>
@@ -67,7 +67,7 @@ function contact_us() {
       </section>
 
       <section className="text-white font-abc relative">
-        <div className="container px-5 py-24 mx-auto">
+        <div className="container px-5 py-15 mx-auto">
           <div className="lg:w-1/2 md:w-2/3 mx-auto">
             <ul className=" flex flex-col gap-6 text-xl font-normal opacity-[0.90] ">
               <li>
@@ -88,12 +88,12 @@ function contact_us() {
                   className=" mt-2 border-none bg-transparent focus:outline-0 w-[400px] h-[100px] "
                   placeholder="Type your Message"
                 />
-                <div className="mt-4 w-[710px] h-[0.5px] bg-white"></div>
+                <div className="mt-4 mb-7 w-[710px] h-[0.5px] bg-white"></div>
               </li>
 
-              <li>
+              <li className="mb-10">
                 <div className="p-2 w-full">
-                  <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded-full text-lg">
+                  <button className="flex mx-auto text-white bg-[#0F89FF] border-0 py-2 px-10 focus:outline-none hover:bg-indigo-600 rounded-full text-lg">
                     <Link href=""> Send Request</Link>
                   </button>
                 </div>
@@ -103,9 +103,9 @@ function contact_us() {
         </div>
       </section>
 
-      <footer className="text-white font-abc">
-        <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-wrap md:text-left text-center -mb-10 -mx-4">
+      <footer className="text-white font-mulish font-normal">
+        <div className="container px-15 py-20 mx-auto">
+          <div className="flex flex-wrap md:text-left text-center -mb-10 mx-2 ">
             <div className="lg:w-1/3 md:w-1/2 w-full px-4">
               <nav className="list-none mb-10">
                 <li className="mb-10 flex flex-wrap gap-2 ">
@@ -178,7 +178,7 @@ function contact_us() {
                   </a>
                 </li>
                 <li>
-                  <div className="container px-1 py-8 flex flex-wrap mx-auto items-center">
+                  <div className="container px-5 py-8 flex flex-wrap mx-auto items-center">
                     <div className="flex flex-row gap-5">
                       <div className="border-2 border-gray-500 rounded-full p-2">
                         <Image
@@ -230,12 +230,13 @@ function contact_us() {
         </div>
       </footer>
 
-      <section className="px-10">
+      <section className="container px-15 py-16 mx-auto">
         <div className="flex flow-col justify-between">
           <div className="w-1/2 pr-4">
             <div className="relative overflow-hidden h-80">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3033.725208448446!2d-74.00594198459118!3d40.71278453523927!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a2bc52c1d75%3A0x84df593c2e82510d!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1630500402001!5m2!1sen!2sin"
+              class="map"
+                src="https://www.google.com/maps/embed?pb=!1m20!1m12!1m3!1d110715.00682812925!2d79.03721897801468!3d21.131979954132454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m5!3e6!4m1!2sCurrent%20Location!4m1!2sOffice%20No.131st%20Floor%20Near%20Railway%20Sunshine%20Heights%20Achole%20Road%20Sunshine%20City%20Moregaon%20Talao%2C%20Vasai%20Virar%2C%20MH%20401209!5e1!3m2!1sen!2sin!4v1683171655351!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -248,7 +249,8 @@ function contact_us() {
           <div className="w-1/2 pl-4">
             <div className="relative  overflow-hidden h-80">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.4122230081914!2d-73.986613684582!3d40.7587318793304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2590278b987c7%3A0x469bbaaa9b9aeeb!2sCentral%20Park!5e0!3m2!1sen!2sin!4v1630500723859!5m2!1sen!2sin"
+              class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.512124092022!2d-80.14621502487216!3d26.94838467662596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88ded6f59d5fcdd1%3A0x10859de789b41cce!2s7187%20Trotwood%20Ln%2C%20Jupiter%2C%20FL%2033458%2C%20USA!5e1!3m2!1sen!2sin!4v1683172331767!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -256,6 +258,7 @@ function contact_us() {
                 loading="lazy"
                 title="Location 2 Map"
               />
+              
             </div>
           </div>
         </div>

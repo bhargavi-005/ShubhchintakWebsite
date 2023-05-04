@@ -20,7 +20,7 @@ import Review from "./customerviews"
 import Acco from "./Accordation"
 import Mark from "./marketing"
 import { useState } from "react";
-function landing(){
+function Landing(){
     const [index, setIndex]=useState(0);
     return(
         
@@ -331,4 +331,4 @@ function landing(){
         </div>
     )
 }
-export default landing;
+export default Landing;

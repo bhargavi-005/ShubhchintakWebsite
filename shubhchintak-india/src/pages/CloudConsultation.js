@@ -3,14 +3,15 @@ import CheckOut from "./checkoutView";
 import Header from "./Header";
 import Footer from "./footer";
 import bg from "../../public/images/bg.png";
+import MobFooter from "./MobFooter";
 
 export default function CloudConsultation() {
   return (
     <>
       <div className="" style={{ backgroundImage: `url(${bg.src})` }}>
-        <div>
+        
           <Header />
-        </div>
+       
 
         <div className="p-16">
           <section classname="flex flex-row text-white">
@@ -182,7 +183,13 @@ export default function CloudConsultation() {
           </section>
         </div>
         <div className="mt-5">
-          <Footer />
+          <div className=" min-[390px]:max-[480px]:hidden min-[481px]:max-[1200px]">
+            <Footer />
+          </div>
+
+          <div className="min-[481px]:hidden min-[390px]:max-[480px] ">
+            <MobFooter />
+          </div>
         </div>
       </div>
     </>

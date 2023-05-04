@@ -6,7 +6,6 @@ import "react-multi-carousel/lib/styles.css";
 export default function carouselUI() {
    const responsive = {
      superLargeDesktop: {
-       // the naming can be any, depends on you.
        breakpoint: { max: 4000, min: 3000 },
        items: 5,
      },
@@ -24,9 +23,12 @@ export default function carouselUI() {
      },
    };
 
+   
+
   return (
     <div className="m-0">
-      <Carousel showDots={true} responsive={responsive}>
+      <Carousel showDots={true} responsive={responsive}
+      >
         <div className="p-2">
         <div className="lg:max-w-lg lg:w-full md:w-1/3 w-5/6 pb-10 -mr-2 md:-mr-16 border-2">
               <Image
