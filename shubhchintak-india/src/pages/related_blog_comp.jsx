@@ -19,28 +19,28 @@ function related_blog_comp() {
                 Related Blogs
               </h1>
             </div>
-            <div>
+            <div className="px-10 py-4 mb-4 rounded-md bg-[#FFFFFF1A]  ">
               <div
                 onClick={() => setIsOpen1((prev) => !prev)}
-                className="flex flex-row  items-center"
+                className="flex flex-row items-center text-lg font-semibold"
               >
                 Website Development
                 <Image
-                  className=""
+                  className="ml-7"
                   src="/images/blog/drop.png"
                   width={10}
                   height={5}
-                  alt=""
+                  alt="drop"
                 />
               </div>
               {isOpen1 && (
                 <div className="bg-gray-500 z-10 rounded-lg  mt-2 p-8 absolute ">
                   <ul className="flex flex-col gap-4 text-white ">
                     <li className="hover:text-slate-400">
-                      <Link href="/blog">Blogs</Link>
+                      <Link href="/blog">Website Development1</Link>
                     </li>
                     <li className="hover:text-slate-400">
-                      <Link href="">Clients</Link>
+                      <Link href="">Website Development2</Link>
                     </li>
                   </ul>
                 </div>
