@@ -19,3 +19,7 @@ body{
   
   /* background:url("../../public/svg/Desktop\ -\ 1.png"); */
 }
+
+.map {
+  filter: grayscale(100%);         
+}

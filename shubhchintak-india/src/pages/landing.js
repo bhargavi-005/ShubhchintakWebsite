@@ -18,11 +18,11 @@ import Header from "./Header";
 import Footer from "./footer";
 import Review from "./customerviews"
 import Acco from "./Accordation"
-function ok(){
-    
-}
+import { useState } from "react";
 function landing(){
+    const [index, setIndex]=useState(0);
     return(
+        
         
         <div style={{ backgroundImage: `url(${bg.src})` }} className=" max-[768px]:overflow-x-hidden  ">
             <Header/>
@@ -54,66 +54,67 @@ function landing(){
             <div className="max-[768px]:hidden max-[768px]:flex max-[768px]:flex-col flex flex-row mt-[1%] ml-[10%] space-x-5">
                
                 <div className="">
-                    <a href="">
-                    <button tabIndex="0" value="2" role="button" class="dot bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
+                    
+                    <button onClick={() => {setIndex(0)}} class="dot bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
                         Website
                     </button>
-                    </a>
+                   
                 </div>
                 <div className="">
-                    <a href="">
-                    <button class="max-[768px]:mt-[2%] max-[768px]:ml-[34%] bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
+                    
+                    <button onClick={() => {setIndex(1)}} class="max-[768px]:mt-[2%] max-[768px]:ml-[34%] bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
                         Mobile App
                     </button>
-                    </a>
+                    
                 </div>
                 <div>
-                    <a href="">
-                    <button class="max-[768px]:mt-[2%] max-[768px]:ml-[27%] bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
+                    
+                    <button onClick={() => {setIndex(2)}} class="max-[768px]:mt-[2%] max-[768px]:ml-[27%] bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
                         Cloud Consulation
                     </button>
-                    </a>
+                    
                 </div>
                 <div>
-                    <a href="">
-                    <button class="max-[768px]:mt-[2%] max-[768px]:ml-[30%] bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
+                    
+                    <button onClick={() => {setIndex(3)}} class="max-[768px]:mt-[2%] max-[768px]:ml-[30%] bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
                         Graphic Design
                     </button>
-                    </a>
+                    
                 </div>
                 <div>
-                    <a href="">
-                    <button class="max-[768px]:mt-[2%] max-[768px]:ml-[32%] bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
+                    
+                    <button onClick={() => {setIndex(4)}} class="max-[768px]:mt-[2%] max-[768px]:ml-[32%] bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
                         UI/UX Design
                     </button>
-                    </a>
+                    
                 </div>
                 <div>
-                    <a href="">
-                    <button class="max-[768px]:mt-[2%] max-[768px]:ml-[27%] bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
+                    
+                    <button onClick={() => {setIndex(5)}} class="max-[768px]:mt-[2%] max-[768px]:ml-[27%] bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
                         Cloud Consulation
                     </button>
-                    </a>
+                    
                 </div>
                 <div>
-                    <a href="">
-                    <button class="max-[768px]:mt-[2%] max-[768px]:ml-[29%] bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
+                    
+                    <button onClick={() => {setIndex(6)}} class="max-[768px]:mt-[2%] max-[768px]:ml-[29%] bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
                         Manual Testing
                     </button>
-                    </a>
+                    
                 </div>
                 <div>
-                    <a href="">
-                    <button  class="max-[768px]:mt-[2%] max-[768px]:ml-[39%] bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
+                    
+                    <button onClick={() => {setIndex(7)}} class="max-[768px]:mt-[2%] max-[768px]:ml-[39%] bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
                         VR/AR
                     </button>
-                    </a>
+                    
                 </div>
             
             </div>
             
             
-            <Carousel>
+            <Carousel
+            selectedItem={index}>
                 <Web/>
                 <Mobile/>
                 <Cloud/>

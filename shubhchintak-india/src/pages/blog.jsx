@@ -20,7 +20,7 @@ function blog() {
               available in the world right now.
             </p>
             <div className="flex w-full md:justify-start justify-center items-end">
-              <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded-[50px] text-lg">
+              <button className="inline-flex text-white bg-[#0F89FF] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded-[50px] text-lg">
               <Link href="/blog_details"> Read More</Link>
               </button>
             </div>
@@ -42,12 +42,12 @@ function blog() {
       <section className="text-white font-abc">
         <div className="container px-5 py-20 mx-auto border border-white rounded-3xl bg-[#FFFFFF1A]">
           <div className="flex justify-center text-center w-full mb-12">
-            <p className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
+            <p className="sm:text-3xl text-2xl font-bold title-font mb-4 text-white">
               {"Let’s"} Discuss your eCommerce Rental Marketplace Business Idea
             </p>
           </div>
           <div className="flex lg:w-1/3 w-full sm:flex-row justify-center mx-auto px-8 sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end">
-            <button className="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded-3xl text-lg">
+            <button className="text-white bg-[#0F89FF] border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded-3xl text-lg">
             <Link href="/contact_us">Contact Us</Link>
             </button>
           </div>
