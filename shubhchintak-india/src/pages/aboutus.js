@@ -79,6 +79,7 @@ function about(){
             {/* Next Section */}
             <Clients/>
             {/* Next Section */}
+            <h1 className="mt-[5%] text-center text-[40px] text-white font-xyz font-semibold">A Word from our Proud Clients!</h1>
             <Review/>
             {/* Next Section */}
             <div className="bg-[#FFFFFF1A] pt-[2%] pb-[2%] border-solid rounded-md border-2 ml-[10%] mr-[10%] bg-black-rgba">

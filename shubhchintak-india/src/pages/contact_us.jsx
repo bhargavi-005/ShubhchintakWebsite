@@ -67,11 +67,11 @@ function contact_us() {
         </div>
       </section>
 
-      <section className="text-white font-abc relative">
-        <div className="container px-5 py-15 mx-auto">
-          <div className="lg:w-1/2 md:w-2/3 mx-auto">
-            <ul className=" flex flex-col gap-6 text-xl font-normal opacity-[0.90] ">
-              <li>
+      <section className="text-white font-abc flex justify-center md:mr-5">
+        <div className="container px-5 py-15 flex justify-center ">
+          <div className=" w-full flex justify-center ">
+            <ul className=" mx-auto flex flex-col justify-center gap-6 text-xl font-normal opacity-[0.90] ">
+            <li>
                 <h5>Name</h5>
                 <input className=" mt-2 border-none bg-transparent focus:outline-0 " />
                 <div className="mt-4 w-[710px] h-[0.5px] bg-white"></div>
@@ -236,7 +236,7 @@ function contact_us() {
           <div className="w-1/2 pr-4">
             <div className="relative overflow-hidden h-80">
               <iframe
-              class="map"
+              className="map"
                 src="https://www.google.com/maps/embed?pb=!1m20!1m12!1m3!1d110715.00682812925!2d79.03721897801468!3d21.131979954132454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m5!3e6!4m1!2sCurrent%20Location!4m1!2sOffice%20No.131st%20Floor%20Near%20Railway%20Sunshine%20Heights%20Achole%20Road%20Sunshine%20City%20Moregaon%20Talao%2C%20Vasai%20Virar%2C%20MH%20401209!5e1!3m2!1sen!2sin!4v1683171655351!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
@@ -250,7 +250,7 @@ function contact_us() {
           <div className="w-1/2 pl-4">
             <div className="relative  overflow-hidden h-80">
               <iframe
-              class="map"
+              className="map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.512124092022!2d-80.14621502487216!3d26.94838467662596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88ded6f59d5fcdd1%3A0x10859de789b41cce!2s7187%20Trotwood%20Ln%2C%20Jupiter%2C%20FL%2033458%2C%20USA!5e1!3m2!1sen!2sin!4v1683172331767!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
