@@ -8,26 +8,26 @@ import MobFooter from "./MobFooter";
 
 function career() {
     return(
-        <div style={{ backgroundImage: `url(${bg.src})` }} >
+        <div className="max-[768px]:pr-[17%]" style={{ backgroundImage: `url(${bg.src})` }} >
             <Header/>
-            <div className="flex flex-row max-[768px]:flex max-[768px]:flex-col ">
-                <div className=" ml-[8%] mr-[30%] mt-[13%]">
-                    <h1 className="max-[768px]:w-[150%] max-[768px]:text-center text-[60px] font-xyz font-extrabold text-white">Build your career with Us!</h1>
+            <div className=" flex flex-row max-[768px]:flex max-[768px]:flex-col ">
+                <div className=" ml-[8%] max-[768px]:order-last  mr-[30%] mt-[13%]">
+                    <h1 className="max-[768px]:w-[150%] max-[768px]:text-center max-[768px]:text-[35px] text-[60px] font-xyz font-extrabold text-white">Build your career with Us!</h1>
                     <p className="max-[768px]:text-center max-[768px]:ml-[10%] max-[768px]:mr-[-50%] text-[18px] font-xyz font-semibold text-white">Our employees are the assets of our organization. We do 
                     not only provide jobs, we tend to built strong careers for 
                     our employees.</p>
                 </div>
-                <div className="max-[1500px]:mr-[10%] max-[768px]:w-[130%] w-[100%] ml-[-18%] mt-[5%]">
-                    <Image className=" w-[600px] h-[500px]"
+                <div className="max-[768px]:flex max-[768px]:justify-center max-[1500px]:mr-[10%] max-[768px]:w-[120%] w-[100%] ml-[-18%] mt-[5%] max-[768px]:ml-[-1%] max-[768px]:order-first ">
+                    <Image className="max-[768px]:h-[300px] max-[768px]:w-[80%] w-[600px] h-[500px] "
                     src="/images/career1.png"
                     alt="career"
                     width={600}
                     height={430}/>
                 </div>
             </div>
-            <div className="flex flex-row">
+            <div className="max-[768px]:flex max-[768px]:flex-col flex flex-row">
             <div className="w-[100%] ml-[8%] mt-[5%]">
-                    <Image className="w-[600px] h-[500px]"
+                    <Image className="max-[768px]:w-[100%] max-[768px]:h-[300px] w-[600px] h-[500px]"
                     src="/images/career2.png"
                     alt="career"
                     width={600}
@@ -36,8 +36,8 @@ function career() {
                 <div className="mr-[10%] mt-[8%]">
                 <div className="max-[768px]:flex max-[768px]:flex-col flex flex-row  mt-[3%]">
                     <div className="max-[768px]:mr-[15%] mr-[10%] max-[768px]:order-last max-[768px]:mr-[5%]">
-                        <h1 className="max-[1500px]:ml-[15%] text-white text-[40px] font-semibold">Benefits of working with Us!</h1>
-                        <p className="max-[1500px]:ml-[15%]  text-white text-left text-[16px]">We believe when employees feel fulfilled and see their growth potential in their job, they start loving their job. Here are some reasons for working with us;</p>
+                        <h1 className="max-[1500px]:ml-[15%] text-white text-[40px] font-semibold max-[768px]:text-[35px] max-[768px]:w-[100%] max-[768px]:text-center">Benefits of working with Us!</h1>
+                        <p className="max-[1500px]:ml-[15%]  text-white text-left text-[16px] max-[768px]:text-center">We believe when employees feel fulfilled and see their growth potential in their job, they start loving their job. Here are some reasons for working with us;</p>
                         <div className="max-[1500px]:ml-[15%]  flex flex-row mt-[5%]">
                             <div>
                                 <Image
@@ -83,7 +83,7 @@ function career() {
             </div>
             <div className="max-[768px]:mt-[10%]  ml-[4%] mr-[4%] relative mt-[10%]">
                 <h1 className="text-center text-white text-[40px] font-semibold">Current openings!</h1>
-                <div className="flex flex-row justify-evenly mt-[5%]">
+                <div className="flex flex-row max-[768px]:flex max-[768px]:flex-col justify-evenly mt-[5%]">
                     <div className="bg-[#FFFFFF1A] w-[295px] h-[316px] flex flex-col justify-center">
                         <p className="mt-[4%] text-center text-[20px] text-white font-bold">BDM/BDE</p>
                         <p className="ml-[8%] mr-[8%] mt-[4%] text-center text-[16px] text-white ">Lorem ipsum dolor sit amet consectetur. Luctus volutpat urna eu donec purus tellus adipiscing at. Pellentesque commodo eget vitae sed velit non id. Tempor mauris vel </p>
@@ -113,7 +113,7 @@ function career() {
                         </button>
                     </div>
                 </div>
-                <div className="flex flex-row justify-evenly mt-[2%]">
+                <div className="flex max-[768px]:flex max-[768px]:flex-col flex-row justify-evenly mt-[2%]">
                 <div className="bg-[#FFFFFF1A] w-[295px] h-[316px] flex flex-col justify-center">
                         <p className="mt-[4%] text-center text-[20px] text-white font-bold">React.JS Intern</p>
                         <p className="ml-[8%] mr-[8%] mt-[4%] text-center text-[16px] text-white ">Lorem ipsum dolor sit amet consectetur. Luctus volutpat urna eu donec purus tellus adipiscing at. Pellentesque commodo eget vitae sed velit non id. Tempor mauris vel </p>
