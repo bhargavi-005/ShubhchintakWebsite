@@ -24,7 +24,7 @@ function carouselUI() {
 
   return (
     
-      <div className="my-20">
+      <div className="">
       <Marquee className="flex flex-row" responsive={responsive}>
         <div className="p-10">
         <div className="  ">

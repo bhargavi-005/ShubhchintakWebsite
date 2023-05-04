@@ -87,13 +87,15 @@ function DMarket() {
             <h6 className="text-[26px]">Digital Strategy Formation</h6>
           </div>
         </div>
-        <div className=" w-[320px] h-[135px] md:w-[334px] md:h-[135px] lg:w-[400px] lg:h-[135px]   bg-gradient-to-b from-white to-black flex justify-center items-center  rounded-[4px]">
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  place-items-center  lg:mx-28  font-xyz">
+        <div className=" w-[320px] h-[135px] md:w-[334px] md:h-[135px] lg:w-[400px] lg:h-[135px]   bg-gradient-to-b from-white to-black flex justify-center items-center lg:ml-52 rounded-[4px]">
           <div className="w-[315px] h-[133px] md:w-[329px] md:h-[130px] lg:w-[395px] lg:h-[130px] bg-gray-950 rounded-[4px] flex flex-col justify-center text-center font-semibold">
             <h5 className="text-xl  ">Step 4</h5>
             <h6 className="text-[26px] mx-2">Analytic Based evalutation</h6>
           </div>
         </div>
-        <div className="w-[320px] h-[135px] md:w-[334px] md:h-[135px] lg:w-[400px] lg:h-[135px]   bg-gradient-to-b from-white to-black flex justify-center items-center  rounded-[4px]">
+        <div className="w-[320px] h-[135px] md:w-[334px] md:h-[135px] lg:w-[400px] lg:h-[135px]   bg-gradient-to-b from-white to-black flex justify-center items-center lg:mr-52 rounded-[4px]">
           <div className="w-[315px] h-[133px] md:w-[329px] md:h-[130px] lg:w-[395px] lg:h-[130px] bg-gray-950 rounded-[4px] flex flex-col justify-center text-center font-semibold">
             <h5 className="text-xl ">Step 5</h5>
             <h6 className="text-[26px]">Monitor the Trends</h6>
@@ -140,8 +142,8 @@ function DMarket() {
         </div>
       </div>
       <div className="flex justify-center items-center  md:mt-[118px]">
-        <div className="w-auto h-[250px] lg:w-[1240px] bg-gradient-to-r from-white to-black flex justify-center items-center  rounded-[4px] my-10">
-          <div className="w-[348px] h-[247px] md:w-[721px] lg:w-[1237px] px-3 bg-gray-950 font-semibold text-xl md:text-2xl lg:text-3xl text-center flex flex-col justify-center items-center rounded-[4px] gap-10">
+        <div className="w-auto h-[250px] lg:w-[1240px] bg-gradient-to-r from-white to-black flex justify-center items-center  rounded-[20px] my-10">
+          <div className="w-[348px] h-[247px] md:w-[721px] lg:w-[1237px] px-3 bg-gray-950 font-semibold text-xl md:text-2xl lg:text-3xl text-center flex flex-col justify-center items-center rounded-[20px] gap-10">
           Need complete Digital Marketing consultation?
             <button className="w-fit h-[37px] px-5 bg-[#0F89FF] rounded-full text-center text-lg ">
               Contact Our Experts

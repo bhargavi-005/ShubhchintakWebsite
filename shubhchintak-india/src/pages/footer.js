@@ -3,7 +3,7 @@ import { useState } from "react";
 import Link from "next/link";
 function Footer() {
   return (
-    <div className="bg-[#051629] w-full h-full text-white p-6 py-[40px] font-xyz mt-10 ">
+    <div className="bg-[#051629] w-full h-full text-white py-[40px] font-xyz mt-10 ">
       <div className="flex lg:flex-row lg:justify-evenly md:flex-col md:justify-normal">
         <div className=" flex flex-col gap-3 w-1/4">
           <div className="top-0 left-0 w-[139px] h-[29px] md:w-[187px] md:h-[46px]">

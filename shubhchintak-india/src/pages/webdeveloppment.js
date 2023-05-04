@@ -43,7 +43,7 @@ function Webdev() {
 
       <Carousel />
 
-      <div className=" flex justify-center items-center text-center  flex-col mt-[60px] gap-8 mx-5">
+      <div className=" flex justify-center items-center text-center  flex-col my-[30px] gap-8 mx-5">
         <div className="font-abc font-extrabold text-[40px] md:text-[60px]">
           Website Development
         </div>
@@ -152,7 +152,7 @@ function Webdev() {
         </div>
       </div>
 
-      <div className="item-center justify-center flex flex-col md:flex-row md:mb-10 mt-[40px] gap-5 ml-20">
+      <div className=" flex flex-col item-center justify-center md:flex-row md:mb-10 mt-[40px] gap-5 ml-20 ">
         <div className="bg-white w-fit h-fit text-black rounded-full p-5 text-base md:text-[20px] lg:text-[26px] font-semibold text-center">
           Front-end web development
         </div>
@@ -187,8 +187,8 @@ function Webdev() {
       </div>
 
       <OurInsight />
-      <div className="flex justify-center items-center text-center mt-[80px] mx-6 text-white my-10">
-        <div className=" font-bold text-[25px] md:text-[40px] lg:text-[60px] lg:w-[1250px] ">
+      <div className="flex justify-center items-center text-center mt-[100px] mx-6 text-white my-10">
+        <div className=" font-bold text-[25px] md:text-[40px] lg:text-[40px] lg:w-[1250px] ">
           {"What Our Client’s Say About Us"}
         </div>
       </div>
