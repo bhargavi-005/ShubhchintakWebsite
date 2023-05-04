@@ -7,9 +7,10 @@ function Header() {
   const [open, setOpen] = useState(false);
   const [isOpen ,setIsOpen]=useState(false);
     const [isOpen1 ,setIsOpen1]=useState(false);
+    const [navbar, setNavbar] = useState(false);
 
   return (
-    <div style={{ backgroundImage: `url(${bg.src})` }} className="z-10 sticky top-0 text-white flex flex-row font-xyz py-6 mx-5 justify-between  xl:items-center  ">
+    <div style={{ backgroundImage: `url(${bg.src})` }} className="z-10 sticky top-0 text-white flex flex-row font-xyz py-6 mx-5 justify-between  xl:items-center bg-none ">
       <div className="top-0 left-0 w-[139px] h-[29px] md:w-[187px] md:h-[46px]">
       <Link href="/landing">
         <Image
@@ -21,14 +22,59 @@ function Header() {
         />
         </Link>
       </div>
+      <div className="md:hidden flex items-center gap-6">
+        <button className="bg-[#0F89FF]  xl:w-[145px] xl:h-[46px] w-[105px] h-[35px] rounded-full">
+          {" "}
+          <Link href="/contact_us"> Contact Us</Link>
+        </button>
+      
+      </div>
 
-      <div className="  xl:static absolute xl:min-h-fit min-h-[60vh] left-0 top-[-100%] xl:w-auto  w-full flex items-center px-5 ">
+      <div className="lg:hidden">
+                            <button
+                                className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+                                onClick={() => setNavbar(!navbar)}
+                            >
+                                {navbar ? (
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        className="w-6 h-6 text-white"
+                                        viewBox="0 0 20 20"
+                                        fill="currentColor"
+                                    >
+                                        <path
+                                            fillRule="evenodd"
+                                            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                            clipRule="evenodd"
+                                        />
+                                    </svg>
+                                ) : (
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        className="w-6 h-6 text-white"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        stroke="currentColor"
+                                        strokeWidth={2}
+                                    >
+                                        <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            d="M4 6h16M4 12h16M4 18h16"
+                                        />
+                                    </svg>
+                                )}
+                            </button>
+                        </div>
+
+       <div className={`flex-1 justify-self-center flex lg:justify-center pb-3 mt-8 lg:flex lg:pb-0 lg:mt-0 ${navbar ? "block" : "hidden"
+      }`}>
         <ul
           onClick={() => setOpen(false)}
           className="flex flex-col  lg:flex-row  lg:gap-[4vw] lg:items-center  gap-8"
         >
           <li>
-            <div
+             <div
               onClick={() => setIsOpen((prev) => !prev)}
               className="flex flex-row items-center"
             >
@@ -113,22 +159,18 @@ function Header() {
           </li>
         </ul>
       </div>
-
-      <div className="flex items-center gap-6">
-        <button className="bg-[#0F89FF]  xl:w-[145px] xl:h-[46px] w-[105px] h-[35px] rounded-full">
-          {" "}
-          <Link href="/contact_us"> Contact Us</Link>
-        </button>
-        <div className=" menu text-3xl cursor-pointer xl:hidden">
-          <Image
-            onClick={() => setOpen(!open)}
-            src="/svg/hamburger.svg"
-            width="24"
-            height="24"
-            alt=""
-          />
-        </div>
+      
+    <div className=" min-[390px]:max-[480px]:hidden max-[1200px]">
+    <div className=" flex items-center gap-6">
+    <button className="bg-[#0F89FF]  xl:w-[145px] xl:h-[46px] w-[105px] h-[35px] rounded-full">
+      {" "}
+      <Link href="/contact_us"> Contact Us</Link>
+    </button>
+  
+  </div>
+  
       </div>
+      
     </div>
   );
 }

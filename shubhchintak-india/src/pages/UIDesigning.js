@@ -6,14 +6,15 @@ import Header from "./Header";
 import CheckOut from "./checkoutView";
 import Footer from "./footer";
 import bg from "../../public/images/bg.png";
+import MobFooter from "./MobFooter";
 
 function UIDesigning() {
   return (
     <>
       <div className="" style={{ backgroundImage: `url(${bg.src})` }}>
-        <div>
+        
           <Header />
-        </div>
+       
 
         <div className=" p-16">
           <section className="flex flex-row text-white">
@@ -295,8 +296,15 @@ function UIDesigning() {
             <CheckOut />
           </section>
         </div>
+
         <div className="mt-5">
-          <Footer />
+          <div className=" min-[390px]:max-[480px]:hidden min-[481px]:max-[1200px]">
+            <Footer />
+          </div>
+
+          <div className="min-[481px]:hidden min-[390px]:max-[480px] ">
+            <MobFooter />
+          </div>
         </div>
       </div>
     </>
