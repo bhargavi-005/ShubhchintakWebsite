@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Carous from "./carousel2";
+import Carous from "./carouselUI";
 import { Carousel } from "react-responsive-carousel";
 import Review from "./Review";
 import Header from "./Header";
