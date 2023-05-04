@@ -84,7 +84,7 @@ function Webdev() {
         />
       </div>
 
-      <div className="flex justify-center items-center text-center mt-[95px]">
+      <div className="flex justify-center items-center text-center mt-[95px] mx-5" >
         <div className=" font-semibold text-[25px] md:text-[40px]  lg:w-[837px] ">
           Get digital transformation with
           <span className="text-[#0F89FF] font-semibold text-[25px] md:text-[40px]  lg:w-[837px]">{" "}

@@ -12,12 +12,14 @@ function Header() {
   return (
     <div style={{ backgroundImage: `url(${bg.src})` }} className="z-10 sticky top-0 text-white flex flex-row font-xyz py-6 mx-5 justify-between  xl:items-center bg-none ">
       <div className="top-0 left-0 w-[139px] h-[29px] md:w-[187px] md:h-[46px]">
+        <Link href="/landing">
         <Image
           src="/svg/stpl_logo_white-01-01 1.svg"
           height="45"
           width="190"
           alt=""
         />
+        </Link>
       </div>
       <div className="md:hidden flex  gap-6">
         <button className="bg-[#0F89FF]  xl:w-[145px] xl:h-[46px] w-[105px] h-[35px] rounded-full">

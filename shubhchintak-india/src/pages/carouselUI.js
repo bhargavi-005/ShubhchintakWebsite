@@ -5,16 +5,17 @@ import "react-multi-carousel/lib/styles.css";
 
 export default function carouselUI() {
 
-  // const customDot = (onClick, index, isActive, carouselState) => {
-  //   const { currentSlide } = carouselState;
-  //   return (
-  //     <li
-  //       className={`dot ${isActive ? "active" : ""}`}
-  //       style={{ background: isActive ? "#007bff" : "#cccccc" }}
-  //       onClick={() => onClick()}
-  //     ></li>
-  //   );
-  // };
+  const CustomDot = ({ onClick, ...rest }) => {
+    const {
+      active,
+    } = rest;
+    return (
+      <button
+        className={active ? "w-[14px] h-[14px] rounded-[7px] bg-gray-600 mx-1" : "w-[14px] h-[14px] rounded-[7px] bg-white mx-1"}
+        onClick={() => onClick()}
+      />
+    );
+  };
   
    const responsive = {
      superLargeDesktop: {
@@ -40,7 +41,7 @@ export default function carouselUI() {
 
   return (
     <div className="m-0">
-      <Carousel showDots={true}  responsive={responsive} 
+      <Carousel showDots={true} customDot={<CustomDot/>}  responsive={responsive} 
       // customDot={<CustomDot/>}
       >
         <div className="p-2">

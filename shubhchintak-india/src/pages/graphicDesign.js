@@ -54,7 +54,7 @@ function GraphicD() {
         />
       </div>
 
-      <div className="flex justify-center items-center text-center mt-[100px]">
+      <div className="flex justify-center items-center text-center mt-[100px] mx-5">
         <div className=" font-semibold text-[25px] md:text-[40px]  lg:w-[1088px] ">
           Get digital transformation with
           <span className="text-[#0F89FF] font-semibold text-[25px] md:text-[40px]  lg:w-[1088px]">{" "}
