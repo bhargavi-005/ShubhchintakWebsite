@@ -11,7 +11,7 @@ export default function carouselUI() {
     } = rest;
     return (
       <button
-        className={active ? "w-[14px] h-[14px] rounded-[7px] bg-gray-600 mx-1" : "w-[14px] h-[14px] rounded-[7px] bg-white mx-1"}
+        className={active ? "w-[14px] h-[14px] rounded-[7px] bg-gray-600 mx-1 mt-10" : "w-[14px] h-[14px] rounded-[7px] bg-white mx-1 mt-10" }
         onClick={() => onClick()}
       />
     );
