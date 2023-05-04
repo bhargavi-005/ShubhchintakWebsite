@@ -91,21 +91,21 @@ function career() {
                        <Link href="/job_apply"> Contact Us</Link>
                         </button>
                     </div>
-                    <div className="bg-[#FFFFFF1A] w-[295px] h-[316px] flex flex-col justify-center">
+                    <div className="max-[768px]:mt-[5%] bg-[#FFFFFF1A] w-[295px] h-[316px] flex flex-col justify-center">
                         <p className="mt-[4%] text-center text-[20px] text-white font-bold">Wordpress developer</p>
                         <p className="ml-[8%] mr-[8%] mt-[4%] text-center text-[16px] text-white ">Lorem ipsum dolor sit amet consectetur. Luctus volutpat urna eu donec purus tellus adipiscing at. Pellentesque commodo eget vitae sed velit non id. Tempor mauris vel </p>
                         <button class="mt-[7%] ml-[20%] mr-[20%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
                        <Link href="/job_apply"> Contact Us</Link>
                         </button>
                     </div>
-                    <div className="bg-[#FFFFFF1A] w-[295px] h-[316px] flex flex-col justify-center">
+                    <div className="max-[768px]:mt-[5%] bg-[#FFFFFF1A] w-[295px] h-[316px] flex flex-col justify-center">
                         <p className="mt-[4%] text-center text-[20px] text-white font-bold"> UI/UX Designer</p>
                         <p className="ml-[8%] mr-[8%] mt-[4%] text-center text-[16px] text-white ">Lorem ipsum dolor sit amet consectetur. Luctus volutpat urna eu donec purus tellus adipiscing at. Pellentesque commodo eget vitae sed velit non id. Tempor mauris vel </p>
                         <button class="mt-[7%] ml-[20%] mr-[20%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
                         <Link href="/job_apply"> Contact Us</Link>
                         </button>
                     </div>
-                    <div className="bg-[#FFFFFF1A] w-[295px] h-[316px] flex flex-col justify-center">
+                    <div className="max-[768px]:mt-[5%] bg-[#FFFFFF1A] w-[295px] h-[316px] flex flex-col justify-center">
                         <p className="mt-[4%] text-center text-[20px] text-white font-bold">React Native Intern</p>
                         <p className="ml-[8%] mr-[8%] mt-[4%] text-center text-[16px] text-white ">Lorem ipsum dolor sit amet consectetur. Luctus volutpat urna eu donec purus tellus adipiscing at. Pellentesque commodo eget vitae sed velit non id. Tempor mauris vel </p>
                         <button class="mt-[7%] ml-[20%] mr-[20%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
@@ -114,28 +114,28 @@ function career() {
                     </div>
                 </div>
                 <div className="flex max-[768px]:flex max-[768px]:flex-col flex-row justify-evenly mt-[2%]">
-                <div className="bg-[#FFFFFF1A] w-[295px] h-[316px] flex flex-col justify-center">
+                <div className="max-[768px]:mt-[5%] bg-[#FFFFFF1A] w-[295px] h-[316px] flex flex-col justify-center">
                         <p className="mt-[4%] text-center text-[20px] text-white font-bold">React.JS Intern</p>
                         <p className="ml-[8%] mr-[8%] mt-[4%] text-center text-[16px] text-white ">Lorem ipsum dolor sit amet consectetur. Luctus volutpat urna eu donec purus tellus adipiscing at. Pellentesque commodo eget vitae sed velit non id. Tempor mauris vel </p>
                         <button class="mt-[7%] ml-[20%] mr-[20%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
                         <Link href="/job_apply"> Contact Us</Link>
                         </button>
                     </div>
-                    <div className="bg-[#FFFFFF1A] w-[295px] h-[316px] flex flex-col justify-center">
+                    <div className="max-[768px]:mt-[5%] bg-[#FFFFFF1A] w-[295px] h-[316px] flex flex-col justify-center">
                         <p className="mt-[4%] text-center text-[20px] text-white font-bold ">Node.JS intern</p>
                         <p className="ml-[8%] mr-[8%] mt-[4%] text-center text-[16px] text-white ">Lorem ipsum dolor sit amet consectetur. Luctus volutpat urna eu donec purus tellus adipiscing at. Pellentesque commodo eget vitae sed velit non id. Tempor mauris vel </p>
                         <button class="mt-[7%] ml-[20%] mr-[20%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
                         <Link href="/job_apply"> Contact Us</Link>
                         </button>
                     </div>
-                    <div className="bg-[#FFFFFF1A] w-[295px] h-[316px] flex flex-col justify-center">
+                    <div className="max-[768px]:mt-[5%] bg-[#FFFFFF1A] w-[295px] h-[316px] flex flex-col justify-center">
                         <p className="mt-[4%] text-center text-[20px] text-white font-bold">Python intern</p>
                         <p className="ml-[8%] mr-[8%] mt-[4%] text-center text-[16px] text-white ">Lorem ipsum dolor sit amet consectetur. Luctus volutpat urna eu donec purus tellus adipiscing at. Pellentesque commodo eget vitae sed velit non id. Tempor mauris vel </p>
                         <button class="mt-[7%] ml-[20%] mr-[20%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
                         <Link href="/job_apply"> Contact Us</Link>
                         </button>
                     </div>
-                    <div className="bg-[#FFFFFF1A] w-[295px] h-[316px] flex flex-col justify-center">
+                    <div className="max-[768px]:mt-[5%] bg-[#FFFFFF1A] w-[295px] h-[316px] flex flex-col justify-center">
                         <p className="mt-[4%] text-center text-[20px] text-white font-bold">Django Intern</p>
                         <p className="ml-[8%] mr-[8%] mt-[4%] text-center text-[16px] text-white ">Lorem ipsum dolor sit amet consectetur. Luctus volutpat urna eu donec purus tellus adipiscing at. Pellentesque commodo eget vitae sed velit non id. Tempor mauris vel </p>
                         <button class="mt-[7%] ml-[20%] mr-[20%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
@@ -143,7 +143,7 @@ function career() {
                         </button>
                     </div>
                 </div>
-                <div className="max-[768px]:w-[100%] max-[768px]:ml-[1%] bg-[#FFFFFF1A] pt-[2%] pb-[2%] border-solid rounded-md border-2 ml-[10%] mr-[10%] mt-[3%] bg-black-rgba">
+                <div className="max-[768px]:mt-[5%] max-[768px]:w-[100%] max-[768px]:ml-[1%] bg-[#FFFFFF1A] pt-[2%] pb-[2%] border-solid rounded-md border-2 ml-[10%] mr-[10%] mt-[3%] bg-black-rgba">
                 <h2 className="text-white text-[30px] font-xyz text-center font-semibold ">If you are interested or know someone who is looking for the opportunity,
  apply at:<span className="text-blue-600 font-xyz text-[30px]" ><a href=""> hr@shubhchintak.co</a> </span></h2>
                 
