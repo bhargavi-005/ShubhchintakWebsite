@@ -22,7 +22,7 @@ function Header() {
         />
         </Link>
       </div>
-      <div className="md:hidden flex items-center gap-6">
+      <div className="md:hidden flex  gap-6">
         <button className="bg-[#0F89FF]  xl:w-[145px] xl:h-[46px] w-[105px] h-[35px] rounded-full">
           {" "}
           <Link href="/contact_us"> Contact Us</Link>
