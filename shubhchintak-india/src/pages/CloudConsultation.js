@@ -81,40 +81,40 @@ export default function CloudConsultation() {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  place-items-center  my-20 lg:mx-28 gap-y-6 font-xyz">
               <div className="w-4/5 h-auto p-1  bg-gradient-to-b from-white to-black flex justify-center items-center rounded-[4px] ">
                 <div className="w-full p-10 bg-zinc-900  rounded-[4px] flex flex-col justify-center text-center ">
-                  <div className="text-xl text-white m-2 mt-0 text-bold">Step 1</div>
-                  <div className="text-2xl text-white text-bold">
+                  <div className="text-xl text-white m-2 mt-0 font-bold">Step 1</div>
+                  <div className="text-2xl text-white font-bold">
                     Simplified Cloud Hosting
                   </div>
                 </div>
               </div>
               <div className="w-4/5 h-auto p-1  bg-gradient-to-b from-white to-black flex justify-center items-center  rounded-[4px]">
                 <div className="w-full p-10  bg-zinc-900 rounded-[4px] flex flex-col justify-center text-center">
-                  <div className="text-xl text-white m-2 mt-0 text-bold">Step 2</div>
-                  <div className="text-2xl text-white text-bold">Instant Setup</div>
+                  <div className="text-xl text-white m-2 mt-0 font-bold">Step 2</div>
+                  <div className="text-2xl text-white font-bold">Instant Setup</div>
                 </div>
               </div>
               <div className="w-4/5 h-auto p-1 bg-gradient-to-b from-white to-black flex justify-center items-center  rounded-[4px]">
                 <div className="w-full p-10 bg-zinc-900 rounded-[4px] flex flex-col justify-center text-center">
-                  <div className="text-xl text-white m-2 mt-0 text-bold">Step 3</div>
-                  <div className="text-2xl text-white text-bold">Boost website speed</div>
+                  <div className="text-xl text-white m-2 mt-0 font-bold">Step 3</div>
+                  <div className="text-2xl text-white font-bold">Boost website speed</div>
                 </div>
               </div>
               <div className="w-4/5 h-auto p-1  bg-gradient-to-b from-white to-black flex justify-center items-center  rounded-[4px]">
                 <div className="w-full p-10 bg-zinc-900 rounded-[4px] flex flex-col justify-center text-center">
-                  <div className="text-xl text-white m-2 mt-0 text-bold">Step 4</div>
-                  <div className="text-2xl text-white text-bold">Fixed billing</div>
+                  <div className="text-xl text-white m-2 mt-0 font-bold">Step 4</div>
+                  <div className="text-2xl text-white font-bold">Fixed billing</div>
                 </div>
               </div>
               <div className="w-4/5 h-auto p-1 bg-gradient-to-b from-white to-black flex justify-center items-center  rounded-[4px]">
                 <div className="w-full p-10 bg-zinc-900 rounded-[4px] flex flex-col justify-center text-center">
-                  <div className="text-xl text-white m-4 2 mt-0 text-bold">Step 5</div>
-                  <div className="text-2xl text-white text-bold">Instantly Scaleable</div>
+                  <div className="text-xl text-white m-4 2 mt-0 font-bold">Step 5</div>
+                  <div className="text-2xl text-white font-bold">Instantly Scaleable</div>
                 </div>
               </div>
               <div className="w-4/5 h-auto p-1  bg-gradient-to-b from-white to-black flex justify-center items-center rounded-[4px]">
                 <div className="w-full p-10 bg-zinc-900 rounded-[4px] flex flex-col justify-center text-center">
-                  <div className="text-xl text-white m-2 mt-0 text-bold">Step 6</div>
-                  <div className="text-2xl text-white text-bold">SSD</div>
+                  <div className="text-xl text-white m-2 mt-0 font-bold">Step 6</div>
+                  <div className="text-2xl text-white font-bold">SSD</div>
                 </div>
               </div>
             </div>
