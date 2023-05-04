@@ -16,7 +16,7 @@ function Port(){
         <div style={{ backgroundImage: `url(${bg.src})` }} className="max-[768px]:overflow-x-hidden">
             <Header/>
             <div className="w-[100%] h-[30%]  relative">
-                <Image className="brightness-[30%] max-[768px]:h-[700px]"
+                <Image className="brightness-[30%] h-[700px] max-[768px]:h-[700px]"
                 src="/images/portfolio.png"
                 alt="career"
                 width={1660}
