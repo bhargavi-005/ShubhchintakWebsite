@@ -5,21 +5,21 @@ import bg from "../../public/images/bg.png";
 
 function Header() {
   const [open, setOpen] = useState(false);
-  const [isOpen ,setIsOpen]=useState(false);
-    const [isOpen1 ,setIsOpen1]=useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen1, setIsOpen1] = useState(false);
 
   return (
-    <div style={{ backgroundImage: `url(${bg.src})` }} className="z-10 sticky top-0 text-white flex flex-row font-xyz py-6 mx-5 justify-between  xl:items-center  ">
+    <div
+      style={{ backgroundImage: `url(${bg.src})` }}
+      className=" header text-white flex flex-row font-xyz pt-6 mx-5 justify-between  xl:items-center  "
+    >
       <div className="top-0 left-0 w-[139px] h-[29px] md:w-[187px] md:h-[46px]">
-      <Link href="/landing">
         <Image
           src="/svg/stpl_logo_white-01-01 1.svg"
           height="45"
           width="190"
           alt=""
-          
         />
-        </Link>
       </div>
 
       <div className="  xl:static absolute xl:min-h-fit min-h-[60vh] left-0 top-[-100%] xl:w-auto  w-full flex items-center px-5 ">
@@ -77,25 +77,32 @@ function Header() {
             <Link href="">Why Us</Link>
           </li>
           <li>
-                        <div onClick={()=> setIsOpen1((prev)=>!prev)} className="flex flex-row items-center">Resources
-                            <Image className="" src="/svg/arrowdown.png" width={27} height={20}  alt=""/>
-                        </div>
-                        {isOpen1 &&<div  className="bg-gray-500 z-10 rounded-lg  mt-2 p-8 absolute ">
-                                <ul className="flex flex-col gap-4 text-white ">
-                                    <li className="hover:text-slate-400">
-                                        <Link href="/blog"  >
-                                        Blogs
-                                        </Link>
-                                    </li>
-                                    <li className="hover:text-slate-400">
-                                        <Link href=""  >
-                                        Clients
-                                        </Link>
-                                    </li>
-                                    
-                                </ul>
-                            </div>}
-                    </li>
+            <div
+              onClick={() => setIsOpen1((prev) => !prev)}
+              className="flex flex-row items-center"
+            >
+              Resources
+              <Image
+                className=""
+                src="/svg/arrowdown.png"
+                width={27}
+                height={20}
+                alt=""
+              />
+            </div>
+            {isOpen1 && (
+              <div className="bg-gray-500 z-10 rounded-lg  mt-2 p-8 absolute ">
+                <ul className="flex flex-col gap-4 text-white ">
+                  <li className="hover:text-slate-400">
+                    <Link href="/blog">Blogs</Link>
+                  </li>
+                  <li className="hover:text-slate-400">
+                    <Link href="">Clients</Link>
+                  </li>
+                </ul>
+              </div>
+            )}
+          </li>
           <li className="hover:text-slate-400">
             <Link href="/career">Career</Link>
           </li>

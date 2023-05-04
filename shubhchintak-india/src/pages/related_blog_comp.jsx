@@ -6,7 +6,7 @@ import Header from "./Header";
 import Footer from "./footer";
 import { useState } from "react";
 
-function related_blog_comp() {
+function Related_blog_comp() {
   const [isOpen1, setIsOpen1] = useState(false);
 
   return (
@@ -19,12 +19,12 @@ function related_blog_comp() {
                 Related Blogs
               </h1>
             </div>
-            <div className="px-10 py-4 mb-4 rounded-md bg-[#FFFFFF1A]  ">
+            <div className="px-6 py-4 mb-4 rounded-md bg-[#FFFFFF1A]  ">
               <div
                 onClick={() => setIsOpen1((prev) => !prev)}
-                className="flex flex-row items-center text-lg font-semibold"
+                className="flex flex-row justify-between gap-40 items-center text-lg font-semibold"
               >
-                Website Development
+                <p> Website Development</p>
                 <Image
                   className="ml-7"
                   src="/images/blog/drop.png"
@@ -155,4 +155,4 @@ function related_blog_comp() {
   );
 }
 
-export default related_blog_comp;
+export default Related_blog_comp;

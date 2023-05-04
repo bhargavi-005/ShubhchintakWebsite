@@ -3,7 +3,7 @@ import bg from "../../public/images/bg.png";
 import Marquee from "react-fast-marquee";
 function clients(){
     return(
-        <div style={{ backgroundImage: `url(${bg.src})` }}  className="bg-[#FFFFFF1A] max-[768px]:mt-[50%] mt-[2%] pb-[3%] max-[768px]:mt-[30%] bg-black-rgba">
+        <div style={{ backgroundImage: `url(${bg.src})` }}  className="bg-[#FFFFFF1A] max-[768px]:mt-[50%] mt-[2%] pb-[3%] bg-black-rgba">
             
             <h2 className="font-semibold text-center text-[30px] mt-[5%] text-white font-abc">Our Esteemed Clients</h2>
             <div className="flex flex-row justify-evenly mt-[5%]">

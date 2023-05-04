@@ -19,7 +19,7 @@ import Footer from "./footer";
 import Review from "./customerviews"
 import Acco from "./Accordation"
 import { useState } from "react";
-function landing(){
+function Landing(){
     const [index, setIndex]=useState(0);
     return(
         
@@ -330,4 +330,4 @@ function landing(){
         </div>
     )
 }
-export default landing;
+export default Landing;

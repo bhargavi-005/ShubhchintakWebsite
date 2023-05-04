@@ -3,7 +3,7 @@ import Image from "next/image";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-function related_blog_comp1() {
+function Related_blog_comp1() {
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
@@ -11,24 +11,24 @@ function related_blog_comp1() {
     },
 
     tablet: {
-      breakpoint: { max: 1024, min: 464 },
+      breakpoint: { max: 1024, min: 768 },
       items: 2,
     },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
+      breakpoint: { max: 768, min: 0 },
       items: 1,
     },
   };
 
   return (
     <div className="my-20">
-      <h1 className=" container px-5  mx-auto title-font sm:text-4xl text-45xl mb-7 font-bold text-white">
+      <h1 className=" w-full min-[1370px]:mx-40  mx-20 px-5 title-font sm:text-4xl text-45xl mb-7 font-bold text-white">
         Related Blogs
       </h1>
-      <Carousel responsive={responsive}>
+      <Carousel className=" min-[1370px]:mx-40  mx-20" responsive={responsive}>
         <div className="container px-5 py-1 mx-auto">
           <div className="p-5 -m-4">
-            <div className=" h-full border-none border-opacity-60 overflow-hidden shadow-md shadow-[#00000033] rounded-1 hover:shadow-2xl bg-[#FFFFFF1A] ">
+            <div className=" h-[390px] border-none border-opacity-60 overflow-hidden shadow-md shadow-[#00000033] rounded-1 hover:shadow-2xl bg-[#FFFFFF1A] ">
               <Image
                 className="lg:h-48  w-full "
                 alt="earth"
@@ -140,4 +140,4 @@ function related_blog_comp1() {
     </div>
   );
 }
-export default related_blog_comp1;
+export default Related_blog_comp1;
