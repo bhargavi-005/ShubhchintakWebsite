@@ -4,6 +4,7 @@ import Image from "next/image";
 import Header from "./Header";
 import Footer from "./footer";
 import Related_blog_comp1 from "./related_blog_comp1";
+import MobFooter from "./MobFooter";
 
 function blog_details() {
   return (
@@ -95,7 +96,15 @@ function blog_details() {
         </div>
       </section>
       <Related_blog_comp1/>
-      <Footer/>
+      <div className="mt-5">
+          <div className=" min-[390px]:max-[480px]:hidden min-[481px]:max-[1200px]">
+            <Footer />
+          </div>
+
+          <div className="min-[481px]:hidden min-[390px]:max-[480px] ">
+            <MobFooter />
+          </div>
+        </div>
     </div>
   );
 }

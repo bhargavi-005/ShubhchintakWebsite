@@ -7,6 +7,7 @@ import Header from "./Header";
 import Footer from "./footer";
 import Link from "next/link";
 import bg from "../../public/images/bg.png";
+import MobFooter from "./MobFooter";
 function about(){
     return(
 
@@ -86,7 +87,15 @@ function about(){
                     <Link href="/contact_us"> Get in touch</Link>
                 </button>
             </div>
-            <Footer/>
+            <div className="mt-5">
+          <div className=" min-[390px]:max-[480px]:hidden min-[481px]:max-[1200px]">
+            <Footer />
+          </div>
+
+          <div className="min-[481px]:hidden min-[390px]:max-[480px] ">
+            <MobFooter />
+          </div>
+        </div>
         </div>
     )
 }

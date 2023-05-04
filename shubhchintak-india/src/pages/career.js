@@ -3,6 +3,7 @@ import Footer from "./footer";
 import Header from "./Header";
 import Link from "next/link";
 import bg from "../../public/images/bg.png";
+import MobFooter from "./MobFooter";
 
 
 function career() {
@@ -148,7 +149,15 @@ function career() {
                 
             </div>
             </div>
-            <Footer/>
+            <div className="mt-5">
+          <div className=" min-[390px]:max-[480px]:hidden min-[481px]:max-[1200px]">
+            <Footer />
+          </div>
+
+          <div className="min-[481px]:hidden min-[390px]:max-[480px] ">
+            <MobFooter />
+          </div>
+        </div>
         </div>
     )
 }

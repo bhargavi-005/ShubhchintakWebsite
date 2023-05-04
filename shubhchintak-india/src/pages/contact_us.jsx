@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Header from "./Header";
 import Footer from "./footer";
+import MobFooter from "./MobFooter";
 
 function contact_us() {
   return (
@@ -263,8 +264,15 @@ function contact_us() {
           </div>
         </div>
       </section>
-      <Footer />
-    </div>
+      <div className="mt-5">
+          <div className=" min-[390px]:max-[480px]:hidden min-[481px]:max-[1200px]">
+            <Footer />
+          </div>
+
+          <div className="min-[481px]:hidden min-[390px]:max-[480px] ">
+            <MobFooter/>
+          </div>
+        </div> </div>
   );
 }
 
