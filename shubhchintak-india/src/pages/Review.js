@@ -10,7 +10,7 @@ export default function Review() {
     } = rest;
     return (
       <button
-        className={active ? "w-[14px] h-[14px] rounded-[7px] bg-gray-600 mx-1" : "w-[14px] h-[14px] rounded-[7px] bg-white mx-1"}
+        className={active ? "w-[14px] h-[14px] rounded-[7px] bg-gray-600 mx-1 mt-20" : "w-[14px] h-[14px] rounded-[7px] bg-white mx-1 mt-20 "}
         onClick={() => onClick()}
       />
     );
@@ -20,18 +20,18 @@ export default function Review() {
      superLargeDesktop: {
        // the naming can be any, depends on you.
        breakpoint: { max: 4000, min: 3000 },
-       items: 5,
+       items: 3,
      },
      desktop: {
-       breakpoint: { max: 3000, min: 1024 },
+       breakpoint: { max: 3000, min: 1524 },
        items: 3,
      },
      tablet: {
-       breakpoint: { max: 1024, min: 464 },
+       breakpoint: { max: 1524, min: 800 },
        items: 2,
      },
      mobile: {
-       breakpoint: { max: 464, min: 0 },
+       breakpoint: { max: 1064, min: 0 },
        items: 1,
      },
    };
