@@ -36,8 +36,8 @@ function career() {
                 <div className="mr-[10%] mt-[8%]">
                 <div className="max-[768px]:flex max-[768px]:flex-col flex flex-row  mt-[3%]">
                     <div className="max-[768px]:mr-[15%] mr-[10%] max-[768px]:order-last max-[768px]:mr-[5%]">
-                        <h1 className="max-[1500px]:ml-[15%] text-white text-[40px] font-semibold">Benefits of working with Us!</h1>
-                        <p className="max-[1500px]:ml-[15%]  text-white text-left text-[16px]">We believe when employees feel fulfilled and see their growth potential in their job, they start loving their job. Here are some reasons for working with us;</p>
+                        <h1 className="max-[1500px]:ml-[15%] text-white text-[40px] font-semibold max-[768px]:text-[35px] max-[768px]:w-[100%] max-[768px]:text-center">Benefits of working with Us!</h1>
+                        <p className="max-[1500px]:ml-[15%]  text-white text-left text-[16px] max-[768px]:text-center">We believe when employees feel fulfilled and see their growth potential in their job, they start loving their job. Here are some reasons for working with us;</p>
                         <div className="max-[1500px]:ml-[15%]  flex flex-row mt-[5%]">
                             <div>
                                 <Image
