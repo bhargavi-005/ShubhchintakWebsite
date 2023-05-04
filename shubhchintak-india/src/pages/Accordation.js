@@ -37,12 +37,13 @@ export default function Example() {
         style={{ backgroundImage: `url(${bg.src})` }}
       >
       <div className="text-5xl font-bold text-center mt-16 mb-16">Frequently Asked Questions</div>
+      <div className="mt-[5%]" >
         <Accordion open={open === 1} icon={<Icon id={1} open={open} />}>
           <AccordionHeader onClick={() => handleOpen(1)}>
             How can I do online business?
           </AccordionHeader>
           <AccordionBody>
-            <div className="text-xl ">
+            <div className="text-[16px] text-white font-xyz mt-[2%] ">
             1)Check visibility of our business idea by doing market research<br/>
             2)Develop a business plan <br/>
             3)Select attractive name of for business<br/>
@@ -53,12 +54,13 @@ export default function Example() {
             </div>
           </AccordionBody>
         </Accordion>
-        <Accordion open={open === 2} icon={<Icon id={2} open={open} />}>
+        </div>
+        <Accordion className="mt-[2%]" open={open === 2} icon={<Icon id={2} open={open} />}>
           <AccordionHeader onClick={() => handleOpen(2)}>
           How much does it cost to create a website for a small business?
           </AccordionHeader>
           <AccordionBody>
-            <div className="text-xl ">
+            <div className="text-[16px] text-white font-xyz mt-[2%]  ">
             1)Check visibility of our business idea by doing market research<br/>
             2)Develop a business plan <br/>
             3)Select attractive name of for business<br/>
@@ -69,12 +71,12 @@ export default function Example() {
             </div>
           </AccordionBody>
         </Accordion>
-        <Accordion open={open === 3} icon={<Icon id={3} open={open} />}>
+        <Accordion className="mt-[2%]" open={open === 3} icon={<Icon id={3} open={open} />}>
           <AccordionHeader onClick={() => handleOpen(3)}>
           Which online business is best to start in India?
           </AccordionHeader>
           <AccordionBody>
-            <div className="text-xl ">
+            <div className="text-[16px] text-white font-xyz mt-[2%] ">
             1)Check visibility of our business idea by doing market research<br/>
             2)Develop a business plan <br/>
             3)Select attractive name of for business<br/>
@@ -85,12 +87,12 @@ export default function Example() {
             </div>
           </AccordionBody>
         </Accordion>
-        <Accordion open={open === 4} icon={<Icon id={4} open={open} />}>
+        <Accordion className="mt-[2%]" open={open === 4} icon={<Icon id={4} open={open} />}>
           <AccordionHeader onClick={() => handleOpen(4)}>
            How do I create a mobile app for my small business?
           </AccordionHeader>
           <AccordionBody>
-            <div className="text-xl ">
+            <div className="text-[16px] text-white font-xyz mt-[2%] ">
             1)Check visibility of our business idea by doing market research<br/>
             2)Develop a business plan <br/>
             3)Select attractive name of for business<br/>
@@ -101,12 +103,12 @@ export default function Example() {
             </div>
           </AccordionBody>
         </Accordion>
-        <Accordion open={open === 5} icon={<Icon id={5} open={open} />}>
+        <Accordion className="mt-[2%]" open={open === 5} icon={<Icon id={5} open={open} />}>
           <AccordionHeader onClick={() => handleOpen(5)}>
           How much does it cost to create a mobile app for a small business?
           </AccordionHeader>
           <AccordionBody>
-            <div className="text-xl ">
+            <div className="text-[16px] text-white font-xyz mt-[2%] ">
             1)Check visibility of our business idea by doing market research<br/>
             2)Develop a business plan <br/>
             3)Select attractive name of for business<br/>
@@ -118,51 +120,59 @@ export default function Example() {
           </AccordionBody>
         </Accordion>
         
-        <Accordion open={open === 6} icon={<Icon id={6} open={open} />}>
+        <Accordion className="mt-[2%]" open={open === 6} icon={<Icon id={6} open={open} />}>
           <AccordionHeader onClick={() => handleOpen(6)}>
           Can I build a mobile app by myself?
           </AccordionHeader>
           <AccordionBody>
+            <div className="text-[16px] text-white font-xyz mt-[2%] ">
             We&apos;re not always in the position that we want to be at.
             We&apos;re constantly growing. We&apos;re constantly making
             mistakes. We&apos;re constantly trying to express ourselves and
             actualize our dreams.
+            </div>
           </AccordionBody>
         </Accordion>
 
-       <Accordion open={open === 6} icon={<Icon id={6} open={open} />}>
-          <AccordionHeader onClick={() => handleOpen(6)}>
+       <Accordion className="mt-[2%]" open={open === 7} icon={<Icon id={7} open={open} />}>
+          <AccordionHeader onClick={() => handleOpen(7)}>
           Is it worth to build a mobile app for your business?
           </AccordionHeader>
           <AccordionBody>
+          <div className="text-[16px] text-white font-xyz mt-[2%] ">
             We&apos;re not always in the position that we want to be at.
             We&apos;re constantly growing. We&apos;re constantly making
             mistakes. We&apos;re constantly trying to express ourselves and
             actualize our dreams.
+            </div>
           </AccordionBody>
         </Accordion>
 
-       <Accordion open={open === 6} icon={<Icon id={6} open={open} />}>
-          <AccordionHeader onClick={() => handleOpen(6)}>
+       <Accordion className="mt-[2%]" open={open === 8} icon={<Icon id={8} open={open} />}>
+          <AccordionHeader onClick={() => handleOpen(8)}>
           How much do digital marketing services cost?
           </AccordionHeader>
           <AccordionBody>
+          <div className="text-[16px] text-white font-xyz mt-[2%] ">
             We&apos;re not always in the position that we want to be at.
             We&apos;re constantly growing. We&apos;re constantly making
             mistakes. We&apos;re constantly trying to express ourselves and
             actualize our dreams.
+            </div>
           </AccordionBody>
         </Accordion>
 
-         <Accordion open={open === 6} icon={<Icon id={6} open={open} />}>
-          <AccordionHeader onClick={() => handleOpen(6)}>
+         <Accordion className="mt-[2%]" open={open === 9} icon={<Icon id={9} open={open} />}>
+          <AccordionHeader onClick={() => handleOpen(9)}>
           How to contact you? Have more questions to ask
           </AccordionHeader>
           <AccordionBody>
+          <div className="text-[16px] text-white font-xyz mt-[2%] ">
             We&apos;re not always in the position that we want to be at.
             We&apos;re constantly growing. We&apos;re constantly making
             mistakes. We&apos;re constantly trying to express ourselves and
             actualize our dreams.
+            </div>
           </AccordionBody>
         </Accordion>
 

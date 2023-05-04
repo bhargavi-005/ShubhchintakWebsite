@@ -80,8 +80,8 @@ function about(){
             {/* Next Section */}
             <Review/>
             {/* Next Section */}
-            <div className="ml-[10%] mr-[10%] bg-black-rgba">
-                <h2 className="text-white text-[30px] font-xyz text-center font-semibold">Always here for you for your custom solutions and highly skilled experts!</h2>
+            <div className="bg-[#FFFFFF1A] pt-[2%] pb-[2%] border-solid rounded-md border-2 ml-[10%] mr-[10%] bg-black-rgba">
+                <h2 className="text-white text-[30px] font-xyz text-center font-semibold ">Always here for you for your custom solutions and highly skilled experts!</h2>
                 <button class="max-[768px]:ml-[33%] mt-[2%] ml-[45%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
                     <Link href="/contact_us"> Get in touch</Link>
                 </button>
