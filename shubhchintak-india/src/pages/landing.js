@@ -174,12 +174,12 @@ function Landing() {
         className=" relative mt-20"
         style={{ backgroundImage: `url(${bg.src})` }}
       >
-        <div className="mt-[3%] border-2 border-solid rounded-md ml-[10%] mr-[10%] bg-[#FFFFFF1A] pt-[5%]">
+        <div className="mt-[6%] border-2 border-solid rounded-md ml-[10%] mr-[10%] bg-[#FFFFFF1A] pt-[1%]">
           <div className="flex flex-col justify-center items-center bg-black-rgba pt-[2%] pb-[2%]">
-            <h1 className="mb-[5%] text-[30px] text-white font-xyz text-center">
+            <h1 className="mb-[1%] text-[30px] text-white font-xyz text-center">
               Share your business requirements with us!
             </h1>
-            <button class=" mb-[3%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+            <button class=" mb-[1%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
              <Link href="/contact_us"> Call Now </Link>
             </button>
           </div>
