@@ -6,6 +6,7 @@ import CheckOut from "./checkoutView";
 import Footer from "./footer";
 import bg from "../../public/images/bg.png";
 import MobFooter from "./MobFooter";
+import CheckCarousel from './CheckCarousel'
 function DMarket() {
   return (
     <div className="box-border text-white font-xyz  " style={{ backgroundImage: `url(${bg.src})`}} >
@@ -116,7 +117,7 @@ function DMarket() {
         </div>
       </div>
 
-      <div className="item-center justify-center flex flex-col md:flex-row md:mb-10 mt-[80px] gap-5">
+      <div className="item-center justify-center flex flex-col md:flex-row md:mb-10 mt-[80px] gap-5 ml-20">
         <div className="bg-white w-fit h-fit text-black rounded-full p-5 text-base md:text-[20px] lg:text-[26px] font-semibold text-center">
           Search engine Optimization
         </div>
@@ -127,7 +128,7 @@ function DMarket() {
           Pay per click marketing services
         </div>
       </div>
-      <div className="item-center justify-center flex flex-col md:flex-row md:mb-10 mt-[40px] gap-5">
+      <div className="item-center justify-center flex flex-col md:flex-row md:mb-10 mt-[40px] gap-5 ml-20">
         <div className="bg-white w-fit h-fit text-black rounded-full p-5 text-base md:text-[20px] lg:text-[26px] font-semibold text-center">
           Google Search optimization
         </div>
@@ -148,7 +149,15 @@ function DMarket() {
           </div>
         </div>
       </div>
-      <CheckOut />
+      <div className="mt-5 justify-center md:ml-0 ml-10">
+          <div className=" min-[390px]:max-[480px]:hidden min-[481px]:max-[1200px]">
+            <CheckOut />
+          </div>
+
+          <div className="min-[481px]:hidden min-[390px]:max-[480px] ">
+            <CheckCarousel />
+          </div>
+        </div>
       <div className=" min-[390px]:max-[480px]:hidden min-[481px]:max-[1200px]">
           <Footer/>
   
