@@ -84,8 +84,8 @@ export default function Review() {
                   height="64"
                   />
                   <div className="flex flex-col">
-                      <div className="text-white text-[16px] font-medium">Angu Ashok</div>
-                      <div className="text-white text-[12px]">CEO Go Green Dad</div>
+                      <div className="text-white text-[16px] font-medium justify-start text-start">Angu Ashok</div>
+                      <div className="text-white text-[12px] justify-start">CEO Go Green Dad</div>
                       
                         <Image
                           className="object-cover object-center rounded z-10"
@@ -101,7 +101,7 @@ export default function Review() {
       <div className="slide w-[320px] h-[276px] lg:w-[400px] lg:h-[346px]  rounded-lg bg-gradient-to-tl from-[#204061] to-[#0F89FF] p-7 lg:ml-20 ">
             <div>
                 <Image
-                className="object-cover object-center rounded z-10 my-1"
+                className="object-cover object-center rounded z-10 my-1 "
                 alt="earth"
                 src="images/commas.svg"
                 width="55"
@@ -112,15 +112,15 @@ export default function Review() {
                 </div>
                 <div className="mt-12 flex flex-row gap-4 text-center lg:mt-20">
                     <Image
-                    className="object-cover object-center rounded z-10 "
+                    className="object-cover object-center rounded z-10 w-16 h-16 mt-6"
                     alt="earth"
                     src="images/Ellipse99.svg"
                     width="64"
                     height="64"
                     />
                     <div className="flex flex-col mt-8">
-                        <div className="text-white text-[16px] font-medium">Vikram Singh</div>
-                        <div className="text-white text-[12px]">CEO VTS Technocrats</div>
+                        <div className="text-white text-[16px] font-medium justify-start text-start">Vikram Singh</div>
+                        <div className="text-white text-[12px] justify-start">CEO VTS Technocrats</div>
                         
                           <Image
                             className="object-cover object-center rounded z-10"
@@ -153,8 +153,8 @@ export default function Review() {
                   height="64"
                   />
                   <div className="flex flex-col">
-                      <div className="text-white text-[16px] font-medium">Angu Ashok</div>
-                      <div className="text-white text-[12px]">CEO Go Green Dad</div>
+                      <div className="text-white text-[16px] font-medium justify-start text-start">Angu Ashok</div>
+                      <div className="text-white text-[12px] justify-start">CEO Go Green Dad</div>
                       
                         <Image
                           className="object-cover object-center rounded z-10"
@@ -170,7 +170,7 @@ export default function Review() {
       <div className="slide w-[320px] h-[276px] lg:w-[400px] lg:h-[346px]  rounded-lg bg-gradient-to-tl from-[#204061] to-[#0F89FF] p-7 lg:ml-20 ">
             <div>
                 <Image
-                className="object-cover object-center rounded z-10 my-1"
+                className="object-cover object-center rounded z-10 my-1 "
                 alt="earth"
                 src="images/commas.svg"
                 width="55"
@@ -181,15 +181,15 @@ export default function Review() {
                 </div>
                 <div className="mt-12 flex flex-row gap-4 text-center lg:mt-20">
                     <Image
-                    className="object-cover object-center rounded z-10 "
+                    className="object-cover object-center rounded z-10 w-16 h-16 mt-6"
                     alt="earth"
                     src="images/Ellipse99.svg"
                     width="64"
                     height="64"
                     />
                     <div className="flex flex-col mt-8">
-                        <div className="text-white text-[16px] font-medium">Vikram Singh</div>
-                        <div className="text-white text-[12px]">CEO VTS Technocrats</div>
+                        <div className="text-white text-[16px] font-medium justify-start text-start">Vikram Singh</div>
+                        <div className="text-white text-[12px] justify-start">CEO VTS Technocrats</div>
                         
                           <Image
                             className="object-cover object-center rounded z-10"
@@ -202,6 +202,7 @@ export default function Review() {
                 </div>
             </div>
       </div>
+      
             
          
        
