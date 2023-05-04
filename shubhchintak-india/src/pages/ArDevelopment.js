@@ -5,6 +5,7 @@ import CasouselUi from "./carouselUI";
 import Footer from "./footer";
 import bg from "../../public/images/bg.png";
 import MobFooter from "./MobFooter";
+import CheckCarousel from './CheckCarousel'
 
 export default function ArDevelopment() {
   return (
@@ -224,7 +225,15 @@ export default function ArDevelopment() {
           </section>
 
           <section>
+          <div className="mt-5">
+          <div className=" min-[390px]:max-[480px]:hidden min-[481px]:max-[1200px]">
             <CheckOut />
+          </div>
+
+          <div className="min-[481px]:hidden min-[390px]:max-[480px] ">
+            <CheckCarousel />
+          </div>
+        </div>
           </section>
         </div>
         <div className="mt-5">

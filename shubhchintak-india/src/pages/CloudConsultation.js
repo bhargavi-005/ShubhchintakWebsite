@@ -4,6 +4,7 @@ import Header from "./Header";
 import Footer from "./footer";
 import bg from "../../public/images/bg.png";
 import MobFooter from "./MobFooter";
+import CheckCarousel from './CheckCarousel';
 
 export default function CloudConsultation() {
   return (
@@ -42,11 +43,11 @@ export default function CloudConsultation() {
           </section>
 
           <section>
-            <div className="flex flex-col w-full p-16 content-center justify-items-center mt-24">
+            <div className="flex flex-col w-full p-6 content-center justify-items-center mt-24">
               <div className="text-center text-4xl md:text-6xl font-bold text-blue-500">
                 Hire {"India's"} top Cloud Consultation Provider
               </div>
-              <div className="text-white mt-8 m-16 text-base md:text-2xl text-center">
+              <div className="text-white mt-8 m-6 text-base md:text-2xl text-center">
                 As more businesses adopt cloud computing, there is a growing
                 need for expert advice and guidance on how to make the most out
                 of this technology. Our team of experienced consultants is here
@@ -70,7 +71,7 @@ export default function CloudConsultation() {
           </section>
 
           <section>
-            <div className="text-4xl md:text-6xl  text-white p-12 font-bold text-center ml-44 mr-44">
+            <div className="text-4xl md:text-6xl  text-white p-12 font-bold text-center ml-0 md:ml-44 mr-44">
               Transform your digital journey with
               <span className="text-blue-500">
                 {" 360'"} <div className="mt-4">Cloud Consultancy Process!</div>
@@ -179,7 +180,15 @@ export default function CloudConsultation() {
           </section>
 
           <section>
+          <div className="mt-5">
+          <div className=" min-[390px]:max-[480px]:hidden min-[481px]:max-[1200px]">
             <CheckOut />
+          </div>
+
+          <div className="min-[481px]:hidden min-[390px]:max-[480px] ">
+            <CheckCarousel />
+          </div>
+        </div>
           </section>
         </div>
         <div className="mt-5">

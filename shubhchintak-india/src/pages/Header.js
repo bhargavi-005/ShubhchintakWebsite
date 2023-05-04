@@ -119,7 +119,7 @@ function Header() {
             <Link href="/portfolio">Portfolio</Link>
           </li>
           <li className="hover:text-slate-400">
-            <Link href="">Why Us</Link>
+            <Link href="/aboutus">About Us</Link>
           </li>
           <li>
             <div

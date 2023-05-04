@@ -171,7 +171,7 @@ function Landing() {
       </div>
       {/* Next Section */}
       <div
-        className=" relative mt-[-1.5%]"
+        className=" relative mt-20"
         style={{ backgroundImage: `url(${bg.src})` }}
       >
         <div className="mt-[3%] border-2 border-solid rounded-md ml-[10%] mr-[10%] bg-[#FFFFFF1A] pt-[5%]">

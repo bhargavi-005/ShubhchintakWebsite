@@ -5,7 +5,7 @@ function impact(){
     return(
         <div className="relative pb-[3%]" style={{ backgroundImage: `url(${bg.src})` }}>
             <h1 className="max-[768px]:text-[40px] text-center text-white font-xyz font-semibold text-[60px] mt-[3%] pt-[6%]">Our Impact</h1>
-            <p className="max-[768px]:ml-[5%] max-[768px]:mr-[5%] text-center font-medium text-white font-xyz text-[16px] ml-[20%] mr-[20%]">We work with our clients to plan, develop, transfer and scale solutions that create huge amount of impact for business and 
+            <p className="max-[768px]:ml-[5%] max-[768px]:mr-[5%] text-center font-medium text-white font-xyz text-[16px] ml-[20%] mr-[20%] mt-10">We work with our clients to plan, develop, transfer and scale solutions that create huge amount of impact for business and 
                society.We help entrepreneur to solve their complex business problems with ease and create world 
                class unbeatable custom solutions . We are known as {"Well wishers for corporates"}.<br></br>
                We believe in,</p>
@@ -18,7 +18,7 @@ function impact(){
                         width={100}
                         height={100}/>
                     </div>
-                    <div className="ml-[10%] mt-[6%]">
+                    <div className="ml-[10%] mt-[8%]">
                         <h2 className="font-semibold text-white text-[25px] font-xyz">Powerful Synergy</h2>
                         <p className="max-[768px]:mr-[50%] text-white text-[16px] mr-[10%]">Customer satisfaction is our prime consideration.
                            We {"don't"} compromise with our {"client's"} 
