@@ -207,11 +207,11 @@ function Landing(){
             </div>
             {/* repeated */}
             <div className="pt-[5%] ml-[10%] mr-[10%]">
-                <div className="mt-[5%]">
+                <div className="mt-[5%] ">
                 <h1 className=" text-white text-center font-abc text-[40px] font-semibold">Some of our best works!</h1>
                 </div>
                 <div className="max-[768px]:flex max-[768px]:flex-col flex flex-row mt-[3%]">
-                    <div className="mr-[20%] max-[768px]:order-last max-[768px]:mr-[5%]">
+                    <div className="mr-[20%] max-[768px]:order-last max-[768px]:mr-[5%] text-left">
                         <h1 className="text-white text-[30px] text-left font-semibold">Project Name</h1>
                         <p className="text-white text-left text-[16px]">Lorem ipsum dolor sit amet consectetur. Amet in bibendum mattis amet aliquam 
                         risus elementum sapien gravida. Accumsan sit ultrices in sapien enim. Magna 
