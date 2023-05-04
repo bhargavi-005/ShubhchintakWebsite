@@ -71,7 +71,7 @@ function Landing() {
       {/* Next Section */}
       <Success />
       {/* Next Section */}
-      <div className="bg-gradient-to-r from-blue-400 to-purple-400 pt-[2%]">
+      <div className="bg-gradient-to-r from-blue-400 to-purple-400 pt-[2%] ">
         <h2 className="font-xyz font-semibold max-[768px]:text-center ml-[10%] text-[30px] text-white">
           Solutions We Provide
         </h2>
@@ -157,7 +157,6 @@ function Landing() {
             </button>
           </div>
         </div>
-
         <Carousel selectedItem={index}>
           <Web />
           <Mobile />
