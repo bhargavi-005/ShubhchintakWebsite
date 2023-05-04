@@ -18,6 +18,7 @@ import Header from "./Header";
 import Footer from "./footer";
 import Review from "./customerviews"
 import Acco from "./Accordation"
+import Mark from "./marketing"
 import { useState } from "react";
 function landing(){
     const [index, setIndex]=useState(0);
@@ -50,7 +51,7 @@ function landing(){
         <Success/>
         {/* Next Section */}
         <div className="bg-gradient-to-r from-blue-400 to-purple-400 pt-[2%]">
-            <h2 className="max-[768px]:text-center ml-[10%] text-[30px] text-white">Solutions We Provide</h2>
+            <h2 className="font-xyz font-semibold max-[768px]:text-center ml-[10%] text-[30px] text-white">Solutions We Provide</h2>
             <div className="max-[768px]:hidden max-[768px]:flex max-[768px]:flex-col flex flex-row mt-[1%] ml-[10%] space-x-5">
                
                 <div className="">
@@ -91,7 +92,7 @@ function landing(){
                 <div>
                     
                     <button onClick={() => {setIndex(5)}} class="max-[768px]:mt-[2%] max-[768px]:ml-[27%] bg-white hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full">
-                        Cloud Consulation
+                        Digital Marketing
                     </button>
                     
                 </div>
@@ -120,14 +121,14 @@ function landing(){
                 <Cloud/>
                 <Graph/>
                 <UIUX/>
-                <Cloud/>
+                <Mark/>
                 <Manual/>
                 <VRAR/>
             </Carousel>
         </div>
         {/* Next Section */}
         <div className=" relative mt-[-1.5%]" style={{ backgroundImage: `url(${bg.src})` }}>
-            <div className="mt-[3%] border-2 border-solid ml-[10%] mr-[10%] bg-[#FFFFFF1A] pt-[5%]">
+            <div className="mt-[3%] border-2 border-solid rounded-md ml-[10%] mr-[10%] bg-[#FFFFFF1A] pt-[5%]">
                 <div className="flex flex-col justify-center items-center bg-black-rgba pt-[2%] pb-[2%]">
                 <h1 className="mb-[5%] text-[30px] text-white font-xyz text-center">Share your business requirements with us!</h1>
                 <button class=" mb-[3%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">

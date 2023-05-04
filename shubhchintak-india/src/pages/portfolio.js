@@ -30,7 +30,7 @@ function port(){
             {/* Next Section */}
             <div className="mt-[5%] mr-[10%] ml-[10%] ">
                 <h1 className="max-[768px]:text-center text-white font-semibold text-[40px] font-xyz">Our Works</h1>
-                <div className="flex flex-row max-[768px]:flex max-[768px]:flex-col space-x-2">
+                <div className="flex flex-row max-[768px]:flex max-[768px]:flex-col space-x-2 mt-[3%]">
                     <div className="main">
                     <Image  className="h-[400px] w-[400px]"
                     src="/images/work1.png"
@@ -118,7 +118,7 @@ function port(){
             {/* Next Section */}
             <Review/>
             
-            <div className="mt-[3%]">
+            <div className="mt-[3%] bg-[#FFFFFF1A] ml-[10%] mr-[10%] pt-[2%] pb-[2%] rounded-md border-2 border-solid">
                 <h1 className="text-[30px] font-xyz text-white text-center font-semibold">Want to start your digital transformation journey?</h1>
                 <button class="max-[768px]:ml-[30%] ml-[44%] mt-[1%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
                   Get free consulation
