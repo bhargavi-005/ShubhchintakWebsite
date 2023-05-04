@@ -9,6 +9,7 @@ import bg from "../../public/images/bg.png";
 import MobFooter from "./MobFooter";
 
 function UIDesigning() {
+  
   return (
     <>
       <div className="" style={{ backgroundImage: `url(${bg.src})` }}>
