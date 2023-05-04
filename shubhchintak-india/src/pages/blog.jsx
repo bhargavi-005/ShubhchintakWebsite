@@ -6,6 +6,7 @@ import Header from "./Header";
 import Footer from "./footer";
 import Related_blog_comp from "./related_blog_comp";
 import Related_blog_comp_extra from "./related_blog_comp_extra";
+import MobFooter from "./MobFooter";
 function blog() {
   return (
     <div className="" style={{ backgroundImage: `url(${bg.src})` }}>
@@ -54,7 +55,15 @@ function blog() {
           </div>
         </div>
       </section>
-      <Footer/>
+      <div className="mt-5">
+          <div className=" min-[390px]:max-[480px]:hidden min-[481px]:max-[1200px]">
+            <Footer />
+          </div>
+
+          <div className="min-[481px]:hidden min-[390px]:max-[480px] ">
+            <MobFooter/>
+          </div>
+        </div>
     </div>
   );
 }

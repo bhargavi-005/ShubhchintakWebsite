@@ -20,6 +20,7 @@ import Review from "./customerviews"
 import Acco from "./Accordation"
 import Mark from "./marketing"
 import { useState } from "react";
+import MobFooter from "./MobFooter";
 function Landing(){
     const [index, setIndex]=useState(0);
     return(
@@ -327,7 +328,15 @@ function Landing(){
         </div>
         <Acco/>
         {/* Next Section */}
-       <Footer/>
+        <div className="mt-5">
+          <div className=" min-[390px]:max-[480px]:hidden min-[481px]:max-[1200px]">
+            <Footer />
+          </div>
+
+          <div className="min-[481px]:hidden min-[390px]:max-[480px] ">
+            <MobFooter/>
+          </div>
+        </div>
         </div>
     )
 }

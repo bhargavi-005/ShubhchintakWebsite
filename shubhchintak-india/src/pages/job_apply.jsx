@@ -3,6 +3,7 @@ import bg from "../../public/images/bg.png";
 import Image from "next/image";
 import Footer from "./footer";
 import Header from "./Header";
+import MobFooter from "./MobFooter";
 
 function job_apply() {
   return (
@@ -89,8 +90,15 @@ function job_apply() {
           </div>
         </div>
       </section>
-      <Footer />
-    </div>
+      <div className="mt-5">
+          <div className=" min-[390px]:max-[480px]:hidden min-[481px]:max-[1200px]">
+            <Footer />
+          </div>
+
+          <div className="min-[481px]:hidden min-[390px]:max-[480px] ">
+            <MobFooter />
+          </div>
+        </div></div>
   );
 }
 

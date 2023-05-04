@@ -9,6 +9,7 @@ import Link from "next/link";
 import bg from "../../public/images/bg.png";
 import Review from "./customerviews"
 import { useState } from "react";
+import MobFooter from "./MobFooter";
 function Port(){
     const [isOpen1, setIsOpen1] = useState(false);
     return(
@@ -156,7 +157,15 @@ function Port(){
                   Get free consulation
                 </button>
             </div>
-            <Footer/>
+            <div className="mt-5">
+          <div className=" min-[390px]:max-[480px]:hidden min-[481px]:max-[1200px]">
+            <Footer />
+          </div>
+
+          <div className="min-[481px]:hidden min-[390px]:max-[480px] ">
+            <MobFooter />
+          </div>
+        </div>
         </div>
     )
 }
