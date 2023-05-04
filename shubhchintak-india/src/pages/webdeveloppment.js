@@ -152,18 +152,19 @@ function Webdev() {
         </div>
       </div>
 
-      <div className=" flex flex-col item-center justify-center md:flex-row md:mb-10 mt-[40px] gap-5 ml-20 ">
+      <div className="  flex item-center justify-center flex-col md:flex-row gap-4 ml-20 mt-10">
         <div className="bg-white w-fit h-fit text-black rounded-full p-5 text-base md:text-[20px] lg:text-[26px] font-semibold text-center">
           Front-end web development
         </div>
         <div className="bg-white w-fit h-fit text-black rounded-full p-5 text-base md:text-[20px] lg:text-[26px] font-semibold text-center">
           Back-end development
         </div>
+        
         <div className="bg-white w-fit h-fit text-black rounded-full p-5 text-base md:text-[20px] lg:text-[26px] font-semibold text-center">
           Saas Web Application development
         </div>
-      </div>
-      <div className="item-center justify-center flex flex-col md:flex-row gap-5 mt-5 ml-20">
+        </div>
+        <div className="item-center justify-center flex flex-col md:flex-row gap-4 mt-4 ml-20">
         <div className="bg-white w-fit h-fit text-black rounded-full p-5 text-base md:text-[20px] lg:text-[26px] font-semibold text-center">
           Feature rich web apps
         </div>
@@ -175,7 +176,7 @@ function Webdev() {
         </div>
       </div>
 
-      <div className="flex justify-center items-center md:mt-[100px]">
+      <div className="flex justify-center items-center md:mt-[70px]">
         <div className="w-auto h-[250px] lg:w-[1240px] bg-gradient-to-r from-white to-black flex justify-center items-center  rounded-[20px] my-20">
           <div className="w-[348px] h-[247px] md:w-[721px] lg:w-[1237px] px-3 bg-gray-950 font-semibold text-xl md:text-2xl lg:text-3xl text-center flex flex-col justify-center items-center rounded-[20px] gap-10">
             Need complete Web development consultation?
