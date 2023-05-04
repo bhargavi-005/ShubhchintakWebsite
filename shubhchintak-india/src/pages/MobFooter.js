@@ -207,7 +207,10 @@ function MobFooter() {
             </div>
 
 
-
+            <div className="text-white pl-10 pr-10 mt-10">
+        <hr/>
+        <div className="text-zinc-400 text-center mt-3">© 2023 Welcome to Shubhchintak Technology. All Right Reserved</div>
+      </div>
 
 
 
