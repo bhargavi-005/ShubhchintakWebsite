@@ -8,7 +8,7 @@ function review(){
             <Carousel>
                 <div>
                 <div className=" max-[768px]:flex max-[768px]:flex-col flex flex-row justify-evenly pb-[3%] mt-[3%]">
-           <div className="max-[768px]:w-[100%]  max-[768px]:ml-[-0.1%] rounded-lg bg-gradient-to-r from-cyan-500 to-blue-500 flex flex-row   w-[610px] h-[280px] ">
+           <div className="max-[768px]:mt-[4%] max-[768px]:h-[400px] max-[768px]:w-[100%]  max-[768px]:ml-[-0.1%] rounded-lg bg-gradient-to-r from-cyan-500 to-blue-500 flex flex-row   w-[610px] h-[280px] ">
             <div className="w-[50%] ml-[7%] mt-[8%]">
                 <Image
                 src="/svg/pp.png"
@@ -35,7 +35,7 @@ function review(){
             
             
            </div>
-           <div className="max-[768px]:w-[100%] max-[768px]:ml-[-0.1%] rounded-lg bg-gradient-to-r from-cyan-500 to-blue-500 flex flex-row   w-[610px] h-[280px] ">
+           <div className="max-[768px]:mt-[25%] max-[768px]:h-[400px] max-[768px]:w-[100%] max-[768px]:ml-[-0.1%] rounded-lg bg-gradient-to-r from-cyan-500 to-blue-500 flex flex-row   w-[610px] h-[280px] ">
             <div className="w-[50%] ml-[7%] mt-[8%]">
                 <Image
                 src="/svg/pp.png"
@@ -68,7 +68,7 @@ function review(){
 
                 <div>
                 <div className=" max-[768px]:flex max-[768px]:flex-col flex flex-row justify-evenly pb-[3%] mt-[3%]">
-                <div className="max-[768px]:w-[100%] max-[768px]:ml-[-0.1%] rounded-lg bg-gradient-to-r from-cyan-500 to-blue-500 flex flex-row   w-[610px] h-[280px] ">
+           <div className="max-[768px]:mt-[4%] max-[768px]:h-[400px] max-[768px]:w-[100%]  max-[768px]:ml-[-0.1%] rounded-lg bg-gradient-to-r from-cyan-500 to-blue-500 flex flex-row   w-[610px] h-[280px] ">
             <div className="w-[50%] ml-[7%] mt-[8%]">
                 <Image
                 src="/svg/pp.png"
@@ -95,7 +95,7 @@ function review(){
             
             
            </div>
-           <div className="max-[768px]:w-[100%] max-[768px]:ml-[-0.1%] rounded-lg bg-gradient-to-r from-cyan-500 to-blue-500 flex flex-row   w-[610px] h-[280px] ">
+           <div className="max-[768px]:mt-[25%] max-[768px]:h-[400px] max-[768px]:w-[100%] max-[768px]:ml-[-0.1%] rounded-lg bg-gradient-to-r from-cyan-500 to-blue-500 flex flex-row   w-[610px] h-[280px] ">
             <div className="w-[50%] ml-[7%] mt-[8%]">
                 <Image
                 src="/svg/pp.png"
@@ -106,7 +106,7 @@ function review(){
             <div className="ml-[2%] mt-[8%]">
                 <h2 className="text-left text-white font-xyz text-[18px]">Esther Howard</h2>
                 <p className="text-left text-white font-xyz text-[16px]">Sub Text</p>
-                <p className="w-[160%] ml-[-23%] text-left text-white font-xyz text-[18px]">Lorem ipsum dolor sit amet consectetur. 
+                <p className="ml-[-23%] w-[160%] text-left text-white font-xyz text-[18px]">Lorem ipsum dolor sit amet consectetur. 
                     Suscipit lobortis leo nibh enim in. Faucibus
                     scelerisque malesuada nec tincidunt 
                     nunc sem sed cras odio. Mauris amet 
@@ -122,7 +122,8 @@ function review(){
             
             
            </div>
-        </div>
+           
+           </div>
                 </div>
             </Carousel>
        
