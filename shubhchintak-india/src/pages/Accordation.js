@@ -43,7 +43,7 @@ export default function Example() {
             How can I do online business?
           </AccordionHeader>
           <AccordionBody>
-            <div className="text-[16px] font-xyz mt-[2%] ">
+            <div className="text-[16px] text-white font-xyz mt-[2%] ">
             1)Check visibility of our business idea by doing market research<br/>
             2)Develop a business plan <br/>
             3)Select attractive name of for business<br/>
@@ -60,7 +60,7 @@ export default function Example() {
           How much does it cost to create a website for a small business?
           </AccordionHeader>
           <AccordionBody>
-            <div className="text-[16px] font-xyz mt-[2%]  ">
+            <div className="text-[16px] text-white font-xyz mt-[2%]  ">
             1)Check visibility of our business idea by doing market research<br/>
             2)Develop a business plan <br/>
             3)Select attractive name of for business<br/>
@@ -76,7 +76,7 @@ export default function Example() {
           Which online business is best to start in India?
           </AccordionHeader>
           <AccordionBody>
-            <div className="text-[16px] font-xyz mt-[2%] ">
+            <div className="text-[16px] text-white font-xyz mt-[2%] ">
             1)Check visibility of our business idea by doing market research<br/>
             2)Develop a business plan <br/>
             3)Select attractive name of for business<br/>
@@ -92,7 +92,7 @@ export default function Example() {
            How do I create a mobile app for my small business?
           </AccordionHeader>
           <AccordionBody>
-            <div className="text-[16px] font-xyz mt-[2%] ">
+            <div className="text-[16px] text-white font-xyz mt-[2%] ">
             1)Check visibility of our business idea by doing market research<br/>
             2)Develop a business plan <br/>
             3)Select attractive name of for business<br/>
@@ -108,7 +108,7 @@ export default function Example() {
           How much does it cost to create a mobile app for a small business?
           </AccordionHeader>
           <AccordionBody>
-            <div className="text-[16px] font-xyz mt-[2%] ">
+            <div className="text-[16px] text-white font-xyz mt-[2%] ">
             1)Check visibility of our business idea by doing market research<br/>
             2)Develop a business plan <br/>
             3)Select attractive name of for business<br/>
@@ -125,7 +125,7 @@ export default function Example() {
           Can I build a mobile app by myself?
           </AccordionHeader>
           <AccordionBody>
-            <div className="text-[16px] font-xyz mt-[2%] ">
+            <div className="text-[16px] text-white font-xyz mt-[2%] ">
             We&apos;re not always in the position that we want to be at.
             We&apos;re constantly growing. We&apos;re constantly making
             mistakes. We&apos;re constantly trying to express ourselves and
@@ -139,7 +139,7 @@ export default function Example() {
           Is it worth to build a mobile app for your business?
           </AccordionHeader>
           <AccordionBody>
-          <div className="text-[16px] font-xyz mt-[2%] ">
+          <div className="text-[16px] text-white font-xyz mt-[2%] ">
             We&apos;re not always in the position that we want to be at.
             We&apos;re constantly growing. We&apos;re constantly making
             mistakes. We&apos;re constantly trying to express ourselves and
@@ -153,7 +153,7 @@ export default function Example() {
           How much do digital marketing services cost?
           </AccordionHeader>
           <AccordionBody>
-          <div className="text-[16px] font-xyz mt-[2%] ">
+          <div className="text-[16px] text-white font-xyz mt-[2%] ">
             We&apos;re not always in the position that we want to be at.
             We&apos;re constantly growing. We&apos;re constantly making
             mistakes. We&apos;re constantly trying to express ourselves and
@@ -167,7 +167,7 @@ export default function Example() {
           How to contact you? Have more questions to ask
           </AccordionHeader>
           <AccordionBody>
-          <div className="text-[16px] font-xyz mt-[2%] ">
+          <div className="text-[16px] text-white font-xyz mt-[2%] ">
             We&apos;re not always in the position that we want to be at.
             We&apos;re constantly growing. We&apos;re constantly making
             mistakes. We&apos;re constantly trying to express ourselves and
