@@ -187,8 +187,8 @@ function Landing() {
       {/* Next Section */}
       <div style={{ backgroundImage: `url(${bg.src})` }}>
         <Carousel>
-          <div className="pt-[5%] ml-[10%] mr-[10%]">
-            <div className="mt-[5%]">
+          <div className="mpt-[5%] ml-[10%] mr-[10%]">
+            <div className="max-[768px]:mt-[20%] mt-[5%]">
               <h1 className="font-semibold text-white text-center font-abc text-[40px]">
                 Some of our best works!
               </h1>
@@ -366,7 +366,7 @@ function Landing() {
           Insights by ShubhChintak!
         </h1>
         <div className="mt-[5%] max-[768px]:flex max-[768px]:flex-col flex flex-row justify-evenly ml-[8%] mr-[8%]">
-          <div className="max-[768px]:ml-[-7%]  bg-[#FFFFFF1A] max-[768px]:ml-[3%] max-[768px]:mr-[5%] w-[400px] h-[450px] justify-center items-center">
+          <div className="max-[768px]:ml-[-7%]  bg-[#FFFFFF1A] max-[768px]:mr-[5%] w-[400px] h-[450px] justify-center items-center">
             <Image
               className=""
               alt=""
