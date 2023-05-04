@@ -4,9 +4,12 @@ import Impact from "./impact"
 import Clients from "./clients"
 import Header from "./Header";
 import Footer from "./footer";
+import Link from "next/link";
 import bg from "../../public/images/bg.png";
 import Review from "./customerviews"
+import { useState } from "react";
 function port(){
+    const [isOpen1, setIsOpen1] = useState(false);
     return(
         <div style={{ backgroundImage: `url(${bg.src})` }} className="max-[768px]:overflow-x-hidden">
             <Header/>
@@ -29,7 +32,35 @@ function port(){
             <Success/>
             {/* Next Section */}
             <div className="mt-[5%] mr-[10%] ml-[10%] ">
+              
                 <h1 className="max-[768px]:text-center text-white font-semibold text-[40px] font-xyz">Our Works</h1>
+                <div className="px-6 py-4 mb-4 rounded-md bg-[#FFFFFF1A] ml-[60%] mt-[-6%] ">
+              <div
+                onClick={() => setIsOpen1((prev) => !prev)}
+                className="flex flex-row justify-between gap-40 items-center text-lg font-semibold"
+              >
+                <p className="text-white" > Website Development</p>
+                <Image
+                  className="ml-7"
+                  src="/images/blog/drop.png"
+                  width={10}
+                  height={5}
+                  alt="drop"
+                />
+              </div>
+              {isOpen1 && (
+                <div className="bg-gray-500 z-10 rounded-lg  mt-2 p-8 absolute ">
+                  <ul className="flex flex-col gap-4 text-white ">
+                    <li className="hover:text-slate-400">
+                      <Link href="">Website Development1</Link>
+                    </li>
+                    <li className="hover:text-slate-400">
+                      <Link href="">Website Development2</Link>
+                    </li>
+                  </ul>
+                </div>
+              )}
+            </div>
                 <div className="flex flex-row max-[768px]:flex max-[768px]:flex-col space-x-2 mt-[3%]">
                     <div className="main">
                     <Image  className="h-[400px] w-[400px]"
