@@ -10,6 +10,7 @@ import CheckOut from "./checkoutView";
 import Review from "./Review";
 import Footer from "./footer";
 import bg from "../../public/images/bg.png";
+import MobFooter from "./MobFooter";
 
 function Webdev() {
   // let slides = undefined;
@@ -50,7 +51,7 @@ function Webdev() {
           expertise in Web Development Solutions for your Unique Online Business
           Ideas.
         </p>
-        <button className="w-[111px] h-[37px] bg-[#0F89FF] rounded-full text-sm">
+        <button className="w-[111px] h-[37px] bg-[#0F89FF] rounded-full text-sm lg:text-base lg:w-[160px] lg:h-[45px]">
           Get Started
         </button>
       </div>
@@ -194,7 +195,17 @@ function Webdev() {
 
       <CheckOut />
 
-      <Footer />
+      
+      <div className=" min-[390px]:max-[480px]:hidden min-[481px]:max-[1200px]">
+          <Footer/>
+  
+      </div>
+      
+      <div className="min-[481px]:hidden min-[390px]:max-[480px] ">
+          <MobFooter/>
+      </div>
+      
+
     </div>
   );
 }

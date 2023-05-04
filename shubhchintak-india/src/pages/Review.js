@@ -28,7 +28,7 @@ export default function Review() {
     <div className="" style={{ backgroundImage: `url(${bg.src})` }}>
       <Carousel showDots={true}  responsive={responsive}>
       
-      <div className="slide w-[320px] h-[276px] lg:w-[400px] lg:h-[346px] rounded-lg bg-gradient-to-tl from-[#204061] to-[#0F89FF] p-7  lg:ml-20">
+      <div className="slide ml-8 w-[320px] h-[276px] lg:w-[400px] lg:h-[346px] rounded-lg bg-gradient-to-tl from-[#204061] to-[#0F89FF] p-7  lg:ml-20">
             <div>
                 <Image
                 className="object-cover object-center rounded z-10 my-1"

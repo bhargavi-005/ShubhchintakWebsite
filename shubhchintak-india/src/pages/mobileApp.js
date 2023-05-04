@@ -6,6 +6,7 @@ import Review from "./Review";
 import CheckOut from "./checkoutView";
 import Footer from "./footer";
 import bg from "../../public/images/bg.png";
+import MobFooter from "./MobFooter";
 
 function MobileApp() {
   return (
@@ -29,7 +30,7 @@ function MobileApp() {
             high-quality mobile app development services to businesses and
             individuals worldwide.
           </p>
-          <button className="bg-[#0F89FF] w-[160px] h-[40px] text-center text-lg rounded-full">
+          <button className="bg-[#0F89FF] w-[160px] h-[40px] text-center text-lg rounded-full  lg:w-[160px] lg:h-[45px]">
             Get Started
           </button>
         </div>
@@ -170,7 +171,14 @@ function MobileApp() {
 
       <CheckOut />
 
-      <Footer />
+      <div className=" min-[390px]:max-[480px]:hidden min-[481px]:max-[1200px]">
+          <Footer/>
+  
+      </div>
+      
+      <div className="min-[481px]:hidden min-[390px]:max-[480px] ">
+          <MobFooter/>
+      </div>
     </div>
   );
 }
