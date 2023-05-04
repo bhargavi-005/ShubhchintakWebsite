@@ -5,6 +5,7 @@ import Link from "next/link";
 import Header from "./Header";
 import Footer from "./footer";
 import Related_blog_comp from "./related_blog_comp";
+import Related_blog_comp_extra from "./related_blog_comp_extra";
 function blog() {
   return (
     <div className="" style={{ backgroundImage: `url(${bg.src})` }}>
@@ -37,7 +38,7 @@ function blog() {
         </div>
       </section>
 
-      <Related_blog_comp/>
+      <Related_blog_comp_extra/>
 
       <section className="text-white font-abc">
         <div className="container px-5 py-20 mx-auto border border-white rounded-3xl bg-[#FFFFFF1A]">
