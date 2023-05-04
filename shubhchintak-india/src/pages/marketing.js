@@ -1,7 +1,7 @@
 import Image from "next/image";
 function mark(){
     return(
-        <div  className="max-[768px]:order-last bg-gradient-to-r from-blue-400 to-purple-400 pt-[2%] pb-[3%] mt-[5%]">
+        <div  className="max-[768px]:ml-[-8%] max-[768px]:order-last bg-gradient-to-r from-blue-400 to-purple-400 pt-[2%] pb-[3%] mt-[5%]">
         <div className="max-[768px]:flex max-[768px]:flex-col flex flex-row">
             <div className="mr-[8%]">
             <h1 className="font-extrabold max-[768px]:text-center text-left ml-[18%] text-white text-[50px] font-xyz">Digital Marketing</h1>

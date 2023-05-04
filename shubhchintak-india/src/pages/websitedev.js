@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function web(){
     return(
-        <div  className="max-[768px]:order-last bg-gradient-to-r from-blue-400 to-purple-400 pt-[2%] pb-[3%] mt-[5%] ">
+        <div  className="max-[768px]: max-[768px]:ml-[-1%] order-last bg-gradient-to-r from-blue-400 to-purple-400 pt-[2%] pb-[3%] mt-[5%] ">
             <div className="max-[768px]:flex max-[768px]:flex-col flex flex-row ">
                 <div className="mr-[8%]">
                 <h1 className="font-extrabold max-[768px]:text-center text-left ml-[18%] text-white text-[50px] font-xyz">Website Development</h1>
