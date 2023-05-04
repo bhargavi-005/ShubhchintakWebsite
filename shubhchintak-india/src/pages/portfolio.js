@@ -9,7 +9,7 @@ import Link from "next/link";
 import bg from "../../public/images/bg.png";
 import Review from "./customerviews"
 import { useState } from "react";
-function port(){
+function Port(){
     const [isOpen1, setIsOpen1] = useState(false);
     return(
         <div style={{ backgroundImage: `url(${bg.src})` }} className="max-[768px]:overflow-x-hidden">
@@ -160,4 +160,4 @@ function port(){
         </div>
     )
 }
-export default port;
+export default Port;
