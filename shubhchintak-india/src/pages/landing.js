@@ -367,7 +367,7 @@ function Landing() {
           Insights by ShubhChintak!
         </h1>
         <div className="mt-[5%] max-[768px]:flex max-[768px]:flex-col flex flex-row justify-evenly ml-[8%] mr-[8%]">
-          <div className="bg-[#FFFFFF1A] max-[768px]:ml-[3%] max-[768px]:mr-[5%] w-[400px] h-[450px] justify-center items-center">
+          <div className="max-[768px]:ml-[-7%]  bg-[#FFFFFF1A] max-[768px]:ml-[3%] max-[768px]:mr-[5%] w-[400px] h-[450px] justify-center items-center">
             <Image
               className=""
               alt=""
@@ -387,7 +387,7 @@ function Landing() {
               </a>
             </div>
           </div>
-          <div className="bg-[#FFFFFF1A] w-[400px] h-[450px]">
+          <div className="max-[768px]:ml-[-7%] max-[768px]:mt-[5%] bg-[#FFFFFF1A] w-[400px] h-[450px]">
             <Image
               className=" max-[768px]:mr-[5%]"
               alt=""
@@ -408,7 +408,7 @@ function Landing() {
               </a>
             </div>
           </div>
-          <div className="bg-[#FFFFFF1A] w-[400px] h-[450px]">
+          <div className="max-[768px]:ml-[-7%] max-[768px]:mt-[5%] bg-[#FFFFFF1A] w-[400px] h-[450px]">
             <Image
               className="max-[768px]:mr-[5%]"
               alt=""
@@ -416,7 +416,7 @@ function Landing() {
               width={400}
               height={494}
             />
-            <div className=" max-[768px]:mr-[5%] bg-black-rgba h-[173px] w-[100%]">
+            <div className="  bg-black-rgba h-[173px] w-[100%]">
               <p className="font-medium ml-[1%] text-[20px] text-white font-xyz">
                 HOW TO WRITE A GREAT BLOG
               </p>
