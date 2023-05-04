@@ -118,9 +118,7 @@ function Footer() {
                 <li className="">
                   <Link href="/blog" className=" ">Blogs</Link>
                 </li>
-                <li className="">
-                  <Link href="/clients" className="">Clients</Link>
-                </li>
+                
               </ul>
             </div>
 

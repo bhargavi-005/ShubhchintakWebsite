@@ -97,11 +97,7 @@ function MobFooter() {
                                 Blogs
                             </Link>
                         </li>
-                        <li className="hover:text-slate-400">
-                            <Link href="/clients"  >
-                                Clients
-                            </Link>
-                        </li>
+                        
 
                     </ul>
                 </div>}

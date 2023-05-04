@@ -141,9 +141,6 @@ function Header() {
                   <li className="hover:text-slate-400">
                     <Link href="/blog">Blogs</Link>
                   </li>
-                  <li className="hover:text-slate-400">
-                    <Link href="">Clients</Link>
-                  </li>
                 </ul>
               </div>
             )}
