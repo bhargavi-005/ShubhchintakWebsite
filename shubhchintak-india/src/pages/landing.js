@@ -71,7 +71,7 @@ function Landing() {
       {/* Next Section */}
       <Success />
       {/* Next Section */}
-      <div className="bg-gradient-to-r from-blue-400 to-purple-400 pt-[2%]">
+      <div className="bg-gradient-to-r from-blue-400 to-purple-400 pt-[2%] ">
         <h2 className="font-xyz font-semibold max-[768px]:text-center ml-[10%] text-[30px] text-white">
           Solutions We Provide
         </h2>
@@ -157,7 +157,6 @@ function Landing() {
             </button>
           </div>
         </div>
-
         <Carousel selectedItem={index}>
           <Web />
           <Mobile />
@@ -174,12 +173,12 @@ function Landing() {
         className=" relative mt-20"
         style={{ backgroundImage: `url(${bg.src})` }}
       >
-        <div className="mt-[3%] border-2 border-solid rounded-md ml-[10%] mr-[10%] bg-[#FFFFFF1A] pt-[5%]">
+        <div className="mt-[6%] border-2 border-solid rounded-md ml-[10%] mr-[10%] bg-[#FFFFFF1A] pt-[1%]">
           <div className="flex flex-col justify-center items-center bg-black-rgba pt-[2%] pb-[2%]">
-            <h1 className="mb-[5%] text-[30px] text-white font-xyz text-center">
+            <h1 className="mb-[1%] text-[30px] text-white font-xyz text-center">
               Share your business requirements with us!
             </h1>
-            <button class=" mb-[3%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+            <button class=" mb-[1%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
              <Link href="/contact_us"> Call Now </Link>
             </button>
           </div>
@@ -367,7 +366,7 @@ function Landing() {
           Insights by ShubhChintak!
         </h1>
         <div className="mt-[5%] max-[768px]:flex max-[768px]:flex-col flex flex-row justify-evenly ml-[8%] mr-[8%]">
-          <div className="bg-[#FFFFFF1A] max-[768px]:ml-[3%] max-[768px]:mr-[5%] w-[400px] h-[450px] justify-center items-center">
+          <div className="max-[768px]:ml-[-7%]  bg-[#FFFFFF1A] max-[768px]:ml-[3%] max-[768px]:mr-[5%] w-[400px] h-[450px] justify-center items-center">
             <Image
               className=""
               alt=""
@@ -387,7 +386,7 @@ function Landing() {
               </a>
             </div>
           </div>
-          <div className="bg-[#FFFFFF1A] w-[400px] h-[450px]">
+          <div className="max-[768px]:ml-[-7%] max-[768px]:mt-[5%] bg-[#FFFFFF1A] w-[400px] h-[450px]">
             <Image
               className=" max-[768px]:mr-[5%]"
               alt=""
@@ -408,7 +407,7 @@ function Landing() {
               </a>
             </div>
           </div>
-          <div className="bg-[#FFFFFF1A] w-[400px] h-[450px]">
+          <div className="max-[768px]:ml-[-7%] max-[768px]:mt-[5%] bg-[#FFFFFF1A] w-[400px] h-[450px]">
             <Image
               className="max-[768px]:mr-[5%]"
               alt=""
@@ -416,7 +415,7 @@ function Landing() {
               width={400}
               height={494}
             />
-            <div className=" max-[768px]:mr-[5%] bg-black-rgba h-[173px] w-[100%]">
+            <div className="  bg-black-rgba h-[173px] w-[100%]">
               <p className="font-medium ml-[1%] text-[20px] text-white font-xyz">
                 HOW TO WRITE A GREAT BLOG
               </p>
