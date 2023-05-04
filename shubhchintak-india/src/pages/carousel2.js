@@ -4,6 +4,18 @@ import Carousel2 from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 function carouselsec() {
+
+  const CustomDot = ({ onClick, ...rest }) => {
+    const {
+      active,
+    } = rest;
+    return (
+      <button
+        className={active ? "w-[14px] h-[14px] rounded-[7px] bg-gray-600 mx-1" : "w-[14px] h-[14px] rounded-[7px] bg-white mx-1"}
+        onClick={() => onClick()}
+      />
+    );
+  };
   
   const responsive = {
     desktop: {
@@ -25,7 +37,7 @@ function carouselsec() {
   return (
     
       <div className="my-20">
-      <Carousel2 showDots={true}  responsive={responsive} dotColorInactive={"#795548"}>
+      <Carousel2 showDots={true}  responsive={responsive} customDot={<CustomDot/>}>
       <div className="p-5">
       <div className="">
             <Image
