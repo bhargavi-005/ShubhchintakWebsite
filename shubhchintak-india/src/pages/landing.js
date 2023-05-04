@@ -1,7 +1,6 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"></link>
 import { Carousel } from 'react-responsive-carousel';
-import bg from "../../public/images/bg.png";
 import Image from "next/image";
 import Partner from "./partners"
 import Impact from "./impact"
@@ -17,7 +16,7 @@ import Success from "./success"
 import Header from "./Header";
 import Footer from "./footer";
 import Review from "./customerviews"
-import Acco from './Accordation'
+import Acco from "./Accordation"
 function ok(){
     
 }
@@ -189,7 +188,7 @@ function landing(){
                             </div>
                         </div>
                         <div className="mt-[3%]">
-                        <button class="max-[768px]:ml-[32%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                        <button class="max-[768px]:ml-[5%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
                     View Case Study
                 </button>
                         </div>
@@ -276,7 +275,7 @@ function landing(){
         {/* Next Section */}
         <div style={{ backgroundImage: `url(${bg.src})` }}>
             <div className="mt-[3%]">
-                <h1 className="max-[768px]:text-[30px] max-[768px]:ml-[10%] max-[768px]:mr-[10%] text-center text-white font-xyz text-[40px]">A Word from our Proud Clients!</h1>
+                <h1 className="max-[768px]:text-[30px] max-[768px]:ml-[10%] max-[768px]:mr-[10%] text-center text-white font-xyz text-[40px] font-semibold">A Word from our Proud Clients!</h1>
             </div>
             <Review/>
             
@@ -292,20 +291,20 @@ function landing(){
                         width={400}
                         height={494}/>
                         <div className="bg-black-rgba h-[173px] w-[100%]">
-                            <p className="ml-[1%] text-[20px] text-white font-xyz">EDGE COMPUTING: THE NEW ERA</p>
-                            <p className="ml-[1%] text-white text-[16px] font-xyz">It all started with one big computer coming into existence.</p>
+                            <p className="font-medium ml-[1%] text-[20px] text-white font-xyz">EDGE COMPUTING: THE NEW ERA</p>
+                            <p className="mt-[2%] ml-[1%] text-white text-[16px] font-xyz">It all started with one big computer coming into existence.</p>
                             <a href="#" className="text-white text-[16px] ml-[1%]">Read More</a>
                         </div>
                     </div>
-                    <div className="bg-[#FFFFFF1A] w-[400px] h-[454px]">
+                    <div className="bg-[#FFFFFF1A] w-[400px] h-[450px]">
                         <Image className=" max-[768px]:mr-[5%]"
                         alt=""
                         src="/images/tips.png"
                         width={400}
                         height={494}/>
                         <div className=" max-[768px]:mr-[5%] bg-black-rgba h-[173px] w-[100%]">
-                            <p className="ml-[1%] text-[20px] text-white font-xyz">5 TIPS FOR DESIGNING GOOD POST...</p>
-                            <p className="ml-[1%] text-white text-[16px] font-xyz">Designing good looking posters and social media posts is not as hard as it sounds.</p>
+                            <p className="font-medium ml-[1%] text-[20px] text-white font-xyz">5 TIPS FOR DESIGNING GOOD POST...</p>
+                            <p className="mt-[2%] ml-[1%] text-white text-[16px] font-xyz">Designing good looking posters and social media posts is not as hard as it sounds.</p>
                             <a href="#" className="text-white text-[16px] ml-[1%]">Read More</a>
                         </div>
                     </div>
@@ -316,16 +315,14 @@ function landing(){
                         width={400}
                         height={494}/>
                         <div className=" max-[768px]:mr-[5%] bg-black-rgba h-[173px] w-[100%]">
-                            <p className="ml-[1%] text-[20px] text-white font-xyz">HOW TO WRITE A GREAT BLOG</p>
-                            <p className="ml-[1%] text-white text-[16px] font-xyz">Is writing your passion but you fail to express it professionally?</p>
-                            <a href="#" className="text-white text-[16px] ml-[1%]">Read More</a>
+                            <p className="font-medium ml-[1%] text-[20px] text-white font-xyz">HOW TO WRITE A GREAT BLOG</p>
+                            <p className="mt-[2%] ml-[1%] text-white text-[16px] font-xyz">Is writing your passion but you fail to express it professionally?</p>
+                            <a href="#" className=" text-white text-[16px] ml-[1%]">Read More</a>
                         </div>
                     </div>
             </div>
         </div>
-        <div>
-            <Acco/>
-        </div>
+        <Acco/>
         {/* Next Section */}
        <Footer/>
         </div>

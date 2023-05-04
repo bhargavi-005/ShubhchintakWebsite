@@ -1,19 +1,52 @@
-import React from 'react';
+import React from "react";
 import bg from "../../public/images/bg.png";
 import Image from "next/image";
 import Link from "next/link";
 import Header from "./Header";
 import Footer from "./footer";
+import { useState } from "react";
 
 function related_blog_comp() {
+  const [isOpen1, setIsOpen1] = useState(false);
+
   return (
     <div>
-        
       <section className="text-white font-abc">
         <div className="container px-5 py-24 mx-auto">
-          <h1 className="title-font sm:text-4xl text-45xl mb-7 font-bold text-white">
-            Related Blogs
-          </h1>
+          <div className="flex justify-between">
+            <div>
+              <h1 className="title-font sm:text-4xl text-45xl mb-7 font-bold text-white">
+                Related Blogs
+              </h1>
+            </div>
+            <div>
+              <div
+                onClick={() => setIsOpen1((prev) => !prev)}
+                className="flex flex-row  items-center"
+              >
+                Website Development
+                <Image
+                  className=""
+                  src="/images/blog/drop.png"
+                  width={10}
+                  height={5}
+                  alt=""
+                />
+              </div>
+              {isOpen1 && (
+                <div className="bg-gray-500 z-10 rounded-lg  mt-2 p-8 absolute ">
+                  <ul className="flex flex-col gap-4 text-white ">
+                    <li className="hover:text-slate-400">
+                      <Link href="/blog">Blogs</Link>
+                    </li>
+                    <li className="hover:text-slate-400">
+                      <Link href="">Clients</Link>
+                    </li>
+                  </ul>
+                </div>
+              )}
+            </div>
+          </div>
           <div className="flex flex-wrap -m-4">
             <div className="p-4 md:w-1/3">
               <div className="h-full border-none border-opacity-60 overflow-hidden shadow-md shadow-[#00000033] rounded-1 hover:shadow-2xl bg-[#FFFFFF1A]">
@@ -119,7 +152,7 @@ function related_blog_comp() {
         </div>
       </section>
     </div>
-  )
+  );
 }
 
-export default related_blog_comp
+export default related_blog_comp;

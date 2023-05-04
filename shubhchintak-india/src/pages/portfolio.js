@@ -5,7 +5,7 @@ import Clients from "./clients"
 import Header from "./Header";
 import Footer from "./footer";
 import bg from "../../public/images/bg.png";
-
+import Review from "./customerviews"
 function port(){
     return(
         <div style={{ backgroundImage: `url(${bg.src})` }} className="max-[768px]:overflow-x-hidden">
@@ -116,6 +116,7 @@ function port(){
             {/* Next Section */}
             <Clients/>
             {/* Next Section */}
+            <Review/>
             
             <div className="mt-[3%]">
                 <h1 className="text-[30px] font-xyz text-white text-center font-semibold">Want to start your digital transformation journey?</h1>

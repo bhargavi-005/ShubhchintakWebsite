@@ -4,6 +4,7 @@ import Carousel2 from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 function carouselsec() {
+  
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
@@ -24,11 +25,11 @@ function carouselsec() {
   return (
     
       <div className="my-20">
-      <Carousel2 showDots={true} responsive={responsive}>
+      <Carousel2 showDots={true}  responsive={responsive} dotColorInactive={"#795548"}>
       <div className="p-5">
       <div className="">
             <Image
-              className="w-full object-cover object-center rounded z-10 lg:h-[420px]  md:h-[350px]"
+              className="w-full object-cover object-center rounded z-10 lg:h-[460px]  md:h-[350px]"
               alt="earth"
               src="/svg/Rectangl1.svg"
               width="391"

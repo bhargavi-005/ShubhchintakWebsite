@@ -4,7 +4,7 @@ function CheckOut() {
   return (
     <div>
       <div className="flex justify-center items-center text-center mt-[80px] mx-6 text-white my-20">
-        <div className=" font-bold text-[25px] md:text-[40px] lg:text-[60px] lg:w-[1250px] ">
+        <div className=" font-semibold text-[25px] md:text-[40px]  lg:w-[1250px] ">
           Check out Our Other Services !
         </div>
       </div>
