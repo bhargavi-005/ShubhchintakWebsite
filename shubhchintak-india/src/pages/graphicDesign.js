@@ -8,7 +8,7 @@ import MobFooter from "./MobFooter";
 import CheckCarousel from './CheckCarousel'
 function GraphicD() {
   return (
-    <div className="box-border text-white font-xyz" style={{ backgroundImage: `url(${bg.src})`}} >
+    <div className="box-border text-white font-xyz max-[768px]:overflow-x-hidden " style={{ backgroundImage: `url(${bg.src})`}} >
       <Header />
       <div className="flex flex-col lg:flex-row-reverse justify-center items-center gap-24 ">
         <div className="  my-10 md:ml-16">
@@ -68,7 +68,7 @@ function GraphicD() {
         <div className="w-[320px] h-[135px] md:w-[334px] md:h-[135px] lg:w-[400px] lg:h-[135px]  bg-gradient-to-b from-white to-black flex justify-center items-center rounded-[4px] ">
           <div className="w-[315px] h-[130px] md:w-[329px] md:h-[130px] lg:w-[395px] lg:h-[130px] bg-gray-950  rounded-[4px] flex flex-col justify-center text-center font-semibold ">
             <h5 className="text-xl ">Step 1</h5>
-            <h6 className="text-[26px]">
+            <h6 className="text-[24px] md:text-[26px]">
               Share brief details of your requirements
             </h6>
           </div>
@@ -76,31 +76,31 @@ function GraphicD() {
         <div className="w-[320px] h-[135px] md:w-[334px] md:h-[135px] lg:w-[400px] lg:h-[135px]   bg-gradient-to-b from-white to-black flex justify-center items-center  rounded-[4px]">
           <div className="w-[315px] h-[133px] md:w-[329px] md:h-[130px] lg:w-[395px] lg:h-[130px]  bg-gray-950 rounded-[4px] flex flex-col justify-center text-center  font-semibold">
             <h5 className="text-xl ">Step 2</h5>
-            <h6 className="text-[26px]">Assigned to Designer</h6>
+            <h6 className="text-[24px] md:text-[26px]">Assigned to Designer</h6>
           </div>
         </div>
         <div className="w-[320px] h-[135px] md:w-[334px] md:h-[135px] lg:w-[400px] lg:h-[135px]   bg-gradient-to-b from-white to-black flex justify-center items-center  rounded-[4px]">
           <div className="w-[315px] h-[133px] md:w-[329px] md:h-[130px] lg:w-[395px] lg:h-[130px] bg-gray-950 rounded-[4px] flex flex-col justify-center text-center  font-semibold">
             <h5 className="text-xl ">Step 3</h5>
-            <h6 className="text-[26px]">Sharing of graphics created with you</h6>
+            <h6 className="text-[24px] md:text-[26px]">Sharing of graphics created with you</h6>
           </div>
         </div>
         <div className="w-[320px] h-[135px] md:w-[334px] md:h-[135px] lg:w-[400px] lg:h-[135px]   bg-gradient-to-b from-white to-black flex justify-center items-center  rounded-[4px]">
           <div className="w-[315px] h-[133px] md:w-[329px] md:h-[130px] lg:w-[395px] lg:h-[130px] bg-gray-950 rounded-[4px] flex flex-col justify-center text-center  font-semibold">
             <h5 className="text-xl ">Step 4</h5>
-            <h6 className="text-[26px] mx-2">Edits can be made</h6>
+            <h6 className="text-[24px] md:text-[26px] mx-2">Edits can be made</h6>
           </div>
         </div>
         <div className="w-[320px] h-[135px] md:w-[334px] md:h-[135px] lg:w-[400px] lg:h-[135px]   bg-gradient-to-b from-white to-black flex justify-center items-center  rounded-[4px]">
           <div className="w-[315px] h-[133px] md:w-[329px] md:h-[130px] lg:w-[395px] lg:h-[130px] bg-gray-950 rounded-[4px] flex flex-col justify-center text-center  font-semibold">
             <h5 className="text-xl ">Step 5</h5>
-            <h6 className="text-[26px]">Final your graphics</h6>
+            <h6 className="text-[24px] md:text-[26px]">Final your graphics</h6>
           </div>
         </div>
         <div className="w-[320px] h-[135px] md:w-[334px] md:h-[135px] lg:w-[400px] lg:h-[135px]   bg-gradient-to-b from-white to-black flex justify-center items-center  rounded-[4px]">
           <div className="w-[315px] h-[133px] md:w-[329px] md:h-[130px] lg:w-[395px] lg:h-[130px] bg-gray-950 rounded-[4px] flex flex-col justify-center text-center  font-semibold">
             <h5 className="text-xl ">Step 6</h5>
-            <h6 className="text-[26px]">Download your file</h6>
+            <h6 className="text-[24px] md:text-[26px]">Download your file</h6>
           </div>
         </div>
       </div>

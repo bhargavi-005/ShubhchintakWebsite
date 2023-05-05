@@ -36,9 +36,15 @@ function carouselClient() {
   };
 
   return (
+
     
-      <div className="my-20">
-      <Carousel4 showDots={true}  responsive={responsive} customDot={<CustomDot/>}>
+      <div >
+      <div className="flex justify-center items-center text-center mt-[80px] mx-6 text-white my-20">
+        <div className=" font-semibold text-[25px] md:text-[40px]  lg:w-[1250px] ">
+          Check out Our Other Services !
+        </div>
+      </div>
+      <Carousel4 showDots={true}  responsive={responsive} customDot={<CustomDot/>} className="my-20">
       
       <div className="w-[295px] h-[316px] bg-gradient-to-b from-white to-black  flex items-center justify-center">
         <div className="w-[292px] h-[314px] bg-gray-800 p-7">
