@@ -17,29 +17,6 @@ export default function ArDevelopment() {
       >
         <div className="p-4 md:p-6 lg:p-16">
           <section classname="flex flex-row text-white">
-            {/* <div className="container  flex lg:flex-row md:flex-col-reverse flex-col-reverse items-center">
-              <div className="lg:w-4/5 lg:m-12 md:w-3/4 w-full ">
-                <div className="text-3xl md:text-5xl lg:text-6xl text-white font-bold md:text-center lg:text-start  text-center ">
-                  VR/AR Development
-                </div>
-                <div className="lg:w-3/4 md:w-full w-full text-base md:text-2xl text-blue-200 mt-8 md:text-center  lg:text-start text-center">
-                  Step into the Future with Cutting-Edge VR/AR Services!
-                </div>
-                <button className="bg-blue-500 hover:bg-blue-700  mt-8 p-3 rounded-full md:ml-52 lg:ml-0 ml-32 text-white font-semibold text-base md:text-2xl">
-                  Get Started
-                </button>
-              </div>
-              <div className="lg:max-w-lg lg:w-full md:w-4/5 w-5/6 pb-10 -mr-2 md:-mr-12">
-                <Image
-                  className="object-cover object-center rounded z-10"
-                  alt="earth"
-                  src="images/pana.svg"
-                  width={500}
-                  height={500}
-                />
-              </div>
-            </div> */}
-
             <div className="flex flex-col lg:flex-row-reverse justify-center items-center  mx-5 ">
               <div className="md:w-[610px] mg:h-[550px] ">
                 <Image

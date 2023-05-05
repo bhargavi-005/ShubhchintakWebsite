@@ -310,7 +310,7 @@ function UIDesigning() {
               <div className="text-3xl md:text-5xl lg:text-6xl text-white text-center lg:p-12 mt-12 md:mt-20 font-bold">
                 What Our {"Client's"} Say About Us
               </div>
-              <div className="ml-2 mt-6 md:m-20">
+              <div className="ml-4 mt-6 md:m-20">
                 <Review />
               </div>
             </div>
