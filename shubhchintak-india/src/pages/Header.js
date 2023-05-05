@@ -10,7 +10,7 @@ function Header() {
     const [navbar, setNavbar] = useState(false);
 
   return (
-    <div style={{ backgroundImage: `url(${bg.src})` }} className="z-10 sticky top-0 text-white flex flex-row font-xyz py-5 px-5 justify-between  xl:items-center bg-none ">
+    <div style={{ backgroundImage: `url(${bg.src})` }} className="max-[768px]:overflow-x-hidden -mt-1 z-10 sticky top-0 text-white flex flex-row font-xyz py-5 px-5 justify-between  xl:items-center bg-none ">
       <div className="top-0 left-0 w-[139px] h-[29px] md:w-[187px] md:h-[46px] ">
         <Link href="/landing">
         <Image

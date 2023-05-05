@@ -12,34 +12,12 @@ import CheckCarousel from "./CheckCarousel";
 function UIDesigning() {
   return (
     <>
-      <div className="" style={{ backgroundImage: `url(${bg.src})` }}>
+      <div className="max-[768px]:overflow-x-hidden" style={{ backgroundImage: `url(${bg.src})` }}>
         <Header />
 
         <div className="p-4 md:p-6 lg:p-16">
           <section classname="flex flex-row text-white">
-            {/* <div className="container  flex lg:flex-row md:flex-col-reverse flex-col-reverse">
-              <div className="lg:w-4/5 lg:m-12 md:w-3/4 w-full md:justify-center ">
-                <div className="text-3xl md:text-5xl lg:text-6xl text-white font-bold md:text-center lg:text-start text-center ">
-                    UI/UX Designing
-                </div>
-                <div className="lg:w-3/4 md:w-full w-full text-base md:text-2xl text-blue-200 mt-8 md:text-center lg:text-start text-center">
-                  Revamp Your Digital Experience with Expert UX/UI Designing
-                  Services
-                </div>
-                <button className="bg-blue-500 hover:bg-blue-700 w-1/3 mt-8 p-3 rounded-full text-white font-semibold text-base md:text-2xl">
-                  Get Started
-                </button>
-              </div>
-              <div className="lg:max-w-lg lg:w-full md:w-1/3 w-5/6 pb-10 -mr-2 md:-mr-12">
-                <Image
-                  className="object-cover object-center rounded z-10"
-                  alt="earth"
-                  src="images/uxdesign.svg"
-                  width={500}
-                  height={500}
-                />
-              </div>
-            </div> */}
+           
             <div className="container  flex lg:flex-row md:flex-col-reverse flex-col-reverse items-center">
               <div className="lg:w-4/5 lg:m-12 md:w-3/4 w-full ">
                 <div className="text-3xl md:text-5xl lg:text-6xl text-white font-bold md:text-center lg:text-start text-center ">
@@ -236,8 +214,8 @@ function UIDesigning() {
                 </div>
               </div>
 
-              <div className="flex flex-col   lg:flex-row-reverse my-14">
-                <div className=" lg:w-[50%]">
+              <div className="flex flex-col  lg:flex-row-reverse my-14 ">
+                <div className="lg:w-[50%] md:ml-8">
                   <Image
                     src="/svg/workInsight.svg"
                     width="610"

@@ -10,8 +10,9 @@ import CheckCarousel from './CheckCarousel'
 export default function ArDevelopment() {
   return (
     <>
-      <div className="" style={{ backgroundImage: `url(${bg.src})` }}>
-        <Header />
+    <Header />
+      <div className="max-[768px]:overflow-x-hidden" style={{ backgroundImage: `url(${bg.src})` }}>
+      
         <div className="p-4 md:p-6 lg:p-16">
           <section classname="flex flex-row text-white">
             <div className="container  flex lg:flex-row md:flex-col-reverse flex-col-reverse items-center">
@@ -226,12 +227,12 @@ export default function ArDevelopment() {
           </section>
 
           <section>
-          <div className="mt-5 ml-8">
-          <div className=" min-[390px]:max-[480px]:hidden min-[481px]:max-[1200px]">
+          <div className="mt-5 md:ml-0 ml-10">
+          <div className=" min-[300px]:max-[764px]:hidden min-[765px]:max-[1200px]">
             <CheckOut />
           </div>
 
-          <div className="min-[481px]:hidden min-[390px]:max-[480px] ">
+          <div className="min-[765px]:hidden min-[300px]:max-[765px] ">
             <CheckCarousel />
           </div>
         </div>
