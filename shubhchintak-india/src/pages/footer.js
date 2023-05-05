@@ -74,13 +74,18 @@ function Footer() {
           <div className="font-extrabold text-xl ">Quick Link</div>
           <ul className="font-medium text-base  flex flex-col gap-2 text-gray-400">
             <li className="">
-              <Link href="/portfolio" className=" "> Portfolio</Link>
+              <Link href="/portfolio" className=" ">
+                {" "}
+                Portfolio
+              </Link>
             </li>
             <li className="">
               <a className="">Why Us</a>
             </li>
             <li className="">
-              <Link href="/career" className="">Carrer</Link>
+              <Link href="/career" className="">
+                Carrer
+              </Link>
             </li>
           </ul>
         </div>
@@ -88,25 +93,39 @@ function Footer() {
           <div className="font-extrabold text-xl cursor-pointer">Services</div>
           <ul className="font-medium text-base  flex flex-col gap-2 text-gray-400">
             <li className="">
-              <Link href="/webdeveloppment" className=" ">Web Development</Link>
+              <Link href="/webdeveloppment" className=" ">
+                Web Development
+              </Link>
             </li>
             <li className="">
-              <Link href="/mobileApp" className="">Mobile App </Link>
+              <Link href="/mobileApp" className="">
+                Mobile App{" "}
+              </Link>
             </li>
             <li className="">
-              <Link href="/CloudConsultation" className="">Cloud Consultation</Link>
+              <Link href="/CloudConsultation" className="">
+                Cloud Consultation
+              </Link>
             </li>
             <li className="">
-              <Link href="/graphicDesign" className="">Graphic Designing</Link>
+              <Link href="/graphicDesign" className="">
+                Graphic Designing
+              </Link>
             </li>
             <li className="">
-              <Link href="/UIDesigning" className="">UI/UX Designing</Link>
+              <Link href="/UIDesigning" className="">
+                UI/UX Designing
+              </Link>
             </li>
             <li className="">
-              <Link href="/digitalMarketing" className="">Digital Marketing</Link>
+              <Link href="/digitalMarketing" className="">
+                Digital Marketing
+              </Link>
             </li>
             <li className="">
-              <Link href="/ArDevelopment" className="">VR/AR Development </Link>
+              <Link href="/ArDevelopment" className="">
+                VR/AR Development{" "}
+              </Link>
             </li>
           </ul>
         </div>
@@ -116,9 +135,10 @@ function Footer() {
               <div className="font-extrabold text-xl">Resources</div>
               <ul className="font-medium text-base  flex flex-col gap-2 text-gray-400">
                 <li className="">
-                  <Link href="/blog" className=" ">Blogs</Link>
+                  <Link href="/blog" className=" ">
+                    Blogs
+                  </Link>
                 </li>
-                
               </ul>
             </div>
 
@@ -138,7 +158,7 @@ function Footer() {
           <div className=" flex flex-col  items-center gap-5 md:ml-10 ml-0">
             <div className="text-lg font-medium">{"Let’s Connect Now"}</div>
             <div className="md:w-[319px] w-[100px] h-auto bg-white rounded-full text-black text-center p-2">
-             <Link href="/contact_us"> Contact Us</Link>
+              <Link href="/contact_us"> Contact Us</Link>
             </div>
             <div className="flex flex-row gap-5">
               <div className="border-2 border-gray-500 rounded-full p-2">
@@ -167,8 +187,10 @@ function Footer() {
         </div>
       </div>
       <div className="text-white pl-20 pr-20 mt-10">
-        <hr/>
-        <div className="text-zinc-400 text-center mt-3">© 2023 Welcome to Shubhchintak Technology. All Right Reserved</div>
+        <hr />
+        <div className="text-zinc-400 text-center mt-3">
+          © 2023 Welcome to Shubhchintak Technology. All Right Reserved
+        </div>
       </div>
     </div>
   );

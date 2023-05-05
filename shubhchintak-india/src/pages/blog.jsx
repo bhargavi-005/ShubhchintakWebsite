@@ -9,8 +9,11 @@ import Related_blog_comp_extra from "./related_blog_comp_extra";
 import MobFooter from "./MobFooter";
 function blog() {
   return (
-    <div className="" style={{ backgroundImage: `url(${bg.src})` }}>
-      <Header/>
+    <div
+      style={{ backgroundImage: `url(${bg.src})` }}
+      className=" max-[768px]:overflow-x-hidden "
+    >
+      <Header />
       <section className="text-white font-abc">
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
@@ -23,7 +26,7 @@ function blog() {
             </p>
             <div className="flex w-full md:justify-start justify-center items-end">
               <button className="inline-flex text-white bg-[#0F89FF] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded-[50px] text-lg">
-              <Link href="/blog_details"> Read More</Link>
+                <Link href="/blog_details"> Read More</Link>
               </button>
             </div>
           </div>
@@ -39,9 +42,10 @@ function blog() {
         </div>
       </section>
 
-      <Related_blog_comp_extra/>
+      <Related_blog_comp_extra />
 
-      <section className="text-white font-abc">
+     
+      <section className="text-white font-abc overflow-x-hidden">
         <div className="container px-5 py-20 mx-auto border border-white rounded-3xl bg-[#FFFFFF1A]">
           <div className="flex justify-center text-center w-full mb-12">
             <p className="sm:text-3xl text-2xl font-bold title-font mb-4 text-white">
@@ -50,20 +54,21 @@ function blog() {
           </div>
           <div className="flex lg:w-1/3 w-full sm:flex-row justify-center mx-auto px-8 sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end">
             <button className="text-white bg-[#0F89FF] border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded-3xl text-lg">
-            <Link href="/contact_us">Contact Us</Link>
+              <Link href="/contact_us">Contact Us</Link>
             </button>
           </div>
         </div>
       </section>
-      <div className="mt-5">
-          <div className=" min-[390px]:max-[480px]:hidden min-[481px]:max-[1200px]">
-            <Footer />
-          </div>
-
-          <div className="min-[481px]:hidden min-[390px]:max-[480px] ">
-            <MobFooter/>
-          </div>
+      
+      <div>
+        <div className=" min-[300px]:max-[709px]:hidden min-[710px]:max-[1200px]">
+          <Footer />
         </div>
+
+        <div className="min-[710px]:hidden min-[300px]:max-[709px] ">
+          <MobFooter />
+        </div>
+      </div>
     </div>
   );
 }
