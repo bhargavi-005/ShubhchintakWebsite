@@ -69,7 +69,7 @@ function contact_us() {
 
       <section className="text-white font-abc flex justify-center md:mr-5">
         <div className="container px-5 py-15 flex justify-center ">
-          <div className=" w-full">
+          <div className=" w-full flex justify-center ">
             <ul className=" mx-auto flex flex-col justify-center gap-6 text-xl font-normal opacity-[0.90] ">
             <li>
                 <h5>Name</h5>

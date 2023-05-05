@@ -1,7 +1,7 @@
 import Image from "next/image";
 import CheckOut from "./checkoutView";
 import Header from "./Header";
-import CasouselUi from "./carouselUI";
+import CasouselUi from "./carousel2";
 import Footer from "./footer";
 import bg from "../../public/images/bg.png";
 import MobFooter from "./MobFooter";
@@ -10,23 +10,24 @@ import CheckCarousel from './CheckCarousel'
 export default function ArDevelopment() {
   return (
     <>
-      <div className="" style={{ backgroundImage: `url(${bg.src})` }}>
-        <Header />
-        <div className="p-16">
+    <Header />
+      <div className="max-[768px]:overflow-x-hidden" style={{ backgroundImage: `url(${bg.src})` }}>
+      
+        <div className="p-4 md:p-6 lg:p-16">
           <section classname="flex flex-row text-white">
-            <div className="container  flex md:flex-row flex-col-reverse items-center">
-              <div className="w-4/5 m-12">
-                <div className="text-4xl md:text-6xl text-white font-bold">
+            <div className="container  flex lg:flex-row md:flex-col-reverse flex-col-reverse items-center">
+              <div className="lg:w-4/5 lg:m-12 md:w-3/4 w-full ">
+                <div className="text-3xl md:text-5xl lg:text-6xl text-white font-bold md:text-center lg:text-start  text-center ">
                   VR/AR Development
                 </div>
-                <div className="w-3/4 text-base md:text-2xl text-blue-200 mt-8">
+                <div className="lg:w-3/4 md:w-full w-full text-base md:text-2xl text-blue-200 mt-8 md:text-center  lg:text-start text-center">
                   Step into the Future with Cutting-Edge VR/AR Services!
                 </div>
-                <button className="bg-blue-500 hover:bg-blue-700 w-1/3 mt-8 p-3 rounded-full text-white font-semibold text-base md:text-2xl">
+                <button className="bg-blue-500 hover:bg-blue-700  mt-8 p-3 rounded-full md:ml-52 lg:ml-0 ml-32 text-white font-semibold text-base md:text-2xl">
                   Get Started
                 </button>
               </div>
-              <div className="lg:max-w-lg lg:w-full md:w-1/3 w-5/6 pb-10 -mr-2 md:-mr-12">
+              <div className="lg:max-w-lg lg:w-full md:w-4/5 w-5/6 pb-10 -mr-2 md:-mr-12">
                 <Image
                   className="object-cover object-center rounded z-10"
                   alt="earth"
@@ -36,14 +37,15 @@ export default function ArDevelopment() {
                 />
               </div>
             </div>
+            
           </section>
 
           <section>
-            <div className="flex flex-col w-full p-4 md:p-16 content-center justify-items-center mt-24">
-              <div className="text-center text-4xl md:text-6xl font-bold text-blue-500">
+            <div className="flex flex-col w-full p-0 md:p-4 lg:p-16 content-center justify-items-center mt-24">
+              <div className="text-center text-3xl md:text-5xl lg:6xl font-bold text-blue-500">
                 Hire {"India's"} top VR/AR Service Provider
               </div>
-              <div className="text-white mt-8 p-5 md:m-16 text-base md:text-2xl text-center">
+              <div className="text-white mt-8 p-2 md:p-4 lg:p-16 text-base md:text-2xl text-center">
                 Shubhchintak Technology is a leading AR VR development company
                 that uses the immersive power of augmented and virtual reality
                 to enthrall a {"company’s"} users and multiply their ROI. AR VR
@@ -52,7 +54,7 @@ export default function ArDevelopment() {
                 audience to help drive better outcomes in minimal cost, time and
                 effort.
               </div>
-              <div className="place-self-center lg:max-w-lg lg:w-full md:w-1/3 w-5/6  m-12">
+              <div className="place-self-center lg:max-w-lg lg:w-full md:w-4/5 w-5/6  m-12">
                 <Image
                   className="object-cover object-center rounded z-10"
                   alt="earth"
@@ -65,10 +67,10 @@ export default function ArDevelopment() {
           </section>
 
           <section>
-            <div className="text-4xl md:text-6xl  text-white p-12 font-bold text-center ml-4 mr-4 md:ml-32 md:mr-32">
+            <div className="text-3xl md:text-5xl lg:6xl text-white p-4 md:p-4 lg:p-16 font-bold text-center ml-0 mr-0 md:ml-10 lg:ml-32 md:mr-12">
               Transform your digital journey with
               <span className="text-blue-500">
-                <div className="mt-5">{" 360'"} VR/AR Process!</div>
+                <div className="mt-0 md:mt-3">{" 360'"} VR/AR Process!</div>
               </span>
             </div>
 
@@ -114,7 +116,7 @@ export default function ArDevelopment() {
           </section>
 
           <section>
-            <div className="text-white text-4xl md:text-6xl text-center m-12 md:m-20 p-4 md:p-16 font-bold">
+            <div className="text-white text-3xl md:text-5xl lg:text-6xl text-center m-0 md:m-0 lg:m-20 p-4 md:p-4 lg:p-16 font-bold">
               We provide
               <span className="text-blue-500">
                 {" "}
@@ -128,12 +130,12 @@ export default function ArDevelopment() {
 
           <section>
             <div>
-              <div className="text-4xl md:text-6xl text-white text-center p-12 mt-12 md:mt-20 font-bold">
+              <div className="text-3xl md:text-5xl lg:text-6xl text-white text-center p-4 md:p-12 mt-12 md:mt-20 font-bold">
                 Broad spectrum of AR Services we provide!
               </div>
               <div className="item-center justify-center flex flex-col md:flex-row">
                 <div className="flex flex-col md:flex-row">
-                  <div className="p-4 h-auto bg-white rounded-full m-4 text-2xl font-semibold text-center">
+                <div className="p-4 h-auto bg-white rounded-full m-4 text-2xl font-semibold text-center">
                     Image based recognition
                   </div>
                   <div className="p-4 h-auto bg-white rounded-full m-4 text-2xl font-semibold text-center">
@@ -145,7 +147,7 @@ export default function ArDevelopment() {
                 </div>
               </div>
               <div className="item-center justify-center flex flex-col md:flex-row">
-                <div className="flex flex-row">
+                <div className="flex flex-col md:flex-row">
                   <div className="p-4 h-auto bg-white rounded-full m-4 text-2xl font-semibold text-center">
                     Superimposition-Based Recognition
                   </div>
@@ -153,7 +155,7 @@ export default function ArDevelopment() {
               </div>
             </div>
             <div>
-              <div className="text-4xl md:text-6xl text-white text-center p-12 mt-12 md:mt-20 font-bold">
+              <div className="text-3xl md:text-5xl lg:text-6xl text-white text-center md:p-12 p-4 mt-12 md:mt-20 font-bold">
                 Broad spectrum of VR Services we provide!
               </div>
               <div className="item-center justify-center flex flex-col md:flex-row">
@@ -225,12 +227,12 @@ export default function ArDevelopment() {
           </section>
 
           <section>
-          <div className="mt-5">
-          <div className=" min-[390px]:max-[480px]:hidden min-[481px]:max-[1200px]">
+          <div className="mt-5 md:ml-0 ml-10">
+          <div className=" min-[300px]:max-[764px]:hidden min-[765px]:max-[1200px]">
             <CheckOut />
           </div>
 
-          <div className="min-[481px]:hidden min-[390px]:max-[480px] ">
+          <div className="min-[765px]:hidden min-[300px]:max-[765px] ">
             <CheckCarousel />
           </div>
         </div>
