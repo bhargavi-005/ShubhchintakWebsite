@@ -183,12 +183,12 @@ export default function CloudConsultation() {
           </section>
 
           <section>
-          <div className="mt-5 m-7">
-          <div className=" min-[390px]:max-[480px]:hidden min-[481px]:max-[1200px]">
+          <div className="mt-5 md:ml-0 ml-10">
+          <div className=" min-[300px]:max-[764px]:hidden min-[765px]:max-[1200px]">
             <CheckOut />
           </div>
 
-          <div className="min-[481px]:hidden min-[390px]:max-[480px] ">
+          <div className="min-[765px]:hidden min-[300px]:max-[765px] ">
             <CheckCarousel />
           </div>
         </div>
@@ -196,13 +196,21 @@ export default function CloudConsultation() {
           
         </div>
         <div className="mt-5">
-          <div className=" min-[390px]:max-[480px]:hidden min-[481px]:max-[1200px]">
+          {/* <div className=" min-[390px]:max-[480px]:hidden min-[481px]:max-[1200px]">
             <Footer />
           </div>
 
           <div className="min-[481px]:hidden min-[390px]:max-[480px] ">
             <MobFooter />
+          </div> */}
+          <div className=" min-[300px]:max-[764px]:hidden min-[765px]:max-[1200px]">
+          <Footer />
           </div>
+
+          <div className="min-[765px]:hidden min-[300px]:max-[765px] ">
+          <MobFooter />
+          </div>
+        
         </div>
       </div>
     </>

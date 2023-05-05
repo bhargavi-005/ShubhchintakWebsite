@@ -169,12 +169,20 @@ function UIDesigning() {
                   UI designs
                 </div>
               </div>
-              <div className="p-4 h-auto bg-white rounded-full m-4 text-2xl font-semibold text-center">
+              <div className="flex flex-row">
+                <div className="p-4 h-auto bg-white rounded-full m-4 text-2xl font-semibold">
+                  Marketing collateral
+                </div>
+                <div className="p-4 h-auto bg-white rounded-full m-4 text-2xl font-semibold text-center">
+                  Social Media design
+                </div>
+              </div>
+              {/* <div className="p-4 h-auto bg-white rounded-full m-4 text-2xl font-semibold text-center">
                 Marketing collateral
               </div>
               <div className="p-4 h-auto bg-white rounded-full m-4 text-2xl font-semibold text-center">
                 Social Media design
-              </div>
+              </div> */}
             </div>
             <div className="item-center justify-center flex flex-col md:flex-row">
               <div className="flex flex-row">
