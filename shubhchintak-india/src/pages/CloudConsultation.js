@@ -9,29 +9,30 @@ import CheckCarousel from './CheckCarousel';
 export default function CloudConsultation() {
   return (
     <>
-      <div className="" style={{ backgroundImage: `url(${bg.src})` }}>
+      <div className="max-[768px]:overflow-x-hidden" style={{ backgroundImage: `url(${bg.src})` }}>
         
           <Header />
        
 
-        <div className="p-16">
-          <section classname="flex flex-row text-white">
-            <div className="container  flex md:flex-row flex-col-reverse items-center">
-              <div className="w-4/5 m-12">
-                <div className="text-4xl md:text-6xl text-white font-bold">
-                  Cloud Consultation <br />
+        <div className="p-4 md:p-6 lg:p-16">
+        <section classname="flex flex-row text-white">
+            <div className="container  flex lg:flex-row md:flex-col-reverse flex-col-reverse items-center">
+              <div className="lg:w-4/5 lg:m-12 md:w-3/4 w-full flex flex-col justify-center">
+                <div className="text-3xl md:text-5xl lg:text-6xl text-white font-bold md:text-center lg:text-start text-center ">
+                Cloud Consultation <br />
                   Services
                 </div>
-                <div className="w-3/4 text-base md:text-2xl text-blue-200 mt-8">
-                  Transform Your Business with Expert Cloud Consultation
-                  Services
+                <div className="lg:w-3/4 md:w-full w-full text-base md:text-2xl text-blue-200 mt-8 md:text-center lg:text-start text-center">
+                Transform Your Business with Expert Cloud Consultation
                 </div>
-                <button className="bg-blue-500 hover:bg-blue-700 w-1/3 mt-8 p-3 rounded-full text-white font-semibold text-base md:text-2xl">
+                <div >
+                <button className="bg-blue-500 text-center hover:bg-blue-700 w-28 md:w-1/3 mt-8 p-3 rounded-full text-white font-semibold text-base md:text-2xl">
                   Get Started
                 </button>
+                </div>
               </div>
-              <div className="lg:max-w-lg lg:w-full md:w-1/3 w-5/6 pb-10 -mr-2 md:-mr-16">
-                <Image
+              <div className="lg:max-w-lg lg:w-full md:w-4/5 w-5/6 pb-10 -mr-2 md:-mr-12">
+              <Image
                   className="w-full object-cover object-center rounded z-10"
                   alt="earth"
                   src="images/Cloud.svg"
@@ -40,11 +41,13 @@ export default function CloudConsultation() {
                 />
               </div>
             </div>
+        
+        
           </section>
 
           <section>
             <div className="flex flex-col w-full p-6 content-center justify-items-center mt-24">
-              <div className="text-center text-4xl md:text-6xl font-bold text-blue-500">
+              <div className="text-center text-4xl md:text-5xl lg:text-6xl font-bold text-blue-500">
                 Hire {"India's"} top Cloud Consultation Provider
               </div>
               <div className="text-white mt-8 m-6 text-base md:text-2xl text-center">
@@ -71,13 +74,13 @@ export default function CloudConsultation() {
           </section>
 
           <section>
-            <div className="text-4xl md:text-6xl  text-white p-12 font-bold text-center ml-0 md:ml-32 mr-32">
+          <div className="text-3xl md:text-5xl lg:text-6xl  text-white p-4 md:p-4 lg:p-12 font-bold text-center ml-0 mr-0 md:ml-6 md:mr-6 lg:ml-32 lg:mr-32">
               Transform your digital journey with
               <span className="text-blue-500">
-                {" 360'"} <div className="mt-4">Cloud Consultancy Process!</div>
+                {" 360'"} <span className="lg:mt-2 md:mt-2 mt-0">Cloud Consultancy Process!</span>
               </span>
             </div>
-
+            
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  place-items-center  my-20 lg:mx-28 gap-y-6 font-xyz">
               <div className="w-4/5 h-auto p-1  bg-gradient-to-b from-white to-black flex justify-center items-center rounded-[4px] ">
                 <div className="w-full p-10 bg-zinc-900  rounded-[4px] flex flex-col justify-center text-center ">
@@ -122,7 +125,7 @@ export default function CloudConsultation() {
 
           <section>
             <div>
-              <div className="text-4xl md:text-6xl text-white text-center p-12 mt-12 md:mt-20 font-bold">
+              <div className="text-3xl md:text-5xl lg:text-6xl text-white text-center lg:p-12 mt-12 md:mt-20 font-bold">
                 Broad spectrum of Cloud Services we provide!
               </div>
               <div className="item-center justify-center flex flex-col md:flex-row">
@@ -180,7 +183,7 @@ export default function CloudConsultation() {
           </section>
 
           <section>
-          <div className="mt-5">
+          <div className="mt-5 m-7">
           <div className=" min-[390px]:max-[480px]:hidden min-[481px]:max-[1200px]">
             <CheckOut />
           </div>
@@ -190,6 +193,7 @@ export default function CloudConsultation() {
           </div>
         </div>
           </section>
+          
         </div>
         <div className="mt-5">
           <div className=" min-[390px]:max-[480px]:hidden min-[481px]:max-[1200px]">
