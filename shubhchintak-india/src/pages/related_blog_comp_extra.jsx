@@ -25,11 +25,11 @@ function Related_blog_comp_extra() {
   };
 
   return (
-    <div className="my-20">
-      <div className="text-white font-abc container px-5 py-15 mx-auto">
-        <div className="flex md:flex-row flex-col justify-between">
+    <div className="my-16">
+      <div className="text-white font-abc container px-5 py-8 mx-auto">
+        <div className="flex md:flex-row flex-col -py-4 justify-between">
           <div className="md:w-1/2 w-full">
-            <h1 className="title-font md:w-1/2 w-full text-4xl sm:text-45xl mb-7 font-bold text-white">
+            <h1 className="title-font md:w-1/2 w-full text-4xl sm:text-45xl mb-6 font-bold text-white">
               Related Blogs
             </h1>
           </div>
