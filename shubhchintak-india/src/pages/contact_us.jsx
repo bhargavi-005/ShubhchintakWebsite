@@ -8,7 +8,10 @@ import MobFooter from "./MobFooter";
 
 function contact_us() {
   return (
-    <div className="" style={{ backgroundImage: `url(${bg.src})` }}>
+    <div
+      style={{ backgroundImage: `url(${bg.src})` }}
+      className=" max-[768px]:overflow-x-hidden "
+    >
       <Header />
       <section className="text-white">
         <div className="container md:px-20 px-5 py-24 mx-auto">
@@ -66,46 +69,64 @@ function contact_us() {
           </div>
         </div>
       </section>
-
-      <section className="text-white font-abc flex justify-center md:mr-5">
-        <div className="container px-5 py-15 flex justify-center ">
-          <div className=" w-full flex justify-center ">
-            <ul className=" mx-auto flex flex-col justify-center gap-6 text-xl font-normal opacity-[0.90] ">
-            <li>
-                <h5>Name</h5>
-                <input className=" mt-2 border-none bg-transparent focus:outline-0 " />
-                <div className="mt-4 w-[710px] h-[0.5px] bg-white"></div>
-              </li>
-
-              <li>
-                <h6>Email</h6>
-                <input className=" mt-2 border-none bg-transparent focus:outline-0 " />
-                <div className="mt-4 w-[710px] h-[0.5px] bg-white"></div>
-              </li>
-
-              <li>
-                <h6>Message</h6>
+      <section className="text-white font-abc">
+        <div className="container mx-auto flex flex-col px-5 py-18 justify-center items-center">
+          <div className="w-full md:w-2/3 flex flex-col mb-16 justify-center items-center text-center">
+            <div className="flex w-full flex-col justify-center items-center">
+              <div className="relative mr-4 lg:w-full xl:w-1/2 w-2/4 md:w-full text-left">
+                <label
+                  for="hero-field"
+                  className="leading-7 text-xl font-normal opacity-60 text-white"
+                >
+                  Name
+                </label>
                 <input
-                  className=" mt-2 border-none bg-transparent focus:outline-0 w-[400px] h-[100px] "
-                  placeholder="Type your Message"
+                  type="text"
+                  id="hero-field"
+                  name="hero-field"
+                  className="w-full text-white text-medium text-lg border-b-2 border-opacity-60 border-white focus:outline-none focus:border-b-white focus:border-opacity-60  bg-transparent focus:bg-transparent  outline-none  py-1  leading-6 mb-5 "
                 />
-                <div className="mt-4 mb-7 w-[710px] h-[0.5px] bg-white"></div>
-              </li>
-
-              <li className="mb-10">
-                <div className="p-2 w-full">
-                  <button className="flex mx-auto text-white bg-[#0F89FF] border-0 py-2 px-10 focus:outline-none hover:bg-indigo-600 rounded-full text-lg">
-                    <Link href=""> Send Request</Link>
-                  </button>
-                </div>
-              </li>
-            </ul>
+              </div>
+              <div className="relative mr-4 lg:w-full xl:w-1/2 w-2/4 md:w-full text-left">
+                <label
+                  for="hero-field"
+                  className="leading-7 text-xl font-normal opacity-60 text-white"
+                >
+                  Email
+                </label>
+                <input
+                  type="text"
+                  id="hero-field"
+                  name="hero-field"
+                  className="w-full text-white text-medium text-lg border-b-2 border-opacity-60 border-white focus:outline-none focus:border-b-white focus:border-opacity-60  bg-transparent focus:bg-transparent  outline-none  py-1  leading-6 mb-5 "
+                />
+              </div>
+              <div className="relative mr-4 lg:w-full xl:w-1/2 w-2/4 md:w-full text-left">
+                <label
+                  for="hero-field"
+                  className="leading-7 text-xl font-normal opacity-60 text-white"
+                >
+                  Message
+                </label>
+                <input
+                  placeholder="Type your Message "
+                  type="text"
+                  id="hero-field"
+                  name="hero-field"
+                  className="w-full text-white text-lg placeholder-font-normal text-left border-b-2 border-opacity-60 border-white focus:outline-none focus:border-b-white focus:border-opacity-60 bg-transparent focus:bg-transparent  outline-none  pb-7  leading-10 placeholder-white placeholder-opacity-20"
+                />
+              </div>
+              <div className="flex w-full flex-col justify-center items-center py-12">
+                <button className="flex mx-auto text-white bg-[#0F89FF] border-0 py-2 px-10 focus:outline-none hover:bg-indigo-600 rounded-full text-lg">
+                  <Link href=""> Send Request</Link>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-
       <footer className="text-white font-mulish font-normal">
-        <div className="container px-15 py-20 mx-auto">
+        <div className="container px-15 py-18 mx-auto">
           <div className="flex flex-wrap md:text-left text-center -mb-10 mx-2 ">
             <div className="lg:w-1/3 md:w-1/2 w-full px-4">
               <nav className="list-none mb-10">
@@ -231,12 +252,12 @@ function contact_us() {
         </div>
       </footer>
 
-      <section className="container px-15 py-16 mx-auto">
+      {/* <section className="container px-15 py-16 mx-auto">
         <div className="flex flow-col justify-between">
           <div className="w-1/2 pr-4">
             <div className="relative overflow-hidden h-80">
               <iframe
-              className="map"
+                className="map"
                 src="https://www.google.com/maps/embed?pb=!1m20!1m12!1m3!1d110715.00682812925!2d79.03721897801468!3d21.131979954132454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m5!3e6!4m1!2sCurrent%20Location!4m1!2sOffice%20No.131st%20Floor%20Near%20Railway%20Sunshine%20Heights%20Achole%20Road%20Sunshine%20City%20Moregaon%20Talao%2C%20Vasai%20Virar%2C%20MH%20401209!5e1!3m2!1sen!2sin!4v1683171655351!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
@@ -250,7 +271,7 @@ function contact_us() {
           <div className="w-1/2 pl-4">
             <div className="relative  overflow-hidden h-80">
               <iframe
-              className="map"
+                className="map"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.512124092022!2d-80.14621502487216!3d26.94838467662596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88ded6f59d5fcdd1%3A0x10859de789b41cce!2s7187%20Trotwood%20Ln%2C%20Jupiter%2C%20FL%2033458%2C%20USA!5e1!3m2!1sen!2sin!4v1683172331767!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
@@ -259,20 +280,54 @@ function contact_us() {
                 loading="lazy"
                 title="Location 2 Map"
               />
-              
+            </div>
+          </div>
+        </div>
+      </section> */}
+
+      <section className="container px-15 py-12 mx-auto">
+        <div className="flex flex-col justify-between md:flex-row">
+          <div className="w-full md:w-1/2 px-6 py-4 ">
+            <div className="relative overflow-hidden h-80">
+              <iframe
+                className="map"
+                src="https://www.google.com/maps/embed?pb=!1m20!1m12!1m3!1d110715.00682812925!2d79.03721897801468!3d21.131979954132454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m5!3e6!4m1!2sCurrent%20Location!4m1!2sOffice%20No.131st%20Floor%20Near%20Railway%20Sunshine%20Heights%20Achole%20Road%20Sunshine%20City%20Moregaon%20Talao%2C%20Vasai%20Virar%2C%20MH%20401209!5e1!3m2!1sen!2sin!4v1683171655351!5m2!1sen!2sin"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                title="Location 1 Map"
+              />
+            </div>
+          </div>
+          <div className="w-full md:w-1/2 px-6 py-4">
+            <div className="relative overflow-hidden h-80">
+              <iframe
+                className="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.512124092022!2d-80.14621502487216!3d26.94838467662596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88ded6f59d5fcdd1%3A0x10859de789b41cce!2s7187%20Trotwood%20Ln%2C%20Jupiter%2C%20FL%2033458%2C%20USA!5e1!3m2!1sen!2sin!4v1683172331767!5m2!1sen!2sin"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                title="Location 2 Map"
+              />
             </div>
           </div>
         </div>
       </section>
-      <div className="mt-5">
-          <div className=" min-[390px]:max-[480px]:hidden min-[481px]:max-[1200px]">
-            <Footer />
-          </div>
 
-          <div className="min-[481px]:hidden min-[390px]:max-[480px] ">
-            <MobFooter/>
-          </div>
-        </div> </div>
+      <div>
+        <div className=" min-[300px]:max-[709px]:hidden min-[710px]:max-[1200px]">
+          <Footer />
+        </div>
+
+        <div className="min-[710px]:hidden min-[300px]:max-[709px] ">
+          <MobFooter />
+        </div>
+      </div>
+    </div>
   );
 }
 

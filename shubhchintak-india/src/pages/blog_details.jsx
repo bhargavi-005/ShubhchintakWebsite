@@ -8,8 +8,11 @@ import MobFooter from "./MobFooter";
 
 function blog_details() {
   return (
-    <div className="" style={{ backgroundImage: `url(${bg.src})` }}>
-      <Header/>
+    <div
+      style={{ backgroundImage: `url(${bg.src})` }}
+      className=" max-[768px]:overflow-x-hidden  "
+    >
+      <Header />
       <section className="text-white font-abc flex flex-col justify-center items-center">
         <div className="container px-5 py-16 mx-auto ">
           <div className="mb-5 flex justify-center items-center">
@@ -56,9 +59,10 @@ function blog_details() {
                   computer is able to distinguish between different words and is
                   also able to recognize different words and sentences, that too
                   in all languages. Speech Recognition is the reason why
-                  features like {"“Voice typing”"} and {"“speech-to-text”"} have been
-                  possible. Moreover, personal assistants like Google Assistant,
-                  Siri, and Alexa also use speech recognition for many purposes.
+                  features like {"“Voice typing”"} and {"“speech-to-text”"} have
+                  been possible. Moreover, personal assistants like Google
+                  Assistant, Siri, and Alexa also use speech recognition for
+                  many purposes.
                 </li>
                 <li className="mb-4">
                   Recommender Systems : This is another common use of Machine
@@ -95,16 +99,16 @@ function blog_details() {
           </div>
         </div>
       </section>
-      <Related_blog_comp1/>
-      <div className="mt-5">
-          <div className=" min-[390px]:max-[480px]:hidden min-[481px]:max-[1200px]">
-            <Footer />
-          </div>
-
-          <div className="min-[481px]:hidden min-[390px]:max-[480px] ">
-            <MobFooter />
-          </div>
+      <Related_blog_comp1 />
+      <div>
+        <div className=" min-[300px]:max-[709px]:hidden min-[710px]:max-[1200px]">
+          <Footer />
         </div>
+
+        <div className="min-[710px]:hidden min-[300px]:max-[709px] ">
+          <MobFooter />
+        </div>
+      </div>
     </div>
   );
 }
