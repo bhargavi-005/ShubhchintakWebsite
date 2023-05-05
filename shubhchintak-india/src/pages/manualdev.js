@@ -19,6 +19,7 @@ function manual() {
               View More
             </button>
           </a>
+          
         </div>
         <div className="max-[768px]:order-first  max-[768px]:w-[200px] max-[768px]:ml-[25%] max-[768px]:h-[200px]  w-[1500px] h-[350px] mt-[-5%]  mr-[5%]">
           <Image

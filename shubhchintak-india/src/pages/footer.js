@@ -3,8 +3,8 @@ import { useState } from "react";
 import Link from "next/link";
 function Footer() {
   return (
-    <div className="bg-[#051629] w-full h-full text-white py-[40px] font-xyz mt-10 ">
-      <div className="flex lg:flex-row lg:justify-evenly md:flex-col md:justify-normal">
+    <div className="bg-[#051629] w-full h-full text-white py-[40px] font-xyz mt-10 -mb-10 px-8">
+      <div className="flex lg:flex-row lg:justify-evenly sm:flex-col md:flex-col md:justify-normal sm:justify-normal">
         <div className=" flex flex-col gap-3 w-1/4">
           <div className="top-0 left-0 w-[139px] h-[29px] md:w-[187px] md:h-[46px]">
             <Image
@@ -14,13 +14,13 @@ function Footer() {
               alt=""
             />
           </div>
-          <div className="flex flex-row gap-3 items-center ">
+          <div className="flex flex-row gap-3 items-center my-8">
             <Image src="/svg/mail.svg" width="30" height="15" alt="location" />
             <div className="number">hello@shubhchintak.co</div>
           </div>
         </div>
 
-        <div className=" md:flex md:flex-row md:justify-between lg:gap-32 md:mt-10 lg:mt-0">
+        <div className=" sm:flex sm:flex-row sm:justify-between lg:gap-28 md:mt-10 lg:mt-0">
           <ul className="flex flex-col  gap-8">
             <li className="flex flex-row gap-3 items-center ">
               <Image
@@ -69,8 +69,9 @@ function Footer() {
         </div>
       </div>
 
-      <div className="flex justify-evenly mt-16 md:ml-0 ml-10">
-        <div className=" flex flex-col gap-5 ml-4 lg:ml-5 md:ml-20">
+      <div className="flex flex-row justify-evenly mt-20 md:px-8 ">
+      <div className="flex flex-row  ">
+        <div className=" flex flex-col gap-5 lg:mr-20 md:mr-10 sm:mr-5">
           <div className="font-extrabold text-xl ">Quick Link</div>
           <ul className="font-medium text-base  flex flex-col gap-2 text-gray-400">
             <li className="">
@@ -89,7 +90,7 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <div className=" flex flex-col gap-5 cursor-pointer">
+        <div className=" flex flex-col gap-5 cursor-pointer lg:ml-20 md:ml-10 sm:ml-5">
           <div className="font-extrabold text-xl cursor-pointer">Services</div>
           <ul className="font-medium text-base  flex flex-col gap-2 text-gray-400">
             <li className="">
@@ -129,9 +130,10 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <div className=" md:flex md:flex-row flex flex-col md:justify-center md:items-center justify-evenly md:-mt-44 lg:-mt-44 mt-0">
-          <div className="md:flex md:flex-row md:gap-28 w-full">
-            <div className=" flex flex-col gap-5">
+        </div>
+        <div className=" lg:flex lg:flex-row flex flex-col md:justify-center lg:ml-16 md:ml-8 sm:ml-3  ">
+          <div className="flex sm:flex-row md:flex-row mb-10 ">
+            <div className=" flex flex-col gap-5  lg:mr-20 md:mr-10 sm:mr-5 ">
               <div className="font-extrabold text-xl">Resources</div>
               <ul className="font-medium text-base  flex flex-col gap-2 text-gray-400">
                 <li className="">
@@ -142,7 +144,7 @@ function Footer() {
               </ul>
             </div>
 
-            <div className=" flex flex-col gap-5 ml-0 md:ml-5">
+            <div className=" flex flex-col gap-5 lg:ml-20 md:ml-10 sm:ml-5">
               <div className="font-extrabold text-xl">Legal</div>
               <ul className="font-medium text-base  flex flex-col gap-2 text-gray-400">
                 <li className="">
@@ -155,12 +157,12 @@ function Footer() {
             </div>
           </div>
 
-          <div className=" flex flex-col  items-center gap-5 md:ml-10 ml-0">
+          <div className=" flex flex-col  items-center gap-5 ml-9 ">
             <div className="text-lg font-medium">{"Let’s Connect Now"}</div>
-            <div className="md:w-[319px] w-[100px] h-auto bg-white rounded-full text-black text-center p-2">
-              <Link href="/contact_us"> Contact Us</Link>
+            <div className="md:w-[319px] w-[200px] h-auto bg-white rounded-full text-black text-center p-2">
+             <Link href="/contact_us"> Contact Us</Link>
             </div>
-            <div className="flex flex-row gap-5">
+            <div className="flex flex-row gap-5 ">
               <div className="border-2 border-gray-500 rounded-full p-2">
                 <Image src="/svg/in.svg" width="11" height="11" alt="" />
               </div>

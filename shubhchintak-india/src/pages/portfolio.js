@@ -21,12 +21,12 @@ function Port(){
                 alt="career"
                 width={1660}
                 height={600}/>
-                <h1 className="max-[768px]:text-[30px] mt-[10%] text-center absolute top-0 ml-[15%] mr-[15%] text-white font-xyz text-[60px] font-extrabold">From startups to enterprises, we 
+                <h1 className="max-[768px]:text-[30px] max-[768px]:ml-[10%] max-[768px]:w-[80%] mt-[10%] text-center absolute top-0 ml-[15%] mr-[15%] text-white font-xyz text-[60px] font-extrabold">From startups to enterprises, we 
                     have no limits, we serve all!</h1>
-                    <p className="max-[768px]:mt-[55%] max-[1500px]:mt-[25%] text-[16px] text-center absolute top-0 ml-[25%] mr-[25%] text-white font-xyz mt-[23%]">We have helped our clients in building digital solutions as per their business needs. We understood their 
+                    <p className="max-[768px]:mt-[58%] max-[768px]:ml-[10%] max-[768px]:w-[80%] max-[1500px]:mt-[25%] text-[16px] text-center absolute top-0 ml-[25%] mr-[25%] text-white font-xyz mt-[23%]">We have helped our clients in building digital solutions as per their business needs. We understood their 
                         business challenges and did our best to solve it in a creative manner. 
                         We helped our clients to grow, We can do it for you too!</p>
-                        <button class="max-[1500px]:mt-[35%] max-[768px]:mt-[130%] max-[768px]:ml-[23%] absolute top-0 mt-[30%] ml-[43%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                        <button class="max-[1500px]:mt-[35%] max-[768px]:mt-[115%] max-[768px]:ml-[23%] absolute top-0 mt-[30%] ml-[43%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
                           Share your business idea
                         </button>
             </div>
@@ -154,7 +154,7 @@ function Port(){
             
             <div className="mt-[3%] bg-[#FFFFFF1A] ml-[10%] mr-[10%] pt-[2%] pb-[2%] rounded-md border-2 border-solid">
                 <h1 className="text-[30px] font-xyz text-white text-center font-semibold">Want to start your digital transformation journey?</h1>
-                <button class="max-[768px]:ml-[30%] ml-[44%] mt-[1%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                <button class="max-[768px]:ml-[20%] ml-[44%] mt-[1%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
                   Get free consulation
                 </button>
             </div>

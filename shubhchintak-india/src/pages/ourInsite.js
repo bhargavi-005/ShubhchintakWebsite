@@ -8,8 +8,8 @@ function OurInsight() {
         </div>
       </div>
 
-      <div className="flex flex-col lg:ml-24  lg:flex-row-reverse my-14">
-        <div className=" lg:w-[50%] md:ml-14">
+      <div className="flex flex-col lg:ml-24 justify-center items-center lg:flex-row-reverse my-14">
+        <div className=" lg:w-[50%]">
           <Image
             src="/svg/workInsight.svg"
             width="610"
@@ -17,13 +17,13 @@ function OurInsight() {
             alt="workInsight"
           />
         </div>
-        <div className="lg:w-[40%] h-auto">
+        <div className="lg:w-[40%] h-auto mx-5">
           <h6 className="font-medium text-[20px] md:text-[30px] my-6">
             The Tusk
           </h6>
           <ul>
             <li className=" mb-4 flex flex-row ">
-              <div className="mr-2  mb-9 md:w-[5%]">
+              <div className="mr-2  mb-9 w-[10%] md:w-[5%]">
                 <Image src="/svg/tick.svg" width="40" height="17" alt="tick" />
               </div>
               <div className="font-xyz text-sm font-medium  ">
@@ -33,7 +33,7 @@ function OurInsight() {
               </div>
             </li>
             <li className=" mb-4 flex flex-row">
-              <div className="mr-2 mb-9  w-[13%] md:w-[6%]">
+              <div className="mr-2 mb-9  w-[13%]   md:w-[6%]">
                 <Image src="/svg/tick.svg" width="40" height="17" alt="tick" />
               </div>
               <div className="font-xyz text-sm font-medium ">
@@ -44,7 +44,7 @@ function OurInsight() {
             </li>
 
             <li className=" mb-4 flex flex-row ">
-              <div className="mr-2 mb-9 w-[16%] md:w-[7%]">
+              <div className="mr-2 mb-9 w-[16%]  md:w-[7%]">
                 <Image src="/svg/tick.svg" width="40" height="17" alt="tick" />
               </div>
               <div className="font-xyz text-sm font-medium ">
@@ -57,7 +57,7 @@ function OurInsight() {
               </div>
             </li>
             <li className="mb-4 flex flex-row ">
-              <div className="mr-2 mb-9 w-[19%] md:w-[8%]">
+              <div className="mr-2 mb-9 w-[19%]   md:w-[8%]">
                 <Image src="/svg/tick.svg" width="40" height="17" alt="tick" />
               </div>
               <div className="font-xyz text-sm font-medium ">

@@ -38,24 +38,13 @@ function carouselsec() {
     
       <div className="my-20">
       <Carousel2 showDots={true}  responsive={responsive} customDot={<CustomDot/>}>
-      <div className="p-5">
-      <div className="">
-            <Image
-              className="w-full object-cover object-center rounded z-10 lg:h-[460px]  md:h-[350px]"
-              alt="earth"
-              src="/svg/Rectangl1.svg"
-              width="391"
-              height="22"
-            />
-      </div>
-      <h5 className="text-white font-medium text-[26px] text-center my-2">E-Commerce website</h5>
-      </div>
+     
         <div className="p-5">
         <div className="">
               <Image
                 className="w-full object-cover object-center rounded z-10"
                 alt="earth"
-                src="/svg/Rectangle2.svg"
+                src="images/ECom.svg"
                 width="391"
                 height="240"
               />

@@ -7,23 +7,23 @@ function success(){
             <div className="bg-[#FFFFFF1A] max-[768px]:flex max-[768px]:flex-col ml-[10%] mr-[10%] space-x-20 flex flex-row mt-[2%] justify-center items-center border-2 rounded-md border-solid pb-[6%] bg-black-rgba">
                 <div className=" mt-[5%] justify-center items-center">
                     <h2 className="font-extrabold max-[768px]:ml-[25%] text-[40px] text-center text-xyz text-white">80+</h2>
-                    <p className="max-[768px]:text-center text-[18px] text-xyz text-white">Projects Delivered</p>
+                    <p className="max-[768px]:text-center text-[18px] max-[768px]:mr-[-20%] text-xyz text-white">Projects Delivered</p>
                 </div>
                 <div className="mt-[5%]  flex flex-col">
-                    <h2 className="font-extrabold text-[40px]  text-center text-xyz text-white">35+</h2>
-                    <p className="max-[768px]:text-center text-[18px] text-xyz text-white">Happy Clients</p>
+                    <h2 className="font-extrabold text-[40px] max-[768px]:ml-[-38%] text-center text-xyz text-white">35+</h2>
+                    <p className="max-[768px]:text-center text-[18px] max-[768px]:ml-[-50%] text-xyz text-white">Happy Clients</p>
                 </div>
                 <div className="mt-[5%]">
-                    <h2 className="font-extrabold text-[40px] text-center text-xyz text-white">10+</h2>
-                    <p className="max-[768px]:text-center text-[18px] text-xyz text-white">Countries served</p>
+                    <h2 className="font-extrabold text-[40px]  max-[768px]:ml-[-30%] text-center text-xyz text-white">10+</h2>
+                    <p className="max-[768px]:text-center text-[18px]  max-[768px]:ml-[-33%] text-xyz text-white">Countries served</p>
                 </div>
                 <div className="mt-[5%]">
-                    <h2 className="font-extrabold text-[40px] text-center text-xyz text-white">20+</h2>
-                    <p className="max-[768px]:text-center text-[18px] text-xyz text-white">Dedicated experts</p>
+                    <h2 className="font-extrabold text-[40px] max-[768px]:ml-[-25%]  text-center text-xyz text-white">20+</h2>
+                    <p className="max-[768px]:text-center text-[18px] text-xyz max-[768px]:ml-[-30%]  text-white">Dedicated experts</p>
                 </div>
                 <div className="mt-[5%]">
-                    <h2 className="font-extrabold text-[40px] text-center text-xyz text-white">30+</h2>
-                    <p className="max-[768px]:text-center text-[18px] text-xyz text-white">Industries served</p>
+                    <h2 className="font-extrabold text-[40px] text-center max-[768px]:ml-[-25%]  text-xyz text-white">30+</h2>
+                    <p className="max-[768px]:text-center text-[18px] max-[768px]:ml-[-30%]  text-xyz text-white">Industries served</p>
                 </div>
             </div>
             
