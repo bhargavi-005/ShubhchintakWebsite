@@ -9,7 +9,7 @@ function MobFooter() {
     return (
 
 
-        <div className=" bg-[#051629] w-full h-full text-white mt-8 p-8">
+        <div className=" bg-[#051629] w-full h-full text-white mt-8 p-8 -mb-10">
             <div className='top-0 left-0 w-[213px]  md:w-[187px] md:h-[46px] pb-8'>
                 <Image src="/svg/stpl_logo_white-01-01 1.svg"
                     height="213"

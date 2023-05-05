@@ -38,8 +38,9 @@ function Webdev() {
   // };
 
   return (
-    <div className="box-border font-xyz text-white  max-[1500px]:overflow-x-hidden" style={{ backgroundImage: `url(${bg.src})`}} >
+    <div style={{ backgroundImage: `url(${bg.src})`}} >
       <Header />
+      <div className="box-border font-xyz text-white  max-[1500px]:overflow-x-hidden" >
 
       <Carousel />
 
@@ -135,7 +136,7 @@ function Webdev() {
         </div>
       </div>
 
-      <div className="flex justify-center items-center text-center mt-[100px] ">
+      <div className="flex justify-center items-center text-center mt-[100px] mx-5 ">
         <div className=" font-semibold text-[25px] md:text-[40px]  lg:w-[923px] ">
           We provide
           <span className="text-[#0F89FF] font-semibold text-[25px] md:text-[40px]  lg:w-[923px]">
@@ -146,7 +147,7 @@ function Webdev() {
       </div>
       <Carousel2 />
 
-      <div className="flex justify-center items-center text-center mt-[100px] ">
+      <div className="flex justify-center items-center text-center mt-[100px] mx-5 ">
         <div className=" font-semibold text-[25px] md:text-[40px] lg:w-[876px] ">
           Broad spectrum of Web development Services we provide!
         </div>
@@ -154,7 +155,7 @@ function Webdev() {
 
      
 
-      <div className="text-black flex justify-center items-center flex-col ">
+      <div className="text-black flex justify-center items-center flex-col mt-10">
               
               <div className=" flex flex-col md:flex-row">
                 
@@ -201,10 +202,10 @@ function Webdev() {
           {"What Our Client’s Say About Us"}
         </div>
       </div>
-      <div className="ml-1"><Review /></div>
+      <div className="m-14"><Review /></div>
       
 
-      <div className="mt-5 md:ml-0 m-14">
+      <div className="mt-5  m-10">
           <div className=" min-[300px]:max-[764px]:hidden min-[765px]:max-[1200px]">
             <CheckOut />
           </div>
@@ -215,16 +216,18 @@ function Webdev() {
         </div>
 
       
-      <div className=" min-[300px]:max-[480px]:hidden min-[481px]:max-[1200px]">
-          <Footer/>
-  
-      </div>
-      
-      <div className="min-[481px]:hidden min-[300px]:max-[480px] ">
-          <MobFooter/>
-      </div>
-      
+        <div className=" min-[300px]:max-[709px]:hidden min-[710px]:max-[1200px]">
+        <Footer/>
 
+    </div>
+    
+    <div className="min-[710px]:hidden min-[300px]:max-[709px] ">
+        <MobFooter/>
+    </div>
+
+     
+      
+      </div>
     </div>
   );
 }

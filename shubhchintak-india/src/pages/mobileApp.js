@@ -11,8 +11,9 @@ import CheckCarousel from './CheckCarousel'
 
 function MobileApp() {
   return (
-    <div className="box-border text-white font-xyz max-[1500px]:overflow-x-hidden" style={{ backgroundImage: `url(${bg.src})`}} >
+    <div  style={{ backgroundImage: `url(${bg.src})`}} >
      <Header/>
+     <div className="box-border text-white font-xyz max-[1500px]:overflow-x-hidden"> 
       <div className="flex flex-col lg:flex-row-reverse justify-center items-center  mx-5 ">
         <div className="md:w-[610px] mg:h-[550px] ml-10">
           <Image
@@ -182,7 +183,7 @@ function MobileApp() {
       </div>
       <div className="ml-1"><Review /></div>
 
-      <div className="mt-5 md:ml-0 m-14">
+      <div className="mt-5 m-14">
           <div className=" min-[300px]:max-[764px]:hidden min-[765px]:max-[1200px]">
             <CheckOut />
           </div>
@@ -193,14 +194,17 @@ function MobileApp() {
         </div>
 
       
-      <div className=" min-[300px]:max-[480px]:hidden min-[481px]:max-[1200px]">
-          <Footer/>
-  
-      </div>
-      
-      <div className="min-[481px]:hidden min-[300px]:max-[480px] ">
-          <MobFooter/>
-      </div>
+        <div className=" min-[300px]:max-[709px]:hidden min-[710px]:max-[1200px]">
+        <Footer/>
+
+    </div>
+    
+    <div className="min-[710px]:hidden min-[300px]:max-[709px] ">
+        <MobFooter/>
+    </div>
+
+    
+    </div>
     </div>
   );
 }
