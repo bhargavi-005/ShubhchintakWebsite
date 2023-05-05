@@ -88,15 +88,15 @@ function about(){
                     <Link href="/contact_us"> Get in touch</Link>
                 </button>
             </div>
-            <div className="mt-5">
-          <div className=" min-[390px]:max-[480px]:hidden min-[481px]:max-[1200px]">
-            <Footer />
-          </div>
-
-          <div className="min-[481px]:hidden min-[390px]:max-[480px] ">
-            <MobFooter />
-          </div>
+            <div>
+        <div className=" min-[300px]:max-[709px]:hidden min-[710px]:max-[1200px]">
+          <Footer />
         </div>
+
+        <div className="min-[710px]:hidden min-[300px]:max-[709px] ">
+          <MobFooter />
+        </div>
+      </div>
         </div>
     )
 }

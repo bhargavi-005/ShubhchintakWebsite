@@ -438,12 +438,12 @@ function Landing() {
       </div>
       <Acco />
       {/* Next Section */}
-      <div className="mt-5">
-        <div className=" min-[390px]:max-[480px]:hidden min-[481px]:max-[1200px]">
+      <div>
+        <div className=" min-[300px]:max-[709px]:hidden min-[710px]:max-[1200px]">
           <Footer />
         </div>
 
-        <div className="min-[481px]:hidden min-[390px]:max-[480px] ">
+        <div className="min-[710px]:hidden min-[300px]:max-[709px] ">
           <MobFooter />
         </div>
       </div>
