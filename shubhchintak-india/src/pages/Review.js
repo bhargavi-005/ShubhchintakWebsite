@@ -17,30 +17,26 @@ export default function Review() {
   };
 
    const responsive = {
-     superLargeDesktop: {
-       // the naming can be any, depends on you.
-       breakpoint: { max: 4000, min: 3000 },
-       items: 3,
-     },
+    
      desktop: {
-       breakpoint: { max: 3000, min: 1524 },
+       breakpoint: { max: 4000, min: 1110 },
        items: 3,
      },
      tablet: {
-       breakpoint: { max: 1524, min: 800 },
+       breakpoint: { max: 1109, min: 700 },
        items: 2,
      },
      mobile: {
-       breakpoint: { max: 1064, min: 0 },
+       breakpoint: { max: 700, min: 0 },
        items: 1,
      },
    };
 
   return (
     <div className="" style={{ backgroundImage: `url(${bg.src})` }}>
-      <Carousel showDots={true}  responsive={responsive} customDot={<CustomDot/>}>
+      <Carousel showDots={true}  responsive={responsive} customDot={<CustomDot/>} >
       
-      <div className="slide ml-8 w-[320px] h-[276px] lg:w-[400px] lg:h-[346px] rounded-lg bg-gradient-to-tl from-[#204061] to-[#0F89FF] p-7  lg:ml-20">
+      <div className="slide ml-8 w-[320px] h-[276px] md:w-[330px] md:h-[286px] lg:w-[400px] lg:h-[346px] rounded-lg bg-gradient-to-tl from-[#204061] to-[#0F89FF] p-7  lg:ml-20">
             <div>
                 <Image
                 className="object-cover object-center rounded z-10 my-1"
@@ -222,11 +218,7 @@ export default function Review() {
       
      
       </Carousel>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+      
     </div>
   );
 }
