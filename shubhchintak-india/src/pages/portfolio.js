@@ -13,11 +13,13 @@ import MobFooter from "./MobFooter";
 function Port() {
   const [isOpen1, setIsOpen1] = useState(false);
   return (
+    <>
+    <Header />
     <div
       style={{ backgroundImage: `url(${bg.src})` }}
       className="max-[768px]:overflow-x-hidden"
     >
-      <Header />
+      
       <div className="w-[100%] h-[30%]  relative">
         <Image
           className="brightness-[30%] h-[700px] max-[768px]:h-[700px]"
@@ -187,16 +189,19 @@ function Port() {
           Get free consulation
         </button>
       </div>
-      <div>
-        <div className=" min-[300px]:max-[709px]:hidden min-[710px]:max-[1200px]">
-          <Footer />
-        </div>
-
-        <div className="min-[710px]:hidden min-[300px]:max-[709px] ">
-          <MobFooter />
-        </div>
+      <div className="mt-5">
+      <div className=" min-[300px]:max-[709px]:hidden min-[710px]:max-[1200px]">
+          <Footer/>
+  
+      </div>
+      
+      <div className="min-[710px]:hidden min-[300px]:max-[709px] ">
+          <MobFooter/>
+      </div>
       </div>
     </div>
+    
+    </>
   );
 }
 export default Port;
