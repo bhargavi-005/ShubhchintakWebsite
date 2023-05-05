@@ -25,11 +25,11 @@ function about(){
                 
             
             <div className="mt-[8%]  bg-black-rgba">
-                <div>
-                    <span className=" text-[40px] font-xyz font-semibold text-white">We are </span>
-                    <span className=" text-[40px] font-xyz font-semibold text-blue-400">DIGITAL TRANSFORMATION 
-                    SPECIALISTS !</span>
-                    <p className="mr-[10%] text-white text-[16px] font-xyz">Shubhchintak is a technologically advanced platform for all your online business needs.Our 11+ teams comprising leading experts have completed 80+ projects.Also, we are connected with leading experts from different technologicalfields who are ever-ready to provide you with nothing but the best.</p>
+                <div className="max-[768px]:text-center max-[768px]:w-[100%] ">
+                    <span className=" text-[40px]  font-xyz font-semibold text-white">We are </span><br></br>
+                    <span className="max-[768px]:text-[30px]  text-[40px] font-xyz font-semibold text-blue-400">DIGITAL TRANSFORMATION 
+                    SPECIALISTS !</span><br></br>
+                    <p className="mr-[10%] text-white text-[16px] font-xyz max-[768px]:w-[100%] ">Shubhchintak is a technologically advanced platform for all your online business needs.Our 11+ teams comprising leading experts have completed 80+ projects.Also, we are connected with leading experts from different technologicalfields who are ever-ready to provide you with nothing but the best.</p>
                 </div>
 
             </div>
