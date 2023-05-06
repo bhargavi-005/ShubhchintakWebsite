@@ -34,7 +34,7 @@ function career() {
           </div>
         </div>
         <div className="max-[768px]:flex max-[768px]:flex-col flex flex-row">
-          <div className="max-[768px]:flex max-[768px]:justify-center max-[1500px]:mr-[10%] max-[768px]:w-[120%] w-[100%] ml-[-18%] mt-[5%] max-[768px]:ml-[3%] max-[768px]:order-first ">
+          <div className="max-[768px]:flex max-[768px]:justify-center max-[1500px]:mr-[10%] max-[768px]:w-[120%] w-[100%] ml-[8%] mt-[5%] max-[768px]:ml-[3%] max-[768px]:order-first ">
             <Image
               className="max-[768px]:h-[300px] max-[768px]:w-[90%] w-[600px] h-[500px] "
               src="/images/career2.png"
