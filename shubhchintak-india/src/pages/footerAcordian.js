@@ -56,7 +56,7 @@ export default function FooterAcordian() {
             </Link>
         </li>
         <li className="hover:text-slate-400">
-            <Link href="/Frame24"  >
+            <Link href="/aboutus"  >
                 About Us
             </Link>
         </li>
