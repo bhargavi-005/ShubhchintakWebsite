@@ -9,6 +9,7 @@ function career() {
   return (
     <>
       <Header />
+      
       <div
         className="max-[768px]:pr-[20%]"
         style={{ backgroundImage: `url(${bg.src})` }}

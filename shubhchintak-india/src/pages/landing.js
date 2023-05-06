@@ -27,6 +27,7 @@ import MobFooter from "./MobFooter";
 import Link from "next/link";
 function Landing() {
   const [index, setIndex] = useState(0);
+  
   return (
     <>
     <div >
@@ -161,7 +162,8 @@ function Landing() {
             </button>
           </div>
         </div>
-        <Carousel selectedItem={index}>
+        <Carousel 
+        selectedItem={index}>
           <Web />
           <Mobile />
           <Cloud />
