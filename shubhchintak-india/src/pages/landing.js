@@ -190,12 +190,13 @@ function Landing() {
       </div>
       {/* Next Section */}
       <div style={{ backgroundImage: `url(${bg.src})` }}>
+      <h1 className="mt-[5%] font-semibold text-white text-center font-abc text-[40px]">
+                Some of our best works!
+              </h1>
         <Carousel>
           <div className="mpt-[5%] ml-[10%] mr-[10%]">
             <div className="max-[768px]:mt-[20%] mt-[5%]">
-              <h1 className="font-semibold text-white text-center font-abc text-[40px]">
-                Some of our best works!
-              </h1>
+              
             </div>
             <div className="max-[768px]:flex max-[768px]:flex-col flex flex-row mt-[3%]">
               <div className="mr-[20%] max-[768px]:order-last max-[768px]:mr-[5%] text-left">
@@ -271,11 +272,9 @@ function Landing() {
             </div>
           </div>
           {/* repeated */}
-          <div className="pt-[5%] ml-[10%] mr-[10%]">
-            <div className="mt-[5%] ">
-              <h1 className=" text-white text-center font-abc text-[40px] font-semibold">
-                Some of our best works!
-              </h1>
+          <div className="mpt-[5%] ml-[10%] mr-[10%]">
+            <div className="max-[768px]:mt-[20%] mt-[5%]">
+              
             </div>
             <div className="max-[768px]:flex max-[768px]:flex-col flex flex-row mt-[3%]">
               <div className="mr-[20%] max-[768px]:order-last max-[768px]:mr-[5%] text-left">
@@ -335,7 +334,7 @@ function Landing() {
                   </div>
                 </div>
                 <div className="mt-[3%]">
-                  <button class="max-[768px]:ml-[32%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                  <button class="max-[768px]:ml-[5%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
                     View Case Study
                   </button>
                 </div>
@@ -349,7 +348,10 @@ function Landing() {
                 />
               </div>
             </div>
+            <br></br><br></br><br></br><br></br>
           </div>
+          
+          
         </Carousel>
 
         {/* Next Section */}

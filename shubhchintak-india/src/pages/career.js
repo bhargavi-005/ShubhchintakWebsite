@@ -45,7 +45,7 @@ function career() {
           </div>
           <div className="mr-[10%] mt-[8%]">
             <div className="max-[768px]:flex max-[768px]:flex-col flex flex-row  mt-[3%]">
-              <div className=" mr-[10%] max-[768px]:order-last max-[768px]:mr-[5%]">
+              <div className=" mr-[12%] ml-[-5%] max-[768px]:order-last max-[768px]:mr-[5%]">
                 <h1 className="max-[1500px]:ml-[25%] text-white text-[40px] font-semibold max-[768px]:text-[35px] max-[768px]:w-[100%] max-[768px]:text-center">
                   Benefits of working with Us!
                 </h1>
@@ -231,11 +231,11 @@ function career() {
           </div>
         </div>
         <div>
-        <div className=" min-[300px]:max-[709px]:hidden min-[710px]:max-[1200px]">
+        <div className="min-[300px]:max-[709px]:hidden min-[710px]:max-[1200px]">
           <Footer />
         </div>
 
-        <div className="min-[710px]:hidden min-[300px]:max-[709px] ">
+        <div className=" min-[710px]:hidden min-[300px]:max-[709px] ">
           <MobFooter />
         </div>
       </div>
