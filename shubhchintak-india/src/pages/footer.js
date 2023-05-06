@@ -81,7 +81,7 @@ function Footer() {
               </Link>
             </li>
             <li className="">
-              <a className="">Why Us</a>
+              <Link href="/aboutus">About Us</Link>
             </li>
             <li className="">
               <Link href="/career" className="">
