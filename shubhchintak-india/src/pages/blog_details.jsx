@@ -14,7 +14,7 @@ function blog_details() {
     >
       <Header />
       <section className="text-white font-abc flex flex-col justify-center items-center">
-        <div className="container px-5 py-16 mx-auto ">
+        <div className="container px-5 py-14 mx-auto ">
           <div className="mb-5 flex justify-center items-center">
             <Image
               className="mb-5 object-cover object-center h-[568px]"

@@ -28,11 +28,15 @@ import Link from "next/link";
 function Landing() {
   const [index, setIndex] = useState(0);
   return (
+    <>
+    <div >
+    <Header />
+    </div>
     <div
       style={{ backgroundImage: `url(${bg.src})` }}
       className=" max-[768px]:overflow-x-hidden  "
     >
-      <Header />
+      
       <div
         className="relative pb-[10%] pt-1"
         style={{ backgroundImage: `url(${bg.src})` }}
@@ -71,7 +75,7 @@ function Landing() {
       {/* Next Section */}
       <Success />
       {/* Next Section */}
-      <div className="bg-gradient-to-r from-blue-400 to-purple-400 pt-[2%] max-[768px]:h-[600px]">
+      <div className="bg-gradient-to-r from-blue-400 to-purple-400 pt-[2%] ">
         <h2 className="font-xyz font-semibold max-[768px]:text-center ml-[10%] text-[30px] text-white">
           Solutions We Provide
         </h2>
@@ -157,10 +161,7 @@ function Landing() {
             </button>
           </div>
         </div>
-        <Carousel selectedItem={index}
-        panGestureHandlerProps={{
-          activeOffsetX: [-10, 10],
-      }}>
+        <Carousel selectedItem={index}>
           <Web />
           <Mobile />
           <Cloud />
@@ -189,29 +190,27 @@ function Landing() {
       </div>
       {/* Next Section */}
       <div style={{ backgroundImage: `url(${bg.src})` }}>
-        <Carousel
-        panGestureHandlerProps={{
-          activeOffsetX: [-10, 10],
-      }}>
-        <div className="pt-[5%] ml-[10%] mr-[10%]">
-            <div className="mt-[5%] ">
-              <h1 className=" text-white text-center font-abc text-[40px] font-semibold">
+      <h1 className="mt-[5%] font-semibold text-white text-center font-abc text-[40px]">
                 Some of our best works!
               </h1>
+        <Carousel>
+          <div className="mpt-[5%] ml-[10%] mr-[10%]">
+            <div className="max-[768px]:mt-[20%] mt-[5%]">
+              
             </div>
             <div className="max-[768px]:flex max-[768px]:flex-col flex flex-row mt-[3%]">
               <div className="mr-[20%] max-[768px]:order-last max-[768px]:mr-[5%] text-left">
-                <h1 className="max-[768px]:text-center text-white text-[30px] text-left font-semibold">
+                <h1 className="text-white text-[30px] text-left font-semibold">
                   Project Name
                 </h1>
-                <p className="max-[768px]:text-center  text-white text-left text-[16px]">
+                <p className="text-white text-left text-[16px]">
                   Lorem ipsum dolor sit amet consectetur. Amet in bibendum
                   mattis amet aliquam risus elementum sapien gravida. Accumsan
                   sit ultrices in sapien enim. Magna venenatis non egestas
                   pulvinar vel pellentesque sagittis. Eget eleifend nunc nec id
                   leo id blandit sem.
                 </p>
-                <div className="max-[768px]:w-[200%] flex flex-row mt-[5%]">
+                <div className="flex flex-row mt-[5%]">
                   <div>
                     <Image
                       alt=""
@@ -221,12 +220,12 @@ function Landing() {
                     />
                   </div>
                   <div className="ml-[3%] mt-[-0.5%]">
-                    <p className="max-[768px]:mr-[40%] text-white font-xyz text-[16px]">
+                    <p className="text-white font-xyz text-[16px]">
                       Lorem ipsum dolor sit amet consectetur. Amet in bibendum
                     </p>
                   </div>
                 </div>
-                <div className="max-[768px]:w-[200%] flex flex-row mt-[5%]">
+                <div className="flex flex-row mt-[5%]">
                   <div>
                     <Image
                       alt=""
@@ -236,12 +235,12 @@ function Landing() {
                     />
                   </div>
                   <div className="ml-[3%] mt-[-0.5%]">
-                    <p className="max-[768px]:mr-[40%] text-white font-xyz text-[16px]">
+                    <p className="text-white font-xyz text-[16px]">
                       Lorem ipsum dolor sit amet consectetur. Amet in bibendum
                     </p>
                   </div>
                 </div>
-                <div className="max-[768px]:w-[200%] flex flex-row mt-[5%]">
+                <div className="flex flex-row mt-[5%]">
                   <div>
                     <Image
                       alt=""
@@ -251,16 +250,16 @@ function Landing() {
                     />
                   </div>
                   <div className="ml-[3%] mt-[-0.5%]">
-                    <p className="max-[768px]:mr-[40%] text-white font-xyz text-[16px]">
+                    <p className="text-white font-xyz text-[16px]">
                       Lorem ipsum dolor sit amet consectetur. Amet in bibendum
                     </p>
                   </div>
                 </div>
                 <div className="mt-[3%]">
-                  <button class="max-[768px]:ml-[26%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                  <button class="max-[768px]:ml-[5%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
                     View Case Study
                   </button>
-                </div><br></br><br></br>
+                </div>
               </div>
               <div className="w-[140%] max-[768px]:order-first max-[768px]:w-[100%]">
                 <Image
@@ -273,25 +272,23 @@ function Landing() {
             </div>
           </div>
           {/* repeated */}
-          <div className="pt-[5%] ml-[10%] mr-[10%]">
-            <div className="mt-[5%] ">
-              <h1 className=" text-white text-center font-abc text-[40px] font-semibold">
-                Some of our best works!
-              </h1>
+          <div className="mpt-[5%] ml-[10%] mr-[10%]">
+            <div className="max-[768px]:mt-[20%] mt-[5%]">
+              
             </div>
             <div className="max-[768px]:flex max-[768px]:flex-col flex flex-row mt-[3%]">
               <div className="mr-[20%] max-[768px]:order-last max-[768px]:mr-[5%] text-left">
-                <h1 className="max-[768px]:text-center text-white text-[30px] text-left font-semibold">
+                <h1 className="text-white text-[30px] text-left font-semibold">
                   Project Name
                 </h1>
-                <p className="max-[768px]:text-center  text-white text-left text-[16px]">
+                <p className="text-white text-left text-[16px]">
                   Lorem ipsum dolor sit amet consectetur. Amet in bibendum
                   mattis amet aliquam risus elementum sapien gravida. Accumsan
                   sit ultrices in sapien enim. Magna venenatis non egestas
                   pulvinar vel pellentesque sagittis. Eget eleifend nunc nec id
                   leo id blandit sem.
                 </p>
-                <div className="max-[768px]:w-[200%] flex flex-row mt-[5%]">
+                <div className="flex flex-row mt-[5%]">
                   <div>
                     <Image
                       alt=""
@@ -301,12 +298,12 @@ function Landing() {
                     />
                   </div>
                   <div className="ml-[3%] mt-[-0.5%]">
-                    <p className="max-[768px]:mr-[40%] text-white font-xyz text-[16px]">
+                    <p className="text-white font-xyz text-[16px]">
                       Lorem ipsum dolor sit amet consectetur. Amet in bibendum
                     </p>
                   </div>
                 </div>
-                <div className="max-[768px]:w-[200%] flex flex-row mt-[5%]">
+                <div className="flex flex-row mt-[5%]">
                   <div>
                     <Image
                       alt=""
@@ -316,12 +313,12 @@ function Landing() {
                     />
                   </div>
                   <div className="ml-[3%] mt-[-0.5%]">
-                    <p className="max-[768px]:mr-[40%] text-white font-xyz text-[16px]">
+                    <p className="text-white font-xyz text-[16px]">
                       Lorem ipsum dolor sit amet consectetur. Amet in bibendum
                     </p>
                   </div>
                 </div>
-                <div className="max-[768px]:w-[200%] flex flex-row mt-[5%]">
+                <div className="flex flex-row mt-[5%]">
                   <div>
                     <Image
                       alt=""
@@ -331,13 +328,13 @@ function Landing() {
                     />
                   </div>
                   <div className="ml-[3%] mt-[-0.5%]">
-                    <p className="max-[768px]:mr-[40%] text-white font-xyz text-[16px]">
+                    <p className="text-white font-xyz text-[16px]">
                       Lorem ipsum dolor sit amet consectetur. Amet in bibendum
                     </p>
                   </div>
                 </div>
                 <div className="mt-[3%]">
-                  <button class="max-[768px]:ml-[28%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                  <button class="max-[768px]:ml-[5%] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
                     View Case Study
                   </button>
                 </div>
@@ -351,7 +348,10 @@ function Landing() {
                 />
               </div>
             </div>
+            <br></br><br></br><br></br><br></br>
           </div>
+          
+          
         </Carousel>
 
         {/* Next Section */}
@@ -372,7 +372,7 @@ function Landing() {
           Insights by ShubhChintak!
         </h1>
         <div className="mt-[5%] max-[768px]:flex max-[768px]:flex-col flex flex-row justify-evenly ml-[8%] mr-[8%]">
-          <div className="max-[768px]:ml-[-8%]  bg-[#FFFFFF1A] max-[768px]:w-[115%] w-[400px] h-[450px] justify-center items-center">
+          <div className="max-[768px]:ml-[-7%]  bg-[#FFFFFF1A] max-[768px]:mr-[5%] w-[400px] h-[450px] justify-center items-center">
             <Image
               className=""
               alt=""
@@ -392,7 +392,7 @@ function Landing() {
               </a>
             </div>
           </div>
-          <div className="max-[768px]:ml-[-8%] max-[768px]:w-[115%] max-[768px]:mt-[5%] bg-[#FFFFFF1A] w-[400px] h-[450px]">
+          <div className="max-[768px]:ml-[-7%] max-[768px]:mt-[5%] bg-[#FFFFFF1A] w-[400px] h-[450px]">
             <Image
               className=" max-[768px]:mr-[5%]"
               alt=""
@@ -413,7 +413,7 @@ function Landing() {
               </a>
             </div>
           </div>
-          <div className="max-[768px]:w-[115%] max-[768px]:ml-[-8%] max-[768px]:mt-[5%] bg-[#FFFFFF1A] w-[400px] h-[450px]">
+          <div className="max-[768px]:ml-[-7%] max-[768px]:mt-[5%] bg-[#FFFFFF1A] w-[400px] h-[450px]">
             <Image
               className="max-[768px]:mr-[5%]"
               alt=""
@@ -439,15 +439,18 @@ function Landing() {
       <Acco />
       {/* Next Section */}
       <div className="mt-5">
-        <div className=" min-[390px]:max-[480px]:hidden min-[481px]:max-[1200px]">
-          <Footer />
-        </div>
-
-        <div className="min-[481px]:hidden min-[390px]:max-[480px] ">
-          <MobFooter />
-        </div>
+      <div className=" min-[300px]:max-[709px]:hidden min-[710px]:max-[1200px]">
+          <Footer/>
+  
+      </div>
+      
+      <div className="min-[710px]:hidden min-[300px]:max-[709px] ">
+          <MobFooter/>
+      </div>
       </div>
     </div>
+   
+    </>
   );
 }
 export default Landing;
