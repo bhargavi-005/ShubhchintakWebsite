@@ -8,8 +8,8 @@ function OurInsight() {
         </div>
       </div>
 
-      <div className="flex flex-col lg:ml-24  lg:flex-row-reverse my-14">
-        <div className=" lg:w-[50%] md:ml-14">
+      <div className="flex flex-col lg:ml-24 justify-center items-center lg:flex-row-reverse my-14">
+        <div className=" lg:w-[50%]">
           <Image
             src="/svg/workInsight.svg"
             width="610"
@@ -17,7 +17,7 @@ function OurInsight() {
             alt="workInsight"
           />
         </div>
-        <div className="lg:w-[40%] h-auto">
+        <div className="lg:w-[40%] h-auto mx-5">
           <h6 className="font-medium text-[20px] md:text-[30px] my-6">
             The Tusk
           </h6>

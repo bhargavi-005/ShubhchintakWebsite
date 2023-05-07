@@ -14,7 +14,7 @@ import About from "./aboutus"
  
 function index(){
   return(
-    <div>
+    <div className="overflow-y-hidden">
     <Landing/>
     </div>
   )}

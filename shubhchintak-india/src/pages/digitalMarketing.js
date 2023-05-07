@@ -9,8 +9,9 @@ import MobFooter from "./MobFooter";
 import CheckCarousel from './CheckCarousel'
 function DMarket() {
   return (
-    <div className="box-border text-white font-xyz  max-[1500px]:overflow-x-hidden   " style={{ backgroundImage: `url(${bg.src})`}} >
+    <div style={{ backgroundImage: `url(${bg.src})`}} >
       <Header />
+      <div className="box-border text-white font-xyz  max-[1500px]:overflow-x-hidden   " >
       <div className="flex flex-col  justify-center items-center lg:justify-between lg:flex-row-reverse my-14 lg:ml-36">
         <div className=" lg:w-[50%] my-10 md:ml-16">
           <Image
@@ -160,7 +161,7 @@ function DMarket() {
         </div>
       </div>
     </div>
-      <div className="mt-5 md:m-0 m-14">
+      <div className="mt-5 m-14">
       <div className=" min-[300px]:max-[764px]:hidden min-[765px]:max-[1200px]">
         <CheckOut />
       </div>
@@ -171,14 +172,16 @@ function DMarket() {
     </div>
 
   
-  <div className=" min-[300px]:max-[480px]:hidden min-[481px]:max-[1200px]">
-      <Footer/>
+    <div className=" min-[300px]:max-[709px]:hidden min-[710px]:max-[1200px]">
+    <Footer/>
 
-  </div>
-  
-  <div className="min-[481px]:hidden min-[300px]:max-[480px] ">
-      <MobFooter/>
-  </div>
+</div>
+
+<div className="min-[710px]:hidden min-[300px]:max-[709px] ">
+    <MobFooter/>
+</div>
+
+    </div>
     </div>
   );
 }

@@ -4,7 +4,7 @@ function uiux() {
     <div className=" max-[768px]:flex max-[768px]:ml-[-1%]  order-last bg-gradient-to-r from-blue-400 to-purple-400 pt-[2%] mb-[-50%] mt-[5%] ">
       <div className=" max-[768px]:flex max-[768px]:flex-col flex flex-row ">
         <div className="mt-[-3%] max-[768px]:order-last max-[768px]:mt-[2%] max-[768px]:ml-[-6%] mr-[15%]">
-          <h1 className="font-extrabold max-[768px]:text-center text-left ml-[25%] max-[768px]:text-[30px] text-white text-[50px] font-xyz">
+          <h1 className="font-extrabold max-[768px]:text-center text-left ml-[18%] max-[768px]:text-[30px] text-white text-[50px] font-xyz">
             UI/UX Designing
           </h1>
           <p className="max-[768px]:text-center max-[768px]:ml-[25%] ml-[18%] mr-[%] text-white text-left max-[768px]:text-[14px] text-[20px]">

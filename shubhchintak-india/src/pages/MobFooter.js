@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { useState } from "react";
 import Link from "next/link";
+import FooterAcordian from "./footerAcordian";
 function MobFooter() {
     const [isOpen, setIsOpen] = useState(false);
     const [isOpen1, setIsOpen1] = useState(false);
@@ -9,7 +10,7 @@ function MobFooter() {
     return (
 
 
-        <div className=" bg-[#051629] w-full h-full text-white mt-8 p-8">
+        <div className=" bg-[#051629] w-full h-full text-white mt-8 p-8 -mb-10">
             <div className='top-0 left-0 w-[213px]  md:w-[187px] md:h-[46px] pb-8'>
                 <Image src="/svg/stpl_logo_white-01-01 1.svg"
                     height="213"
@@ -18,111 +19,8 @@ function MobFooter() {
                 />
             </div>
 
-            <div>
-                <div onClick={() => setIsOpen((prev) => !prev)} className="flex flex-row justify-between my-4">Quick link
-                    <Image className="-mt-2" src="/svg/minus.svg" width="14" height="2" alt="" />
-                </div>
-                {isOpen && <div className=" ">
-                    <ul className="flex flex-col gap-3 text-gray-400 ">
-                        <li className="hover:text-slate-400">
-                            <Link href="/portfolio"  >
-                                Portfolio
-                            </Link>
-                        </li>
-                        <li className="hover:text-slate-400">
-                            <Link href="/Frame24"  >
-                                About Us
-                            </Link>
-                        </li>
-                        <li className="hover:text-slate-400">
-                            <Link href="/career"  >
-                                Carrer
-                            </Link>
-                        </li>
-                    </ul>
-                </div>}
+            <div><FooterAcordian/>
             </div>
-            <div>
-                <div onClick={() => setIsOpen1((prev) => !prev)} className="flex flex-row justify-between my-4">Services
-                    <Image className="-mt-2" src="/svg/minus.svg" width="14" height="2" alt="" />
-                </div>
-                {isOpen1 && <div className=" ">
-                    <ul className="flex flex-col gap-3 text-gray-400 ">
-                        <li className="hover:text-slate-400">
-                            <Link href="/webdeveloppment"  >
-                                Web Development
-                            </Link>
-                        </li>
-                        <li className="hover:text-slate-400">
-                            <Link href="/mobileApp"  >
-                                Mobile App
-                            </Link>
-                        </li>
-                        <li className="hover:text-slate-400">
-                            <Link href="/CloudConsultation"  >
-                                Cloud Consultation
-                            </Link>
-                        </li>
-                        <li className="hover:text-slate-400">
-                            <Link href="/graphicDesign"  >
-                                Graphic Designing
-                            </Link>
-                        </li>
-                        <li className="hover:text-slate-400">
-                            <Link href="/UIDesigning"  >
-                                CUI/UX Designing
-                            </Link>
-                        </li>
-                        <li className="hover:text-slate-400">
-                            <Link href="/digitalMarketing"  >
-                                Digital Marketing
-                            </Link>
-                        </li>
-                        <li className="hover:text-slate-400">
-                            <Link href="/ArDevelopment"  >
-                                VR/AR Development
-                            </Link>
-                        </li>
-                    </ul>
-                </div>}
-            </div>
-            <div>
-                <div onClick={() => setIsOpen2((prev) => !prev)} className="flex flex-row justify-between my-4">Resources
-                    <Image className="-mt-2" src="/svg/minus.svg" width="14" height="2" alt="" />
-                </div>
-                {isOpen2 && <div className=" ">
-                    <ul className="flex flex-col gap-3 text-gray-400 ">
-                        <li className="hover:text-slate-400">
-                            <Link href="/blog"  >
-                                Blogs
-                            </Link>
-                        </li>
-                        
-
-                    </ul>
-                </div>}
-            </div>
-            <div>
-                <div onClick={() => setIsOpen3((prev) => !prev)} className="flex flex-row justify-between my-4">Legal
-                    <Image className="-mt-2" src="/svg/minus.svg" width="14" height="2" alt="" />
-                </div>
-                {isOpen3 && <div className=" ">
-                    <ul className="flex flex-col gap-3 text-gray-400 ">
-                        <li className="hover:text-slate-400">
-                            <Link href="/Frame23"  >
-                                Terms & Condition
-                            </Link>
-                        </li>
-                        <li className="hover:text-slate-400">
-                            <Link href="/Frame24"  >
-                                Privacy Policy
-                            </Link>
-                        </li>
-
-                    </ul>
-                </div>}
-            </div>
-
             <div>
                 <ul className=" mt-10 flex flex-col justify-center items-start gap-9 text-gray-400">
                     <li className="flex flex-row gap-4 items-center ">

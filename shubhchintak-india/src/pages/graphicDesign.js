@@ -8,9 +8,11 @@ import MobFooter from "./MobFooter";
 import CheckCarousel from './CheckCarousel'
 function GraphicD() {
   return (
-    <div className="box-border text-white font-xyz max-[768px]:overflow-x-hidden " style={{ backgroundImage: `url(${bg.src})`}} >
-      <Header />
-      <div className="flex flex-col lg:flex-row-reverse justify-center items-center gap-24 ">
+    <div style={{ backgroundImage: `url(${bg.src})`}} >
+    <Header />
+    <div className="box-border text-white font-xyz max-[1500px]:overflow-x-hidden " >
+      
+      <div className="flex flex-col lg:flex-row-reverse justify-center items-center gap-16 ">
         <div className="  my-10 md:ml-16">
           <Image
             className="lg:w-[493px] lg:h-[586px]"
@@ -34,7 +36,7 @@ function GraphicD() {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center text-center mt-[80px]  mx-5">
+      <div className="flex flex-col justify-center items-center text-center mt-[100px]  mx-5">
         <div className="font-xyz font-bold text-[25px] md:text-[40px] lg:text-[40px] lg:w-[900px] text-[#0F89FF]">
           Hire {"India's"} top Graphic Designing Company
         </div>
@@ -104,7 +106,7 @@ function GraphicD() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center items-center text-center mt-[80px]">
+      <div className="flex justify-center items-center text-center mt-[80px] mx-5">
         <div className=" font-semibold text-[25px] md:text-[40px] lg:w-[926px] ">
           We provide
           <span className="text-[#0F89FF] font-semibold text-[25px] md:text-[40px] lg:w-[926px]">
@@ -121,55 +123,69 @@ function GraphicD() {
         </div>
       </div>
 
-      <div className="item-center justify-center flex flex-col md:flex-row md:mb-10 mt-[80px] gap-5 ml-20">
-        <div className="bg-white w-fit h-fit text-black rounded-full p-5 text-base md:text-[20px] lg:text-[26px] font-semibold text-center">
-          Logo and Identity designing
-        </div>
-        <div className="bg-white w-fit h-fit text-black rounded-full p-5 text-base md:text-[20px] lg:text-[26px] font-semibold text-center">
-          Product packaging design
-        </div>
-        <div className="bg-white w-fit h-fit text-black rounded-full p-5 text-base md:text-[20px] lg:text-[26px] font-semibold text-center">
-          Advertisement Creatives
-        </div>
-      </div>
-      <div className="item-center justify-center flex flex-col md:flex-row md:mb-10 mt-[80px] gap-5 ml-20">
-        <div className="bg-white w-fit h-fit text-black rounded-full p-5 text-base md:text-[20px] lg:text-[26px] font-semibold text-center">
-          Web graphics
-        </div>
-        <div className="bg-white w-fit h-fit text-black rounded-full p-5 text-base md:text-[20px] lg:text-[26px] font-semibold text-center">
-          Brochures, Flyers, Leaflets, Menus
-        </div>
-        <div className="bg-white w-fit h-fit text-black rounded-full p-5 text-base md:text-[20px] lg:text-[26px] font-semibold text-center">
-          App graphics
-        </div>
-      </div>
+      
 
-      <div className="flex justify-center items-center md:mt-[118px]">
-        <div className="w-auto h-[250px] lg:w-[1240px] bg-gradient-to-r from-white to-black flex justify-center items-center  rounded-[20px] my-10">
-          <div className="w-[348px] h-[247px] md:w-[721px] lg:w-[1237px] px-3 bg-gray-950 font-semibold text-xl md:text-2xl lg:text-3xl text-center flex flex-col justify-center items-center rounded-[20px] gap-10">
-            Need complete Graphic Designing consultation?
+      <div className="text-black flex justify-center items-center flex-col mt-10 ">
+              
+              <div className=" flex flex-col md:flex-row">
+                
+                <div className="p-4 h-auto  bg-white rounded-full m-4 text-base md:text-[20px] lg:text-[26px] font-semibold text-center">
+                Logo and Identity designing
+                </div>
+                <div className="p-4 h-auto  bg-white rounded-full m-4 text-base md:text-[20px] lg:text-[26px] font-semibold text-center">
+                Product packaging design
+                </div>
+                <div className="p-4 h-auto bg-white rounded-full m-4 text-base md:text-[20px] lg:text-[26px] font-semibold text-center">
+                Advertisement Creatives
+                </div>
+              </div>
+              <div className=" flex flex-col md:flex-row">
+                <div className="flex flex-col md:flex md:flex-row">
+                 
+                  <div className="p-4 h-auto bg-white rounded-full m-4 text-base md:text-[20px] lg:text-[26px] font-semibold text-center">
+                  Web graphics
+                  </div>
+                  <div className="p-4 h-auto bg-white rounded-full m-4 text-base md:text-[20px] lg:text-[26px] font-semibold text-center">
+                  Brochures, Flyers, Leaflets, Menus
+                  </div>
+                  <div className="p-4 h-auto bg-white rounded-full m-4 text-base md:text-[20px] lg:text-[26px] font-semibold text-center">
+                  Advertisement Creatives
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+      <div className="flex justify-center items-center md:mt-[70px]">
+        <div className="w-[346px] h-[250px] sm:w-[450px] md:w-[688px] lg:w-[1240px] bg-gradient-to-r from-white to-black flex justify-center items-center  rounded-[20px] my-20">
+          <div className="w-[344px] h-[247px] sm:w-[447px]  md:w-[685px] lg:w-[1237px] px-3 bg-gray-950 font-semibold text-xl md:text-2xl lg:text-3xl text-center flex flex-col justify-center items-center rounded-[20px] gap-10">
+          Need complete Graphic Designing consultation?
             <button className="w-fit h-[37px] px-5 bg-[#0F89FF] rounded-full text-center text-lg ">
               Contact Our Experts
             </button>
           </div>
         </div>
       </div>
-      <div className="mt-5 md:ml-0 ml-10">
-          <div className=" min-[390px]:max-[480px]:hidden min-[481px]:max-[1200px]">
+      <div className="mt-5  m-14">
+          <div className=" min-[300px]:max-[764px]:hidden min-[765px]:max-[1200px]">
             <CheckOut />
           </div>
 
-          <div className="min-[481px]:hidden min-[390px]:max-[480px] ">
+          <div className="min-[765px]:hidden min-[300px]:max-[765px] ">
             <CheckCarousel />
           </div>
         </div>
-      <div className=" min-[390px]:max-[480px]:hidden min-[481px]:max-[1200px]">
+
+      
+      <div className=" min-[300px]:max-[709px]:hidden min-[710px]:max-[1200px]">
           <Footer/>
   
       </div>
       
-      <div className="min-[481px]:hidden min-[390px]:max-[480px] ">
+      <div className="min-[710px]:hidden min-[300px]:max-[709px] ">
           <MobFooter/>
+      </div>
+
       </div>
     </div>
   );
