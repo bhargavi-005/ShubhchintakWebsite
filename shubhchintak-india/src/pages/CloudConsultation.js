@@ -11,7 +11,7 @@ export default function CloudConsultation() {
     <>
       <Header />
       <div
-        className="max-[768px]:overflow-x-hidden"
+        className="max-[1500px]:overflow-x-hidden"
         style={{ backgroundImage: `url(${bg.src})` }}
       >
         <div className="p-4 md:p-6 lg:p-16">

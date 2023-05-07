@@ -14,7 +14,7 @@ function UIDesigning() {
     <>
       <div className="" style={{ backgroundImage: `url(${bg.src})` }}>
         <Header />
-
+        <div className="max-[1500px]:overflow-x-hidden">
         <div className="p-4 md:p-6 lg:p-16">
           <section classname="flex flex-row text-white">
             <div className="flex flex-col lg:flex-row-reverse justify-center items-center  mx-5 ">
@@ -336,6 +336,7 @@ function UIDesigning() {
           <div className="min-[765px]:hidden min-[300px]:max-[765px] ">
             <MobFooter />
           </div>
+        </div>
         </div>
       </div>
     </>
